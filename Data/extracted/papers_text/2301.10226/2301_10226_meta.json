@@ -1,0 +1,166 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 44,
+            "unsuccessful_ocr": 3,
+            "equations": 47
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A Watermark for Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1.1. Notation & Language model basics",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "1.2. A caveat: The difficulty of watermarking\nlow-entropy sequences",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2. A simple proof of concept",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3. A more sophisticated watermark",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1. Detecting the soft watermark",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4. Analysis of the soft watermark",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.1. Sensitivity of the watermark test",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2. Impact on quality of generated text",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5. Private Watermarking",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "6. Experiments",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "7. Attacking the watermark",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "7.1. Degradation Under Attack: Span Replacement\nUsing a LM",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "8. Related Work",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "9. Conclusion",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "10. Acknowledgements",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "A. Experimental Details",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "A.1. Sample Outputs",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "A.2. Measuring Perplexity: Oracle Language Model",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "B. Detailed Threat Model",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "C. Detection Accuracy of Multinomial Sampling",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D. Minor Variations",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "E. Proof of Theorem 4.2",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "F. Proof of Proposition 4.3",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "G. Impact of Watermarking on Model Factuality",
+            "level": 1,
+            "page": 24
+        }
+    ]
+}

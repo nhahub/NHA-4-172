@@ -1,0 +1,181 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 17,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 1,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Approach",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Tools",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.1 Experimental Setup",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Downstream Tasks",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2.1 LAMA",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2.2 Math Datasets",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "number predicted by the model.7",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2.3 Question Answering",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2.4 Multilingual Question Answering",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2.5 Temporal Datasets",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.3 Language Modeling",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.4 Scaling Laws",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Analysis",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Related Work",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "7 Limitations",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "A API Details",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "A.1 Implementation",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "A.2 Prompts",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "B Toolformer Training",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "C Zero-Shot Prompts",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "C.1 LAMA and TEMPLAMA",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "C.2 Math Benchmarks",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "C.3 Question Answering",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "C.4 Multilingual Question Answering",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "D DATESET",
+            "level": 1,
+            "page": 16
+        }
+    ]
+}

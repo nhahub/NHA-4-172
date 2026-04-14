@@ -1,0 +1,126 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 12,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "BLIP-2: Bootstrapping Language-Image Pre-training\nwith Frozen Image Encoders and Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1. End-to-end Vision-Language Pre-training",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2. Modular Vision-Language Pre-training",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3. Method",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1. Model Architecture",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2. Bootstrap Vision-Language Representation\nLearning from a Frozen Image Encoder",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3. Bootstrap Vision-to-Language Generative Learning\nfrom a Frozen LLM",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.4. Model Pre-training",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4. Experiment",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1. Instructed Zero-shot Image-to-Text Generation",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "Effect of Vision-Language Representation Learning.",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2. Image Captioning",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3. Visual Question Answering",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.4. Image-Text Retrieval",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5. Limitation",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6. Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        }
+    ]
+}

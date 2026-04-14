@@ -1,0 +1,927 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Background",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Language Modeling",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "BigScience",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "BLOOM",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Training Dataset",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Data Governance",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "Data Sources",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "Data Preprocessing",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "Prompted Datasets",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "Model Architecture",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Design Methodology",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "Architecture and Pretraining Objective",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "Modeling Details",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "Tokenization",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Engineering",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Hardware",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "Framework",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "Floating Point Format",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "Fused CUDA Kernels",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "Additional Challenges",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "Training",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Carbon Footprint",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "Release",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Evaluation",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Experimental Design",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "Infrastructure",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "Datasets",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "Baseline Models",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "SuperGLUE",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Machine Translation",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "WMT",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "DiaBLa",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "Flores",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Summarization",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Code Generation",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "HELM benchmark",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Multitask Finetuning",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Embeddings",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "Multilingual Probing",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "Method",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "Results",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "Bias",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "Conclusion",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "Contributions",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "Prompts",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "SuperGLUE/wsc.fixed",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 65
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 65
+        },
+        {
+            "title": "SuperGLUE/wic",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 65
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 66
+        },
+        {
+            "title": "SuperGLUE/boolq",
+            "level": 2,
+            "page": 66
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 66
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 66
+        },
+        {
+            "title": "SuperGLUE/axb & SuperGLUE/axg",
+            "level": 2,
+            "page": 67
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 67
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 67
+        },
+        {
+            "title": "XNLI & SuperGLUE/CB",
+            "level": 2,
+            "page": 67
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 67
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 68
+        },
+        {
+            "title": "XWinograd",
+            "level": 2,
+            "page": 68
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 68
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 68
+        },
+        {
+            "title": "XCOPA & SuperGLUE/COPA",
+            "level": 2,
+            "page": 69
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 69
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 69
+        },
+        {
+            "title": "XStoryCloze & Story Cloze",
+            "level": 2,
+            "page": 70
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 70
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 70
+        },
+        {
+            "title": "WMT",
+            "level": 2,
+            "page": 70
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 70
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 71
+        },
+        {
+            "title": "DiaBLa",
+            "level": 2,
+            "page": 71
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 71
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 71
+        },
+        {
+            "title": "Flores-101 (MT)",
+            "level": 2,
+            "page": 71
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 72
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 72
+        },
+        {
+            "title": "CrowS-Pairs",
+            "level": 2,
+            "page": 72
+        },
+        {
+            "title": "Data example",
+            "level": 3,
+            "page": 72
+        },
+        {
+            "title": "Prompts",
+            "level": 3,
+            "page": 72
+        }
+    ],
+    "pages": 73,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 18,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "BLOOM: A 176B-Parameter Open-Access Multilingual\nLanguage Model",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "BigScience Workshop\u2217",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Major Contributors",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Dataset",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Tokenization",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Prompt Engineering",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Architecture and Objective",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "Engineering",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "Evaluation and Interpretability",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "Broader Impacts",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "Applications",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "Organization",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2. Background",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.1 Language Modeling",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.2 BigScience",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3. BLOOM",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.1 Training Dataset",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.1.1 Data Governance",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "3.1.2 Data Sources",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "3.1.3 Data Preprocessing",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "3.2 Model Architecture",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "3.2.1 Design Methodology",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "3.2.2 Architecture and Pretraining Objective",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "3.2.3 Modeling Details",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "3.3 Tokenization",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "3.4 Engineering",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "3.4.1 Hardware",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "3.4.2 Framework",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "3.4.3 Floating Point Format",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "3.4.4 Fused CUDA Kernels",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "3.4.5 Additional Challenges",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "3.5 Training",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "3.5.1 Carbon Footprint",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "3.6 Release",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "4. Evaluation",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "4.1 Experimental Design",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "4.1.1 Prompts",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "4.1.2 Infrastructure",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "4.1.3 Datasets",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "4.1.4 Baseline Models",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "4.2 SuperGLUE",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "4.3 Machine Translation",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "4.3.1 WMT",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "4.3.2 DiaBLa",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "4.3.3 Flores",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "4.4 Summarization",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "4.5 Code Generation",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "4.6 HELM benchmark",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "4.7 Multitask Finetuning",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "4.8 Embeddings",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "4.9 Multilingual Probing",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "4.9.1 Method",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "4.9.2 Results",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "4.10 Bias",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "5. Conclusion",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "6. Contributions",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "Appendix A. Prompts",
+            "level": 1,
+            "page": 64
+        },
+        {
+            "title": "Contents",
+            "level": 3,
+            "page": 64
+        },
+        {
+            "title": "A.1 SuperGLUE/wsc.fixed",
+            "level": 3,
+            "page": 65
+        },
+        {
+            "title": "A.6 XWinograd",
+            "level": 3,
+            "page": 68
+        },
+        {
+            "title": "A.7 XCOPA & SuperGLUE/COPA",
+            "level": 3,
+            "page": 69
+        },
+        {
+            "title": "A.8 XStoryCloze & Story Cloze",
+            "level": 3,
+            "page": 70
+        },
+        {
+            "title": "A.8.2 Prompts",
+            "level": 3,
+            "page": 70
+        },
+        {
+            "title": "Story Continuation and Options",
+            "level": 3,
+            "page": 70
+        },
+        {
+            "title": "A.9 WMT",
+            "level": 3,
+            "page": 70
+        },
+        {
+            "title": "A.9.1 Data example",
+            "level": 3,
+            "page": 70
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 70
+        },
+        {
+            "title": "A.10 DiaBLa",
+            "level": 3,
+            "page": 71
+        },
+        {
+            "title": "A.11 Flores-101 (MT)",
+            "level": 3,
+            "page": 71
+        },
+        {
+            "title": "A.11.1 Data example",
+            "level": 3,
+            "page": 72
+        },
+        {
+            "title": "A.12 CrowS-Pairs",
+            "level": 3,
+            "page": 72
+        }
+    ]
+}

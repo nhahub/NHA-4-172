@@ -1,0 +1,206 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 24,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 24,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. Prior Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3. Boosted Prompt Ensembles",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4. Experiments",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Table 1. Results Table: Codex.",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.1. Results",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "Do boosted prompt ensembles offer a performance ad-\nvantage over single prompt and bagged ensembles?",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "How sensitive is boosting to the initial prompt?",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "How does varying the number of ensemble members /\nsamples per ensemble member impact results?",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "Can we further improve performance by applying\nweights to the ensemble members?",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "Does choosing from the most complex generated chains\nof thought aid performance?",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "performance?",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2. t-SNE visualization",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5. Conclusion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "A. Implementation Details",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "B. Online Boosted Prompting",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "C. Further results",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "C.1. Qualitative example difficulty",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "C.2. t-SNE Visualization on AQUA",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "D. Prompts",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "D.1. Example Boosted Prompt",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "D.2. Initial Prompts",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "GSM8K",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "MMLU570",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "CMATH420",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "SVAMP",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "AQUA",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "GSM8K",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "AQUA",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "MMLU570",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "CMATH420",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "SVAMP",
+            "level": 3,
+            "page": 23
+        }
+    ]
+}

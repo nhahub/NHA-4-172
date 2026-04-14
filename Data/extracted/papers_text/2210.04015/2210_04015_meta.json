@@ -1,0 +1,141 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 11,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 0,
+            "equations": 8
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "T5QL: Taming language models for SQL generation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 State-of-the-art",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Method",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Constrained decoding",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Ranker",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4 Scoring Function",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.5 Evaluation metrics",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Experimental setup",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Datasets",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Q1. Constrained decoding",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.4 Q2. Compositional generalization",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.5 Q3. Generalize to conversational setting",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.6 Q4. Ranker",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A SQL generation analysis",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A.1 Valid SQL generation",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "A.2 Enforce existing table and column names",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "B Larger models",
+            "level": 2,
+            "page": 10
+        }
+    ]
+}

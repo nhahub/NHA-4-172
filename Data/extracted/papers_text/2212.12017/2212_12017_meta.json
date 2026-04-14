@@ -1,0 +1,467 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Scaling up Multi-task Benchmarks",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1 Task Curation",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 Benchmark Consolidation",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.3 Creating Benchmark Splits",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.4 Task Prompt Construction",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3 Instruction Fine-tuning",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.1 Fine-tuning Objective",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.2 Packing and Document Attention",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3 Fine-tuning Hyperparameters",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 What Matters for Instruction Fine-tuning?",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Experimental Setup",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Effects of varying task mixing-rate maximum",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3 Effects of varying benchmark proportions",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.4 Effects of Scaling Tasks or Categories",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.5 Effects of Pre-training during Instruction-Tuning",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.6 Effects of Adding Reasoning Datasets",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.7 Effects of Adding Dialogue Datasets",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.8 Effects of Meta-Training for In-Context Learning",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "5 OPT-IML Models",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "5.1 OPT Evaluations",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "5.2 Evaluations on PromptSource",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "5.3 Evaluations on FLAN",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "5.4 Evaluations on Super-NaturalInstructions",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "5.5 Evaluations on UnifiedSKG",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "6 Discussion and Limitations",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "6.1 Evaluations on MMLU, BBH and RAFT",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "6.2 Limitations",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "6.3 Responsible AI",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "7 Related Work",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "8 Conclusions",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "A Benchmark Preparation Details",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "A.1 Data Curation",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "A.2 Details of Dialogue Datasets",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "A.3 Details on Validation Tasks",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "B Additional Experimental Results",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "B.1 Results at Additional Model Scales",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "B.2 Additional Results on Factors Affecting Instruction-Tuning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "C Examples of Prompts from All Benchmarks",
+            "level": 1,
+            "page": 5
+        }
+    ],
+    "pages": 56,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 21,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "OPT-IML : Scaling Language Model Instruction Meta\nLearning through the Lens of Generalization",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Scaling up Multi-task Benchmarks",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Task Curation",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2 Benchmark Consolidation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.3 Creating Benchmark Splits",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.4 Task Prompt Construction",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3. Instruction Fine-tuning",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.1 Fine-tuning Objective",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.2 Packing and Document Attention",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3 Fine-tuning Hyperparameters",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4. What Matters for Instruction Fine-tuning?",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Experimental Setup",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Effects of varying task mixing-rate maximum",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3 Effects of varying benchmark proportions",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.4 Effects of Scaling Tasks or Categories",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.5 Effects of Pre-training during Instruction-Tuning",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.6 Effects of Adding Reasoning Datasets",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "4.7 Effects of Adding Dialogue Datasets",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.8 Effects of Meta-Training for In-Context Learning",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "5. OPT-IML Models",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "5.1 OPT Evaluations",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "5.2 Evaluations on PromptSource",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "5.3 Evaluations on FLAN",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "5.4 Evaluations on Super-NaturalInstructions",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "5.5 Evaluations on UnifiedSKG",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "6. Discussion and Limitations",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "6.1 Evaluations on MMLU, BBH and RAFT",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "6.2 Limitations",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "6.3 Responsible AI",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "7. Related Work",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "8. Conclusions",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "Appendix A. Benchmark Preparation Details",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "A.1 Data Curation",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "A.2 Details of Dialogue Datasets",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "A.3 Details on Validation Tasks",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "Appendix B. Additional Experimental Results",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "B.1 Results at Additional Model Scales",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "B.2 Additional Results on Factors Affecting Instruction-Tuning",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "Appendix C. Examples of Prompts from All Benchmarks",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "Write highlights for this article:",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "Republicans...",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "Which Wikipedia entity does the marked entity correspond to?",
+            "level": 3,
+            "page": 52
+        },
+        {
+            "title": "Is the following comment toxic?",
+            "level": 3,
+            "page": 53
+        }
+    ]
+}

@@ -1,0 +1,407 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Problem Statement",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Aren't Existing Solutions Good Enough?",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "4 Our Method",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4.1 Low-Rank-Parametrized Update Matrices",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.2 Applying LoRA to Transformer",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5 Empirical Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5.1 Baselines",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.2 RoBERTa base/large",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.3 DeBERTa XXL",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.4 GPT-2 medium/large",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.5 Scaling up to GPT-3 175B",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Related Works",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "7 Understanding the Low-Rank Updates",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "7.1 Which Weight Matrices in Transformer Should We Apply LoRA to?",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "7.2 What is the Optimal Rank r for LoRA?",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "7.3 How Does the Adaptation Matrix W Compare to W?",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "8 Conclusion and Future Work",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "A Large Language Models Still Need Parameter Updates",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "B Inference Latency Introduced by Adapter Layers",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "C Dataset Details",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "D Hyperparameters Used in Experiments",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "D.1 RoBERTa",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "D.2 DeBERTa",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "D.3 GPT-2",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "D.4 GPT-3",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "E Combining LoRA with Prefix Tuning",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "F Additional Empirical Experiments",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "F.1 Additional Experiments on GPT-2",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "F.2 Additional Experiments on GPT-3",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "F.3 Low-Data Regime",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "G Measuring Similarity Between Subspaces",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "H Additional Experiments on Low-Rank Matrices",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "H.1 Correlation between LoRA Modules",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "H.2 Effect of r on GPT-2",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "H.3 Correlation between W and W",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "H.4 Amplification Factor",
+            "level": 1,
+            "page": 24
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 18,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 2,
+            "equations": 10
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LORA: LOW-RANK ADAPTATION OF LARGE LAN-\nGUAGE MODELS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION ",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 PROBLEM STATEMENT",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 AREN'T EXISTING SOLUTIONS GOOD ENOUGH?",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 OUR METHOD",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.1 LOW-RANK-PARAMETRIZED UPDATE MATRICES",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 APPLYING LORA TO TRANSFORMER",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5 EMPIRICAL EXPERIMENTS",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.1 BASELINES",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5.2 ROBERTA BASE/LARGE",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.3 DEBERTA XXL",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.4 GPT-2 MEDIUM/LARGE",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.5 SCALING UP TO GPT-3 175B",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6 RELATED WORKS",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "7 UNDERSTANDING THE LOW-RANK UPDATES",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "7.1 WHICH WEIGHT MATRICES IN TRANSFORMER SHOULD WE APPLY LORA TO?",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "7.2 WHAT IS THE OPTIMAL RANK r FOR LORA?",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "7.3 HOW DOES THE ADAPTATION MATRIX \u2206W COMPARE TO W ?",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "8 CONCLUSION AND FUTURE WORK",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "A LARGE LANGUAGE MODELS STILL NEED PARAMETER UPDATES",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "B INFERENCE LATENCY INTRODUCED BY ADAPTER LAYERS",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "C DATASET DETAILS",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "D HYPERPARAMETERS USED IN EXPERIMENTS",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "D.1 ROBERTA",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "D.2 DEBERTA",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "D.3 GPT-2",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "D.4 GPT-3",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "E COMBINING LORA WITH PREFIX TUNING",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "F ADDITIONAL EMPIRICAL EXPERIMENTS",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "F.1 ADDITIONAL EXPERIMENTS ON GPT-2",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "F.2 ADDITIONAL EXPERIMENTS ON GPT-3",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "F.3 LOW-DATA REGIME",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "G MEASURING SIMILARITY BETWEEN SUBSPACES",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "H ADDITIONAL EXPERIMENTS ON LOW-RANK MATRICES",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "H.2 EFFECT OF r ON GPT-2",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "H.3 CORRELATION BETWEEN W AND \u2206W",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "H.4 AMPLIFICATION FACTOR",
+            "level": 3,
+            "page": 24
+        }
+    ]
+}

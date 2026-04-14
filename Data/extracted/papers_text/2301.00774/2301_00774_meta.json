@@ -1,0 +1,141 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 14,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Elias Frantar 1 Dan Alistarh 1 2",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Background",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3. The SparseGPT Algorithm",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1. Fast Approximate Reconstruction",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2. Adaptive Mask Selection",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3. Extension to Semi-Structured Sparsity",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4. Full Algorithm Pseudocode",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.5. Joint Sparsification & Quantization",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4. Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1. Results",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5. Related Work",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6. Discussion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "7. Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A. Ablation Studies",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "A.1. Approximation Quality",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "B. Evaluation Details",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "C. Additional Results",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "D. Partial 2:4 Results",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "E. Sparsity Acceleration",
+            "level": 2,
+            "page": 13
+        }
+    ]
+}

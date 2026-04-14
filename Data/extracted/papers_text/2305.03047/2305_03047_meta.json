@@ -1,0 +1,452 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Works",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Our Method: Self-Align",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Topic-Guided Red-Teaming Self-Instruct",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Principle-Driven Self-Alignment",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Principle Engraving",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Verbose Cloning",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Dromedary and Baseline Models",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Benchmark Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "TruthfulQA",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "BIG-bench HHH Eval",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Vicuna Benchmark Questions (Evaluated by GPT-4)",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Discussions",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Qualitative Demonstrations",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Conclusion & Future Work",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Limitations & Social Impacts",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Limitations",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Social Impacts",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "More Details about Dromedary [height=1.30]figures/dromedaryemojinew.pdf",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Dromedary-2",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Additional Experimental Details",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Dromedary and Baseline Models",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Hyperparameters",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Benchmark Datasets",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Additional analysis on Vicuna benchmark question",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Many More Samples",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "Principles in Principle-Driven Self-Alignment",
+            "level": 0,
+            "page": 34
+        },
+        {
+            "title": "In-Context Learning Demonstrations for Principle-Driven Self-Alignment",
+            "level": 0,
+            "page": 35
+        },
+        {
+            "title": "Prompts for Principle Engraving",
+            "level": 0,
+            "page": 36
+        },
+        {
+            "title": "Prompts for Verbose Cloning",
+            "level": 0,
+            "page": 38
+        },
+        {
+            "title": "Inference Prompts",
+            "level": 0,
+            "page": 39
+        },
+        {
+            "title": "Prompts for verbose outputs",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "Prompts for multilingual outputs",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "20 Seed Prompts for Topic-Guided Red-Teaming Self-Instruct",
+            "level": 0,
+            "page": 41
+        },
+        {
+            "title": "Instruction Prompts for Topic-Guided Red-Teaming Self-Instruct",
+            "level": 0,
+            "page": 42
+        },
+        {
+            "title": "Evaluation Prompts for MC Benchmarks",
+            "level": 0,
+            "page": 42
+        },
+        {
+            "title": "Few-Shot Prompts for Vicuan Benchmark Questions",
+            "level": 0,
+            "page": 43
+        },
+        {
+            "title": "Additional Related Work",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "Cherry-pick Demonstration Examples of Principle-Driven Self-Alignment",
+            "level": 0,
+            "page": 46
+        }
+    ],
+    "pages": 55,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 22,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Principle-Driven Self-Alignment of Language Models\nfrom Scratch with Minimal Human Supervision",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Works",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Our Method: SELF-ALIGN",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Topic-Guided Red-Teaming Self-Instruct",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.2 Principle-Driven Self-Alignment",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.3 Principle Engraving",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.4 Verbose Cloning",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Dromedary and Baseline Models",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.2 Benchmark Results",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.2.1 TruthfulQA",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.2.2 BIG-bench HHH Eval",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.2.3 Vicuna Benchmark Questions (Evaluated by GPT-4)",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.2.4 Discussions",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.3 Qualitative Demonstrations",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion & Future Work",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Limitations & Social Impacts",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A.1 Limitations",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "A.2 Social Impacts",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "B More Details about Dromedary",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C Dromedary-2",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "D Additional Experimental Details",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "D.1 Dromedary and Baseline Models",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "D.2 Hyperparameters",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "D.3 Benchmark Datasets",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "E Additional analysis on Vicuna benchmark question",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "F Many More Samples",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Coding Category:",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "G Principles in Principle-Driven Self-Alignment",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "H In-Context Learning Demonstrations for Principle-Driven Self-Alignment",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "I Prompts for Principle Engraving",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "J Prompts for Verbose Cloning",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "K Inference Prompts",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "K.1 Prompts for verbose outputs",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "K.2 Prompts for multilingual outputs",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "L 20 Seed Prompts for Topic-Guided Red-Teaming Self-Instruct",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "M Instruction Prompts for Topic-Guided Red-Teaming Self-Instruct",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "N Evaluation Prompts for MC Benchmarks",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "O Few-Shot Prompts for Vicuan Benchmark Questions",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "P Additional Related Work",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "Q Cherry-pick Demonstration Examples of Principle-Driven Self-Alignment",
+            "level": 2,
+            "page": 46
+        }
+    ]
+}

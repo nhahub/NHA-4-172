@@ -1,0 +1,192 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Background",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Tree of Thoughts: Deliberate Problem Solving with LM",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Game of 24",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Creative writing",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Mini crosswords",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Code, Prompts, Trajectories",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Additional Experiment Results",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Extension to new tasks (GSM8k, StrategyQA) with zero-shot ToT",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Extension to new LMs (GPT-3.5)",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Cost and efficiency",
+            "level": 1,
+            "page": 13
+        }
+    ],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Tree of Thoughts: Deliberate Problem Solving\nwith Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Tree of Thoughts: Deliberate Problem Solving with LM",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 Game of 24",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Creative writing",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.3 Mini crosswords",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5 Related Work",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 Discussion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Broader Impact",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Code, Prompts, Trajectories",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B Additional Experiment Results",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B.1 Extension to new tasks (GSM8k, StrategyQA) with zero-shot ToT",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "B.2 Extension to new LMs (GPT-3.5)",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "B.3 Cost and efficiency",
+            "level": 4,
+            "page": 13
+        }
+    ]
+}

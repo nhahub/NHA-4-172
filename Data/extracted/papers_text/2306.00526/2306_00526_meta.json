@@ -1,0 +1,237 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Visually-rich document understanding",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Instruction-tuning Language Model",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Method",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview of LATIN-Prompt",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 Layout Aware Document",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.3 Task Aware Description",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4 Experiment",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Experiment Settings",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 Main Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.3 Ablation Study",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.4 Case Study",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Limitation and Discussion",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "A Plain Prompt Template",
+            "level": 0,
+            "page": 10
+        }
+    ],
+    "pages": 11,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 4,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Layout and Task Aware Instruction Prompt for Zero-shot\nDocument Image Question Answering",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 RELATED WORK",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Visually-rich document understanding",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.2 Instruction-tuning Language Model",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "Table 1: DocVQA Prompt Template",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 METHOD",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview of LATIN-Prompt",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Table 2: InfographicVQA Prompt Template",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "Table 3: MP-DocVQA Prompt Template",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "\n\u2032 = Recover(S, B), (1)",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Layout Aware Document",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": " (3)",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.3 Task Aware Description",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 EXPERIMENT",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Experiment Settings",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.2 Main Results",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.3 Ablation Study",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.4 Case Study",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5 LIMITATION AND DISCUSSION",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 CONCLUSION",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A PLAIN PROMPT TEMPLATE",
+            "level": 2,
+            "page": 10
+        }
+    ]
+}

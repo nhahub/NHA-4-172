@@ -1,0 +1,472 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Preliminaries",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Optimal tokens and hard-margin SVM problem for cross attention ",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Understanding Implicit Bias of Self-Attention",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Global Convergence of Gradient Descent",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Properties of optimization landscape",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Provable global convergence of 1-layer transformer",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Understanding Local Convergence of the Attention Layer",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Local convergence of gradient descent",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Overparameterization conjecture: When local-optimal directions disappear",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Guarantees on local regularization path",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Understanding Multi-token Compositions: Toward A More General Max-Margin and Directional Convergence Theory",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "When does attention select multiple tokens?",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Extending the Theory to Sequential and Causal Predictions",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Related work",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Implicit Regularization, Matrix Factorization, Sparsity",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Attention Mechanism and Transformers",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Discussion, Future Directions, and Open Problems",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Auxiliary Lemmas",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "Proof of Lemma 1",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Proof of Lemma 2",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Proof of Lemma 4",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "A Useful Lemma for Gradient Descent Analysis",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Global Convergence of Gradient Descent",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "Divergence of W (k)F",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Proof of Theorem  3",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": " Global Convergence: Equal Score",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Proof of Theorem 4",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Global Convergence: Non-Equal Scores",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "Proof of Theorem 5",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Global Convergence: Zero Initialization",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "Proof of Theorem 6",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "Local Convergence of Gradient Descent",
+            "level": 0,
+            "page": 38
+        },
+        {
+            "title": "Proof of Theorem 7",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "Proof of Lemma 6",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "Convergence of Regularization Path for Sequence-to-Sequence Setting",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "Regularization Path Analysis",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "Local Regularization Path and Proof of Theorem 9",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "Global Regularization Path and Proof of Theorem 2",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "Proof of Theorem 8: Separability Under Mild Over-Parameterization",
+            "level": 0,
+            "page": 50
+        },
+        {
+            "title": "Supporting Experiments",
+            "level": 0,
+            "page": 51
+        }
+    ],
+    "pages": 54,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 20,
+        "equations": {
+            "successful_ocr": 286,
+            "unsuccessful_ocr": 18,
+            "equations": 304
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Transformers as Support Vector Machines",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Preliminaries",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Optimal tokens and hard-margin SVM problem for cross attention",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "\u22c6",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3 Understanding Implicit Bias of Self-Attention",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4 Global Convergence of Gradient Descent",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Properties of optimization landscape",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Provable global convergence of 1-layer transformer",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Understanding Local Convergence of the Attention Layer",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "5.1 Local convergence of gradient descent",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "5.2 Overparameterization conjecture: When local-optimal directions disappear",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "5.3 Guarantees on local regularization path",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "6 Understanding Multi-token Compositions: Toward A More General Max-\nMargin and Directional Convergence Theory",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "6.1 When does attention select multiple tokens?",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "7 Extending the Theory to Sequential and Causal Predictions",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "8 Related work",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "8.1 Implicit Regularization, Matrix Factorization, Sparsity",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "8.2 Attention Mechanism and Transformers",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "9 Discussion, Future Directions, and Open Problems",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Contents",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "A Auxiliary Lemmas",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "A.1 Proof of Lemma 1",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "A.2 Proof of Lemma 2",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "A.3 Proof of Lemma 4",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "A.4 A Useful Lemma for Gradient Descent Analysis",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "B Global Convergence of Gradient Descent",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "B.1 Divergence of \u2225W(k)\u2225F",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "B.1.1 Proof of Theorem 3",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "B.2 Global Convergence: Equal Score",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "B.2.1 Proof of Theorem 4",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "B.3 Global Convergence: Non-Equal Scores",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "B.3.1 Proof of Theorem 5",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "B.4 Global Convergence: Zero Initialization",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "B.4.1 Proof of Theorem 6",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "C Local Convergence of Gradient Descent",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "C.1 Proof of Theorem 7",
+            "level": 3,
+            "page": 42
+        },
+        {
+            "title": "C.2 Proof of Lemma 6",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "D Convergence of Regularization Path for Sequence-to-Sequence Setting",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "D.1 Regularization Path Analysis",
+            "level": 3,
+            "page": 46
+        },
+        {
+            "title": "D.2 Local Regularization Path and Proof of Theorem 9",
+            "level": 3,
+            "page": 46
+        },
+        {
+            "title": "D.3 Global Regularization Path and Proof of Theorem 2",
+            "level": 3,
+            "page": 50
+        },
+        {
+            "title": "E Proof of Theorem 8: Separability Under Mild Over-Parameterization",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "F Supporting Experiments",
+            "level": 2,
+            "page": 51
+        },
+        {
+            "title": "https://github.com/ucr-optml/max_margin_attention.",
+            "level": 4,
+            "page": 52
+        }
+    ]
+}

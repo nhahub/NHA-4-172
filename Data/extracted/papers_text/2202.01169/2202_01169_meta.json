@@ -1,0 +1,467 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Routing Networks",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Routing Techniques",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Sparse Mixture-of-Experts via Weighting",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 Input-based Deterministic Hash Routing",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.3 Routing via Reinforcement Learning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Scaling Behavior at Convergence",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "4.1 Separable Scaling Laws in Model Size and Experts",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.2 Quadratic Interaction in N and E",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.3 Bounded Scaling in E",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.4 Generalizing Across Architecture Variants",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Scaling Law Applications",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "5.1 Effective Parameter Equivalence",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.2 Routing Behavior for Large N",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.3 Comparative Analysis",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Related Work",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "A Architecture",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "B Detailed Routing Techniques",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "B.1 Balancing Losses",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "B.2 SMoE with Sinkhorn redistribution (s-base)",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "B.2.1 Sinkhorn Redistribution",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "B.2.2 Shuffling Tokens",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B.3 Routing with Reinforcement Learning (rl-r)",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "B.4 Hash layers (hash)",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "C Distributed Routing Details",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "C.1 Expert Parallelism",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "C.2 Load Balancing",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D Architectural Variations",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "D.1 Robustness to hyper-parameter changes",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D.2 Varying Routing Frequencies",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "D.3 Varying the Routing Policy",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "D.4 Routing a Single Layer",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "D.5 Varying number of experts per datapoint",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "E Effects of scaling strategy on Zero-shot Transfer",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "F On Convergence, or Lack Thereof",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "F.1 Convergence on Large Datasets",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "F.2 Performance Qualified on Token Count",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "F.3 Performance Modeled as L(N, S)",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "G Large Scale Routing Behavior, Coefficient Sensitivity, and Future Work",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "H Extra Plots and Tables",
+            "level": 0,
+            "page": 27
+        }
+    ],
+    "pages": 31,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 30,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 62,
+            "unsuccessful_ocr": 7,
+            "equations": 69
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "UNIFIED SCALING LAWS FOR ROUTED LANGUAGE MODELS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Routing Networks",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "3 Routing Techniques",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Sparse Mixture-of-Experts via Weighting",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Input-based Deterministic Hash Routing",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3 Routing via Reinforcement Learning",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 Scaling Behavior at Convergence",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 Separable Scaling Laws in Model Size and Experts",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Quadratic Interaction in N and E",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Bounded Scaling in E",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.4 Generalizing Across Architecture Variants",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5 Scaling Law Applications",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.1 Effective Parameter Equivalence",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.2 Routing Behavior for Large N",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5.3 Comparative Analysis",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 Related Work",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "A Architecture",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "B Detailed Routing Techniques",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "B.1 Balancing Losses",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "B.2 SMoE with Sinkhorn redistribution (S-BASE)",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "B.2.1 Sinkhorn Redistribution",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "B.2.2 Shuffling Tokens",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "B.3 Routing with Reinforcement Learning (RL-R)",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "B.4 Hash layers (HASH)",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "C Distributed Routing Details",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "C.1 Expert Parallelism",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "C.2 Load Balancing",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "D Architectural Variations",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D.1 Robustness to hyper-parameter changes",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "D.2 Varying Routing Frequencies",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "D.3 Varying the Routing Policy",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "D.4 Routing a Single Layer",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "D.5 Varying number of experts per datapoint",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "E Effects of scaling strategy on Zero-shot Transfer",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "F On Convergence, or Lack Thereof",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "F.1 Convergence on Large Datasets",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "F.2 Performance Qualified on Token Count",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "F.3 Performance Modeled as L(N, S)",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "G Large Scale Routing Behavior, Coefficient Sensitivity, and Future Work",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "H Extra Plots and Tables",
+            "level": 1,
+            "page": 27
+        }
+    ]
+}

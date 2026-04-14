@@ -1,0 +1,216 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Interpretable Math Word Problem Solution Generation\nVia Step-by-step Planning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1.1 Contributions",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "1.2 Notation",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2 Methodology",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Operation Prediction",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2 Controllable Step Generation",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.3 Prompt Design",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.4 Optimization",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3 Experiments",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Automated Metrics",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.2 Human Evaluation",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.3 Experimental Settings",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.4 Quantitative Results",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.4.1 Prompt-tuning",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.4.2 In-context learning",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.5 Human Evaluation Results",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.6 Qualitative Analysis",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4 Related work",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5 Conclusions",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "6 Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7 Ethics Statement",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgement",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A Hyper-parameters",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B Setting for generation",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "C Data prepossessing",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "D More Details of prompt tuning design",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "D.1 Operation prompts",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "D.2 Prompt mining through paraphrasing",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "E Architecture for text-to-text language modeling",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "F In-context Prompting design",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "G Human Evaluation template",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "H List of all hand-crafted operations classes",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "I Examples of control generation",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Math evaluation 1-10",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Question: 273",
+            "level": 2,
+            "page": 17
+        }
+    ]
+}

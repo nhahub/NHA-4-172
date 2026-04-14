@@ -1,0 +1,387 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related work ",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Multimodal fusion",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Generating audio with language models",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Speech-to-speech translation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Method",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Audio Embeddings and Tokenization",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Modifying text-only decoders to model both text and audio",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Decoding audio tokens to raw audio",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Training tasks",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Training mixtures",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Training setup",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Data and Metrics ",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Datasets",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Evaluation Metrics",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Speech translation and speech recognition results",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Zero-shot behaviour",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Quality of generated speech",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Impact of model and data choices",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Training on multiple tasks",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Training from scratch vs. finetuning",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Different tokenization schemes ",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Training with combined tasks ",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Training with additional speech-to-speech tasks ",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Scaling the training data ",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Decoding with AudioLM vs SoundStorm ",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Impact of using PaLM-2 ",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Impact of architecture scale ",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Conclusion ",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Author Contributions",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "Detailed results of AST models performance",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "Detailed results of S2ST models performance",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "Detailed results of AST zero-shot performance ",
+            "level": 0,
+            "page": 25
+        }
+    ],
+    "pages": 27,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 18,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "AudioPaLM: A Large Language Model That Can\nSpeak and Listen",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Multimodal fusion",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Generating audio with language models",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.3 Speech-to-speech translation",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 Method",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 Audio Embeddings and Tokenization",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 Modifying text-only decoders to model both text and audio",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.3 Decoding audio tokens to raw audio",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.4 Training tasks",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.5 Training mixtures",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.6 Training setup",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4 Data and Metrics",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.1 Datasets",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.2 Evaluation Metrics",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5 Experiments",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.1 Speech translation and speech recognition results",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5.2 Zero-shot behaviour",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5.3 Quality of generated speech",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "5.4 Impact of model and data choices",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "5.4.1 Training on multiple tasks",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "5.4.2 Training from scratch vs. finetuning",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "5.4.3 Different tokenization schemes",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "5.4.4 Training with combined tasks",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "5.4.5 Training with additional speech-to-speech tasks",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "5.4.6 Scaling the training data",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "5.4.7 Decoding with AudioLM vs SoundStorm",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "5.4.8 Impact of using PaLM-2",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "5.4.9 Impact of architecture scale",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "A Author Contributions",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "B Detailed results of AST models performance",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C Detailed results of S2ST models performance",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "D Detailed results of AST zero-shot performance",
+            "level": 1,
+            "page": 25
+        }
+    ]
+}

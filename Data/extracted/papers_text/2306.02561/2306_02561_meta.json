@@ -1,0 +1,141 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LLM-BLENDER: Ensembling Large Language Models\nwith Pairwise Ranking and Generative Fusion",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Preliminaries",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Problem Setup",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2 MixInstruct: A New Benchmark",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.3 LLM-BLENDER: A Novel Framework",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3 PAIRRANKER: Pairwise Ranking",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Baseline Methods",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Pairwise Comparisons",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3 PAIRRANKER Architecture",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 GENFUSER: Generative Fusion",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5 Evaluation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1 Setup",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5.2 Main results",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6 Related Work",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "7 Conclusion & Future Directions",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "*Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "*Ethical Statement",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "ACL 2023 Responsible NLP Checklist",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "C \u2713 Did you run computational experiments?",
+            "level": 1,
+            "page": 12
+        }
+    ]
+}

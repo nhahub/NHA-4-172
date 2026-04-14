@@ -1,0 +1,156 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 14,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 0,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using\nModel Parallelism",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Background and Challenges",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1. Neural Language Model Pretraining",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2. Transformer Language Models and Multi-Head\nAttention",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.3. Data and Model Parallelism in Deep Learning",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3. Model Parallel Transformers",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4. Setup",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1. Training Dataset",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2. Training Optimization and Hyperparameters",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5. Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1. Scaling Analysis",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5.1.1. MODEL AND DATA PARALLELISM",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5.2. Language Modeling Results Using GPT-2",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5.3. Bi-directional Transformer Results Using BERT",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6. Conclusion and Future Work",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A. BERT Finetuning Hyperparameters",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "B. Model Parallel Supplementary Material",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "B.1. Hybrid Model and Data Parallelism",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "B.2. Model Parallel Random Number Generation",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "C. Text Samples",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "E. Evaluating Language Models Using\nWikiText103 and LAMBADA",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "E.1. Wikitext103 Perplexity",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "E.2. LAMBADA Cloze Accuracy",
+            "level": 3,
+            "page": 14
+        }
+    ]
+}

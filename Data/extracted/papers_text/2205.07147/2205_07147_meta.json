@@ -1,0 +1,141 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 3,
+        "ocr_failed": 0,
+        "ocr_success": 3,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Plot Writing From Scratch Pre-Trained Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract\n\n![0_image_0.png](0_image_0.png)\n\n",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Plot Generation From Scratch",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Experiments",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Related Work",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Story Content Planning",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.2 Story Ending Generation",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Ethical Considerations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A Full List of Task Descriptions",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "B Post-Processing",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "C Additional Experimental Setups",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "D Details of Crowdsource Evaluation",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "D.1 Annotation Task Specifications",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "D.2 Quality Control",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "D.3 Annotation Task Stats",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "Instructions",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Instructions",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Instructions",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Instructions",
+            "level": 2,
+            "page": 15
+        }
+    ]
+}

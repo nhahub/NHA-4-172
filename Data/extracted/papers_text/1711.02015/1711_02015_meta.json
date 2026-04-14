@@ -1,0 +1,147 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "T-REx Creation",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Alignment pipeline",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Triple Aligners",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "T-REx Dataset",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Size and Coverage",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Availability and Licensing",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Conclusion & Future Work",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Bibliographical References",
+            "level": 0,
+            "page": 4
+        }
+    ],
+    "pages": 5,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "T-REx: A Large Scale Alignment of Natural Language with\nKnowledge Base Triples",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "3. T-REx Creation",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1. Alignment pipeline",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2. Triple Aligners",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "4. T-REx Dataset",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1. Size and Coverage",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.2. Availability and Licensing",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "5. Evaluation",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "6. Conclusion & Future Work",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "7. Bibliographical References",
+            "level": 3,
+            "page": 4
+        }
+    ]
+}

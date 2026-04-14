@@ -1,0 +1,181 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 25,
+    "ocr_stats": {
+        "ocr_pages": 4,
+        "ocr_failed": 0,
+        "ocr_success": 4,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "VQA: Visual Question Answering\nwww.visualqa.org",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "2 RELATED WORK",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 VQA DATASET COLLECTION",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "4 VQA DATASET ANALYSIS",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 Questions",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Answers",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.3 Commonsense Knowledge",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.4 Captions vs. Questions",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5 VQA BASELINES AND METHODS",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.1 Baselines",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.2 Methods",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.3 Results",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 VQA CHALLENGE AND WORKSHOP",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "7 CONCLUSION AND DISCUSSION",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "APPENDIX OVERVIEW",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "APPENDIX I: CAPTIONS vs. QUESTIONS",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "APPENDIX II: \"WHAT IS\" ANALYSIS",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "APPENDIX III: MULTIPLE-CHOICE HUMAN AC-\nCURACY",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "APPENDIX IV: DETAILS ON VQA BASELINES",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "APPENDIX V: \"AGE\" AND \"COMMONSENSE\"\nOF OUR MODEL",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "APPENDIX VI: ABSTRACT SCENES DATASET",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "APPENDIX VII: USER INTERFACES",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "next",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "Page 2/3",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "Help Us Answer Questions About Images!",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "Help Us Answer Questions!",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "APPENDIX VIII: ANSWER DISTRIBUTION",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "APPENDIX IX: ADDITIONAL EXAMPLES",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 24
+        }
+    ]
+}

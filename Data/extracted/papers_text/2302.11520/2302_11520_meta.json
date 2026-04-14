@@ -1,0 +1,197 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Directional stimulus prompting",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Supervised fine-tuning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Reinforcement learning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Summarization",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Dialogue response generation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Related work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Conclusions and future work",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Experimental Setup",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "CNN/Daily Mail",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "MultiWOZ",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Running examples",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Prompts",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Broader impact and limitations",
+            "level": 0,
+            "page": 16
+        }
+    ],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 14,
+            "unsuccessful_ocr": 0,
+            "equations": 14
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Guiding Large Language Models via\nDirectional Stimulus Prompting",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Directional stimulus prompting",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1 Supervised fine-tuning",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.2 Reinforcement learning",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 Experiments",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.1 Summarization",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2 Dialogue response generation",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 Related work",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusions and future work",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "A Experimental Setup",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "A.1 CNN/Daily Mail",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "A.2 MultiWOZ",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "B Running examples",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "C Prompts",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "D Broader impact and limitations",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Directional Stimulus Prompt (CNN/Daily Mail)",
+            "level": 3,
+            "page": 20
+        }
+    ]
+}

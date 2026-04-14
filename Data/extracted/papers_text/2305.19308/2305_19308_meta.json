@@ -1,0 +1,422 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Works",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Dataset and Evaluation",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Diverse Seed Task and Workbench Collection",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Core Set Collection",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Task Evaluation by Execution",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Method",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Prompting LMs as a SheetCopilot",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Atomic Action as A Bridge for LMs and Software",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "State Machine-based Task Planning",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Hallucination Mitigation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Benchmark Protocol",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Comparing Task Planning Ability of Different LLMs",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Ablation Studies of State Machine",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Ablation Study of Atomic Action Names",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "The Influence of LLM Temperature on Task Plan Generation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Supplementary Material",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Details of Dataset Collection",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Details of Seed Task Collection",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Details of Workbench Collection",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Details of Core Set Collection",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Selecting the 10% Datast Used for Comparing the LLMs",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Atomic Action Names",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Collecting Atomic Actions",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Collecting Synonyms for the Official Atomic Action Names",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Details of SheetCopilot Implementation",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "State Machine Implementation",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Prompting LLMs to Generate Task Solutions",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Additional Ablation Studies",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Qualitative Experiment of Missing Atomic Actions",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Atomic Action at Different Granularity",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "SheetCopilot Manipulation Example",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Analysis of failure cases",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Demo",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Limitations",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Broader Impact",
+            "level": 1,
+            "page": 30
+        }
+    ],
+    "pages": 32,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 2,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SheetCopilot: Bringing Software Productivity to the\nNext Level through Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Related Works",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Dataset and Evaluation",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Diverse Seed Task and Workbench Collection",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Core Set Collection",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3 Task Evaluation by Execution",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Method",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Prompting LMs as a SheetCopilot",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Atomic Action as A Bridge for LMs and Software",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.3 State Machine-based Task Planning",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.4 Hallucination Mitigation",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5 Experiments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Benchmark Protocol",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2 Comparing Task Planning Ability of Different LLMs",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.3 Ablation Studies of State Machine",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.4 Ablation Study of Atomic Action Names",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5.5 The Influence of LLM Temperature on Task Plan Generation",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "7 Supplementary Material",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A Details of Dataset Collection",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.1 Details of Seed Task Collection",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.2 Details of Workbench Collection",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.3 Details of Core Set Collection",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.4 Selecting the 10% Datast Used for Comparing the LLMs",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "B Atomic Action Names",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "B.1 Collecting Atomic Actions",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "B.2 Collecting Synonyms for the Official Atomic Action Names",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "C Details of SheetCopilot Implementation",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "C.1 State Machine Implementation",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "C.2 Prompting LLMs to Generate Task Solutions",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "D Additional Ablation Studies",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "D.1 Qualitative Experiment of Missing Atomic Actions",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "D.2 Atomic Action at Different Granularity",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "E SheetCopilot Manipulation Example",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "F Analysis of failure cases",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "G Demo",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "H Limitations",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "I Broader Impact",
+            "level": 4,
+            "page": 30
+        }
+    ]
+}

@@ -1,0 +1,427 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": " ",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Methodology",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Guidance in Text-to-Image Models",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Classifier-Free Guidance of Language Models",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Experiments",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Basic Prompting: Zero-Shot Prompts",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Deliberative Prompting: Chain-of-Thought",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Text-to-Text Prompts: Generation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Program synthesis evaluations",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "HumanEval benchmark",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "Negative Prompting: Improving Assistants",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Computational Cost Analysis",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Explaining the Success of Classifier-Free Guidance",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Classifier-Free Guidance's Effect on Sampling Entropy",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "CFG's Relation to Instruction Tuning",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Visualizing Classifier-Free Guidance",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": " Appendix",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Author Contributions",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Additional Related Works",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "CFG",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Generative Guidance in NLP",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Charts",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "General benchmarks",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Accuracy vs. FLOP",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "HumanEval benchmark",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Deliberative Prompting: Chain-of-Thought",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Additional experiments",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Machine translation",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Prompting experiments for code generations",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Generation samples",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Continuations",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "Further Comparison between CFG and Instruction-Tuning",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "Experiments with GPT4All",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "System prompts",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "User prompts",
+            "level": 2,
+            "page": 34
+        }
+    ],
+    "pages": 36,
+    "ocr_stats": {
+        "ocr_pages": 6,
+        "ocr_failed": 0,
+        "ocr_success": 6,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 20,
+        "equations": {
+            "successful_ocr": 13,
+            "unsuccessful_ocr": 1,
+            "equations": 14
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Stay on topic with Classifier-Free Guidance",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Methodology",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Guidance in Text-to-Image Models",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 Classifier-Free Guidance of Language Models",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Basic Prompting: Zero-Shot Prompts",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 Deliberative Prompting: Chain-of-Thought",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.3 Text-to-Text Prompts: Generation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.3.1 Program synthesis evaluations",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.3.2 HumanEval benchmark",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.4 Negative Prompting: Improving Assistants",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4 Computational Cost Analysis",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5 Explaining the Success of Classifier-Free Guidance",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5.1 Classifier-Free Guidance's Effect on Sampling Entropy",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5.2 CFG's Relation to Instruction Tuning",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5.3 Visualizing Classifier-Free Guidance",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Table of Contents",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "A Author Contributions",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B Additional Related Works",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "B.1 CFG",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "B.2 Generative Guidance in NLP",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C Charts",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C.1 General benchmarks",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Accuracy vs. FLOP\nC.2",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "C.3 HumanEval benchmark",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "C.4 Deliberative Prompting: Chain-of-Thought",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Top Sentences in P3 where CFG is MOST Similar to Instruction-Tuned Models",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "D Additional experiments",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "D.1 Machine translation",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "D.2 Prompting experiments for code generations",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "E Generation samples",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "E.1 Continuations",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "F Further Comparison between CFG and Instruction-Tuning",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "G Experiments with GPT4All",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "G.1 System prompts",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "G.2 User prompts",
+            "level": 2,
+            "page": 34
+        }
+    ]
+}

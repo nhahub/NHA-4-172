@@ -1,0 +1,347 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Gisting",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "A Context Distillation Perspective",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Learning Gisting by Masking",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Data",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Models",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Evaluation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Results",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Failure cases",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Compute, Memory, and Storage Efficiency",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Additional Related Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Discussion and Limitations",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Example PyTorch Implementation of Gist Masking",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Data, Training, Evaluation, and Compute Details",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Details of ChatGPT Evaluation",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Additional Human Evaluation Details and Results",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Experimental Details",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Additional Results",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Exact Match Results",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Additional FLOPs details",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Additional Examples of Model Outputs",
+            "level": 0,
+            "page": 17
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Learning to Compress Prompts with Gist Tokens",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Gisting",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 A Context Distillation Perspective",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "3 Learning Gisting by Masking",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4.1 Data",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4.2 Models",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4.3 Evaluation",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "5 Results",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.1 Failure cases",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6 Compute, Memory, and Storage Efficiency",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "7 Additional Related Work",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "8 Discussion and Limitations",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgments and Disclosure of Funding",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "A Example PyTorch Implementation of Gist Masking",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "B Data, Training, Evaluation, and Compute Details",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "C Details of ChatGPT Evaluation",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "D Additional Human Evaluation Details and Results",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "D.1 Experimental Details",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "D.2 Additional Results",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "E Exact Match Results",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "F Additional FLOPs details",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Judging AI Assistants",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Embeddings",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "Attention (Single Layer)",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "Total Forward Pass FLOPs",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "G Additional Examples of Model Outputs",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Example 3",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "Example 4",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Example 5",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "Example 6",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "LLaMA-7B",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "FLAN-T5-XXL",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "LLaMA-7B",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "Example 8",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "LLaMA-7B",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "FLAN-T5-XXL",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "Example 9",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Example 10",
+            "level": 1,
+            "page": 24
+        }
+    ]
+}

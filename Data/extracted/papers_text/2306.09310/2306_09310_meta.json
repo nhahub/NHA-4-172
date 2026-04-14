@@ -1,0 +1,522 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": ". Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": ". Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": ". Method-0.05in",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": ". Experiments",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": ". Contributions & Acknowledgements",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": ". Figures Extended",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": ". Experiments",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": ". Dataset Generation",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": ". Image Rendering",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": ". Ground Truth Extraction",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": ". Runtime",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": ". Interpretable Degrees of Freedom",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": ". Transpiler",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": ". Scene Composition Details",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": ". Camera Selection",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": ". Dynamic Resolution",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Spherical Marching Cubes",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Parametric Surface Resolution Scaling",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Subdivision and Remeshing",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": ". Asset Implementation Details",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": ". Materials",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Terrain Materials",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Plant Materials",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Creature Material",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Other material",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": ". Terrain",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Terrain Elements",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Boulders",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Fluid",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Weather",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Lighting",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": ". Plants",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Leaves, Flowers & Pinecones",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Trees & Bushes",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Cactus",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Fern",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Mushroom",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "Corals",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "Other sea plants",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": ". Surface Scatters",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": ". Marine Invertebrates",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Mollusk",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Other marine invertebrates",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": ". Creatures",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Creature Construction",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "Creature Animation",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "Genome Templates",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "Creature Parts",
+            "level": 2,
+            "page": 28
+        }
+    ],
+    "pages": 49,
+    "ocr_stats": {
+        "ocr_pages": 5,
+        "ocr_failed": 0,
+        "ocr_success": 5,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 13,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Infinite Photorealistic Worlds using Procedural Generation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3. Method",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4. Experiments",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5. Contributions & Acknowledgements",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Appendix",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A. Figures Extended",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B. Experiments",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "C. Dataset Generation",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "C.1. Image Rendering",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "C.2. Ground Truth Extraction",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "C.3. Runtime",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "D. Interpretable Degrees of Freedom",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "E. Transpiler",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "F. Scene Composition Details",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "F.1. Camera Selection",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "F.2. Dynamic Resolution",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "F.2.1 Spherical Marching Cubes",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "F.2.2 Parametric Surface Resolution Scaling",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "F.2.3 Subdivision and Remeshing",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "G. Asset Implementation Details",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "G.1. Materials",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "G.1.1 Terrain Materials",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "G.1.2 Plant Materials",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "G.1.3 Creature Material",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "G.1.4 Other material",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "G.2.1 Terrain Elements",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "G.2.2 Boulders",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "G.2.3 Fluid",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "G.2.4 Weather",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "G.2.5 Lighting",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "G.3. Plants",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "G.3.1 Leaves, Flowers & Pinecones",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "G.3.2 Trees & Bushes",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "G.3.3 Cactus",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "G.3.4 Fern",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "G.3.5 Mushroom",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "G.3.6 Corals",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "G.3.7 Other sea plants",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "G.4. Surface Scatters",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "G.5. Marine Invertebrates",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "G.5.1 Mollusk",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "G.5.2 Other marine invertebrates",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "G.6. Creatures",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "G.6.1 Creature Construction",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "G.6.2 Creature Animation",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "G.6.3 Genome Templates",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "G.6.4 Creature Parts",
+            "level": 4,
+            "page": 28
+        }
+    ]
+}

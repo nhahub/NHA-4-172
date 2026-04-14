@@ -1,0 +1,667 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related work",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3 Methods and experimental details",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "3.1 High-level methodology",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.2 Dataset",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.3 Tasks",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.4 Human data collection",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.5 Models",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.6 Evaluation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4 Results",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "4.1 Results on the API distribution",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.2 Results on public NLP datasets",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4.3 Qualitative results",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "5 Discussion",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "5.1 Implications for alignment research",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5.2 Who are we aligning to?",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "5.3 Limitations",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "5.4 Open questions",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "5.5 Broader impacts",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "A Additional prompt data details",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "A.1 Labeler-written prompts",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "A.2 API user prompts",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "A.2.1 Illustrative user prompts from InstructGPT distribution",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "A.2.2 Illustrative user prompts from GPT-3 distribution",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "A.3 Dataset sizes",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "A.4 Data diversity",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "B Additional human data collection details",
+            "level": 0,
+            "page": 35
+        },
+        {
+            "title": "B.1 Labeler selection",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "B.2 Labeling instructions",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "B.3 Labeler demographic data",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "B.4 Labeler satisfaction survey",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "B.5 Web interface",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "C Additional model details",
+            "level": 0,
+            "page": 39
+        },
+        {
+            "title": "C.1 Details of SFT training",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "C.2 Details of RM training",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "C.3 Details of the initialization models for RLHF",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "C.4 Details of RLHF training",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "C.5 FLAN and T0 models",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "D Automatic evaluation details",
+            "level": 0,
+            "page": 43
+        },
+        {
+            "title": "D.1 Toxicity and bias evaluation details",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "D.2 Prompt structure and evaluation features for each eval dataset",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "E Additional results",
+            "level": 0,
+            "page": 50
+        },
+        {
+            "title": "E.1 Performance on public NLP datasets",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "E.2 Reward model generalization across sets of labelers",
+            "level": 1,
+            "page": 51
+        },
+        {
+            "title": "E.3 Metadata results as a function of model size",
+            "level": 1,
+            "page": 51
+        },
+        {
+            "title": "E.4 Likert scores",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "E.5 Measuring bias",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "E.6 Fixing regressions on public NLP datasets",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "E.7 Optimal KL reward coefficient",
+            "level": 1,
+            "page": 55
+        },
+        {
+            "title": "E.8 PPO init models",
+            "level": 1,
+            "page": 55
+        },
+        {
+            "title": "E.9 Learning rate optimization for PPO models",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "E.10 RealToxicityPrompts results as a function of input toxicity",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "E.11 Additional ablations",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "F Model samples",
+            "level": 0,
+            "page": 60
+        }
+    ],
+    "pages": 68,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 27,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 1,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Training language models to follow instructions\nwith human feedback",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related work",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3 Methods and experimental details",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.1 High-level methodology",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.2 Dataset",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.3 Tasks",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.4 Human data collection",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.5 Models",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.6 Evaluation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4 Results",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.1 Results on the API distribution",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.2 Results on public NLP datasets",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4.3 Qualitative results",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "5 Discussion",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5.1 Implications for alignment research",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5.2 Who are we aligning to?",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "5.3 Limitations",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "5.4 Open questions",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "5.5 Broader impacts",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "A Additional prompt data details",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "A.1 Labeler-written prompts",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "A.2 API user prompts",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "A.3 Dataset sizes",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "A.4 Data diversity",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "B Additional human data collection details",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "B.1 Labeler selection",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "B.2 Labeling instructions",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "B.3 Labeler demographic data",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "B.4 Labeler satisfaction survey",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "B.5 Web interface",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "C Additional model details",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "C.1 Details of SFT training",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "C.2 Details of RM training",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "C.3 Details of the initialization models for RLHF",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "C.4 Details of RLHF training",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "C.5 FLAN and T0 models",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "D Automatic evaluation details",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "D.1 Toxicity and bias evaluation details",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "D.2 Prompt structure and evaluation features for each eval dataset",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "Winogender",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "CrowS-Pairs",
+            "level": 4,
+            "page": 44
+        },
+        {
+            "title": "Prompting structure",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "RealToxicityPrompts",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "Prompting structure",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "TruthfulQA",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "Prompting structure",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "A: [completion]",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "DROP (Discrete Reasoning Over the Content of Paragraphs)",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "QuAC (Question Answering in Context)",
+            "level": 3,
+            "page": 46
+        },
+        {
+            "title": "Hellaswag",
+            "level": 3,
+            "page": 47
+        },
+        {
+            "title": "RTE (Recognizing Textual Entailment)",
+            "level": 3,
+            "page": 47
+        },
+        {
+            "title": "SST (Stanford Sentiment Treebank)",
+            "level": 3,
+            "page": 47
+        },
+        {
+            "title": "WSC (Winograd Schema Challenge)",
+            "level": 3,
+            "page": 48
+        },
+        {
+            "title": "Example prompt",
+            "level": 3,
+            "page": 48
+        },
+        {
+            "title": "WMT Fr \u2192 En 15",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "CNN/DM Summarization",
+            "level": 3,
+            "page": 48
+        },
+        {
+            "title": "TLDR Summarization",
+            "level": 3,
+            "page": 49
+        },
+        {
+            "title": "E.1 Performance on public NLP datasets",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "E.2 Reward model generalization across sets of labelers",
+            "level": 1,
+            "page": 51
+        },
+        {
+            "title": "E.3 Metadata results as a function of model size",
+            "level": 1,
+            "page": 51
+        },
+        {
+            "title": "E.4 Likert scores",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "E.5 Measuring bias",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "E.6 Fixing regressions on public NLP datasets",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "E.7 Optimal KL reward coefficient",
+            "level": 1,
+            "page": 55
+        },
+        {
+            "title": "E.8 PPO init models",
+            "level": 1,
+            "page": 55
+        },
+        {
+            "title": "E.9 Learning rate optimization for PPO models",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "E.10 RealToxicityPrompts results as a function of input toxicity",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "E.11 Additional ablations",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "F Model samples",
+            "level": 1,
+            "page": 60
+        },
+        {
+            "title": "Prompt:",
+            "level": 3,
+            "page": 66
+        }
+    ]
+}

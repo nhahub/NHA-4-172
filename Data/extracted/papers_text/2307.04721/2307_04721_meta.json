@@ -1,0 +1,232 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Language Models as General Pattern Machines",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Sequence Transformation",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Sequence Completion",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Sequence Improvement",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Sequence Transformation",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Abstract Reasoning Corpus: Additional Details and Examples",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "PCFG Benchmark: Additional Details and Ablations",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Token Invariance for New Token Embeddings",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Sequence Completion",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Table Sweeping: Additional Details",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Whiteboard Drawing: Qualitative Results",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Sequence Improvement",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Marker in Cup: Additional Details",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Grid: Additional Details",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "CartPole: Additional Details",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Clicker Training: Additional Details",
+            "level": 1,
+            "page": 17
+        }
+    ],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Large Language Models as General Pattern Machines",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Language Models as General Pattern Machines",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Sequence Transformation",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "5 Sequence Completion",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "6 Sequence Improvement",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "7 Discussion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Sequence Transformation",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A.1 Abstract Reasoning Corpus: Additional Details and Examples",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "A.2 PCFG Benchmark: Additional Details and Ablations",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "A.3 Token Invariance for New Token Embeddings",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "B Sequence Completion",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B.1 Table Sweeping: Additional Details",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "B.2 Whiteboard Drawing: Qualitative Results",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "C Sequence Improvement",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "C.1 Marker in Cup: Additional Details",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "C.2 Grid: Additional Details",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "C.3 CartPole: Additional Details",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "C.4 Clicker Training: Additional Details",
+            "level": 3,
+            "page": 17
+        }
+    ]
+}

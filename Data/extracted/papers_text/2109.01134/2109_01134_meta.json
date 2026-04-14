@@ -1,0 +1,137 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Methodology",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5 Conclusion, Limitations and Future Work",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "A Datasets Details",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "B Results on DOSCO-2k",
+            "level": 0,
+            "page": 10
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 0,
+            "equations": 8
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Learning to Prompt for Vision-Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 Prompt Learning in NLP",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Methodology",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 Context Optimization",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.3 Discussion",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.2 Domain Generalization",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.3 Further Analysis",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion, Limitations and Future Work",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Datasets Details",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "B Results on DOSCO-2k",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "What is Model Imitation?",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Building Imitation Datasets",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Main Results",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Training and Evaluation Setup",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Qualitative Analysis and Crowdworker Evaluation Show Promise",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Targeted Automatic Evaluations Expose Failure Modes",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Imitation Models Learn Style, Not Content",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Conclusion and Future Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Additional Details on Imitation Data",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Amazon Mechanical Turk Interface",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "GPT-4 evaluations",
+            "level": 0,
+            "page": 13
+        }
+    ],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "The False Promise of Imitating Proprietary LLMs",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 What is Model Imitation?",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Building Imitation Datasets",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 Main Results",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Training and Evaluation Setup",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "Increasing Amount of Imitation Data",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.2 Qualitative Analysis and Crowdworker Evaluation Show Promise",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.3 Targeted Automatic Evaluations Expose Failure Modes",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.4 Imitation Models Learn Style, Not Content",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5 Discussion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 Related Work",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusion and Future Work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Additional Details on Imitation Data",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B Amazon Mechanical Turk Interface",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "C GPT-4 evaluations",
+            "level": 2,
+            "page": 13
+        }
+    ]
+}

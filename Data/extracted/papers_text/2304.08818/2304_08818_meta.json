@@ -1,0 +1,457 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 . Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 . Background",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 . Latent Video Diffusion Models",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 . Turning Latent Image into Video Generators",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1.1 Temporal Autoencoder Finetuning",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 . Prediction Models for Long-Term Generation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.3 . Temporal Interpolation for High Frame Rates",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.4 . Temporal Fine-tuning of SR Models",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4 . Experiments",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 . High-Resolution Driving Video Synthesis",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.1.1 Ablation Studies",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1.2 Driving Scenario Simulation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.2 . Text-to-Video with Stable Diffusion",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2.1 Personalized Text-to-Video with Dreambooth",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5 . Conclusions",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "A . Linked Videos",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "B . Broader Impact and Limitations",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "C . Related Work",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "D . Using Video LDM ``Convolutional in Time'' and ``Convolutional in Space''",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "E . Datasets",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "E.1 . Real Driving Scene (RDS) Video",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "E.2 . WebVid-10M",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "E.3 . Mountain Bike",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "F . Architecture, Training and Sampling Details",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "F.1 . Description of Hyperparameters",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "G . Quantitative Evaluation",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "H . Experiment Details",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "H.1 . Details: High-Resolution Driving Video Synthesis\u2014sec:drivingexp",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "H.2 . Details: Text-to-Video with Stable Diffusion\u2014sec:text-to-video",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "H.2.1 Number of Model Parameters",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "H.3 . Details: Personalized Text-to-Video with Dreambooth\u2014sec:dreambooth",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "I . Additional Results",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "I.1 . Text-to-Video",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "I.1.1 Video-Finetuning of our Decoders",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "I.1.2 More Samples",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "I.1.3 Personalized Text-to-Video with DreamBooth",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "I.2 . Mountain Biking Video Synthesis",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "I.2.1 Video-Finetuning of our Decoders",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "I.3 . Driving Video Synthesis",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "I.3.1 Ablation on Additional Image Discriminator for Decoder Fine-Tuning",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "I.3.2 Ablation on Image-level Quality Degradation after Temporal Video Fine-Tuning",
+            "level": 2,
+            "page": 27
+        }
+    ],
+    "pages": 44,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 15,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 3,
+            "equations": 11
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Align your Latents:\nHigh-Resolution Video Synthesis with Latent Diffusion Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction\n\n![1_image_0.png](1_image_0.png)\n\n",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2. Background",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3. Latent Video Diffusion Models",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1. Turning Latent Image into Video Generators",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.1.1 Temporal Autoencoder Finetuning",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2. Prediction Models for Long-Term Generation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3. Temporal Interpolation for High Frame Rates",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4. Temporal Fine-tuning of SR Models",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4. Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1. High-Resolution Driving Video Synthesis",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.1.1 Ablation Studies",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.1.2 Driving Scenario Simulation",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.2. Text-to-Video with Stable Diffusion",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2.1 Personalized Text-to-Video with Dreambooth",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5. Conclusions",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A. Linked Videos",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "B. Broader Impact and Limitations",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "C. Related Work",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "D. Using Video LDM \"Convolutional in Time\" and \"Convolutional in Space\"",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "E. Datasets",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "E.1. Real Driving Scene (RDS) Video",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "E.2. WebVid-10M",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "E.3. Mountain Bike",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "F. Architecture, Training and Sampling Details",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "F.1. Description of Hyperparameters",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "G. Quantitative Evaluation",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "H. Experiment Details",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "H.1. Details: High-Resolution Driving Video Synthesis\u2014Sec. 4.1",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "H.2. Details: Text-to-Video with Stable Diffusion\u2014Sec. 4.2",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "H.2.1 Number of Model Parameters",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "H.3. Details: Personalized Text-to-Video with Dreambooth\u2014Sec. 4.2.1",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "I. Additional Results",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "I.1. Text-to-Video",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "I.1.1 Video-Finetuning of our Decoders",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "I.1.2 More Samples",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "I.1.3 Personalized Text-to-Video with DreamBooth",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "I.2. Mountain Biking Video Synthesis",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "I.2.1 Video-Finetuning of our Decoders",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "I.3. Driving Video Synthesis",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "I.3.1 Ablation on Additional Image Discriminator for Decoder Fine-Tuning",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "I.3.2 Ablation on Image-level Quality Degradation after Temporal Video Fine-Tuning",
+            "level": 4,
+            "page": 27
+        }
+    ]
+}

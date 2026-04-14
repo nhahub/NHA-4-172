@@ -1,0 +1,122 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Experiment",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Fine-tuning Procedure",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Benchmark Descriptions",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.3 Evaluation Scenario",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Results",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "4 Zero-shot Case Study",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5  Conclusion and Future Work",
+            "level": 0,
+            "page": 5
+        }
+    ],
+    "pages": 7,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "PMC-LLaMA: Further Finetuning LLaMA\non Medical Papers",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Experiment",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Fine-tuning Procedure",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Benchmark Descriptions",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.3 Evaluation Scenario",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 Results",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Zero-shot Case Study\n4",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5 Conclusion and Future Work",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 5
+        }
+    ]
+}

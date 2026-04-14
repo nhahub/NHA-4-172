@@ -1,0 +1,342 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Preliminaries",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Guardedness",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Statistical Parity",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Theoretical Results",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Equality of Class Centroids Implies Linear Guardedness",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Linear Guardedness Implies Equality of Class Centroids",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Linearly Guarded Labels Have Zero Covariance with the Features",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Linear Guardedness is Equivalent to Linear Statistical Parity",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Least-Squares Concept Erasure",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Derivation of LEACE",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Oblique Projections are Least-Squares Optimal",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Connection with Canonical Correlation Analysis",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Extension to Continuous Z",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Intrinsic Evaluation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Downstream Fairness",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Revisiting Amnesic Probing",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Concept Scrubbing",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Experimental details",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Results",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Limitations and Future Work",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Additional Related Work",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Equivalence of Guardedness with the Optimality of Constant Predictors",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Implications for Prior Work",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Hilbert Space Derivation of LEACE",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "The Optimality of Oblique Projections",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "Equivalence of Guardedness Definitions",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "Notation Key",
+            "level": 0,
+            "page": 21
+        }
+    ],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 57,
+            "unsuccessful_ocr": 8,
+            "equations": 65
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LEACE: Perfect linear concept erasure in closed form",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Preliminaries",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Guardedness",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Statistical Parity",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3 Theoretical Results",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Equality of Class Centroids Implies Linear Guardedness",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Linear Guardedness Implies Equality of Class Centroids",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Linearly Guarded Labels Have Zero Covariance with the Features",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.4 Linear Guardedness is Equivalent to Linear Statistical Parity",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Least-Squares Concept Erasure",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Derivation of LEACE",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 Oblique Projections are Least-Squares Optimal",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3 Connection with Canonical Correlation Analysis",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.4 Extension to Continuous Z",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 Evaluation",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5.1 Intrinsic Evaluation",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.2 Downstream Fairness",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.3 Revisiting Amnesic Probing",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "6 Concept Scrubbing",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "6.1 Experimental details",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "6.2 Results",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "7 Limitations and Future Work",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "8 Acknowledgements",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A Additional Related Work",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "B Equivalence of Guardedness with the Optimality of Constant Predictors",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "C Implications for Prior Work",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "D Hilbert Space Derivation of LEACE",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "E The Optimality of Oblique Projections",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "F Equivalence of Guardedness Definitions",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "G Notation Key",
+            "level": 2,
+            "page": 21
+        }
+    ]
+}

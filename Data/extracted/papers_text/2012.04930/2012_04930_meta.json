@@ -1,0 +1,101 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 6,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Paraphrasing with Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "3 Methodology",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "3.1 Large Language Model training",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "3.2 Fine-tuning for Task",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.3 Candidate Generation and Selection",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.4 Datasets",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "5 Results and Scoring",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "6 Discussion",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "7 Future Work",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 4
+        }
+    ]
+}

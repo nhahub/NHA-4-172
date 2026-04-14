@@ -1,0 +1,502 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Challenges",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Unfathomable Datasets",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Tokenizer-Reliance",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "High Pre-Training Costs",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Fine-Tuning Overhead",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "High Inference Latency",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Limited Context Length",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Prompt Brittleness",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Hallucinations",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Misaligned Behavior",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Outdated Knowledge",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Brittle Evaluations",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Evaluations Based on Static, Human-Written Ground Truth",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Indistinguishability between Generated and Human-Written Text",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Tasks Not Solvable By Scale",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Lacking Experimental Designs",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Lack of Reproducibility",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "Applications",
+            "level": 0,
+            "page": 33
+        },
+        {
+            "title": "Chatbots",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "Computational Biology",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "Computer Programming",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "Creative Work",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "Knowledge Work",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "Law",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Medicine",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "Reasoning",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "Robotics and Embodied Agents",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "Social Sciences & Psychology",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "Synthetic Data Generation",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 48
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 48
+        }
+    ],
+    "pages": 72,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 7,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Contents",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction 1",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Challenges and Applications of Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Challenges",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Unfathomable Datasets",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Tokenizer-Reliance",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.3 High Pre-Training Costs",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "2.4 Fine-Tuning Overhead",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "o Full Matrix Multiplications",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "2.5 High Inference Latency",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "o High Inference Latency [431, 605]",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "2.5.1 Software",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "2.6 Limited Context Length",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "2.7 Prompt Brittleness",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "2.8 Hallucinations",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "o Hallucination [293, 458, 241]",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "2.9 Misaligned Behavior",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "o Misaligned Behavior",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "2.10 Outdated Knowledge",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "2.11 Brittle Evaluations",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "2.12 Evaluations Based on Static,\nHuman-Written Ground Truth",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "o Reliance on Static, Human-Written",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Ground Truth",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "2.13 Indistinguishability between Generated\nand Human-Written Text",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "o Detecting LLM-generated Text\n\n![28_image_0.png](28_image_0.png)\n\n",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "o Paraphrasing Attacks",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "2.14 Tasks Not Solvable By Scale",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "o Tasks Not Solvable By Scale",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "2.15 Lacking Experimental Designs",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "o Curse of (Design) Dimensionality\n\n![32_image_0.png](32_image_0.png)\n\n",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "2.16 Lack of Reproducibility",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "o Irreproducible API Inference\n\n![33_image_0.png](33_image_0.png)\n\n\n\n![33_image_1.png](33_image_1.png)\n\n",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "3 Applications",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "3.1 Chatbots",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "3.2 Computational Biology",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "3.2.1 Protein Embeddings",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "o Transfer to Downstream Applications",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "3.2.2 Genomic Analysis",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "3.3 Computer Programming",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "3.3.1 Code Generation",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "3.3.2 Code Infilling and Generation",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "3.4 Creative Work",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "3.5 Knowledge Work",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "o Numerical Reasoning [436, 49]",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "3.6 Law",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "3.6.1 Legal Question Answering and\nComprehension",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "3.6.2 Case Prediction and Legal Text\nGeneration",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "3.7 Medicine",
+            "level": 3,
+            "page": 42
+        },
+        {
+            "title": "3.7.1 Medical Question Answering and\nComprehension",
+            "level": 4,
+            "page": 42
+        },
+        {
+            "title": "3.7.2 Medical Information Retrieval",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "3.8 Reasoning",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "3.9 Robotics and Embodied Agents",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "3.10 Social Sciences & Psychology",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "3.10.1 Modeling Human Behavior",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "3.10.2 Analyzing Behavioral Characteristics\nof LLMs",
+            "level": 3,
+            "page": 46
+        },
+        {
+            "title": "3.10.3 Simulating Social Relationships",
+            "level": 3,
+            "page": 47
+        },
+        {
+            "title": "3.11 Synthetic Data Generation",
+            "level": 3,
+            "page": 47
+        },
+        {
+            "title": "4 Related Work",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 49
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 49
+        }
+    ]
+}

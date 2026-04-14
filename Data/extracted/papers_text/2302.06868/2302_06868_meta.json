@@ -1,0 +1,111 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 7,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 0,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SwitchPrompt: Learning Domain-Specific Gated Soft Prompts\nfor Classification in Low-Resource Domains",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Method",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.1 Domain-Specific Soft Prompts",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2 Prompting Architecture",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4.1 Datasets",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.2 Training Details",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.3 Baselines",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.4 Results",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5 Analysis",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Limitation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 5
+        }
+    ]
+}

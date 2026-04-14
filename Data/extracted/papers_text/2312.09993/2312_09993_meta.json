@@ -1,0 +1,142 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Language Adaptation Approaches",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Adaptation Pipeline",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "3.1 LLaMAntino 2-Chat Models",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.2 LLaMAntino-2 Models",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "3.3 Released Models",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4 Discussion",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 12
+        }
+    ],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 2,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LLaMAntino: LLaMA 2 Models for Effective Text Generation in Italian Language",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 LANGUAGE ADAPTATION APPROACHES",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 ADAPTATION PIPELINE",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.1 LLaMAntino 2-Chat Models",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.2 LLaMAntino-2 Models",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "3.3 Released Models",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4 DISCUSSION",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "5 CONCLUSION",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 12
+        }
+    ]
+}

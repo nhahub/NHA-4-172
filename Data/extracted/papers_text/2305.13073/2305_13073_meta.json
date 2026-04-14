@@ -1,0 +1,151 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Text-to-SQL Error Correction with Language Models of Code",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Text-to-SQL Error Correction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Query Representation",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Edit Representation",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3 Experimental Setup",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 Data Synthesis for SQL Error Correction",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2 Models",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Evaluation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Results and Analysis",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Main Results",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.2 Error Analysis",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5 Related Work",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "6 Conclusion and Future Work",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Limitations",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Appendices",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A SQL PyDict Representation",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "B Text-to-SQL Parser Selection",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "C Implementation Details",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "D Statistical Significance Test",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "E Additional Results",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "F More Representation Examples",
+            "level": 2,
+            "page": 10
+        }
+    ]
+}

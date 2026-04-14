@@ -1,0 +1,347 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Large-scale Pre-trained Models",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Knowledge Enhanced Models",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 ERNIE 3.0",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview of ERNIE 3.0 Framework",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1.1 Universal Representation Module",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1.2 Task-specific Representation Module",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 Pre-training Tasks",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.2.1 Word-aware Pre-training Tasks",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2.2 Structure-aware Pre-training Tasks",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2.3 Knowledge-aware Pre-training Tasks",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.3 Pre-training Process",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.3.1 Pre-training Algorithm",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.3.2 Pre-training Data",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.3.3 Pre-training Settings",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "4.1 Evaluation Tasks",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.1.1 Natural Language Understanding Tasks",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1.2 Natural Language Generation Tasks",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.2 Experiments on Fine-tuning Tasks",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.2.1 Fine-tuning on Natural Language Understanding Tasks",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.2.2 Fine-tuning on Natural Language Generation Tasks",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.2.3 LUGE benchmark",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "4.3 Experiments on Zero-shot Learning",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4.3.1 Evaluation",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "4.3.2 Results",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "4.3.3 Case Study",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.4 Experiments on SuperGLUE",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "5 Analysis",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 16
+        }
+    ],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 11,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ERNIE 3.0: LARGE-SCALE KNOWLEDGE ENHANCED\nPRE-TRAINING FOR LANGUAGE UNDERSTANDING AND\nGENERATION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Large-scale Pre-trained Models",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Knowledge Enhanced Models",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 ERNIE 3.0\n\n![2_image_0.png](2_image_0.png)\n\n",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview of ERNIE 3.0 Framework",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.1.1 Universal Representation Module",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.1.2 Task-specific Representation Module",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Pre-training Tasks",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2.1 Word-aware Pre-training Tasks",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2.2 Structure-aware Pre-training Tasks",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2.3 Knowledge-aware Pre-training Tasks",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3 Pre-training Process",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3.1 Pre-training Algorithm",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3.2 Pre-training Data",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3.3 Pre-training Settings",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.1 Evaluation Tasks",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.1.1 Natural Language Understanding Tasks",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.1.2 Natural Language Generation Tasks",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2 Experiments on Fine-tuning Tasks",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2.2 Fine-tuning on Natural Language Generation Tasks",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.2.3 LUGE benchmark",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.3 Experiments on Zero-shot Learning",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.3.1 Evaluation",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.3.2 Results",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.3.3 Case Study",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.4 Experiments on SuperGLUE",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "5 Analysis",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 16
+        }
+    ]
+}

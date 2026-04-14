@@ -1,0 +1,272 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "I Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "II General History of Quantization",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "II-A Quantization in Neural Nets",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "III Basic Concepts of Quantization",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "III-A Problem Setup and Notations",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "III-B Uniform Quantization",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "III-C Symmetric and Asymmetric Quantization",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "III-D Range Calibration Algorithms: Static vs Dynamic Quantization",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "III-E Quantization Granularity",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "III-F Non-Uniform Quantization",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "III-G Fine-tuning Methods",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "III-G1 Quantization-Aware Training",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "III-G2 Post-Training Quantization",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "III-G3 Zero-shot Quantization",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "III-H Stochastic Quantization",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "IV Advanced Concepts: Quantization Below 8 bits",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "IV-A Simulated and Integer-only Quantization",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "IV-B Mixed-Precision Quantization",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "IV-C Hardware Aware Quantization",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "IV-D Distillation-Assisted Quantization",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "IV-E Extreme Quantization",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "IV-F Vector Quantization",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "V Quantization and Hardware Processors",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "VI Future Directions for Research in Quantization",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "VII Summary and Conclusions",
+            "level": 0,
+            "page": 17
+        }
+    ],
+    "pages": 33,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 24,
+            "unsuccessful_ocr": 0,
+            "equations": 24
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A Survey of Quantization Methods for Efficient\nNeural Network Inference",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "I. INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "II. GENERAL HISTORY OF QUANTIZATION",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "A. Quantization in Neural Nets",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "III. BASIC CONCEPTS OF QUANTIZATION",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "A. Problem Setup and Notations",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "B. Uniform Quantization",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "D. Range Calibration Algorithms: Static vs Dynamic",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "E. Quantization Granularity",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "F. Non-Uniform Quantization",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "G. Fine-tuning Methods",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "H. Stochastic Quantization",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "IV. ADVANCED CONCEPTS: QUANTIZATION BELOW 8\nBITS",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "A. Simulated and Integer-only Quantization",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "B. Mixed-Precision Quantization",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "C. Hardware Aware Quantization",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "D. Distillation-Assisted Quantization",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "E. Extreme Quantization",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "F. Vector Quantization",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "V. QUANTIZATION AND HARDWARE PROCESSORS",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "VI. FUTURE DIRECTIONS FOR RESEARCH IN\nQUANTIZATION",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "VII. SUMMARY AND CONCLUSIONS",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 18
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "HyperDreamBooth: HyperNetworks for Fast\nPersonalization of Text-to-Image Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Preliminaries",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 Method",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 Lightweight DreamBooth (LiDB)",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 HyperNetwork for Fast Personalization of Text-to-Image Models",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Rank-Relaxed Fast Finetuning",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Experiments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Subject Personalization Results",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2 Comparisons",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6 Societal Impact",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        }
+    ]
+}

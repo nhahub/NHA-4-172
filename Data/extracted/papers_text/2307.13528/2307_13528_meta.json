@@ -1,0 +1,166 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 25,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 47,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "FACTOOL: Factuality Detection in Generative AI\nA Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Revisiting Factuality in Generative AI",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Definition",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Instantiations in Different Scenarios",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "4 Approach",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 Claim Extraction",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Query Generation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.3 Tool Querying & Evidence Collection",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.4 Agreement Verification",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5 Dataset Construction",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Prompt and Response Collection",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2 Claim Collection",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.3 Claim and Response Annotation",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6 Experiments",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6.1 Exp-I: Claim Extraction Evaluation",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.2 Exp-II: Framework Evaluation",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.2.1 Result",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.2.2 Performance Analysis",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "6.2.3 Failure Analysis",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "6.3 Exp-III: Using FACTOOL to Evaluate the\nFactuality of Modern Chatbots",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A Prompts",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B Example cases of FACTOOL",
+            "level": 2,
+            "page": 18
+        }
+    ]
+}

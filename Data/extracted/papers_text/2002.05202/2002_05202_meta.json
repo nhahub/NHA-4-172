@@ -1,0 +1,112 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Gated Linear Units (GLU) and Variants",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "3 Experiments on Text-to-Text Transfer Transformer (T5)",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3.1 Model Architecture",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.2 Pre-Training and Perplexity Results",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.3 Fine-Tuning",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4 Conclusions",
+            "level": 0,
+            "page": 2
+        }
+    ],
+    "pages": 5,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 11,
+            "unsuccessful_ocr": 2,
+            "equations": 13
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "GLU Variants Improve Transformer",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Gated Linear Units (GLU) and Variants",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "3 Experiments on Text-to-Text Transfer Transformer (T5)",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.1 Model Architecture",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2 Pre-Training and Perplexity Results",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Fine-Tuning",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Conclusions",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 3
+        }
+    ]
+}

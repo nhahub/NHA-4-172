@@ -1,0 +1,96 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 2,
+            "equations": 9
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Segment Everything Everywhere All at Once",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Method",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.1 Model Design",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "Pv = VisualSampler(s, Z\u02c6) (4)",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 Model Pipeline and Loss Functions",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.1 Main Results",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.2 Ablation Study",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.3 Qualitative Results",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 4,
+            "page": 9
+        }
+    ]
+}

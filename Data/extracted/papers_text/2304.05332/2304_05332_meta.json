@@ -1,0 +1,206 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 48,
+    "ocr_stats": {
+        "ocr_pages": 3,
+        "ocr_failed": 0,
+        "ocr_success": 3,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 44,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Emergent autonomous scientific research\ncapabilities of large language models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Keywords",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Glossary",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Main",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "The Agent's architecture: action space defined by its multiple modules.",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "Web search enables Agent's synthesis planning capabilities.",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "Vector search can be employed for retrieval of dense hardware API",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "documentation.",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "Mastering automation: multi-instrument systems\ncontrolled by natural language.",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "Bringing it all together: the Agent's integrated chemical experiment design \nand execution capabilities.",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "The Agent has high reasoning capabilities.",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "The Agent shows interesting approach to key scientific problems.",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "Safety implications of the developed approach.",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "Conclusions",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "Limitations, Safety Recommendations, and a Call to Action",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "Broader Impacts",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "Acknowledgments ",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "Funding",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Data availability",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Competing interests",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Author contributions",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Technology use disclosure",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "References and Notes",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "Glossary for Appendices",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "Appendix A: Synthesis of ibuprofen",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "Second Google search expanded",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "Appendix B: Synthesis of aspirin",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "Appendix C: Synthesis of aspartame",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "Appendix D: Suzuki reaction mechanism study",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "Appendix E: Novel anticancer drug synthesis",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "Important Disclaimer and Warning",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "Appendix G: ECL \u2014 Prompt-to-Function",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "System Prompt: ",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "Function Guide: ",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "Appendix H: Solving the colors problem",
+            "level": 4,
+            "page": 44
+        }
+    ]
+}

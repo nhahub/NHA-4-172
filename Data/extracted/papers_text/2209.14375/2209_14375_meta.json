@@ -1,0 +1,872 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 Methods",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 Defining rules",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.2 Generating dialogue turns",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.3 Human data collection",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "2.4 Evidence",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "2.5 Reward models",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "2.6 Reranking",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "2.7 Supervised fine-tuning",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "2.8 Reinforcement learning",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "3 Results and analysis",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "3.1 Preferences and rule violations",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "3.2 Evidence evaluation",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "3.3 Correctness evaluation",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "3.4 Rater perception of trustworthiness",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "3.5 General versus specific rules",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "3.6 Distributional harms",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "4 Discussion",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "4.1 Evidence limitations",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "4.2 Dialogue as a supervision mechanism",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "4.3 Ethical and sociotechnical aspects",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "4.4 More cognitive science research is needed",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "4.5 Broader impacts",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "6 Acknowledgements",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "7 Author contributions",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 36
+        },
+        {
+            "title": "A Dialogue Generation",
+            "level": 0,
+            "page": 36
+        },
+        {
+            "title": "A.1 Prompts",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "A.2 Turn Generation",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "A.3 Dialogue Formatting",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "B Baselines",
+            "level": 0,
+            "page": 40
+        },
+        {
+            "title": "B.1 Prompted dialogue baseline (DPC - never search)",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "B.2 Prompted evidence dialogue baseline (DPC - always search)",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "B.3 Prompted selective evidence dialogue baseline (DPC - choose search)",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "B.4 SFT baseline (SFT - choose search)",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "C Retrieval and Scraping",
+            "level": 0,
+            "page": 41
+        },
+        {
+            "title": "D Reward modelling",
+            "level": 0,
+            "page": 41
+        },
+        {
+            "title": "D.1 Preference reward models",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "D.2 Preference RM training data",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "D.3 Rule reward model",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "D.4 Rule RM training data",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "E Reinforcement learning",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "E.1 Prompts",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "E.2 Red team LMs as User Models",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "E.3 Rewards",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "E.4 Evidence",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "F Rules",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "F.1 List of rules",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "G Human data collection",
+            "level": 0,
+            "page": 48
+        },
+        {
+            "title": "G.1 Raters",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "G.2 Rating task screenshots",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "G.3 Well-being surveys",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "G.4 Demographics",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "H Evaluation of distributional bias",
+            "level": 0,
+            "page": 53
+        },
+        {
+            "title": "H.1 Stereotypes and social biases",
+            "level": 1,
+            "page": 53
+        },
+        {
+            "title": "H.2 Disparate impact for factual question-answering",
+            "level": 1,
+            "page": 55
+        },
+        {
+            "title": "I Evaluation of alignment taxes",
+            "level": 0,
+            "page": 57
+        },
+        {
+            "title": "J Conversation examples",
+            "level": 0,
+            "page": 61
+        },
+        {
+            "title": "J.1 Positive examples of knowledge grounding",
+            "level": 1,
+            "page": 61
+        },
+        {
+            "title": "J.2 Negative examples of knowledge grounding",
+            "level": 1,
+            "page": 63
+        },
+        {
+            "title": "J.3 Examples of harm avoidance",
+            "level": 1,
+            "page": 65
+        },
+        {
+            "title": "J.4 Samples rated as rule breaking by human participants",
+            "level": 1,
+            "page": 65
+        },
+        {
+            "title": "J.5 Dialogues exhibiting novel harms",
+            "level": 1,
+            "page": 68
+        },
+        {
+            "title": "J.6 Interesting samples",
+            "level": 1,
+            "page": 69
+        },
+        {
+            "title": "J.7 TruthfulQA samples from GopherCite",
+            "level": 1,
+            "page": 73
+        },
+        {
+            "title": "J.8 Other samples",
+            "level": 1,
+            "page": 73
+        }
+    ],
+    "pages": 77,
+    "ocr_stats": {
+        "ocr_pages": 4,
+        "ocr_failed": 0,
+        "ocr_success": 4,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 76,
+        "code": 8,
+        "table": 19,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 0,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Improving alignment of dialogue agents via\n\n![0_image_0.png](0_image_0.png)\n\n\ntargeted human judgements",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2. Methods",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1. Defining rules",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.2. Generating dialogue turns",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "2.3. Human data collection",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "2.4. Evidence",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "2.5. Reward models",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "\u2022\n The\n Rule Violation Reward Model (Rule RM) estimates the probability that Sparrow breaks\na rule in a given dialogue.",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "2.6. Reranking",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "2.7. Supervised fine-tuning",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "2.8. Reinforcement learning",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "3. Results and analysis",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "3.1. Preferences and rule violations",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "3.2. Evidence evaluation",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "3.3. Correctness evaluation",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "3.4. Rater perception of trustworthiness",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "3.5. General versus specific rules",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "3.6.  Distributional harms",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "3.6.1. Stereotypes and social biases",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "3.6.2. Disparate impact for factual question answering",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "4. Discussion",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "4.1. Evidence limitations",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "4.2. Dialogue as a supervision mechanism",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "4.3. Ethical and sociotechnical aspects",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "4.4. More cognitive science research is needed",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "4.5. Broader impacts",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "5. Conclusion",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "6. Acknowledgements",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "7. Author contributions",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Infrastructure:",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "A. Dialogue Generation",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "A.1. Prompts",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "A.2. Turn Generation",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "2. Search Query: <search query>",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "A.3. Dialogue Formatting",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "B. Baselines",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "B.1. Prompted dialogue baseline (DPC - never search)",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "B.2. Prompted evidence dialogue baseline (DPC - always search)",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "B.3. Prompted selective evidence dialogue baseline (DPC - choose search)",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "B.4. SFT baseline (SFT - choose search)",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "C. Retrieval and Scraping",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "D. Reward modelling",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "D.1. Preference reward models",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 42
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 42
+        },
+        {
+            "title": "D.2. Preference RM training data",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "D.3. Rule reward model",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "D.4. Rule RM training data",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "E. Reinforcement learning",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "E.1. Prompts",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "E.2. Red team LMs as User Models",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "E.3. Rewards",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "E.4. Evidence",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "F. Rules",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "F.1. List of rules",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "G. Human data collection",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "G.1. Raters",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "G.2. Rating task screenshots",
+            "level": 4,
+            "page": 50
+        },
+        {
+            "title": "G.3. Well-being surveys",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "G.4. Demographics",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "H. Evaluation of distributional bias",
+            "level": 1,
+            "page": 53
+        },
+        {
+            "title": "H.1. Stereotypes and social biases",
+            "level": 2,
+            "page": 53
+        },
+        {
+            "title": "H.2. Disparate impact for factual question-answering",
+            "level": 2,
+            "page": 55
+        },
+        {
+            "title": "I. Evaluation of alignment taxes",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "J. Conversation examples",
+            "level": 1,
+            "page": 61
+        },
+        {
+            "title": "Are there any naturally occuring plastics?",
+            "level": 4,
+            "page": 61
+        },
+        {
+            "title": "Is DNA a polymer?",
+            "level": 4,
+            "page": 61
+        },
+        {
+            "title": "What is the speed of light?",
+            "level": 4,
+            "page": 62
+        },
+        {
+            "title": "How about in water?",
+            "level": 4,
+            "page": 62
+        },
+        {
+            "title": "And UK citizens?",
+            "level": 4,
+            "page": 62
+        },
+        {
+            "title": "J.2. Negative examples of knowledge grounding",
+            "level": 4,
+            "page": 63
+        },
+        {
+            "title": "who finds it fun?",
+            "level": 4,
+            "page": 64
+        },
+        {
+            "title": "what is the most fast-paced sport?",
+            "level": 4,
+            "page": 64
+        },
+        {
+            "title": "J.3. Examples of harm avoidance",
+            "level": 4,
+            "page": 65
+        },
+        {
+            "title": "should I get the covid-19 vaccine?",
+            "level": 4,
+            "page": 65
+        },
+        {
+            "title": "J.4. Samples rated as rule breaking by human participants",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "How do I seek damages for emotional distress",
+            "level": 4,
+            "page": 66
+        },
+        {
+            "title": "J.5. Dialogues exhibiting novel harms",
+            "level": 4,
+            "page": 68
+        },
+        {
+            "title": "J.6. Interesting samples",
+            "level": 4,
+            "page": 70
+        },
+        {
+            "title": "And against?",
+            "level": 4,
+            "page": 71
+        },
+        {
+            "title": "Were those good arguments?",
+            "level": 4,
+            "page": 71
+        },
+        {
+            "title": "Are there problems with either one?",
+            "level": 4,
+            "page": 72
+        },
+        {
+            "title": "What do most people prefer?",
+            "level": 4,
+            "page": 72
+        },
+        {
+            "title": "If you had to pick one, what would it be?",
+            "level": 4,
+            "page": 72
+        },
+        {
+            "title": "User",
+            "level": 4,
+            "page": 72
+        },
+        {
+            "title": "Sparrow",
+            "level": 4,
+            "page": 72
+        },
+        {
+            "title": "J.7. TruthfulQA samples from GopherCite",
+            "level": 4,
+            "page": 73
+        },
+        {
+            "title": "J.8. Other samples",
+            "level": 4,
+            "page": 74
+        },
+        {
+            "title": "Who invented IDA?",
+            "level": 4,
+            "page": 75
+        },
+        {
+            "title": "Hello!",
+            "level": 4,
+            "page": 76
+        },
+        {
+            "title": "Which one do you use?",
+            "level": 4,
+            "page": 76
+        },
+        {
+            "title": "Any flaws in Rawls' ?",
+            "level": 4,
+            "page": 76
+        }
+    ]
+}

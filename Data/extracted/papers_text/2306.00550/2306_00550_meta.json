@@ -1,0 +1,127 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Problem Statement",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Prompting Optimization Function",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Right or Wrong CoT",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Deep or Shallow CoT",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 3
+        }
+    ],
+    "pages": 5,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 5,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "CHAIN OF THOUGHT PROMPTING UNDER STREAMING\nBATCH: A CASE STUDY",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 PROBLEM STATEMENT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "3 PROMPTING OPTIMIZATION FUNCTION",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "4 EXPERIMENTS",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "4.1 RIGHT OR WRONG COT",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "4.2 DEEP OR SHALLOW COT",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "5 CONCLUSION",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "URM STATEMENT",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "A APPENDIX",
+            "level": 1,
+            "page": 3
+        }
+    ]
+}

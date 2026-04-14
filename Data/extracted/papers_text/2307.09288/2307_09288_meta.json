@@ -1,0 +1,512 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Pretraining",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Pretraining Data",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Training Details",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Llama 2 Pretrained Model Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Fine-tuning",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Supervised Fine-Tuning (SFT)",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Reinforcement Learning with Human Feedback (RLHF)",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "System Message for Multi-Turn Consistency",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "RLHF Results",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Safety",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "Safety in Pretraining",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Safety Fine-Tuning",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Red Teaming",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Safety Evaluation of Llama 2-Chat",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 31
+        },
+        {
+            "title": "Learnings and Observations",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "Limitations and Ethical Considerations",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "Responsible Release Strategy",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 34
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 35
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "Contributions",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "Additional Details for Pretraining",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "Additional Details for Fine-tuning",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "Additional Details for Safety",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "Data Annotation",
+            "level": 1,
+            "page": 71
+        },
+        {
+            "title": "Dataset Contamination",
+            "level": 1,
+            "page": 74
+        },
+        {
+            "title": "Model Card",
+            "level": 1,
+            "page": 76
+        }
+    ],
+    "pages": 77,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 54,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 0,
+            "equations": 6
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "GenAI, Meta",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Contents",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2 Pretraining",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.1 Pretraining Data",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.2 Training Details",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "2.2.1 Training Hardware & Carbon Footprint",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "2.3 Llama 2 Pretrained Model Evaluation",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3 Fine-tuning",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.1 Supervised Fine-Tuning (SFT)",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "3.2 Reinforcement Learning with Human Feedback (RLHF)",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "3.2.1 Human Preference Data Collection",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "3.2.2 Reward Modeling",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "3.2.3 Iterative Fine-Tuning",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "3.3 System Message for Multi-Turn Consistency",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "3.4 RLHF Results",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "3.4.1 Model-Based Evaluation",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "3.4.2 Human Evaluation",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "4 Safety",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "4.1 Safety in Pretraining",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "4.2 Safety Fine-Tuning",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "4.2.1 Safety Categories and Annotation Guidelines",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "4.2.2 Safety Supervised Fine-Tuning",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "4.2.3 Safety RLHF",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "4.2.4 Context Distillation for Safety",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "4.3 Red Teaming",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "4.4 Safety Evaluation of Llama 2-Chat",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "\u2022 1 - Severe safety violations",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "5 Discussion",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "5.1 Learnings and Observations",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "5.2 Limitations and Ethical Considerations",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "5.3 Responsible Release Strategy",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "6 Related Work",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "A.1 Contributions",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "A.1.1 Acknowledgments",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "A.2 Additional Details for Pretraining",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "A.2.1 Architecture Changes Compared to Llama 1",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "A.2.2 Additional Details for Pretrained Models Evaluation",
+            "level": 3,
+            "page": 47
+        },
+        {
+            "title": "A.3 Additional Details for Fine-tuning",
+            "level": 3,
+            "page": 50
+        },
+        {
+            "title": "A.3.1 Detailed Statistics of Meta Human Preference Data",
+            "level": 3,
+            "page": 50
+        },
+        {
+            "title": "A.3.2 Curriculum Strategy for Meta Human Preference Data",
+            "level": 3,
+            "page": 50
+        },
+        {
+            "title": "A.3.3 Ablation on Ranking Loss with Preference Rating-based Margin for Reward Modeling",
+            "level": 3,
+            "page": 50
+        },
+        {
+            "title": "A.3.4 Ablation on Ranking Loss with Safety Auxiliary Loss for Reward Modeling",
+            "level": 3,
+            "page": 51
+        },
+        {
+            "title": "A.3.5 Additional Results for GAtt",
+            "level": 3,
+            "page": 52
+        },
+        {
+            "title": "A.3.6 How Far Can Model-Based Evaluation Go?",
+            "level": 3,
+            "page": 53
+        },
+        {
+            "title": "A.3.7 Human Evaluation",
+            "level": 3,
+            "page": 55
+        },
+        {
+            "title": "A.4 Additional Details for Safety",
+            "level": 3,
+            "page": 57
+        },
+        {
+            "title": "A.4.1 Tension between Safety and Helpfulness in Reward Modeling",
+            "level": 3,
+            "page": 57
+        },
+        {
+            "title": "A.4.2 Qualitative Results on Safety Data Scaling",
+            "level": 3,
+            "page": 57
+        },
+        {
+            "title": "A.4.3 English Pronouns",
+            "level": 3,
+            "page": 57
+        },
+        {
+            "title": "A.4.4 Context Distillation Preprompts",
+            "level": 3,
+            "page": 59
+        },
+        {
+            "title": "A.4.5 Safety Errors: False Refusals and Vague Responses",
+            "level": 3,
+            "page": 59
+        },
+        {
+            "title": "CONTENT WARNING: potentially objectionable content",
+            "level": 3,
+            "page": 64
+        },
+        {
+            "title": "A.4.6 Examples of Safety Evaluation",
+            "level": 3,
+            "page": 65
+        },
+        {
+            "title": "A.4.7 Description of Automatic Safety Benchmarks",
+            "level": 3,
+            "page": 68
+        },
+        {
+            "title": "A.4.8 Automatic Safety Benchmark Evaluation Results",
+            "level": 3,
+            "page": 68
+        },
+        {
+            "title": "A.5 Data Annotation",
+            "level": 3,
+            "page": 71
+        },
+        {
+            "title": "A.5.1 SFT Annotation Instructions",
+            "level": 3,
+            "page": 71
+        },
+        {
+            "title": "A.5.2 Negative User Experience Categories",
+            "level": 3,
+            "page": 73
+        },
+        {
+            "title": "A.5.3 Quality Assurance Process",
+            "level": 3,
+            "page": 73
+        },
+        {
+            "title": "A.5.4 Annotator Selection",
+            "level": 3,
+            "page": 73
+        },
+        {
+            "title": "A.6 Dataset Contamination",
+            "level": 3,
+            "page": 74
+        },
+        {
+            "title": "A.7 Model Card",
+            "level": 3,
+            "page": 76
+        }
+    ]
+}

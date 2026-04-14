@@ -1,0 +1,732 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Large Language Models",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Existing Evaluation of LLMs",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.3 Language Models for Recommendation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Probing ChatGPT for Recommendation Capabilities",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Three Ranking Capabilities in Recommender Systems",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 Reformulate and Adapt Recommendation with Prompts",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4.1 Experimental Settings",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1.1 Datasets",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1.2 Evaluation Protocols",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.2 RQ1: Main Results",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.3 RQ2: Performance Scaling by Cost",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.4 RQ3: Performance of Zero-shot Prompts",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.5 RQ4: Performance Under Different Shots Examples",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.6 RQ5: Comparison with Collaborative Filtering Models",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.7 Case Study of Exceptions",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "A Example Results",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "A.1 text-davinci-002 with point-wise",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "A.1.1 Movie",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A.1.2 Book",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A.1.3 Music",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "A.1.4 News",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A.2 text-davinci-002 with pair-wise",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "A.2.1 Movie",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "A.2.2 Book",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "A.2.3 Music",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.2.4 News",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.3 text-davinci-002 with list-wise",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "A.3.1 Movie",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A.3.2 Book",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "A.3.3 Music",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "A.3.4 News",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "A.4 text-davinci-003 with point-wise",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "A.4.1 Movie",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "A.4.2 Book",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "A.4.3 Music",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "A.4.4 News",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "A.5 text-davinci-003 with pair-wise",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "A.5.1 Movie",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "A.5.2 Book",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "A.5.3 Music",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "A.5.4 News",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "A.6 text-davinci-003 with list-wise",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "A.6.1 Movie",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "A.6.2 Book",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "A.6.3 Music",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "A.6.4 News",
+            "level": 2,
+            "page": 51
+        },
+        {
+            "title": "A.7 gpt-3.5-turbo with point-wise",
+            "level": 1,
+            "page": 54
+        },
+        {
+            "title": "A.7.1 Movie",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "A.7.2 Book",
+            "level": 2,
+            "page": 55
+        },
+        {
+            "title": "A.7.3 Music",
+            "level": 2,
+            "page": 57
+        },
+        {
+            "title": "A.7.4 News",
+            "level": 2,
+            "page": 59
+        },
+        {
+            "title": "A.8 gpt-3.5-turbo with pair-wise",
+            "level": 1,
+            "page": 62
+        },
+        {
+            "title": "A.8.1 Movie",
+            "level": 2,
+            "page": 62
+        },
+        {
+            "title": "A.8.2 Book",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "A.8.3 Music",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "A.8.4 News",
+            "level": 2,
+            "page": 66
+        },
+        {
+            "title": "A.9 gpt-3.5-turbo with list-wise",
+            "level": 1,
+            "page": 68
+        },
+        {
+            "title": "A.9.1 Movie",
+            "level": 2,
+            "page": 68
+        },
+        {
+            "title": "A.9.2 Book",
+            "level": 2,
+            "page": 69
+        },
+        {
+            "title": "A.9.3 Music",
+            "level": 2,
+            "page": 71
+        },
+        {
+            "title": "A.9.4 News",
+            "level": 2,
+            "page": 72
+        },
+        {
+            "title": "B Qualitative Case Studies",
+            "level": 0,
+            "page": 76
+        }
+    ],
+    "pages": 78,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Uncovering ChatGPT's Capabilities in Recommender\nSystems",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Large Language Models",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Existing Evaluation of LLMs",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.3 Language Models for Recommendation",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 Probing ChatGPT for Recommendation Capabilities",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Three Ranking Capabilities in Recommender Systems",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Reformulate and Adapt Recommendation with Prompts",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 Experimental Settings",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.1.1 Datasets",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.1.2 Evaluation Protocols",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 RQ1: Main Results",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.3 RQ2: Performance Scaling by Cost",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.4 RQ3: Performance of Zero-shot Prompts",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.5 RQ4: Performance Under Different Shots Examples",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.6 RQ5: Comparison with Collaborative Filtering Models",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.7 Case Study of Exceptions",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Example Results",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A.1 text-davinci-002 with point-wise",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.1.1 Movie",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.1.2 Book",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "A.1.3 Music",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "A.1.4 News",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "A.2 text-davinci-002 with pair-wise",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "A.2.1 Movie",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "A.2.2 Book",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "A.2.3 Music",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "A.2.4 News",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "A.3 text-davinci-002 with list-wise",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "A.3.1 Movie",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "A.3.2 Book",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "A.3.3 Music",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "A.3.4 News",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "A.4 text-davinci-003 with point-wise",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "A.4.1 Movie",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "A.4.2 Book",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "\u2022 You are a book recommender system now.",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "A.4.3 Music",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "A.4.4 News",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "A.5 text-davinci-003 with pair-wise",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "A.5.1 Movie",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "A.5.2 Book",
+            "level": 4,
+            "page": 42
+        },
+        {
+            "title": "A.5.3 Music",
+            "level": 4,
+            "page": 44
+        },
+        {
+            "title": "A.5.4 News",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "A.6 text-davinci-003 with list-wise",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "A.6.1 Movie",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "\u2022 You are a movie recommender system now.",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "A.6.2 Book",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "A.6.3 Music",
+            "level": 4,
+            "page": 50
+        },
+        {
+            "title": "A.6.4 News",
+            "level": 4,
+            "page": 51
+        },
+        {
+            "title": "A.7 gpt-3.5-turbo with point-wise",
+            "level": 4,
+            "page": 54
+        },
+        {
+            "title": "A.7.1 Movie",
+            "level": 4,
+            "page": 54
+        },
+        {
+            "title": "A.7.2 Book",
+            "level": 4,
+            "page": 55
+        },
+        {
+            "title": "A.7.3 Music",
+            "level": 4,
+            "page": 57
+        },
+        {
+            "title": "A.7.4 News",
+            "level": 4,
+            "page": 59
+        },
+        {
+            "title": "\u2022 You are a news recommender system now.",
+            "level": 4,
+            "page": 61
+        },
+        {
+            "title": "\u2022 You are a news recommender system now.",
+            "level": 4,
+            "page": 61
+        },
+        {
+            "title": "A.8 gpt-3.5-turbo with pair-wise",
+            "level": 4,
+            "page": 62
+        },
+        {
+            "title": "A.8.1 Movie",
+            "level": 4,
+            "page": 62
+        },
+        {
+            "title": "A.8.2 Book",
+            "level": 4,
+            "page": 63
+        },
+        {
+            "title": "A.8.3 Music",
+            "level": 4,
+            "page": 65
+        },
+        {
+            "title": "A.8.4 News",
+            "level": 4,
+            "page": 66
+        },
+        {
+            "title": "A.9 gpt-3.5-turbo with list-wise",
+            "level": 4,
+            "page": 68
+        },
+        {
+            "title": "A.9.1 Movie",
+            "level": 4,
+            "page": 68
+        },
+        {
+            "title": "\u2022 You are a movie recommender system now.",
+            "level": 4,
+            "page": 69
+        },
+        {
+            "title": "A.9.2 Book",
+            "level": 4,
+            "page": 69
+        },
+        {
+            "title": "A.9.3 Music",
+            "level": 4,
+            "page": 71
+        },
+        {
+            "title": "A.9.4 News",
+            "level": 4,
+            "page": 72
+        },
+        {
+            "title": "B Qualitative Case Studies",
+            "level": 2,
+            "page": 76
+        },
+        {
+            "title": "\u2022 You are a book recommender system now.",
+            "level": 4,
+            "page": 76
+        }
+    ]
+}

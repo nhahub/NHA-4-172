@@ -1,0 +1,507 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 FLAN: Instruction Tuning Improves Zero-Shot Learning",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Tasks & Templates",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 Evaluation Splits",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3 Classification with Options",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.4 Training Details",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3 Results",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4 Ablation Studies & Further Analysis",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Number of instruction tuning clusters",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 Scaling laws",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.3 Role of instructions",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.4 Instructions with Few-Shot Exemplars",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.5 Instruction Tuning Facilitates Prompt Tuning",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Related Work",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "6 Discussion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusions",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "A Additional Results",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "B Further Ablation Studies and Analysis",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "B.1 Datasets per Task Cluster & Templates per Dataset",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "B.2 Role of instructions during finetuning",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "B.3 Further Analysis: Instruction Tuning Facilitates Prompt Tuning",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "C Data Contamination Analysis",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "D Extended Related Work",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "D.1 Language Models and Multi-task Learning",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "D.2 Zero-Shot Learning and Meta-Learning",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "D.3 Prompting",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "D.4 Finetuning Large Language Models",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "D.5 Multi-task Question Answering",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "D.6 Instructions-Based NLP",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "E Frequently Asked Questions",
+            "level": 0,
+            "page": 29
+        },
+        {
+            "title": "F Qualitative Examples",
+            "level": 0,
+            "page": 30
+        },
+        {
+            "title": "G Tasks and Datasets",
+            "level": 0,
+            "page": 35
+        },
+        {
+            "title": "G.1 Natural Language Inference",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "G.2 Reading Comprehension",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "G.3 Commonsense Reasoning",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "G.4 Closed-Book QA",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "G.5 Coreference Resolution",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "G.6 Reading Comprehension with Commonsense",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "G.7 Translation (7 languages)",
+            "level": 1,
+            "page": 45
+        }
+    ],
+    "pages": 46,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 46,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "FINETUNED LANGUAGE MODELS ARE ZERO-SHOT\nLEARNERS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 FLAN: INSTRUCTION TUNING IMPROVES ZERO-SHOT LEARNING",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 TASKS & TEMPLATES",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2 EVALUATION SPLITS",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.3 CLASSIFICATION WITH OPTIONS",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.4 TRAINING DETAILS",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3 RESULTS",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 ABLATION STUDIES & FURTHER ANALYSIS",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 NUMBER OF INSTRUCTION TUNING CLUSTERS",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.2 SCALING LAWS",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.3 ROLE OF INSTRUCTIONS",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.4 INSTRUCTIONS WITH FEW-SHOT EXEMPLARS",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.5 INSTRUCTION TUNING FACILITATES PROMPT TUNING",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5 RELATED WORK",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 DISCUSSION",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7 CONCLUSIONS",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "ETHICAL CONSIDERATIONS",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "ENVIRONMENTAL CONSIDERATIONS",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "AUTHOR CONTRIBUTIONS",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "ACKNOWLEDGEMENTS",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "A ADDITIONAL RESULTS",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "B FURTHER ABLATION STUDIES AND ANALYSIS",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B.1 DATASETS PER TASK CLUSTER & TEMPLATES PER DATASET",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "B.2 ROLE OF INSTRUCTIONS DURING FINETUNING",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "C DATA CONTAMINATION ANALYSIS",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "D EXTENDED RELATED WORK",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "D.1 LANGUAGE MODELS AND MULTI-TASK LEARNING",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "D.2 ZERO-SHOT LEARNING AND META-LEARNING",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "D.3 PROMPTING",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "D.4 FINETUNING LARGE LANGUAGE MODELS",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "D.5 MULTI-TASK QUESTION ANSWERING",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "D.6 INSTRUCTIONS-BASED NLP",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "E FREQUENTLY ASKED QUESTIONS",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "How do the FLAN instructions differ from GPT-3 or T5 prompts?",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "GPT-3 prompt:",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "What are some limitations/failure cases of FLAN?",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "Can FLAN be used when large amounts of training data are available?",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "Are the ten unique templates per dataset or per task cluster?",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "F QUALITATIVE EXAMPLES",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "FLAN output:",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "CHANGES FROM V4 TO V5",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "CHANGES TO V4 FROM V3",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "CHANGES TO V3 FROM V2",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "CHANGES TO V2 FROM V1",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "G TASKS AND DATASETS",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "G.1 NATURAL LANGUAGE INFERENCE",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "G.2 READING COMPREHENSION",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "INPUT",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "G.3 COMMONSENSE REASONING",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "G.4 CLOSED-BOOK QA",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "G.5 COREFERENCE RESOLUTION",
+            "level": 4,
+            "page": 44
+        },
+        {
+            "title": "G.6 READING COMPREHENSION WITH COMMONSENSE",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "OPTIONS:",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "G.7 TRANSLATION (7 LANGUAGES)",
+            "level": 4,
+            "page": 45
+        }
+    ]
+}

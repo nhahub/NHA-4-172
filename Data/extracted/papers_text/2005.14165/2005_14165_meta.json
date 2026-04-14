@@ -1,0 +1,457 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2 Approach",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "2.1 Model and Architectures",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "2.2 Training Dataset",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "2.3 Training Process",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "2.4 Evaluation",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "3 Results",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "3.1 Language Modeling, Cloze, and Completion Tasks",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "3.2 Closed Book Question Answering",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "3.3 Translation",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "3.4 Winograd-Style Tasks",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "3.5 Common Sense Reasoning",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "3.6 Reading Comprehension",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "3.7 SuperGLUE",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "3.8 NLI",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "3.9 Synthetic and Qualitative Tasks",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "4 Measuring and Preventing Memorization Of Benchmarks",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "5 Limitations",
+            "level": 0,
+            "page": 32
+        },
+        {
+            "title": "6 Broader Impacts",
+            "level": 0,
+            "page": 33
+        },
+        {
+            "title": "6.1 Misuse of Language Models",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "6.2 Fairness, Bias, and Representation",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "6.3 Energy Usage",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "7 Related Work",
+            "level": 0,
+            "page": 38
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 0,
+            "page": 39
+        },
+        {
+            "title": "A Details of Common Crawl Filtering",
+            "level": 0,
+            "page": 42
+        },
+        {
+            "title": "B Details of Model Training",
+            "level": 0,
+            "page": 42
+        },
+        {
+            "title": "C Details of Test Set Contamination Studies",
+            "level": 0,
+            "page": 42
+        },
+        {
+            "title": "D Total Compute Used to Train Language Models",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "E Human Quality Assessment of Synthetic News Articles",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "F Additional Samples from GPT-3",
+            "level": 0,
+            "page": 47
+        },
+        {
+            "title": "G Details of Task Phrasing and Specifications",
+            "level": 0,
+            "page": 49
+        },
+        {
+            "title": "H Results on All Tasks for All Model Sizes",
+            "level": 0,
+            "page": 62
+        }
+    ],
+    "pages": 75,
+    "ocr_stats": {
+        "ocr_pages": 4,
+        "ocr_failed": 0,
+        "ocr_success": 4,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 65,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Language Models are Few-Shot Learners",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2 Approach",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.1 Model and Architectures",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "2.2 Training Dataset",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "2.3 Training Process",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "2.4 Evaluation",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "3 Results",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "3.1 Language Modeling, Cloze, and Completion Tasks",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "3.1.1 Language Modeling",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "3.1.2 LAMBADA",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "3.1.3 HellaSwag",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "3.1.4 StoryCloze",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "3.2 Closed Book Question Answering",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "3.3 Translation",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "3.4 Winograd-Style Tasks",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "3.5 Common Sense Reasoning",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "3.6 Reading Comprehension",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "3.7 SuperGLUE",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "3.8 NLI",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "3.9 Synthetic and Qualitative Tasks",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "3.9.1 Arithmetic",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "3.9.2 Word Scrambling and Manipulation Tasks",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "3.9.3 SAT Analogies",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "3.9.4 News Article Generation",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "3.9.5 Learning and Using Novel Words",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "3.9.6 Correcting English Grammar",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "4 Measuring and Preventing Memorization Of Benchmarks",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "5 Limitations",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "6 Broader Impacts",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "6.1 Misuse of Language Models",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "6.1.1 Potential Misuse Applications",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "6.1.2 Threat Actor Analysis",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "6.1.3 External Incentive Structures",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "6.2 Fairness, Bias, and Representation",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "6.2.1 Gender",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "6.2.2 Race",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "6.2.3 Religion",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "6.2.4 Future Bias and Fairness Challenges",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "6.3 Energy Usage",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "7 Related Work",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "Contributions",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "A Details of Common Crawl Filtering",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "B Details of Model Training",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "C Details of Test Set Contamination Studies",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "D Total Compute Used to Train Language Models",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "E Human Quality Assessment of Synthetic News Articles",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "F Additional Samples from GPT-3",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "G Details of Task Phrasing and Specifications",
+            "level": 1,
+            "page": 49
+        },
+        {
+            "title": "H Results on All Tasks for All Model Sizes",
+            "level": 1,
+            "page": 62
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 67
+        }
+    ]
+}

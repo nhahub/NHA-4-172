@@ -1,0 +1,151 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 18,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3. PaLM-E: An Embodied Multimodal\nLanguage Model",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4. Input & Scene Representations for\nDifferent Sensor Modalities",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5. Training Recipes",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "6. Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "6.1. Robot Environments / Tasks",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "6.2. TAMP Environment",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "6.3. Language-Table Environment",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6.4. Mobile Manipulation Environment",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6.5. Performance on General Visual-Language Tasks",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "6.6. Performance on General Language Tasks",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "7. Summary of Experiments & Discussion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "8. Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": " A. Data Mixture",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "B. Environment Details",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B.1. Task and Motion Planning (TAMP)",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B.2. Interactive Language Table",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "C. Natural Language Generation and Understanding Results",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "D. Additional Data for Affordance and Success Detection",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "E. Image Attribution",
+            "level": 2,
+            "page": 17
+        }
+    ]
+}

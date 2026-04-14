@@ -1,0 +1,181 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 30,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 11,
+        "equations": {
+            "successful_ocr": 10,
+            "unsuccessful_ocr": 0,
+            "equations": 10
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Quantizable Transformers: Removing Outliers by\nHelping Attention Heads Do Nothing",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background and related work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Outlier analysis",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Method",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Clipped softmax",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Gated attention",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5 Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1 The impact of clipped softmax hyperparameters (\u03b3 and \u03b6)",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2 Clipped softmax \u03b3 vs. sequence length",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.3 The impact of bias initialization in gated attention",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.4 Main results",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.5 Qualitative results",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6 Discussion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "7 Conclusions",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Supplementary materials",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "A Additional graphs from outlier analysis",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "A.1 BERT",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "A.2 ViT",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "B Detailed results",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B.1 Gating architectures",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "B.3 OPT",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "Detailed results for ViT-S/16 are summarized in Table 7.",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "C Experimental details",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "C.1 BERT",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "C.2 OPT pre-training",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "C.3 ViT pre-training",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "C.4 Quantization settings",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "D Compute cost",
+            "level": 2,
+            "page": 20
+        }
+    ]
+}

@@ -1,0 +1,141 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 21,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 22,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of\nLarge Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 PEFT Overview",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Experiment Setup",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Benchmarks",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Fine-tuning Data Collection",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Implementations",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Experiment Results",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Placement and Configuration",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 Arithmetic Reasoning",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Commonsense Reasoning",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.4 ID and OOD Analysis",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Qualitative Study",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "7 Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "A.1 Math Reasoning Prompt Templates",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "A.2 Commonsense Data Templates",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "A.3 Placement Analysis",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "A.4 Configuration Analysis",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "A.5 Qualitative Examples",
+            "level": 3,
+            "page": 11
+        }
+    ]
+}

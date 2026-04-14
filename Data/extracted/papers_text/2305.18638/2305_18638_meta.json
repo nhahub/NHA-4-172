@@ -1,0 +1,182 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Previous studies",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Data",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Method",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Justification key extraction",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Reference Answer Augmentation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Sentence-BERT and Domain Adaptation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Analytic Score Generation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Holistic Score Generation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Experiment",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Results",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Limitation",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Conclusion and Future Study",
+            "level": 0,
+            "page": 5
+        }
+    ],
+    "pages": 7,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Short Answer Grading Using One-shot Prompting and Text Similarity\nScoring Model",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Previous studies",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "3 Data",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Method",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Justification key extraction",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Reference Answer Augmentation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.3 Sentence-BERT and Domain Adaptation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.4 Analytic Score Generation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.5 Holistic Score Generation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5 Experiment",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "6 Results",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "7 Discussion",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "8 Limitation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "9 Conclusion and Future Study",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 6
+        }
+    ]
+}

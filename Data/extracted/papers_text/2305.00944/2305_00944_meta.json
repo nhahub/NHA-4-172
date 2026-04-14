@@ -1,0 +1,131 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 13,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Background and Threat Model",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3. Method for Poisoning Datasets",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4. Polarity Poisoning",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1. Experimental Setup",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2. Polarity Poisoning Results",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5. Poisoning Arbitrary Tasks",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1. Key Results",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6. Defenses and Practical Recommendations",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6.1. Filtering Poison Examples from Training",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6.2. Reducing Effective Model Capacity",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "29.9% while the regular accuracy drops 8.0%.",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "7. Discussion and Related Work",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "8. Conclusions and Future Work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A. Addressing Potential Ethical Concerns",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "C. Additional Qualitative Results",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "D. Additional Polarity Experiments",
+            "level": 2,
+            "page": 12
+        }
+    ]
+}

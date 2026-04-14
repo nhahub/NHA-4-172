@@ -1,0 +1,402 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Reinforcement Learning from Human Feedback",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Reward Modeling",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Reinforcement Learning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Policy Gradient Methods",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Generalized Advantage Estimation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Proximal Policy Optimization",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Reward Modeling for Helpfulness and Harmlessness",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Models and Datasets",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Training Setup",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "HH Evaluation Results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Training Performance",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Exploration of PPO",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Models and Training Setup",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Evaluation Metrics for Monitor Training Process",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Implement Details in PPO",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Score Reparameterization",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Policy Constraints",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Pretrained Initialization",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "PPO-max Setup",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Evaluations and Discussions",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Alignment Metrics and Experiment Setups",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Preference Comparison between RLHF models and SFT models",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Our Models vs. ChatGPT on Harmless Evaluation",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Language Understanding Evaluation",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Example Dialogues",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Reward Distribution under PPO Training",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "Supplementary Experiments on Hyperparameter Tuning",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "Collaborative Analysis on Rewards, Advantages, and Value Loss",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Effect on Different Weights of KL-penalty",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Clip Region for Entropy Bonus",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Comparison Results on Secondary Tricks",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "Clipped Surrogate Objective",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Global Gradient Clip",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Generalized Advantage Estimation",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Example Dialogues",
+            "level": 1,
+            "page": 29
+        }
+    ],
+    "pages": 32,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 26,
+            "unsuccessful_ocr": 3,
+            "equations": 29
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Secrets of RLHF in Large Language Models\nPart I: PPO",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Reinforcement Learning from Human Feedback",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Reward Modeling",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Reinforcement Learning",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2.1 Policy Gradient Methods",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2.2 Generalized Advantage Estimation",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.2.3 Proximal Policy Optimization",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "Algorithm 1 PPO",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4 Reward Modeling for Helpfulness and Harmlessness",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.1 Models and Datasets",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2 Training Setup",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3 HH Evaluation Results",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.4 Training Performance",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 Exploration of PPO",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.1 Models and Training Setup",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "5.2 Evaluation Metrics for Monitor Training Process",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "5.3 Implement Details in PPO",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "5.3.1 Score Reparameterization",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5.3.2 Policy Constraints",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "5.3.3 Pretrained Initialization",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "5.4 PPO-max Setup",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "6 Evaluations and Discussions",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "6.1 Alignment Metrics and Experiment Setups",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "6.2 Preference Comparison between RLHF models and SFT models",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "6.3 Our Models vs. ChatGPT on Harmless Evaluation",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "6.4 Language Understanding Evaluation",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "6.5 Example Dialogues",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "Limitations",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "B Supplementary Experiments on Hyperparameter Tuning",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "B.2 Effect on Different Weights of KL-penalty",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "C Comparison Results on Secondary Tricks",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "C.1 Clipped Surrogate Objective",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "C.4 Example Dialogues",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "Easter Egg",
+            "level": 1,
+            "page": 31
+        }
+    ]
+}

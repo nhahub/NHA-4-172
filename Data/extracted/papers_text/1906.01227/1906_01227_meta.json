@@ -1,0 +1,111 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 8,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 31,
+            "unsuccessful_ocr": 0,
+            "equations": 31
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Sentiment Classification using Document Embeddings trained with\nCosine Similarity",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "3 Proposed Model",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 Architecture",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2 Negative Sampling",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 Optimal Hyperparameters",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Results",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.3 Discussion",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.4 Feature Combination",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5 Conclusion and Future Work",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "A Obtaining the weight update equations\nin the case of cosine similarity",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "B Weight update equations in the case of\ndot product",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "C Weight update equations in the case of\nL2R dot product",
+            "level": 2,
+            "page": 7
+        }
+    ]
+}

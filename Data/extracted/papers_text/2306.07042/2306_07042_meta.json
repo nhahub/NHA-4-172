@@ -1,0 +1,362 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Paper organization",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Preliminaries",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Neural networks with diagonal weights",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Incremental learning in networks with diagonal weights",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Intuition for incremental learning dynamics",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Stage 1 of dynamics",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Later stages",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Assumptions for incremental dynamics",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Experimental results",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Experimental validation of the assumptions in Theorem 4.1",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Further experiments on vision and language transformers",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "SGD-trained transformers",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Adam-trained transformers",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Proof for dynamics of networks with diagonal parametrization (Theorem 4.1)",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "Assumptions",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Rescaling time for notational convenience",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Simplifying problem without loss of generality",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Tracking the sum of the weights",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Claimed invariants in proof of Theorem C.4",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Dynamics from time k to time tk+1 (Linear dynamics for O((1/)) unrescaled time)",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Analysis in case where Tk+1 < ",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "Analysis in case where Tk+1 = ",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "Dynamics from time tk to time k (Nonlinear evolution for O(1) unrescaled time)",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "Concluding the proof of Theorem C.4",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "Technical lemmas",
+            "level": 0,
+            "page": 37
+        },
+        {
+            "title": "Relating the sum of the weights to the original weights using the conservation law",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "Sign of gradients on coordinates that leave support",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "Local lipschitzness and smoothness",
+            "level": 1,
+            "page": 38
+        }
+    ],
+    "pages": 39,
+    "ocr_stats": {
+        "ocr_pages": 9,
+        "ocr_failed": 0,
+        "ocr_success": 9,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 2,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 124,
+            "unsuccessful_ocr": 10,
+            "equations": 134
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Transformers learn through gradual rank increase",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1.1 Related work",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "1.2 Paper organization",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2 Preliminaries",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 Neural networks with diagonal weights",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "ZL = h(X;u \u2299 v),",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Incremental learning in networks with diagonal weights",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.1 Intuition for incremental learning dynamics",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.1.1 Stage 1 of dynamics",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.1.2 Later stages",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.2 Assumptions for incremental dynamics",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5 Experimental results",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6\nDiscussion",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "Contents",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "A Experimental validation of the assumptions in Theorem 4.1",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "B Further experiments on vision and language transformers",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "B.1 SGD-trained transformers",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "B.2 Adam-trained transformers",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "C Proof for dynamics of networks with diagonal parametrization\n(Theorem 4.1)",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "C.1 Assumptions",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "C.2 Rescaling time for notational convenience",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "C.3 Simplifying problem without loss of generality",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "C.5 Claimed invariants in proof of Theorem C.4",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "C.6 Dynamics from time t\u00afk to time tk+1 (Linear dynamics for O(log(1/\u03b1)) un-\nrescaled time)",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "C.6.1 Analysis in case where Tk+1 < \u221e",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "C.6.2 Analysis in case where Tk+1 = \u221e",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "C.7 Dynamics from time tk\nto time t\u00afk (Nonlinear evolution for O(1) unrescaled\ntime)",
+            "level": 4,
+            "page": 35
+        },
+        {
+            "title": "C.8 Concluding the proof of Theorem C.4",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "D Technical lemmas",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "|u\u03b1,i(t)| > 1 .",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "D.2 Sign of gradients on coordinates that leave support",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "D.3 Local lipschitzness and smoothness",
+            "level": 4,
+            "page": 38
+        }
+    ]
+}

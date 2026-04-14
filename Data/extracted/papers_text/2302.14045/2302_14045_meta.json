@@ -1,0 +1,552 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction: From LLMs to MLLMs",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "2 Kosmos-1: A Multimodal Large Language Model",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "2.1 Input Representation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.2 Multimodal Large Language Models (MLLMs)",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.3 Training Objective",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3 Model Training",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "3.1 Multimodal Training Data",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.2 Training Setup",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.3 Language-Only Instruction Tuning",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "4.1 Perception-Language Tasks",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.1.1 Evaluation Setup",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.1.2 Results",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.2 IQ Test: Nonverbal Reasoning",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.2.1 Evaluation Setup",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.2.2 Results",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.3 OCR-Free Language Understanding",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.3.1 Evaluation Setup",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.3.2 Results",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.4 Web Page Question Answering",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "4.4.1 Evaluation Setup",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.4.2 Results",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.5 Multimodal Chain-of-Thought Prompting",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "4.5.1 Evaluation Setup",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "4.5.2 Results",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "4.6 Zero-Shot Image Classification",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4.6.1 Evaluation Setup",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.6.2 Results",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.7 Zero-Shot Image Classification with Descriptions",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "4.7.1 Evaluation Setup",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "4.7.2 Results",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "4.8 Language Tasks",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "4.8.1 Evaluation Setup",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "4.8.2 Results",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "4.9 Cross-modal Transfer",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "4.9.1 Transfer from Language to Multimodal: Language-Only Instruction Tuning",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "4.9.2 Transfer from Multimodal to Language: Visual Commonsense Reasoning",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "A Hyperparameters",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "A.1 Training",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "A.2 Language-Only Instruction Tuning",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "B Datasets",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "B.1 Pretraning",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "B.1.1 Text Corpora",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B.1.2 Image-Caption Pairs",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B.1.3 Interleaved Data",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B.2 Data Format",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "C Evaluation",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "C.1 Input Format Used for Perception-Language Tasks",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.2 Language Tasks",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "C.3 WebSRC Task Examples",
+            "level": 1,
+            "page": 25
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 21,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Language Is Not All You Need: Aligning Perception\nwith Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "1 Introduction: From LLMs to MLLMs",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2 KOSMOS-1: A Multimodal Large Language Model",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.1 Input Representation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.2 Multimodal Large Language Models (MLLMs)",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "2.3 Training Objective",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3 Model Training",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.1 Multimodal Training Data",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.2 Training Setup",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.3 Language-Only Instruction Tuning",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.1 Perception-Language Tasks",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.1.1 Evaluation Setup",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.1.2 Results",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2 IQ Test: Nonverbal Reasoning",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.2.1 Evaluation Setup",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.2.2 Results",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3 OCR-Free Language Understanding",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3.1 Evaluation Setup",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3.2 Results",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.4 Web Page Question Answering",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.4.1 Evaluation Setup",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.4.2 Results",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.5 Multimodal Chain-of-Thought Prompting",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.5.1 Evaluation Setup",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.5.2 Results",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.6 Zero-Shot Image Classification",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.6.1 Evaluation Setup",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.6.2 Results",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.7 Zero-Shot Image Classification with Descriptions",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.7.1 Evaluation Setup",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "4.7.2 Results",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "4.8 Language Tasks",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "4.8.1 Evaluation Setup",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "4.8.2 Results",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "4.9 Cross-modal Transfer",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "4.9.1 Transfer from Language to Multimodal: Language-Only Instruction Tuning",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "4.9.2 Transfer from Multimodal to Language: Visual Commonsense Reasoning",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "A Hyperparameters",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "A.1 Training",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "A.2 Language-Only Instruction Tuning",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "B Datasets",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "B.1 Pretraning",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "B.1.1 Text Corpora",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "B.1.2 Image-Caption Pairs",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "B.1.3 Interleaved Data",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "B.2 Data Format",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "C Evaluation",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.1 Input Format Used for Perception-Language Tasks",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "C.2 Language Tasks",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "C.3 WebSRC Task Examples",
+            "level": 3,
+            "page": 25
+        }
+    ]
+}

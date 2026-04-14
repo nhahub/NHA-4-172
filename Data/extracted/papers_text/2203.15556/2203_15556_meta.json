@@ -1,0 +1,407 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Estimating the optimal parameter/training tokens allocation",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Approach 1: Fix model sizes and vary number of training tokens",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Approach 2: IsoFLOP profiles",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.3 Approach 3: Fitting a parametric loss function",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.4 Optimal model scaling",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4 Chinchilla",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "4.1 Model and training details",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.2 Results",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.2.1 Language modelling",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.2.2 MMLU",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.2.3 Reading comprehension",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.2.4 BIG-bench",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.2.5 Common sense",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.2.6 Closed-book question answering",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.2.7 Gender bias and toxicity",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "5 Discussion & Conclusion",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "6 Acknowledgements",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "A Training dataset",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "B Optimal cosine cycle length",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "C Consistency of scaling results across datasets",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "D Details on the scaling analyses",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "D.1 Approach 1: Fixing model sizes and varying training sequences",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "D.2 Approach 3: Parametric fitting of the loss",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "D.3 Predicted compute optimal frontier for all three methods",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "D.4 Small-scale comparison to Kaplan et al. (2020)",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "E Curvature of the FLOP-loss frontier",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "F FLOPs computation",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "G Other differences between Chinchilla and Gopher",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "H Results",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "H.1 The Pile",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "H.2 MMLU",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "H.3 Winogender Setup",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "H.4 BIG-bench",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "I Model Card",
+            "level": 0,
+            "page": 29
+        },
+        {
+            "title": "J List of trained models",
+            "level": 0,
+            "page": 33
+        }
+    ],
+    "pages": 36,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 23,
+        "equations": {
+            "successful_ocr": 21,
+            "unsuccessful_ocr": 1,
+            "equations": 22
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Training Compute-Optimal Large Language Models\n\n![0_image_0.png](0_image_0.png)\n\n",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3. Estimating the optimal parameter/training tokens allocation",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1. Approach 1: Fix model sizes and vary number of training tokens",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2. Approach 2: IsoFLOP profiles",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.3. Approach 3: Fitting a parametric loss function",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.4. Optimal model scaling",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4. Chinchilla",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.1. Model and training details",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.2. Results",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.2.2. MMLU",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.2.3. Reading comprehension",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.2.4. BIG-bench",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.2.5. Common sense",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "4.2.6. Closed-book question answering",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "4.2.7. Gender bias and toxicity",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "5. Discussion & Conclusion",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "6. Acknowledgements",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "A. Training dataset",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "B. Optimal cosine cycle length",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C. Consistency of scaling results across datasets",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "D. Details on the scaling analyses",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "D.2. Approach 3: Parametric fitting of the loss",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "D.3. Predicted compute optimal frontier for all three methods",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "D.4. Small-scale comparison to Kaplan et al. (2020)",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "E. Curvature of the FLOP-loss frontier",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "F. FLOPs computation",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "G. Other differences between Chinchilla and Gopher",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "H. Results",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "H.1. The Pile",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "H.2. MMLU",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "H.3. Winogender Setup",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "H.4. BIG-bench",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "I. Model Card",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "Training Data",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "J. List of trained models",
+            "level": 2,
+            "page": 33
+        }
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Works",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Zero-Shot NIR Prompting Strategy",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3.1 Overview",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.2 Candidate Set Construction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.3 Three-Step Prompting",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.4 Answer Extraction",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "4.1 Experimental Setup",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4.2 Main Results",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.3 Detailed Analysis",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 4
+        }
+    ],
+    "pages": 5,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 2,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Zero-Shot Next-Item Recommendation using Large Pretrained\nLanguage Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "CCS CONCEPTS",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "KEYWORDS",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 RELATED WORKS",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 ZERO-SHOT NIR PROMPTING STRATEGY\n3.1 Overview",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.2 Candidate Set Construction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.3 Three-Step Prompting",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.4 Answer Extraction",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 EXPERIMENTS",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Experimental Setup",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.2 Main Results",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.3 Detailed Analysis",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "5 CONCLUSION",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 4
+        }
+    ]
+}

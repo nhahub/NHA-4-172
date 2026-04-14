@@ -1,0 +1,161 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 10,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 15,
+            "unsuccessful_ocr": 0,
+            "equations": 15
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "KroneckerBERT: Learning Kronecker Decomposition for Pre-trained\nLanguage Models via Knowledge Distillation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Pre-trained Language Model\nCompression",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Kronecker Factorization",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Methodology",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Kronecker Product",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Kronecker factorization",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2.1 Memory and computation reduction",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Kronecker Embedding layer",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.4 Kronecker Transformer",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.5 Knowledge distillation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.5.1 Intermediate KD",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.5.2 KD at pre-training",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.6 Model Settings",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.7 Implementation details",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Baselines",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Results on GLUE benchmark",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 Out of distribution robustness",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.4 Results on SQuAD",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.5 Ablation study on the effect of KD",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.6 Inference speedup: Discussion and\nresults",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        }
+    ]
+}

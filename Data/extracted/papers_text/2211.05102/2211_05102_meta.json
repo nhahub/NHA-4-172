@@ -1,0 +1,176 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 17,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 16,
+            "unsuccessful_ocr": 1,
+            "equations": 17
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "EFFICIENTLY SCALING TRANSFORMER INFERENCE",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 INFERENCE COST TRADEOFFS",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Expected tradeoffs and challenges",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 Inference Setup",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 PARTITIONING FOR INFERENCE\nEFFICIENCY",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.1 Partitioning notation and communication\ncollectives",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Partitioning the feedforward layer",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2.2 Feedforward layer, 2D weight-stationary layout",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Partitioning the attention layer",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.4 Parallel attention/feedforward layers",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.5 Low-level optimizations",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.6 Quantization",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 CASE STUDY FOR PALM MODELS",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.1 Partitioning feedforward layer",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2 Partitioning Attention layer",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "multihead variant.",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.3 Parallel attention/feedforward layers",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.4 End-to-end results on PaLM",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 FASTERTRANSFORMER BENCHMARKS",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6 RELATED WORK",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "7 CONCLUSIONS",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "8 ACKNOWLEDGMENTS",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "A PARTITIONING STRATEGIES:\nDERIVING COMMUNICATION COSTS",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.1 Cost of all-gather/reduce-scatter",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "A.2 Details for communication time calculations",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "C MFU VS LATENCY TRADEOFF",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "D FULL COMPARISON TO\nFASTERTRANSFORMER",
+            "level": 2,
+            "page": 15
+        }
+    ]
+}

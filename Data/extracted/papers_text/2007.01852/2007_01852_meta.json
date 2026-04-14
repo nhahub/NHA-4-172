@@ -1,0 +1,166 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Language-agnostic BERT Sentence Embedding",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Cross-lingual Sentence Embeddings",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Additive Margin Softmax",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 MLM and TLM Pre-training",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Corpus and Training Details",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Corpus",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Configurations",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Cross-Accelerator Negative Sampling",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.4 Pre-training",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4 Evaluation Tasks",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Bitext Retrieval",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 Downstream Classification",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5 Results",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1 Results on Downstream Classification\nTasks",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6 Analysis",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "6.1 Additive Margin Softmax",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.2 Effectiveness of Pre-training",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.3 Low Resource Languages and Languages\nwithout Explicit Training Data",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6.4 Semantic Similarity",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "7 Mining Parallel Text from\nCommonCrawl",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A LaBSELarge",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "B Hard Negative Mining",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "C Supported Languages",
+            "level": 2,
+            "page": 11
+        }
+    ]
+}

@@ -1,0 +1,382 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 CodeT5+: Open Code Large Language Models",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Unimodal Pretraining on Code Data",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.2 Bimodal Pretraining on Text-code Data",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.3 Compute-efficient Pretraining with Frozen Off-the-shelf LLMs",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.4 Adaptation to Downstream Understanding and Generation Tasks",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4 Pretraining and Instruction Tuning",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "4.1 Pretraining Dataset",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2 Pretraining Setup",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.3 Instruction Tuning",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Experiments",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "5.1 Zero-shot Evaluation on Text-to-Code Generation Tasks",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "5.2 Evaluation on Math Programming Tasks",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "5.3 Evaluation on Code Summarization Tasks",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "5.4 Evaluation on Code Completion Tasks",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "5.5 Evaluation on Text-to-Code Retrieval Tasks",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "5.6 Ablation Study",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "5.7 Unified Retrieval-Augmented Generation Paradigm",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "A Ethics Statement",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "B Bimodal Pretraining Details",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "C Additional Experimental Results",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "C.1 Code Defect Detection and Clone Detection from CodeXGLUE",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "C.2 Analysis on the Effects of Top-k Retrievals in Retrieval-augmented Code Generation",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "C.3 Qualitative Results in Math Programming tasks",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "D Downstream Task Finetuning Details",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "D.1 Text-to-Code Retrieval",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "D.2 Code Summarization",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "D.3 Code Defect Detection",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "D.4 Code Clone Detection",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "D.5 Code Completion",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "D.6 Math Programming",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "D.7 Retrieval-augmented Code Generation",
+            "level": 1,
+            "page": 25
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 14,
+        "equations": {
+            "successful_ocr": 10,
+            "unsuccessful_ocr": 1,
+            "equations": 11
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "CodeT5+: Open Code Large Language Models for\nCode Understanding and Generation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 CodeT5+: Open Code Large Language Models",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Unimodal Pretraining on Code Data",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2 Bimodal Pretraining on Text-code Data",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Compute-efficient Pretraining with Frozen Off-the-shelf LLMs",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.4 Adaptation to Downstream Understanding and Generation Tasks",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 Pretraining and Instruction Tuning",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Pretraining Dataset",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Pretraining Setup",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3 Instruction Tuning",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Experiments",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5.1 Zero-shot Evaluation on Text-to-Code Generation Tasks",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "5.2 Evaluation on Math Programming Tasks",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "5.3 Evaluation on Code Summarization Tasks",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "5.4 Evaluation on Code Completion Tasks",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5.5 Evaluation on Text-to-Code Retrieval Tasks",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "5.6 Ablation Study",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "5.7 Unified Retrieval-Augmented Generation Paradigm",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "A Ethics Statement",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "B Bimodal Pretraining Details",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C Additional Experimental Results",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.1 Code Defect Detection and Clone Detection from CodeXGLUE",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "C.2 Analysis on the Effects of Top-k Retrievals in Retrieval-augmented Code Generation",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "C.3 Qualitative Results in Math Programming tasks",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "D Downstream Task Finetuning Details",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "D.1 Text-to-Code Retrieval",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "D.2 Code Summarization",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "D.3 Code Defect Detection",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "D.4 Code Clone Detection",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "D.5 Code Completion",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "D.6 Math Programming",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "D.7 Retrieval-augmented Code Generation",
+            "level": 3,
+            "page": 25
+        }
+    ]
+}

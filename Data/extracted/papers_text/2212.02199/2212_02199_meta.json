@@ -1,0 +1,126 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 7,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Legal Prompt Engineering for Multilingual Legal Judgement Prediction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Legal NLP",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Prompt Engineering",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "3 Legal Judgement Prediction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 Task Definition",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "3.2 Datasets",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "3.2.1 European Court of Human Rights",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "4 Prompting",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "5 Results",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Ethics Statement",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "A Prompt Templates",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "German",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "French",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "Italian",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "B Compute Requirements",
+            "level": 2,
+            "page": 6
+        }
+    ]
+}

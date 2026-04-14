@@ -1,0 +1,292 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "WavJourney",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Audio Script Generation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Script Compiling and Program Execution",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Human-Machine Co-Creation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Experimental Setup",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Case Study on AudioCaps Benchmark",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Case Study on Real-world Scenarios",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Limitations",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Prompt Templates",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Example of Audio Script",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Script Compiler",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Human-Machine Co-Creation",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Case Study on AudioCaps Benchmark",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Case One",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Case Two",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Case Study on Real-World Scenarios",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Case One - Radio Play",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Case Two - Education",
+            "level": 2,
+            "page": 15
+        }
+    ],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 5,
+        "ocr_failed": 0,
+        "ocr_success": 5,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "WAVJOURNEY: COMPOSITIONAL AUDIO CREATION\nWITH LARGE LANGUAGE MODELS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 RELATED WORK",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 WAVJOURNEY",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 AUDIO SCRIPT GENERATION",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 SCRIPT COMPILING AND PROGRAM EXECUTION",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.3 HUMAN-MACHINE CO-CREATION",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 EXPERIMENTS",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 EXPERIMENTAL SETUP",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 CASE STUDY ON AUDIOCAPS BENCHMARK",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.3 CASE STUDY ON REAL-WORLD SCENARIOS",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5 LIMITATIONS",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "6 CONCLUSION",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "A APPENDIX",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "A.1 PROMPT TEMPLATES",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "Prompt #1",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "Prompt #2",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "A.2 EXAMPLE OF AUDIO SCRIPT",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "A.3 SCRIPT COMPILER",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "A.4 ",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": " HUMAN-MACHINE CO-CREATION",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "A.5    Case Study on AudioCaps Benchmark",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "A.5.1    CASE ONE",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "A.5.2    Case Two",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": " Case Study on Real-World Scenarios\nA.6 ",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": " CASE ONE - RADIO PLAY\nA.6.1 ",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "A.6.2    CASE TWO - EDUCATION",
+            "level": 1,
+            "page": 15
+        }
+    ]
+}

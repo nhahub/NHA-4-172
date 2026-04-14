@@ -1,0 +1,202 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Proposed Method",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Experimental Results",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Domain and Synthetic Thought Data",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Experiment Setup",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Imitation Learning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Generalization to Out-of-Distribution Environments",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "AI Safety and Interpretability",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Related Works",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Planning in RL with Language",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Learning from Dataset Aligning Action and Language",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Discussion and Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Architecture and Training Details",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Synthetic Human Thought Dataset",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Example on Diagnosing Agents by Observing Thoughts",
+            "level": 0,
+            "page": 15
+        }
+    ],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Thought Cloning: Learning to Think while Acting\nby Imitating Human Thinking",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Proposed Method",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Experimental Results",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Domain and Synthetic Thought Data",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Experiment Setup",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.3 Imitation Learning",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.4 Generalization to Out-of-Distribution Environments",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.5 AI Safety and Interpretability",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4 Related Works",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.1 Planning in RL with Language",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.2 Learning from Dataset Aligning Action and Language",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5 Discussion and Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgments and Disclosure of Funding",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Architecture and Training Details",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Algorithm 1 Thought Cloning",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "B Synthetic Human Thought Dataset",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "C Example on Diagnosing Agents by Observing Thoughts",
+            "level": 2,
+            "page": 15
+        }
+    ]
+}

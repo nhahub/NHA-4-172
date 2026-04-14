@@ -1,0 +1,317 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Background",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "QLoRA Finetuning",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "QLoRA vs. Standard Finetuning",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Pushing the Chatbot State-of-the-art with QLoRA",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Experimental setup",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Evaluation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Guanaco: QLoRA trained on OASST1 is a State-of-the-art Chatbot",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Qualitative Analysis",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Qualitative Analysis of Example Generations",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Considerations",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Limitations and Discussion",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Broader Impacts",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "QLoRA vs Standard Finetuning Experimental Setup Details",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "Hyperparameters for QLoRA",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Super-Natural Instructions Experimental Setup Details",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Training a State-of-the-art Chatbot Experimental Setup Details",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "Datasets",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Hyperparameters",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Ablations",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "What is more important: instruction finetuning dataset size or dataset quality?",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Human Evaluation",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "Pairwise Evaluation with GPT-4",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "NormalFloat 4-bit data type",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "Normality of Trained Neural Network Weights",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "Memory Footprint",
+            "level": 0,
+            "page": 25
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 12,
+        "equations": {
+            "successful_ocr": 9,
+            "unsuccessful_ocr": 0,
+            "equations": 9
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "QLORA: Efficient Finetuning of Quantized LLMs",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 QLORA Finetuning",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 QLoRA vs. Standard Finetuning",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "5 Pushing the Chatbot State-of-the-art with QLoRA",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Experimental setup",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.2 Evaluation",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.3 Guanaco: QLORA trained on OASST1 is a State-of-the-art Chatbot",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 Qualitative Analysis",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6.1 Qualitative Analysis of Example Generations",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "6.2 Considerations",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "7 Related Work",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "8 Limitations and Discussion",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "9 Broader Impacts",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A QLoRA vs Standard Finetuning Experimental Setup Details",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "A.1 Hyperparameters for QLORA",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "A.2 Super-Natural Instructions Experimental Setup Details",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "B Training a State-of-the-art Chatbot Experimental Setup Details",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "B.1 Datasets",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "B.2 Hyperparameters",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "B.3 Ablations",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "B.4 What is more important: instruction finetuning dataset size or dataset quality?",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "C Human Evaluation",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "D Pairwise Evaluation with GPT-4",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "E NormalFloat 4-bit data type",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "F Normality of Trained Neural Network Weights",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "G Memory Footprint",
+            "level": 2,
+            "page": 25
+        }
+    ]
+}

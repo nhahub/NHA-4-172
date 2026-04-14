@@ -1,0 +1,867 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Large Language Models in Natural Language Processing",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 ChatGPT",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3 Simplification and Summarization of Radiology Reports",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.4 Known Limitations of LLMs",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3 Methods",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Original Radiology Reports",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.2 Simplifying Reports using ChatGPT",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.3 Questionnaire",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.4 Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4 Results",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "4.1 Likert Scale Analysis",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2 Free-text Analysis",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.2.1 Highlights of Incorrect Text Passages",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.2.2 Missing Key Medical Information",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.2.3 Potentially Harmful",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.3 Word Count",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "5 Discussion",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "5.1 Quality of Simplified Reports Generated with ChatGPT",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "5.1.1 Factual Correctness",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "5.1.2 Completeness",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "5.1.3 Potential Harm",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "5.2 Opportunities and Challenges",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "5.3 Limitations of the Study",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "A Appendix",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "A.1 Report #1: Knee MRI",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "A.1.0 Original Report",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A.1.1 Simplified Report Sample #1",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A.1.2 Simplified Report Sample #2",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "A.1.3 Simplified Report Sample #3",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "A.1.4 Simplified Report Sample #4",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "A.1.5 Simplified Report Sample #5",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "A.1.6 Simplified Report Sample #6",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.1.7 Simplified Report Sample #7",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.1.8 Simplified Report Sample #8",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "A.1.9 Simplified Report Sample #9",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "A.1.10 Simplified Report Sample #10",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A.1.11 Simplified Report Sample #11",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "A.1.12 Simplified Report Sample #12",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "A.1.13 Simplified Report Sample #13",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "A.1.14 Simplified Report Sample #14",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "A.1.15 Simplified Report Sample #15",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "A.2 Report #2: Head MRI",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "A.2.0 Original Report",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "A.2.1 Simplified Report Sample #1",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "A.2.2 Simplified Report Sample #2",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "A.2.3 Simplified Report Sample #3",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "A.2.4 Simplified Report Sample #4",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "A.2.5 Simplified Report Sample #5",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "A.2.6 Simplified Report Sample #6",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "A.2.7 Simplified Report Sample #7",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "A.2.8 Simplified Report Sample #8",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "A.2.9 Simplified Report Sample #9",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "A.2.10 Simplified Report Sample #10",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "A.2.11 Simplified Report Sample #11",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "A.2.12 Simplified Report Sample #12",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "A.2.13 Simplified Report Sample #13",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "A.2.14 Simplified Report Sample #14",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "A.2.15 Simplified Report Sample #15",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "A.3 Report #3: Oncology CT",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "A.3.0 Original Report",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "A.3.1 Simplified Report Sample #1",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "A.3.2 Simplified Report Sample #2",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "A.3.3 Simplified Report Sample #3",
+            "level": 2,
+            "page": 51
+        },
+        {
+            "title": "A.3.4 Simplified Report Sample #4",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "A.3.5 Simplified Report Sample #5",
+            "level": 2,
+            "page": 53
+        },
+        {
+            "title": "A.3.6 Simplified Report Sample #6",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "A.3.7 Simplified Report Sample #7",
+            "level": 2,
+            "page": 55
+        },
+        {
+            "title": "A.3.8 Simplified Report Sample #8",
+            "level": 2,
+            "page": 56
+        },
+        {
+            "title": "A.3.9 Simplified Report Sample #9",
+            "level": 2,
+            "page": 57
+        },
+        {
+            "title": "A.3.10 Simplified Report Sample #10",
+            "level": 2,
+            "page": 58
+        },
+        {
+            "title": "A.3.11 Simplified Report Sample #11",
+            "level": 2,
+            "page": 59
+        },
+        {
+            "title": "A.3.12 Simplified Report Sample #12",
+            "level": 2,
+            "page": 60
+        },
+        {
+            "title": "A.3.13 Simplified Report Sample #13",
+            "level": 2,
+            "page": 61
+        },
+        {
+            "title": "A.3.14 Simplified Report Sample #14",
+            "level": 2,
+            "page": 62
+        },
+        {
+            "title": "A.3.15 Simplified Report Sample #15",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "B Questionnaire",
+            "level": 0,
+            "page": 64
+        },
+        {
+            "title": "B.1 Questionnaire Design",
+            "level": 1,
+            "page": 64
+        },
+        {
+            "title": "B.2 Answers to the Questionnaire",
+            "level": 1,
+            "page": 65
+        }
+    ],
+    "pages": 70,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ChatGPT Makes Medicine Easy to Swallow:\nAn Exploratory Case Study on Simplified\nRadiology Reports",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Large Language Models in Natural Language Processing",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2 ChatGPT",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.3 Simplification and Summarization of Radiology Reports",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.4 Known Limitations of LLMs",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3 Methods",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Original Radiology Reports",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.2 Simplifying Reports using ChatGPT",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.3 Questionnaire",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.4 Evaluation",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4 Results",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Likert Scale Analysis",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.2 Free-text Analysis",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.2.1 Highlights of Incorrect Text Passages",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.2.2 Missing Key Medical Information",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.2.3 Potentially Harmful",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.3 Word Count",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "5 Discussion",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "5.1 Quality of Simplified Reports Generated with ChatGPT",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "5.1.1 Factual Correctness",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "5.1.2 Completeness",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "5.1.3 Potential Harm",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "5.2 Opportunities and Challenges",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "5.3 Limitations of the Study",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "A.1 Report #1: Knee MRI",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "A.1.0 Original Report",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "Lateral compartment:",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "A.1.1 Simplified Report Sample #1",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "A.1.2 Simplified Report Sample #2",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "A.1.3 Simplified Report Sample #3",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "A.1.4 Simplified Report Sample #4",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "A.1.5 Simplified Report Sample #5",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "A.1.6 Simplified Report Sample #6",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "A.1.7 Simplified Report Sample #7",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "A.1.8 Simplified Report Sample #8",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "A.1.9 Simplified Report Sample #9",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "A.1.10 Simplified Report Sample #10",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "A.1.11 Simplified Report Sample #11",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "A.1.12 Simplified Report Sample #12",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "A.1.13 Simplified Report Sample #13",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "A.1.14 Simplified Report Sample #14",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "A.1.15 Simplified Report Sample #15",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "A.2 Report #2: Head MRI",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "A.2.0 Original Report",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "A.2.1 Simplified Report Sample #1",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "A.2.2 Simplified Report Sample #2",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "A.2.3 Simplified Report Sample #3",
+            "level": 4,
+            "page": 35
+        },
+        {
+            "title": "A.2.4 Simplified Report Sample #4",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "A.2.5 Simplified Report Sample #5",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "A.2.6 Simplified Report Sample #6",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "A.2.7 Simplified Report Sample #7",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "A.2.8 Simplified Report Sample #8",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "A.2.9 Simplified Report Sample #9",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "A.2.10 Simplified Report Sample #10",
+            "level": 4,
+            "page": 42
+        },
+        {
+            "title": "A.2.11 Simplified Report Sample #11",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "A.2.12 Simplified Report Sample #12",
+            "level": 4,
+            "page": 44
+        },
+        {
+            "title": "A.2.13 Simplified Report Sample #13",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "A.2.14 Simplified Report Sample #14",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "A.2.15 Simplified Report Sample #15",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "A.3 Report #3: Oncology CT",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "A.3.0 Original Report",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "Abdomen:",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "A.3.1 Simplified Report Sample #1",
+            "level": 4,
+            "page": 49
+        },
+        {
+            "title": "A.3.2 Simplified Report Sample #2",
+            "level": 4,
+            "page": 50
+        },
+        {
+            "title": "A.3.3 Simplified Report Sample #3",
+            "level": 4,
+            "page": 51
+        },
+        {
+            "title": "A.3.4 Simplified Report Sample #4",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "A.3.5 Simplified Report Sample #5",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "A.3.6 Simplified Report Sample #6",
+            "level": 4,
+            "page": 54
+        },
+        {
+            "title": "A.3.7 Simplified Report Sample #7",
+            "level": 4,
+            "page": 55
+        },
+        {
+            "title": "A.3.8 Simplified Report Sample #8",
+            "level": 4,
+            "page": 56
+        },
+        {
+            "title": "A.3.9 Simplified Report Sample #9",
+            "level": 4,
+            "page": 57
+        },
+        {
+            "title": "A.3.10 Simplified Report Sample #10",
+            "level": 4,
+            "page": 58
+        },
+        {
+            "title": "A.3.11 Simplified Report Sample #11",
+            "level": 4,
+            "page": 59
+        },
+        {
+            "title": "A.3.12 Simplified Report Sample #12",
+            "level": 4,
+            "page": 60
+        },
+        {
+            "title": "A.3.13 Simplified Report Sample #13",
+            "level": 4,
+            "page": 61
+        },
+        {
+            "title": "A.3.14 Simplified Report Sample #14",
+            "level": 4,
+            "page": 62
+        },
+        {
+            "title": "A.3.15 Simplified Report Sample #15",
+            "level": 4,
+            "page": 63
+        },
+        {
+            "title": "B Questionnaire",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "B.1 Questionnaire Design",
+            "level": 4,
+            "page": 64
+        },
+        {
+            "title": "B.2 Answers to the Questionnaire",
+            "level": 4,
+            "page": 65
+        }
+    ]
+}

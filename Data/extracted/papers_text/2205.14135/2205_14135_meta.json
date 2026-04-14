@@ -1,0 +1,362 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 Hardware Performance",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 Standard Attention Implementation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3 FlashAttention: Algorithm, Analysis, and Extensions",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 An Efficient Attention Algorithm With Tiling and Recomputation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Analysis: IO Complexity of FlashAttention",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.3 Extension: Block-Sparse FlashAttention",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "4.1 Faster Models with FlashAttention",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2 Better Models with Longer Sequences",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.3 Benchmarking Attention",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5 Limitations and Future Directions",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "A Related Work",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "B Algorithm Details",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "B.1 Memory-efficient forward pass",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "B.2 Memory-efficient backward pass",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "B.3 FlashAttention: Forward Pass",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "B.4 FlashAttention: Backward Pass",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "B.5 Comparison with rabe2021self",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "C Proofs",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "D Extension Details",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "D.1 Block-sparse FlashAttention",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "D.2 Potential Extensions",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "E Full Experimental Results",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "E.1 BERT",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "E.2 GPT-2",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "E.3 LRA details",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "E.4 Comparison with Apex FMHA",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "E.5 Speedup On Different Hardware and Configurations",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "E.6 Full Benchmarking Results",
+            "level": 1,
+            "page": 29
+        }
+    ],
+    "pages": 34,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 23,
+        "equations": {
+            "successful_ocr": 34,
+            "unsuccessful_ocr": 4,
+            "equations": 38
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "FlashAttention: Fast and Memory-Efficient Exact Attention\nwith IO-Awareness",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.1 Hardware Performance",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 Standard Attention Implementation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 FlashAttention: Algorithm, Analysis, and Extensions",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 An Efficient Attention Algorithm With Tiling and Recomputation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Analysis: IO Complexity of FlashAttention",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.3 Extension: Block-Sparse FlashAttention",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Experiments",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.1 Faster Models with FlashAttention",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Better Models with Longer Sequences",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3 Benchmarking Attention",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 Limitations and Future Directions",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "A Related Work",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "B Algorithm Details",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "B.1 Memory-efficient forward pass",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "B.2 Memory-efficient backward pass",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "B.3 FlashAttention: Forward Pass",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "B.4 FlashAttention: Backward Pass",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Algorithm 4 FlashAttention Backward Pass",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "B.5 Comparison with Rabe and Staats [66]",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "C Proofs",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "D Extension Details",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "D.1 Block-sparse FlashAttention",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "D.2 Potential Extensions",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "E Full Experimental Results",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "E.1 BERT",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "E.2 GPT-2",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "E.3 LRA details",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "E.4 Comparison with Apex FMHA",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "E.5 Speedup On Different Hardware and Configurations",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "E.6 Full Benchmarking Results",
+            "level": 3,
+            "page": 29
+        }
+    ]
+}

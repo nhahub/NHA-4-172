@@ -1,0 +1,217 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "MotionGPT: a Motion General-Purpose Generator",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Motion Code Generation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Instruction Generation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Fine-tuning LLM by Motion Instructions",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Generalization to Existing and New Tasks",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Experiment",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Datasets and Evaluation Metrics",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Implement Details",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Comparisons for Motion Generation with Multiple Control Conditions",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Ablation Study",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Conclusion and Limitations",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Additional Experiments",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Evaluation of batch size",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Evaluation of prompt design",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Qualitative Results",
+            "level": 0,
+            "page": 13
+        }
+    ],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "MotionGPT: Finetuned LLMs are\nGeneral-Purpose Motion Generators",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 MotionGPT: a Motion General-Purpose Generator",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Motion Code Generation",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Instruction Generation",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3 Fine-tuning LLM by Motion Instructions",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.4 Generalization to Existing and New Tasks",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Experiment",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Datasets and Evaluation Metrics",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Implement Details",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.3 Comparisons for Motion Generation with Multiple Control Conditions",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.4 Ablation Study",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5 Conclusion and Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Supplementary Material",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A Additional Experiments",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A.1 Evaluation of batch size",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.2 Evaluation of prompt design",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "B Qualitative Results",
+            "level": 2,
+            "page": 13
+        }
+    ]
+}

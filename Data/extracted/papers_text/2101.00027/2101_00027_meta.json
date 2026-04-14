@@ -1,0 +1,1167 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1.1 Contributions",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2 The Pile Datasets",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Pile-CC",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 PubMed Central",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3 Books3",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.4 OpenWebText2",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.5 ArXiv",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.6 GitHub",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.7 FreeLaw",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.8 Stack Exchange",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.9 USPTO Backgrounds",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.10 Wikipedia (English)",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.11 PubMed Abstracts",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.12 Project Gutenberg",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.13 OpenSubtitles",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.14 DeepMind Mathematics",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.15 BookCorpus2",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.16 Ubuntu IRC",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.17 EuroParl",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.18 YouTube Subtitles",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.19 PhilPapers",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.20 NIH Grant Abstracts: ExPORTER",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.21 Hacker News",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.22 Enron Emails",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3 Benchmarking Language Models with the Pile",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "3.1 Benchmarking Guidelines",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.2 Test Perplexity with GPT-2 and GPT-3",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.3 Relative Componentwise GPT-3 Pile Performance",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "4.1 Methodology",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2 Results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Structural Statistics",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "5.1 Document Lengths and Tokenization",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.2 Language and Dialects",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Investigating and Documenting the Datasets",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "6.1 Documenting Methods",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6.2 Topical Distribution",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6.3 Pejorative Content",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "6.4 Bias and Sentiment Co-occurrence",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "6.4.1 Gender",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6.4.2 Religion",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6.4.3 Race",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "6.5 Author Consent and Public Data",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "7 Implications and Broader Impacts",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "7.1 Legality of Content",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "7.2 Acceleration of AI Timelines",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "7.3 Negative LM Output",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "8 Related Work",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "9 Acknowledgments",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Appendices",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "A Contributions",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "B Excluded Datasets",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "C Dataset Details",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "C.1 Pile-CC",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "C.1.1 WARC vs WET",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.1.2 Extraction",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.1.3 Languages",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.1.4 Filtering",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.2 Pubmed Central",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "C.3 Books3",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "C.4 OpenWebText2",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "C.4.1 Extractor Choice",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "C.5 ArXiv",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "C.6 GitHub",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "C.7 FreeLaw",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "C.8 Stack Exchange",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "C.9 USPTO Backgrounds",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "C.10 PubMed Abstracts",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.11 Project Gutenberg",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.12 OpenSubtitles",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.13 Wikipedia (English)",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.14 DeepMind Mathematics",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.15 Ubuntu IRC",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.16 BookCorpus2",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.17 EuroParl",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.18 HackerNews",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "C.19 YouTube Subtitles",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "C.20 PhilPapers",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "C.21 NIH Grant abstracts: ExPORTER",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "C.22 Enron Emails",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "D General Data Processing",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "D.1 Weights",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "D.2 Deduplication",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "D.3 Downstream Validation Leakage",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "E Investigating data",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "E.1 13-Gram Analysis",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "E.2 Benchmark Perplexity Computation",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "E.3 Pejorative Content",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "F Data Samples",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "F.1 Pile-CC",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "F.2 PubMed Central",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "F.3 Books3",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "F.4 OpenWebText2",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "F.5 ArXiv",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "F.6 Github",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "F.7 FreeLaw",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "F.8 Stack Exchange",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "F.9 Wikipedia (en)",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "F.10 USPTO Backgrounds",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "F.11 PubMed Abstracts",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "F.12 Gutenberg (PG-19)",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "F.13 OpenSubtitles",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "F.14 DM Mathematics",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "F.15 HackerNews",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "F.16 BookCorpus2",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "F.17 EuroParl",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "F.18 YoutubeSubtitles",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "F.19 Ubuntu IRC",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "F.20 PhilPapers",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "F.21 NIH ExPorter",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "F.22 Enron Emails",
+            "level": 1,
+            "page": 32
+        }
+    ],
+    "pages": 39,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 10,
+        "table": 17,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1.1 Contributions",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 The Pile Datasets",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Pile-CC",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 PubMed Central",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.3 Books3",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.4 OpenWebText2",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.5 ArXiv",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.6 GitHub",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.7 FreeLaw",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.8 Stack Exchange",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.9 USPTO Backgrounds",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.10 Wikipedia (English)",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.11 PubMed Abstracts",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.12 Project Gutenberg",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.13 OpenSubtitles",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.14 DeepMind Mathematics",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.15 BookCorpus2",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.16 Ubuntu IRC",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "2.17 EuroParl",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.18 YouTube Subtitles",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.19 PhilPapers",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.20 NIH Grant Abstracts:\nExPORTER",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.21 Hacker News",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.22 Enron Emails",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3 Benchmarking Language Models with\nthe Pile",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.1 Benchmarking Guidelines",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.2 Test Perplexity with GPT-2 and\nGPT-3",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.3 Relative Componentwise GPT-3 Pile\nPerformance",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.1 Methodology",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.2 Results",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5 Structural Statistics",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.1 Document Lengths and\nTokenization",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5.2 Language and Dialects",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "lingual expansion of the Pile as future work.",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6 Investigating and Documenting the\nDatasets",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.1 Documenting Methods",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "6.2 Topical Distribution",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "6.3 Pejorative Content",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6.4 Bias and Sentiment Co-occurrence",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6.4.1 Gender",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6.4.2 Religion",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6.4.3 Race",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "6.5 Author Consent and Public Data",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "7 Implications and Broader\nImpacts",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "7.1 Legality of Content",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "7.2 Acceleration of AI Timelines",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "7.3 Negative LM Output",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "8 Related Work",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "9 Acknowledgments",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Appendices",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "A Contributions",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "B Excluded Datasets",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "C Dataset Details",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "C.1 Pile-CC",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.1.1 WARC vs WET",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.1.2 Extraction",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.1.3 Languages",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "C.1.4 Filtering",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.2 Pubmed Central",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "C.3 Books3",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "C.4 OpenWebText2",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "C.4.1 Extractor Choice",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "C.5 ArXiv",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "C.6 GitHub",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "C.7 FreeLaw",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "C.8 Stack Exchange",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "C.9 USPTO Backgrounds",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "C.10 PubMed Abstracts",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "C.11 Project Gutenberg",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "C.12 OpenSubtitles",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "C.13 Wikipedia (English)",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "C.14 DeepMind Mathematics",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "C.15 Ubuntu IRC",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "C.16 BookCorpus2",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "C.17 EuroParl",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "C.18 HackerNews",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "C.19 YouTube Subtitles",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "C.20 PhilPapers",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "C.21 NIH Grant abstracts:\nExPORTER",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "C.22 Enron Emails",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "D General Data Processing",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "D.1 Weights",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "D.2 Deduplication",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "D.3 Downstream Validation Leakage",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "E Investigating data",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "E.1 13-Gram Analysis",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "E.2 Benchmark Perplexity\nComputation",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "E.3 Pejorative Content",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "F Data Samples",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "F.1 Pile-CC",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "F.3 Books3",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "F.4 OpenWebText2",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "F.5 ArXiv",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": ".eps){width=\"6.5cm\"}",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "F.6 Github",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "F.7 FreeLaw",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "F.11 PubMed Abstracts",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "F.9 Wikipedia (en)",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "F.10 USPTO Backgrounds",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "F.12 Gutenberg (PG-19)",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "F.13 OpenSubtitles",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "F.14 DM Mathematics",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "F.15 HackerNews",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "F.16 BookCorpus2",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "F.17 EuroParl",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "F.18 YoutubeSubtitles",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "F.19 Ubuntu IRC",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "blok",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "F.20 PhilPapers",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "F.21 NIH ExPorter",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "F.22 Enron Emails",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "#ub",
+            "level": 4,
+            "page": 32
+        }
+    ]
+}

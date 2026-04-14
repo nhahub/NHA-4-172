@@ -1,0 +1,607 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2 Approach",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "2.1 Visual processing and the Perceiver Resampler",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.2 Conditioning frozen language models on visual representations",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.3 Multi-visual input support: per-image/video attention masking",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.4 Training on a mixture of vision and language datasets",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.5 Task adaptation with few-shot in-context learning",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3 Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "3.1 Few-shot learning on vision-language tasks",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.2 Fine-tuning Flamingo as a pretrained vision-language model",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.3 Ablation studies",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4 Related work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "5 Discussion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "A Method",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "A.1 Model details",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "A.1.1 Perceiver Resampler",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.1.2 gated xattn-dense details",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.1.3 Multi-visual input support",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.1.4 Transformer architecture",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.2 In-context few-shot evaluation details",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "A.3 Training dataset details",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "A.3.1 M3W collection",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A.3.2 M3W image-placement augmentation",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A.3.3 LTIP and VTP: Visual data paired with text",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A.3.4 Dataset deduplication against evaluation tasks",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "B Experiments",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "B.1 Training and evaluation details",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "B.1.1 Models",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "B.1.2 Training details for the Flamingo models",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "B.1.3 Contrastive model details",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "B.1.4 Evaluation benchmarks",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "B.1.5 Few-shot learning evaluation hyperparameters",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "B.1.6 Dialogue prompt",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "B.2 Additional performance results",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "B.2.1 Few-shot learning on classification tasks",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "B.2.2 Fine-tuning Flamingo as a pretrained vision-language model",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "B.2.3 Zero-shot performance of the pretrained contrastive model",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "B.3 Extended ablation studies",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "B.3.1 Flamingo",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "B.3.2 Dataset mixing strategies for the contrastive pretraining",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "C Qualitative results",
+            "level": 0,
+            "page": 36
+        },
+        {
+            "title": "D Discussion",
+            "level": 0,
+            "page": 37
+        },
+        {
+            "title": "D.1 Limitations, failure cases and opportunities",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "D.2 Benefits, risks and mitigation strategies",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "D.2.1 Benefits",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "D.2.2 Risks and mitigation strategies",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "E Flamingo Model Card",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "F Datasheets",
+            "level": 0,
+            "page": 46
+        },
+        {
+            "title": "F.1 M3W dataset",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "F.2 Image and video text pair datasets",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "F.2.1 Datasheet for LTIP",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "F.2.2 Datasheet for VTP",
+            "level": 2,
+            "page": 51
+        },
+        {
+            "title": "G Credit for visual content",
+            "level": 0,
+            "page": 52
+        }
+    ],
+    "pages": 54,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 29,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 0,
+            "equations": 8
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Flamingo: a Visual Language Model\nfor Few-Shot Learning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2 Approach",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.1 Visual processing and the Perceiver Resampler",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.2 Conditioning frozen language models on visual representations",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.3 Multi-visual input support: per-image/video attention masking",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "2.4 Training on a mixture of vision and language datasets",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "2.5 Task adaptation with few-shot in-context learning",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3 Experiments",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.1 Few-shot learning on vision-language tasks",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.2 Fine-tuning Flamingo as a pretrained vision-language model",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.3 Ablation studies",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4 Related work",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5 Discussion",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Checklist",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "A Method",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "A.1 Model details",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.1.1 Perceiver Resampler",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.1.2 GATED XATTN-DENSE details",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.1.3 Multi-visual input support",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.1.4 Transformer architecture",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.2 In-context few-shot evaluation details",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "A.3 Training dataset details",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "A.3.1 M3W collection",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A.3.2 M3W image-placement augmentation",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A.3.3 LTIP and VTP: Visual data paired with text",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A.3.4 Dataset deduplication against evaluation tasks",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "B Experiments",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "B.1 Training and evaluation details",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "B.1.1 Models",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "B.1.2 Training details for the Flamingo models",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "B.1.3 Contrastive model details",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "B.1.4 Evaluation benchmarks",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "B.1.5 Few-shot learning evaluation hyperparameters",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "B.1.6 Dialogue prompt",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "B.2 Additional performance results",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "B.2.1 Few-shot learning on classification tasks",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "B.2.2 Fine-tuning Flamingo as a pretrained vision-language model",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "B.2.3 Zero-shot performance of the pretrained contrastive model",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "B.3 Extended ablation studies",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "B.3.1 Flamingo",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "B.3.2 Dataset mixing strategies for the contrastive pretraining",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "C Qualitative results",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "D Discussion",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "D.1 Limitations, failure cases and opportunities",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "D.2 Benefits, risks and mitigation strategies",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "D.2.1 Benefits",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "D.2.2 Risks and mitigation strategies",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "E Flamingo Model Card",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "Training Data",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "F Datasheets",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "F.1 M3W dataset",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "Distribution",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "F.2 Image and video text pair datasets",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "F.2.1 Datasheet for LTIP",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "Preprocessing/cleaning/labeling",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "F.2.2 Datasheet for VTP",
+            "level": 2,
+            "page": 51
+        },
+        {
+            "title": "Preprocessing/cleaning/labeling",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "G Credit for visual content",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "\u2022 Figure 1:",
+            "level": 2,
+            "page": 52
+        }
+    ]
+}

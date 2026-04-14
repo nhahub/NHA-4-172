@@ -1,0 +1,307 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Approach",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Definition of Instruction Data Evolution",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Automatic Instruction Data Evolution",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Finetuning the LLM on the Evolved Instructions",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experiment",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Baselines",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experiment detail",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Testset build",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Human evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "GPT-4 automatic evaluation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Discussion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Conclusions",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Deepening Prompt",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Concretizing Prompt",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Increased Reasoning Steps Prompt",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Complicate Input Prompt",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "Difficulty Judge Prompt",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Cluster Scatter Plot ",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Equal Prompt",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Human Evaluation Aspects",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Case Studies",
+            "level": 0,
+            "page": 15
+        }
+    ],
+    "pages": 41,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 20,
+        "table": 20,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "WizardLM: Empowering Large Language Models to\nFollow Complex Instructions",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Approach",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Definition of Instruction Data Evolution",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Automatic Instruction Data Evolution",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Finetuning the LLM on the Evolved Instructions",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Experiment",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Baselines",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Experiment detail",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 Testset build",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.4 Human evaluation",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.5 GPT-4 automatic evaluation",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.6 Discussion",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusions",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Deepening Prompt",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "B Concretizing Prompt",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "C Increased Reasoning Steps Prompt",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "D Complicate Input Prompt",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Example-1:",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "Example-2:",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "####",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "####",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "Example-6:",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "E Difficulty Judge Prompt",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "F Cluster Scatter Plot",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "G Equal Prompt",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "H Human Evaluation Aspects",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "I Case Studies",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Table 1: A comparison case on Code Generation skill",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "Table 8: A comparison case on Complex Format skill",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 38
+        }
+    ]
+}

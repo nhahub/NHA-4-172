@@ -1,0 +1,311 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 54,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "An Overview of\nCatastrophic AI Risks",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "An Overview of Catastrophic AI Risks",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "Executive Summary",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Contents",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2 Malicious Use",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "2.1 Bioterrorism",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "2.2 Unleashing AI Agents",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "2.3 Persuasive AIs",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "2.4 Concentration of Power",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Story: Malicious Use",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Positive Vision",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "2.5 Suggestions",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "3 AI Race",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "3.1 Military AI Arms Race",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "3.1.1 Lethal Autonomous Weapons (LAWs)",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "3.1.2 Cyberwarfare",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "3.1.3 Automated Warfare",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "3.1.4 Actors May Risk Extinction Over Individual Defeat",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "Story: Automated Warfare",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "3.2 Corporate AI Race",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "3.2.1 Economic Competition Undercuts Safety",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "3.2.2 Automated Economy",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "3.3 Evolution",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Story: Autonomous Economy",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Positive Vision",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "3.4 Suggestions",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "4 Organizational Risks",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "4.1 Accidents Are Hard to Avoid",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "4.2 Organizational Factors can Reduce the Chances of Catastrophe",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "Story: Weak Safety Culture",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Positive Vision",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "4.3 Suggestions",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "5 Rogue AIs",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "5.1 Proxy Gaming",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "5.2 Goal Drift",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "5.3 Power-Seeking",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "5.4 Deception",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "Story: Treacherous Turn",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "Positive Vision",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "5.5 Suggestions",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "6 Discussion of Connections Between Risks",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "A Frequently Asked Questions",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "1. Shouldn't we address AI risks in the future when AIs can actually do everything a human can?",
+            "level": 4,
+            "page": 50
+        },
+        {
+            "title": "2. Since humans program AIs, shouldn't we be able to shut them down if they become dangerous?",
+            "level": 4,
+            "page": 50
+        },
+        {
+            "title": "3. Why can't we just tell AIs to follow Isaac Asimov's Three Laws of Robotics?",
+            "level": 4,
+            "page": 51
+        },
+        {
+            "title": "4. If AIs become more intelligent than people, wouldn't they be wiser and more moral? That would\nmean they would not aim to harm us.",
+            "level": 4,
+            "page": 51
+        },
+        {
+            "title": "6. Wouldn't the potential benefits that AIs could bring justify the risks?",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "7. Wouldn't increasing attention on catastrophic risks from AIs drown out today's urgent risks from\nAIs?",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "8. Aren't many AI researchers working on making AIs safe?",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "9. Since it takes thousands of years to produce meaningful changes, why do we have to worry about\nevolution being a driving force in AI development?",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "11. Isn't the combination of human intelligence and AI superior to AI alone, so that there is no need to\nworry about unemployment or humans becoming irrelevant?",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "12. The development of AI seems unstoppable. Wouldn't slowing it down dramatically or stopping it\nrequire something like an invasive global surveillance regime?",
+            "level": 4,
+            "page": 53
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Problem Statement",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Methodology",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "LoRA Tuning on Upstream Tasks",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Compose: Element-wise Composition of LoRA Modules",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Adapt: Weight Optimization via Gradient-free Methods",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Experimental Framework",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Implementation Details",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Main Results",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Analysis",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Limitations & Future Work",
+            "level": 0,
+            "page": 8
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 13,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LORAHUB: EFFICIENT CROSS-TASK GENERALIZA-\nTION VIA DYNAMIC LORA COMPOSITION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 PROBLEM STATEMENT",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 METHODOLOGY",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 LORA TUNING ON UPSTREAM TASKS",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 COMPOSE: ELEMENT-WISE COMPOSITION OF LORA MODULES",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 ADAPT: WEIGHT OPTIMIZATION VIA GRADIENT-FREE METHODS",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4 EVALUATION",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.1 EXPERIMENTAL FRAMEWORK",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 IMPLEMENTATION DETAILS",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 MAIN RESULTS",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5 ANALYSIS",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Which LoRA modules are most effective for BBH tasks?",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "Evaluation of the gradient-free optimization method's efficacy.",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6 RELATED WORK",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "7 CONCLUSION",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "8 LIMITATIONS & FUTURE WORK",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 8
+        }
+    ]
+}

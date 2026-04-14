@@ -1,0 +1,151 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 21,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Towards Understanding Chain-of-Thought Prompting:\nAn Empirical Study of What Matters",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background & Study Formulation",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Experimental Setup",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 Datasets & In-context Exemplars",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2 Backbone Language Model",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.3 Evaluation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 How Much Does Valid Reasoning\nMatter?",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Constructing Invalid Chain of Reasoning",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.2 Results & Analysis",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5 What are the Key Aspects of\nChain-of-Thoughts?",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1 Ablation Settings",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5.2 Results & Analysis",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6 Discussion",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "7 Related Work",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "A.1 Chain of Thought Exemplars",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "A.2 More Details on Intrinsic Evaluation",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "A.3 Additional Results & Discussion",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "A.4 Full List of Prompts",
+            "level": 3,
+            "page": 11
+        }
+    ]
+}

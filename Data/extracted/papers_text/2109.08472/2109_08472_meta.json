@@ -1,0 +1,121 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 11,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 0,
+            "equations": 8
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ActionCLIP: A New Paradigm for Video Action Recognition",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. Related Works",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1. Video Action Recognition",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2. Vision-text Multi-modality in Action Recogni-\ntion",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3. Method",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1. Multimodal Learning Framework",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2. The New Paradigm",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3. New Paradigm Instantiation Details",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4. Experiments",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1. Experimental Setup",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2. Ablation Experiments",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3. Runtime Analysis",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.4. Zero-shot/few-shot Recognition",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.5. Comparison with State-of-the-art Methods",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5. Conclusion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6. Acknowledgements",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 8
+        }
+    ]
+}

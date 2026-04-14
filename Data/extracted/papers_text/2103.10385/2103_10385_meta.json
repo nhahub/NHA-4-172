@@ -1,0 +1,126 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 10,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 10,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 0,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Motivation",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3. Method: P-tuning",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1. Architecture",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2. Optimization",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4. Experiments",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1. Knowledge Probing",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.1.1. DATASETS AND FORMULATION",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2. SuperGLUE",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2.1. FULLY-SUPERVISED LEARNING",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2.2. FEW-SHOT LEARNING",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2.3. FINETUNING V.S. MP FINETUNING V.S.\nP-TUNING",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5. Related work",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1. Pre-trained Language Models",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2. Language Models as Knowledge Base",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.3. Language Model Prompting",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6. Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        }
+    ]
+}

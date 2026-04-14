@@ -1,0 +1,537 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2 Model Architecture",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "2.1 Model Scale Hyperparameters",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.2 Model Card",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3 Training Dataset",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4 Training Infrastructure",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "4.1 Training Efficiency",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5 Training Setup",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "5.1 Training Instability",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6 Evaluation",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "6.1 English NLP tasks",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6.2 BIG-bench",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "6.3 Reasoning",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "6.4 Code Tasks",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "6.5 Translation",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "6.6 Multilingual Natural Language Generation",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "6.7 Multilingual Question Answering",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "6.8 Analysis",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "7 Memorization",
+            "level": 0,
+            "page": 34
+        },
+        {
+            "title": "8 Dataset Contamination",
+            "level": 0,
+            "page": 35
+        },
+        {
+            "title": "9 Exploring Explanations",
+            "level": 0,
+            "page": 37
+        },
+        {
+            "title": "10 Representational Bias Analysis",
+            "level": 0,
+            "page": 39
+        },
+        {
+            "title": "10.1 Distributional bias in social groups",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "10.2 Toxicity in open-ended generation",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "10.3 Limitations",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "11 Ethical Considerations",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "12 Related Work",
+            "level": 0,
+            "page": 46
+        },
+        {
+            "title": "13 Open Questions in Scaling",
+            "level": 0,
+            "page": 47
+        },
+        {
+            "title": "14 Conclusion",
+            "level": 0,
+            "page": 49
+        },
+        {
+            "title": "15 Acknowledgments",
+            "level": 0,
+            "page": 50
+        },
+        {
+            "title": "A Contributions",
+            "level": 0,
+            "page": 63
+        },
+        {
+            "title": "B Compute Usage and Environmental Impact",
+            "level": 0,
+            "page": 65
+        },
+        {
+            "title": "C Dataset Analysis",
+            "level": 0,
+            "page": 66
+        },
+        {
+            "title": "D Datasheet",
+            "level": 0,
+            "page": 68
+        },
+        {
+            "title": "E Model Card",
+            "level": 0,
+            "page": 73
+        },
+        {
+            "title": "F Training for longer",
+            "level": 0,
+            "page": 75
+        },
+        {
+            "title": "G Sample Model Outputs",
+            "level": 0,
+            "page": 76
+        },
+        {
+            "title": "G.1 Reasoning",
+            "level": 1,
+            "page": 77
+        },
+        {
+            "title": "G.2 Bias and Toxicity",
+            "level": 1,
+            "page": 78
+        },
+        {
+            "title": "G.3 Memorization",
+            "level": 1,
+            "page": 81
+        },
+        {
+            "title": "H Additional Results",
+            "level": 0,
+            "page": 82
+        },
+        {
+            "title": "H.1 English NLP tasks on smaller models",
+            "level": 1,
+            "page": 82
+        },
+        {
+            "title": "H.2 Additional BIG-bench results",
+            "level": 1,
+            "page": 83
+        },
+        {
+            "title": "H.3 Additional Multilingual NLG results",
+            "level": 1,
+            "page": 85
+        }
+    ],
+    "pages": 87,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 53,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "PaLM: Scaling Language Modeling with Pathways",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2 Model Architecture",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.1 Model Scale Hyperparameters",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "2.2 Model Card",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3 Training Dataset",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4 Training Infrastructure",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Training Efficiency",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5 Training Setup",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "5.1 Training Instability",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "6 Evaluation",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "6.1 English NLP tasks",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "6.1.1 Massive Multitask Language Understanding",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "6.1.2 Finetuning",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "6.2 BIG-bench",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "6.3 Reasoning",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "6.3.1 Results",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "6.4 Code Tasks",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "6.5 Translation",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "6.5.1 Further findings and analysis",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "6.6 Multilingual Natural Language Generation",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "6.6.1 Results",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "6.7 Multilingual Question Answering",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "6.8 Analysis",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "7 Memorization",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "8 Dataset Contamination",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "9 Exploring Explanations",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "10 Representational Bias Analysis",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "10.1 Distributional bias in social groups",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "10.1.1 Gender and occupation bias",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "10.1.2 Toxicity and bias",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "10.2 Toxicity in open-ended generation",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "10.3 Limitations",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "11 Ethical Considerations",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "12 Related Work",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "13 Open Questions in Scaling",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "14 Conclusion",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "15 Acknowledgments",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "A Contributions",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "Preparation",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "Model Training",
+            "level": 3,
+            "page": 63
+        },
+        {
+            "title": "Post-Training",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "Full Project Lifecycle",
+            "level": 3,
+            "page": 64
+        },
+        {
+            "title": "Authorship Order",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "B Compute Usage and Environmental Impact",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "C Dataset Analysis",
+            "level": 2,
+            "page": 66
+        },
+        {
+            "title": "D Datasheet",
+            "level": 2,
+            "page": 68
+        },
+        {
+            "title": "E Model Card",
+            "level": 2,
+            "page": 73
+        },
+        {
+            "title": "F Training for longer",
+            "level": 2,
+            "page": 75
+        },
+        {
+            "title": "G Sample Model Outputs",
+            "level": 2,
+            "page": 77
+        },
+        {
+            "title": "G.1 Reasoning",
+            "level": 2,
+            "page": 77
+        },
+        {
+            "title": "G.2 Bias and Toxicity",
+            "level": 2,
+            "page": 78
+        },
+        {
+            "title": "G.3 Memorization",
+            "level": 2,
+            "page": 81
+        },
+        {
+            "title": "H Additional Results",
+            "level": 2,
+            "page": 82
+        },
+        {
+            "title": "H.2 Additional BIG-bench results",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "H.3 Additional Multilingual NLG results",
+            "level": 2,
+            "page": 85
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "A Brief Introduction to Underlying AI Concepts",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Introducing ChatGPT",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "OpenAI and Early Developments",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "ChatGPT",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Comparison of GPT/ChatGPT to Other Existing Language Models",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Benefits of ChatGPT for Scholarly Publishing",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Authorship, Copyright, and Plagiarism",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Citation Practices",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Discussion",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Conclusion",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 14
+        }
+    ]
+}

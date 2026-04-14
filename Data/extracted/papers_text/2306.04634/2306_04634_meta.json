@@ -1,0 +1,452 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "An Overview of Machine-Generated Text Detection",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "How to improve watermark reliability?",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Improved Hashing Schemes",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Improved Watermark Detection",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Evaluating Watermarking in the Wild",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Robustness to Machine Paraphrasing Attacks",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Robustness to Copy-Paste Attacks",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Paraphrasing by Human Writers",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "A Comparative Study of Detection Algorithms",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "What about the White-Box Setting?",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Relationship to theoretical results on (im)possibility of detection ",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Conclusions",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Utilizing Better Quality Metrics",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Hashing Scheme Extended Ablation",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Datasets and Models Ablation",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "GPT Attack Prompt Ablation",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Watermark Detector Ablation",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Detectability of Watermarks after Machine Paraphrasing: TPR @ T",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "Experimental Methodology Details",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "GPT Paraphrase Attack",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Dipper Paraphrase Attack",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Baseline Method Hyperparameters",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Defining ``Positive'' and ``Negative'' Detection Test Samples",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Baseline Detection Method Performance as a Function of Tokens Observed",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "Detection Method Comparison: Detector Scores @ T",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "Human Study Details and Preference Evaluation",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "Quality/Preference Evaluation",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "Data Generation and Selection Parameters",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "Annotation Platform and Task Instructions",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "Demographic and Compensation Details",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "Institutional Review Board ``Exempt'' Status",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "Code Details and Release Statement",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "Hardware and Compute Details",
+            "level": 1,
+            "page": 40
+        }
+    ],
+    "pages": 41,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 10,
+            "unsuccessful_ocr": 1,
+            "equations": 11
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "On the Reliability of Watermarks for Large Language\nModels",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 An Overview of Machine-Generated Text Detection",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 How to improve watermark reliability?",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Improved Hashing Schemes",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Improved Watermark Detection",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Evaluating Watermarking in the Wild",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.1 Robustness to Machine Paraphrasing Attacks",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Robustness to Copy-Paste Attacks",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3 Paraphrasing by Human Writers",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.4 A Comparative Study of Detection Algorithms",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.5 What about the White-Box Setting?",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5 Relationship to theoretical results on (im)possibility of detection",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "6 Conclusions",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "7 Acknowledgements",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A Appendix",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Table of Contents",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "A.1 Utilizing Better Quality Metrics",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "A.2 Hashing Scheme Extended Ablation",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "A.3 Datasets and Models Ablation",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "A.4 GPT Attack Prompt Ablation",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "A.5 Watermark Detector Ablation",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "Design Choices",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "A.6 Detectability of Watermarks after Machine Paraphrasing: TPR @ T",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "A.7 Experimental Methodology Details",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "A.7.1 GPT Paraphrase Attack",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "A.7.2 Dipper Paraphrase Attack",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "A.7.3 Baseline Method Hyperparameters",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "A.7.4 Defining \"Positive\" and \"Negative\" Detection Test Samples",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "A.7.5 Baseline Detection Method Performance as a Function of Tokens Observed",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "A.8 Detection Method Comparison: Detector Scores @ T",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "A.9 Human Study Details and Preference Evaluation",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "A.9.1 Quality/Preference Evaluation",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "A.9.2 Data Generation and Selection Parameters",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "A.9.3 Annotation Platform and Task Instructions",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "\"Paraphrase Text\"",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "Description",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "Instructions",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "Requirements:",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "\"Compare Answers\"",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "Description",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "Instructions",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "Requirements:",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "A.9.4 Demographic and Compensation Details",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "A.9.5 Institutional Review Board \"Exempt\" Status",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "A.10 Code Details and Release Statement",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "A.11 Hardware and Compute Details",
+            "level": 3,
+            "page": 40
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "PromptSource: An Integrated Development Environment\nand Repository for Natural Language Prompts",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Background and Related Work",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3 System Design and Workflow",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Prompting Language",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5 The PromptSource UI",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "6 Community Guidelines and Process",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "7 Case Studies",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "A Data and Statistics",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "B Complete Views",
+            "level": 3,
+            "page": 9
+        }
+    ]
+}

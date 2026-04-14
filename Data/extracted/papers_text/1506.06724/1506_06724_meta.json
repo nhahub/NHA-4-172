@@ -1,0 +1,251 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 9,
+        "ocr_failed": 0,
+        "ocr_success": 9,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 16,
+            "unsuccessful_ocr": 1,
+            "equations": 17
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Aligning Books and Movies: Towards Story-like Visual Explanations by\nWatching Movies and Reading Books",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3. The MovieBook and BookCorpus Datasets",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "4. Aligning Books and Movies",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4.1. Skip-Thought Vectors",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.2. Visual-semantic embeddings of clips and DVS",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.3. Context aware similarity",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.4. Global Movie/Book Alignment",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5. Experimental Evaluation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5.1. Movie/Book Alignment",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2. Describing Movies via the Book",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.3. Book \"Retrieval\"",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.4. The CoCoBook: Writing Stories for CoCo",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6. Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "A. Qualitative Movie-Book Alignment Results",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "B. Borrowing \"Lines\" from Other Books",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "\"It's very important to us, Mitch,\" Royce McKnight said warmly.",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "Mitch braced himself and waited.",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "I nodded.",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "American. Psycho\n\n![14_image_0.png](14_image_0.png)\n\n",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "Fight. Club",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "Fight. Club",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Fight. Club",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "American. Psycho\n\n![15_image_0.png](15_image_0.png)\n\n",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "Harry. Potter and the Sorcerers. Stone\n\n![15_image_1.png](15_image_1.png)\n\n",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "One.Flew.Over.the.Cuckoo.Nest",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Fight. Club",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "The.Green.Mile",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Fight. Club\n\n![16_image_0.png](16_image_0.png)\n\n",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Fight. Club\n\n![16_image_1.png](16_image_1.png)\n\n",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "The.Green.Mile\n\n![16_image_2.png](16_image_2.png)\n\n",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Aeons-Gate-1",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "3th Reality-2",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "KissofShadows",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Harry. Potter\n\n![17_image_0.png](17_image_0.png)\n\n",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "CaressofTwilight",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "ScannerDarkly",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Harrv. Potte\n\n![17_image_2.png](17_image_2.png)\n\n",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "ALickofFrost2",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "C. The CoCoBook",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 22
+        }
+    ]
+}

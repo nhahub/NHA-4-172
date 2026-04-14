@@ -1,0 +1,196 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 20,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 14,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "How Abilities in Large Language Models are Affected by Supervised\nFine-tuning Data Composition",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Works",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Experiments",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Experiment Setup",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 RQ1. Individual Ability Performance vs.\nData Amount",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 RQ2. Performance Difference vs. Mixed\nData Amount",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.4 RQ3. Performance Difference vs. Data\nComposition Ratio",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.5 RQ4. Performance Difference vs.\nTraining Strategies",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Discussion",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.1 Visualization of Different SFT Abilities",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Ablation of the Specialized Domains in\nShareGPT",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 Specialized Data Amount in DMT",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Limitations",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "A SFT Datasets",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "B Evaluation metrics",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "C Implementation Details",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "D Estimating FLOPs of SFT",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "E Validation Experiments in More SFT\nAbilities",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "F Results on OOD Benchmarks in Math\nand Code",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "G Visualization of Different Layers",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "H Equal Data Amount VS. Equal Data\nProportion",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "I Comparison Experiment of Different\nTraining Sequences",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "J Detailed Results of experiments",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "J.1 Results of Different Random Seeds",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "J.2 Results of Single Source and Mixed\nSource",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "J.3 Results of Data Ratio (k)",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "J.4 Results of Specialized Data Amount of\nDMT",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "J.5 Results of MT-Bench",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "J.6 Supplemental Results for Discussion",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "K Related Work",
+            "level": 1,
+            "page": 16
+        }
+    ]
+}

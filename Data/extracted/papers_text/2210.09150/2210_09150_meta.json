@@ -1,0 +1,257 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Facet 1: Generalizability",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Facet 2: Social Bias and Fairness",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 The Case of Gender Bias: WinoBias",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Broader Social Dimensions: BBQ",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Facet 3: Uncertainty Calibration",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Evaluation Setup",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5 Facet 4: Factuality Via Knowledge Updating",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "5.1 Memorization vs Updating",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.2 Retrieval-Augmented Open-Domain QA",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.3 Reasoning-Augmented Multi-Hop QA",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "A More Related Work",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "B Additional Results: Generalizability",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "C Additional Results: Social Biases",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "D Additional Results: Calibration",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "E Additional Results: Knowledge Updating",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "E.1 Impact of Prompts for Memorization vs Updating",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "E.2 Targeted In-Context Knowledge Updating",
+            "level": 1,
+            "page": 20
+        }
+    ],
+    "pages": 24,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 24,
+        "code": 0,
+        "table": 21,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "PROMPTING GPT-3 TO BE RELIABLE",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 FACET 1: GENERALIZABILITY",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 FACET 2: SOCIAL BIAS AND FAIRNESS",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 THE CASE OF GENDER BIAS: WINOBIAS",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 BROADER SOCIAL DIMENSIONS: BBQ",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 FACET 3: UNCERTAINTY CALIBRATION",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.1 EVALUATION SETUP",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.2 RESULTS",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5 FACET 4: FACTUALITY VIA KNOWLEDGE UPDATING",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.1 MEMORIZATION VS UPDATING",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2 RETRIEVAL-AUGMENTED OPEN-DOMAIN QA",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.3 REASONING-AUGMENTED MULTI-HOP QA",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 CONCLUSION",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "ETHICAL STATEMENT",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "ACKNOWLEDGMENT",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "APPENDIX",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "A MORE RELATED WORK",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "B ADDITIONAL RESULTS: GENERALIZABILITY",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "C ADDITIONAL RESULTS: SOCIAL BIASES",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "D ADDITIONAL RESULTS: CALIBRATION",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "E ADDITIONAL RESULTS: KNOWLEDGE UPDATING",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "E.1 IMPACT OF PROMPTS FOR MEMORIZATION VS UPDATING",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "E.2 TARGETED IN-CONTEXT KNOWLEDGE UPDATING",
+            "level": 4,
+            "page": 20
+        }
+    ]
+}

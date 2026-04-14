@@ -1,0 +1,362 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Preliminaries and Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 Explicit and Implicit Convolutions",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 The Self-Attention Operator",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3 Hyena: Definition and Properties",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "3.1 Hyena Recurrences",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.2 Hyena Matrices",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.3 Hyena Filters",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.4 Hyena Algorithm",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "4.1 Shrinking the gap on in-context learning",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.2 Language Modeling",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.3 Downstream Evaluation",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.4 Benchmarking",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "4.5 Large-Scale Image Classification",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "5 Discussion and Conclusion",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "A Experimental Details",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "A.1 Mechanistic Design Synthetic Benchmarks",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "A.2 Language Modeling",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "A.3 Downstream Evaluation",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "A.4 Image Classification",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "B Theoretical Results and Details",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "B.1 Proofs",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "B.2 Analysis of Data-Controlled Mechanisms",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "C Discussion and Additional Results",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "C.1 Learning Arithmetic",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "D Samples and Visualizations",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "D.1 Hyena Matrices",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "D.2 Hyena Filters",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "D.3 Positional Encoding and Filters Initialization",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "D.4 Downstream Examples",
+            "level": 1,
+            "page": 34
+        }
+    ],
+    "pages": 38,
+    "ocr_stats": {
+        "ocr_pages": 3,
+        "ocr_failed": 0,
+        "ocr_success": 3,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 14,
+        "equations": {
+            "successful_ocr": 42,
+            "unsuccessful_ocr": 10,
+            "equations": 52
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Hyena Hierarchy:\nTowards Larger Convolutional Language Models",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Preliminaries and Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Explicit and Implicit Convolutions",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 The Self-Attention Operator",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3 Hyena: Definition and Properties",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Hyena Recurrences",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2 Hyena Matrices",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.3 Hyena Filters",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.4 Hyena Algorithm",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.1 Shrinking the gap on in-context learning",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.2 Language Modeling",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.3 Downstream Evaluation",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.4 Benchmarking",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.5 Large-Scale Image Classification",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "5 Discussion and Conclusion",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Hyena Hierarchy\nSupplementary Material",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A Experimental Details",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A.1 Mechanistic Design Synthetic Benchmarks",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A.2 Language Modeling",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "A.3 Downstream Evaluation",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "A.4 Image Classification",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "B Theoretical Results and Details",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "B.1 Proofs",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "B.2 Analysis of Data-Controlled Mechanisms",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C Discussion and Additional Results",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "C.1 Learning Arithmetic",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "D Samples and Visualizations",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "D.1 Hyena Matrices",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "D.2 Hyena Filters",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "D.3 Positional Encoding and Filters Initialization",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "D.4 Downstream Examples",
+            "level": 2,
+            "page": 34
+        }
+    ]
+}

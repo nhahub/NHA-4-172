@@ -1,0 +1,106 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 9,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 0,
+            "equations": 6
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Sequence to Sequence Learning\nwith Neural Networks",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 The model",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Experiments",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Dataset details",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Decoding and Rescoring",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Reversing the Source Sentences",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.4 Training details",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.5 Parallelization",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.6 Experimental Results",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.7 Performance on long sentences",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Related work",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Acknowledgments",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 8
+        }
+    ]
+}

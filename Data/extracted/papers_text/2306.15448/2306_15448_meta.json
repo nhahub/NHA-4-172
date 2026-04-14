@@ -1,0 +1,242 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Model-Written Evaluations with Causal Templates",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Stage 1: Building a Causal Template",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Stage 2: Populating Causal Templates With Language Models",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Stage 3: Composing Test Items from Template Variables",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Quality of Generated Data",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Results and Discussion",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Generating Templates",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Human Experiments",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Experiment 1: Human Quality Ratings",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Experiment 2: Human Performance",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Failure cases",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Previous Benchmarks for ToM Reasoning in LLMs",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Evaluating models",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Participant Instructions and Pay",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "Licenses",
+            "level": 0,
+            "page": 19
+        }
+    ],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Understanding Social Reasoning in Language Models\nwith Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Model-Written Evaluations with Causal Templates",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Stage 1: Building a Causal Template",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Stage 2: Populating Causal Templates With Language Models",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.3 Stage 3: Composing Test Items from Template Variables",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.4 Quality of Generated Data",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Results and Discussion",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5 Discussion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Checklist",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "A Generating Templates",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B Human Experiments",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "B.1 Experiment 1: Human Quality Ratings",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "B.2 Experiment 2: Human Performance",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "C Failure cases",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "See Tab. 3 for examples from different datasets.",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "E Evaluating models",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "F Participant Instructions and Pay",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "G Licenses",
+            "level": 2,
+            "page": 19
+        }
+    ]
+}

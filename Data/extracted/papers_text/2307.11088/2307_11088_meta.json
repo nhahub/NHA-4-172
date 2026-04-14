@@ -1,0 +1,177 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Long Context Language Models",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Data Collection and Annotation for L-Eval",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Data collection and Annotation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Statistics",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Evaluating LCLMs on L-Eval",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Exam Evaluation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "N-gram Matching Evaluation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Large Language Model Evaluation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Human Evaluation",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Preliminary Results",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Baselines and Setup",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Results Analysis",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 12
+        }
+    ],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 15,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "L-EVAL: INSTITUTINGSTANDARDIZEDEVALUATION\nFORLONGCONTEXTLANGUAGEMODELS",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 LONG CONTEXT LANGUAGE MODELS",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 DATA COLLECTION AND ANNOTATION FOR L-EVAL",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 DATA COLLECTION AND ANNOTATION",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "4 STATISTICS",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5 EVALUATING LCLMS ON L-EVAL",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5.1 EXAM EVALUATION",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.2 N-GRAM MATCHING EVALUATION",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5.3 LARGE LANGUAGE MODEL EVALUATION",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5.4 HUMAN EVALUATION",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "6 PRELIMINARY RESULTS",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6.2 RESULTS ANALYSIS",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "7 CONCLUSION",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 13
+        }
+    ]
+}

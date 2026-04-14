@@ -1,0 +1,357 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Transformer-Based Large Language Models",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 LLM Service & Autoregressive Generation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3 Batching Techniques for LLMs",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Memory Challenges in LLM Serving",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Memory Management in Existing Systems",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Method",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "4.1 PagedAttention",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.2 KV Cache Manager",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.3 Decoding with PagedAttention and vLLM",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.4 Application to Other Decoding Scenarios",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.5 Scheduling and Preemption",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.6 Distributed Execution",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Implementation",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "5.1 Kernel-level Optimization",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.2 Supporting Various Decoding Algorithms",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Evaluation",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "6.1 Experimental Setup",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6.2 Basic Sampling",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.3 Parallel Sampling and Beam Search",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6.4 Shared prefix",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6.5 Chatbot",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "7 Ablation Studies",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "7.1 Kernel Microbenchmark",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "7.2 Impact of Block Size",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "7.3 Comparing Recomputation and Swapping",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "8 Discussion",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "9 Related Work",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "10 Conclusion",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 13
+        }
+    ],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 1,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Efficient Memory Management for Large Language\nModel Serving with PagedAttention",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Transformer-Based Large Language Models",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 LLM Service & Autoregressive Generation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.3 Batching Techniques for LLMs",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Memory Challenges in LLM Serving",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 Memory Management in Existing Systems",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4 Method",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 PagedAttention",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 KV Cache Manager",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.3 Decoding with PagedAttention and vLLM",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.4 Application to Other Decoding Scenarios",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.5 Scheduling and Preemption",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.6 Distributed Execution",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Implementation",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.1 Kernel-level Optimization",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.2 Supporting Various Decoding Algorithms",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6 Evaluation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6.1 Experimental Setup",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "6.2 Basic Sampling",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "6.3 Parallel Sampling and Beam Search",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "6.4 Shared prefix",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "6.5 Chatbot",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "7 Ablation Studies",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "7.1 Kernel Microbenchmark",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "7.2 Impact of Block Size",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "7.3 Comparing Recomputation and Swapping",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "8 Discussion",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "9 Related Work",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "10 Conclusion",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Acknowledgement",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 13
+        }
+    ]
+}

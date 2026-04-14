@@ -1,0 +1,592 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work and Problem Setting",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Problem Formulation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Observations",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Sparsity for Small Cache Size",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Heavy-Hitters for Low Miss Rate",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Heavy-Hitter Oracle",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Greedy Algorithm for Low-Cost Policy",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Theoretical Guarantee and System Implementation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Empirical Evaluation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "End-to-End Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Heavy Hitter for High-Throughput Generative Inference",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Ablation Results",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Conclusion and Discussion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgement",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": " Appendix",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "More Implementation Details",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Extended Related Works, Discussions, and Limitations",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Extended Related Works",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Discussions and Limitations",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Extended Experiments",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Increased Diversity of Generated Text",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Throughput Improvement of  Combining with Quantization",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Effectiveness on Zero-shot and One-shot Inference",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "Comparison with StreamingLLM",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "Enhancing the \"Top-K\" Baseline",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "Separate Effects of Heavy-Hitter and Local Tokens",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "Performance of Inference with Different Number of Shots.",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "Heavy-Hitter in Attention Blocks",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Comparsion with SpAtten",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Heavy-Hitter in MLP Blocks",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Theoretical Analysis",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "Notations",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Submodular",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Dynamic Submodular",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "Static Attention",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "Recursive Attention Definition",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "Eviction Policy",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "Explaining Submodular Diminishing Return Property in Attention Scheme",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "Submodular: High Level Ideas",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "Robust Greedy with Error Propagation",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "Robust Submodular and Adding Items",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "Universal Conditions",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "Induction Lemma for Exact Function",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "Induction Lemma for Approximate Function",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "Theoretical Result",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "Extended Related Work for Theoretical Attention Problems",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "Sparsity Preserving",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "Definition of Loss Function",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "Gradient",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "Hessian",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "Hessian is Positive Definite",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "Hessian is Lipschitz",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "Greedy Type Algorithm",
+            "level": 2,
+            "page": 47
+        }
+    ],
+    "pages": 49,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 11,
+        "equations": {
+            "successful_ocr": 49,
+            "unsuccessful_ocr": 6,
+            "equations": 55
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "H2O: Heavy-Hitter Oracle for Efficient Generative\nInference of Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work and Problem Setting",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Problem Formulation",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3 Observations",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Sparsity for Small Cache Size",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Heavy-Hitters for Low Miss Rate",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Heavy-Hitter Oracle",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Greedy Algorithm for Low-Cost Policy",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Theoretical Guarantee and System Implementation",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5 Empirical Evaluation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 End-to-End Results",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2 Heavy Hitter for High-Throughput Generative Inference",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.3 Ablation Results",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion and Discussion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "7 Acknowledgement",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Table of Contents",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "A More Implementation Details",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "B Extended Related Works, Discussions, and Limitations",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "B.1 Extended Related Works",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "B.2 Discussions and Limitations",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "C Extended Experiments",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "C.1 Increased Diversity of Generated Text",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "C.2 Throughput Improvement of H2O Combining with Quantization",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "C.3\n Effectiveness on Zero-shot and One-shot Inference",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "Comparison with StreamingLLM\nC.4",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "C.5 Enhancing the \"Top-K\" Baseline",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "C.6 Separate Effects of Heavy-Hitter and Local Tokens",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "C.7 Performance of Inference with Different Number of Shots.",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "C.8 Heavy-Hitter in Attention Blocks",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "C.9 Comparsion with SpAtten",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "C.10 Heavy-Hitter in MLP Blocks",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "D Theoretical Analysis",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "D.1 Notations",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "D.2 Submodular",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "D.3 Dynamic Submodular",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "D.4 Static Attention",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "D.5 Recursive Attention Definition",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "D.6 Eviction Policy",
+            "level": 4,
+            "page": 35
+        },
+        {
+            "title": "D.7 Explaining Submodular Diminishing Return Property in Attention Scheme",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "D.8 Submodular: High Level Ideas",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "D.9 Robust Greedy with Error Propagation",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "D.10 Robust Submodular and Adding Items",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "D.11 Universal Conditions",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "D.12 Induction Lemma for Exact Function",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "D.13 Induction Lemma for Approximate Function",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "D.14 Theoretical Result",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "D.15 Extended Related Work for Theoretical Attention Problems",
+            "level": 4,
+            "page": 42
+        },
+        {
+            "title": "D.16 Sparsity Preserving",
+            "level": 4,
+            "page": 42
+        },
+        {
+            "title": "D.17 Definition of Loss Function",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "D.18 Gradient",
+            "level": 4,
+            "page": 44
+        },
+        {
+            "title": "D.19 Hessian",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "D.20 Hessian is Positive Definite",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "D.21 Hessian is Lipschitz",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "D.22 Greedy Type Algorithm",
+            "level": 4,
+            "page": 47
+        }
+    ]
+}

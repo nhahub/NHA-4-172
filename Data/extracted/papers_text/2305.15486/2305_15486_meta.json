@@ -1,0 +1,162 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Method",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Studying the paper: Context from LaTeX source",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Reasoning: QA-DAG for SPRING",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Experiments and Results",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Experimental Details",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Overall Results",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Component Analysis",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Potential for Benchmarking LLMs",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Limitations and Future Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Conclusions",
+            "level": 0,
+            "page": 8
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 1,
+            "equations": 9
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SPRING: GPT-4 Out-performs RL Algorithms by\nStudying Papers and Reasoning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Method",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 Reasoning: QA-DAG for SPRING",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 Experiments and Results",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.1 Experimental Details",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2 Overall Results",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3 Component Analysis",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.4 Potential for Benchmarking LLMs",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4 Related Work",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Limitations and Future Work",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusions",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Broader Impacts",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        }
+    ]
+}

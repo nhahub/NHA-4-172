@@ -1,0 +1,101 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 0,
+            "equations": 6
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SEARCHING FOR ACTIVATION FUNCTIONS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 METHODS",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 SEARCH FINDINGS",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 SWISH",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5 EXPERIMENTS WITH SWISH",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1 EXPERIMENTAL SET UP",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5.2 CIFAR",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.3 IMAGENET",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.4 MACHINE TRANSLATION",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6 RELATED WORK",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7 CONCLUSION",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "ACKNOWLEDGEMENTS",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 9
+        }
+    ]
+}

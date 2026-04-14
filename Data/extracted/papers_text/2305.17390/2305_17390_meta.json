@@ -1,0 +1,302 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Background and Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Complex Interactive Reasoning",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Reinforcement Learning and Imitation Learning Methods",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Prompting LLMs for Action Planning.",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Dual-Process Theory",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "SwiftSage: A Generative Agent with Fast and Slow Thinking",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Problem Formulation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Swift: The Module for Intuitive and Associative Thinking via Imitation Learning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Sage: The Module for Deliberate and Analytical Thinking via Prompting LLMs",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Integration of Fast and Slow Thinking ",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Evaluation Setup",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Baseline Agents",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Results and analysis.",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Dataset Statistics",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Implementation Details",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Training Details of Swift",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Prompting in Sage",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Action Buffer",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Additional Results and Analysis",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Sensitivity to LLMs: GPT-3.5-turbo vs GPT-4",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Efficiency Analysis",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Cost-effectiveness",
+            "level": 1,
+            "page": 16
+        }
+    ],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SWIFTSAGE: A Generative Agent with\nFast and Slow Thinking for Complex Interactive Tasks",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background and Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Complex Interactive Reasoning",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 Reinforcement Learning and Imitation Learning Methods",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.3 Prompting LLMs for Action Planning.",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.4 Dual-Process Theory",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 SWIFTSAGE: A Generative Agent with Fast and Slow Thinking",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Problem Formulation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 SWIFT: The Module for Intuitive and Associative Thinking via Imitation Learning",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 SAGE: The Module for Deliberate and Analytical Thinking via Prompting LLMs",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.4 Integration of Fast and Slow Thinking",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Evaluation Setup",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.2 Baseline Agents",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 Results and analysis.",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A Dataset Statistics",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B Implementation Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "B.1 Training Details of SWIFT",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "B.2 Prompting in SAGE",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "B.3 Action Buffer",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "C Additional Results and Analysis",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "C.1 Sensitivity to LLMs: GPT-3.5-turbo vs GPT-4",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "C.2 Efficiency Analysis",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "C.3 Cost-effectiveness",
+            "level": 3,
+            "page": 16
+        }
+    ]
+}

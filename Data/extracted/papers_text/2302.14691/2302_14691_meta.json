@@ -1,0 +1,262 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 In-Context Instruction Learning",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 Demonstration Set Construction",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 In-Context Instruction Learning During Inference",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Experimental Setup",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Results",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Analysis",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Ablation Studies",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 Additional Experiments",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5 Discussion",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "6 Related Works",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "7 Limitations",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "9 Acknowledgement",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "A Full Results for Each Task Category",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "B Preliminary Observation on OPT-IML and FLAN-T5",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "C Evaluation Setting Details",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "D Qualitative Evaluation",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "E Example of Model-Generated Prompts",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "F List of Prompts for ICIL",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "G List of Prompts for Irrelevant ICIL",
+            "level": 0,
+            "page": 20
+        }
+    ],
+    "pages": 24,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "In-Context Instruction Learning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 In-Context Instruction Learning",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Demonstration Set Construction",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 In-Context Instruction Learning During Inference",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Experimental Setup",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Results",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4 Analysis",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Ablation Studies",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Additional Experiments",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Discussion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 Related Works",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7 Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "9 Acknowledgement",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Full Results for Each Task Category",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B Preliminary Observation on OPT-IML and FLAN-T5",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C Evaluation Setting Details",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "D Qualitative Evaluation",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "E Example of Model-Generated Prompts",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "F List of Prompts for ICIL",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "G List of Prompts for Irrelevant ICIL",
+            "level": 2,
+            "page": 20
+        }
+    ]
+}

@@ -1,0 +1,407 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Robotics with ChatGPT",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Construction and description of the robotics API library",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Clear description of the task details in the prompt ",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Special arguments to bias the answer's structure",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "ChatGPT abilities for solving robotics problems",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Zero-shot task planning",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Spatio-temporal reasoning: catching a basketball with visual servoing",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Aerial robotics: real-world drone flight with intuitive human-robot interface (Click for video)",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Aerial robotics: AirSim industrial inspection (Click for video)",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "User on the loop: interactive conversations for complex tasks",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Manipulation with curriculum learning (Click for video)",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Aerial robotics: AirSim obstacle avoidance (Click for video)",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Perception-action loops",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Embodied agent: closed loop object navigation with API library (Click for video)",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Embodied agent: closed loop visual-language navigation using ChatGPT's dialogue (Click for video)",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Reasoning and common-sense robotics tasks ",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "PromptCraft, a collaborative tool for LLM + Robotics research",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Conclusions and Future Work",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "ChatGPT for paper writing",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Additional examples on design principles on prompt engineering",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "Example of prompt with no API library guidance for home robot: unbounded text-based response",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Example of prompt with under-specified APIs: hallucination over function parameters",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Example of prompt with structured response forcing the answer to be in a numbered list format",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Original initial prompts for robotics tasks examples",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "Spatial-temporal reasoning: catching a basketball with visual servoing",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Aerial robotics: real-world drone flight",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Aerial robotics: AirSim industrial inspection",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Aerial robotics: AirSim obstacle avoidance",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Embodied agent: Habitat navigation",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Embodied agent: AirSim object navigation",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Manipulation with curriculum learning: Picking, stacking, and building the Microsoft logo",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Additional experiments",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Zero-shot manipulation: Pick and place, stacking, and pushing",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Controlling multiple robot form factors from a single prompt",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Other commonsense/reasoning tasks",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Computer vision problem",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Transformation matrices",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Balancing a ball on a plate",
+            "level": 1,
+            "page": 23
+        }
+    ],
+    "pages": 25,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 24,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ChatGPT for Robotics:\n\n![0_image_0.png](0_image_0.png)\n\n\nDesign Principles and Model Abilities",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. Robotics with ChatGPT",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1. Construction and description of the robotics API library",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.2. Clear description of the task details in the prompt",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.3. Special arguments to bias the answer's structure",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3. ChatGPT abilities for solving robotics problems",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.1. Zero-shot task planning",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.1.1. Spatio-temporal reasoning: catching a basketball with visual servoing",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.1.3. Aerial robotics: AirSim industrial inspection (Click for video)",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "3.2. User on the loop: interactive conversations for complex tasks",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "3.2.1. Manipulation with curriculum learning (Click for video)",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "3.2.2. Aerial robotics: AirSim obstacle avoidance (Click for video)",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "3.3. Perception-action loops",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "3.3.1. Embodied agent: closed loop object navigation with API library (Click for video)",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "3.4. Reasoning and common-sense robotics tasks",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4. PromptCraft, a collaborative tool for LLM + Robotics research",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "5. Related Work",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "6. Conclusions and Future Work",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "6.1. ChatGPT for paper writing",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "A. Additional examples on design principles on prompt engineering",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "A.2. Example of prompt with under-specified APIs: hallucination over function parameters",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "A.3. Example of prompt with structured response forcing the answer to be in a numbered list format",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "B. Original initial prompts for robotics tasks examples",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "B.2. Aerial robotics: real-world drone flight",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "B.3. Aerial robotics: AirSim industrial inspection",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "B.4. Aerial robotics: AirSim obstacle avoidance",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "B.5. Embodied agent: Habitat navigation",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "B.6. Embodied agent: AirSim object navigation",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "B.7. Manipulation with curriculum learning: Picking, stacking, and building the Microsoft logo",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "C. Additional experiments",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "D. Other commonsense/reasoning tasks",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "D.1. Computer vision problem",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "D.2. Transformation matrices",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "D.3. Balancing a ball on a plate",
+            "level": 4,
+            "page": 23
+        }
+    ]
+}

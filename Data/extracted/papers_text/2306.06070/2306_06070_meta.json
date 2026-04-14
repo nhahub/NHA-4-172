@@ -1,0 +1,292 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Mind2Web Dataset",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Task Definition",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Data Collection",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Comparison with Existing Work and Research Challenges",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Method: MindAct",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Candidate Generation with Small LMs",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Action Prediction with LLMs",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Experimental Setup",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Data Preprocessing and Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Overview",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Data Collection Details",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Crowdsourcing Details",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Task Proposal",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Task Demonstration",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Task Verification",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Experiment Details",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Evaluation",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Model Implementation Details",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Limitations and Potential Societal Impact",
+            "level": 0,
+            "page": 19
+        }
+    ],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "MIND2WEB: Towards a Generalist Agent for the Web",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 MIND2WEB Dataset",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1 Task Definition",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 Data Collection",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.3 Comparison with Existing Work and Research Challenges",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3 Method: MINDACT",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.1 Candidate Generation with Small LMs",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2 Action Prediction with LLMs",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.1 Experimental Setup",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Data Preprocessing and Evaluation",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 Results",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Related Work",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Checklist",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A Overview",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "B Data Collection Details",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "B.1 Crowdsourcing Details",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "B.2 Task Proposal",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "B.3 Task Demonstration",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "B.4 Task Verification",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "C Experiment Details",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "C.1 Evaluation",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "C.2 Model Implementation Details",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "D Limitations and Potential Societal Impact",
+            "level": 1,
+            "page": 19
+        }
+    ]
+}

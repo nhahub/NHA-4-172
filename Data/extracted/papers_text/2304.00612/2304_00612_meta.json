@@ -1,0 +1,141 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 16,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Samuel R. Bowman 1 2",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. LLMs predictably get more capable with\nincreasing investment, even without\ntargeted innovation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "at producing economically valuable systems.",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2. Specific important behaviors in LLM tend\nto emerge unpredictably as a byproduct of\nincreasing investment",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3. LLMs often appear to learn and use\nrepresentations of the outside world",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4. There are no reliable techniques for\nsteering the behavior of LLMs",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "5. Experts are not yet able to interpret the\ninner workings of LLMs",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "6. Human performance on a task isn't an\nupper bound on LLM performance",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "7. LLMs need not express the values of their\ncreators nor the values encoded in web text",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "8. Brief interactions with LLMs are often\nmisleading",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "9. Discussion and Limitations",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "9.1. We should expect some of the prominent flaws of\ncurrent LLMs to improve significantly",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "9.2. There will be incentives to deploy LLMs as agents\nthat flexibly pursue goals",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "9.3. LLM developers have limited influence over what\nis developed",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "9.4. LLMs are likely to produce a rapidly growing\narray of risks",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "9.5. Negative results with LLMs can be difficult to\ninterpret but point to areas of real weakness",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "9.6. The science and scholarship around LLMs is\nespecially immature",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 8
+        }
+    ]
+}

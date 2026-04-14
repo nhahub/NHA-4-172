@@ -1,0 +1,337 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "The OpenAGI Platform",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Benchmark Tasks",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Domain Expert Model Set",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Multi-step Tasks and Corresponding Datasets Construction",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Evaluation Metrics",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Open-ended Tasks",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Reinforcement Learning from Task Feedback (RLTF)",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Backbone LLMs",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Learning Schema of LLMs",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Datasets",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Experimental Analysis",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Effect of Prompts",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Case Study of Non-linear Planning",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Conclusions and Future Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Research Challenges",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Original Datasets",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Data Augmentation Methods",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Evaluation Metrics",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Dataset Documentation and Data Samples for Benchmark Tasks",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Details of RLTF",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Constrained Generation",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Zero- and Few-shot Schema",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Broader Impacts and Limitations",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Computational Resources",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Training Details",
+            "level": 0,
+            "page": 18
+        }
+    ],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 9,
+            "unsuccessful_ocr": 1,
+            "equations": 10
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "OpenAGI: When LLM Meets Domain Experts",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 The OpenAGI Platform",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Benchmark Tasks",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.1.1 Domain Expert Model Set",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.1.2 Multi-step Tasks and Corresponding Datasets Construction",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.1.3 Evaluation Metrics",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.2 Open-ended Tasks",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4 Reinforcement Learning from Task Feedback (RLTF)",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5 Experiments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Backbone LLMs",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2 Learning Schema of LLMs",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.3 Datasets",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.4 Experimental Analysis",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.5 Effect of Prompts",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.6 Case Study of Non-linear Planning",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusions and Future Work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Supplementary Material for OpenAGI\n\n![12_image_0.png](12_image_0.png)\n\n",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "A.1 Research Challenges",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A.2 Original Datasets",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.3 Data Augmentation Methods",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.4 Evaluation Metrics",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "A.5 Dataset Documentation and Data Samples for Benchmark Tasks",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A.6 Details of RLTF",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A.7 Constrained Generation",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A.8 Zero- and Few-shot Schema",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A.9 Broader Impacts and Limitations",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A.10 Computational Resources",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "A.11 Training Details",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Prompt-1",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "Prompt-2",
+            "level": 2,
+            "page": 20
+        }
+    ]
+}

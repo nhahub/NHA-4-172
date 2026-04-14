@@ -1,0 +1,197 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "ChatDB",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Task Definition",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Framework Overview",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Chain-of-Memory",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Comparison with previous memory-augmented LLMs",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Experimental Setup",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Model Configuration",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Dataset",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Processing records",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Answering questions",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 9
+        }
+    ],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 11,
+        "code": 6,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "CHATDB: AUGMENTING LLMS WITH DATABASES AS THEIR\nSYMBOLIC MEMORY",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 ChatDB",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Task Definition",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Framework Overview",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Chain-of-Memory",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.4 Comparison with previous memory-augmented LLMs",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Experimental Setup",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.1.1 Model Configuration",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.1.2 Dataset",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.1.3 Processing records",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.1.4 Answering questions",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2 Results",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "(a) Question: What was the total revenue for January 2023?",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        }
+    ]
+}

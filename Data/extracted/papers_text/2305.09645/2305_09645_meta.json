@@ -1,0 +1,136 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "StructGPT: A General Framework for Large Language Model\nto Reason over Structured Data",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Preliminary",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Approach",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Interfaces for Structured Data",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Inferface-augmented Reasoning",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.4 Iterative Reasoning with Interfaces",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Experiment",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Experimental Settings",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.1.1 Datasets",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.1.2 Evaluation Metrics",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.1.3 Baselines",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Results and Analysis",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.2.1 Evaluation on KGQA",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2.2 Evaluation on TableQA",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2.3 Evaluation on Text-to-SQL",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 Case Study",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.4 Zero-Shot Error Analysis",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        }
+    ]
+}

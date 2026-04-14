@@ -1,0 +1,347 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "BiomedGPT Pipeline",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Architecture Selection",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Input/Output Unification",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Natural Language as a Task Manager",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Gnerative Pretraining via Seq2seq",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Autoregressive Inference",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Implementation Details",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Results on Unimodal Datasets",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Results on Multimodal Datasets",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Results on Intra- & Inter-distribution Transfer",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Ablation Study on Pretraining Tasks",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Ablation Study on Pretraining Modalities",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "Hyperparameters and Sensitivity Analysis",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Hyperparameters for Fine-tuning",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Hyperparameter Selection for Inference",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Task-aware Instruction Generalization",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Additional Experiments",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "Performance with Larger Model",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Classification with High-resolution Images",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Lightweight Prompt Tuning",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Cross-modality Transferability",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Datasets",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "Pretraining Datasets",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Downstream Datasets",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Evaluation Metrics",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "Detailed Experimental Outputs",
+            "level": 0,
+            "page": 28
+        }
+    ],
+    "pages": 32,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 12,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 0,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "BiomedGPT: A Unified and Generalist Biomedical Genera-\ntive Pre-trained Transformer for Vision, Language, and Mul-\ntimodal Tasks",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 BiomedGPT Pipeline",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Architecture Selection",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 Input/Output Unification",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.3 Natural Language as a Task Manager",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.4 Gnerative Pretraining via Seq2seq",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "2.5 Autoregressive Inference",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3 Experiments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.1 Implementation Details",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.2 Results on Unimodal Datasets",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.3 Results on Multimodal Datasets",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.4 Results on Intra- & Inter-distribution Transfer",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "3.5 Ablation Study on Pretraining Tasks",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "3.6 Ablation Study on Pretraining Modalities",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4 Discussion",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Appendix",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A Hyperparameters and Sensitivity Analysis",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.1 Hyperparameters for Fine-tuning",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.2 Hyperparameter Selection for Inference",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.3 Task-aware Instruction Generalization",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B Additional Experiments",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B.1 Performance with Larger Model",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B.2 Classification with High-resolution Images",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B.3 Lightweight Prompt Tuning",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "B.4 Cross-modality Transferability",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "C Datasets",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "C.1 Pretraining Datasets",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "C.2 Downstream Datasets",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "D Evaluation Metrics",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "E Detailed Experimental Outputs",
+            "level": 2,
+            "page": 28
+        }
+    ]
+}

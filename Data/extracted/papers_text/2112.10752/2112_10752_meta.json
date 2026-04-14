@@ -1,0 +1,452 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 . Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 . Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 . Method",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 . Perceptual Image Compression",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 . Latent Diffusion Models",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.3 . Conditioning Mechanisms",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 . Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "4.1 . On Perceptual Compression Tradeoffs",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.2 . Image Generation with Latent Diffusion",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.3 . Conditional Latent Diffusion",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.3.1 Transformer Encoders for LDMs",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.3.2 Convolutional Sampling Beyond 256^2",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.4 . Super-Resolution with Latent Diffusion",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.5 . Inpainting with Latent Diffusion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 . Limitations & Societal Impact",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "6 . Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "A . Changelog",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "B . Detailed Information on Denoising Diffusion Models",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "C . Image Guiding Mechanisms",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "D . Additional Results",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "D.1 . Choosing the Signal-to-Noise Ratio for High-Resolution Synthesis",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D.2 . Full List of all First Stage Models",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D.3 . Layout-to-Image Synthesis",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D.4 . Class-Conditional Image Synthesis on ImageNet",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D.5 . Sample Quality vs. V100 Days (Continued from Sec. 4.1)",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "D.6 . Super-Resolution",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "D.6.1 LDM-BSR: General Purpose SR Model via Diverse Image Degradation",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "E . Implementation Details and Hyperparameters",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "E.1 . Hyperparameters",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "E.2 . Implementation Details",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "E.2.1 Implementations of _ for conditional LDMs",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "E.2.2 Inpainting",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "E.3 . Evaluation Details",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "E.3.1 Quantitative Results in Unconditional and Class-Conditional Image Synthesis",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "E.3.2 Text-to-Image Synthesis",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "E.3.3 Layout-to-Image Synthesis",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "E.3.4 Super Resolution",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "E.3.5 Efficiency Analysis",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "E.3.6 User Study",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "F . Computational Requirements",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "G . Details on Autoencoder Models",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "H . Additional Qualitative Results",
+            "level": 0,
+            "page": 28
+        }
+    ],
+    "pages": 45,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 19,
+        "equations": {
+            "successful_ocr": 33,
+            "unsuccessful_ocr": 4,
+            "equations": 37
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3. Method",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1. Perceptual Image Compression",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2. Latent Diffusion Models",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3. Conditioning Mechanisms",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4. Experiments",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1. On Perceptual Compression Tradeoffs",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2. Image Generation with Latent Diffusion",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.3. Conditional Latent Diffusion",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3.1 Transformer Encoders for LDMs",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.3.2 Convolutional Sampling Beyond 2562",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.4. Super-Resolution with Latent Diffusion",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.5. Inpainting with Latent Diffusion",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5. Limitations & Societal Impact",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6. Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Appendix\n\n![13_image_0.png](13_image_0.png)\n\n",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A. Changelog",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "B. Detailed Information on Denoising Diffusion Models",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "C. Image Guiding Mechanisms",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "D. Additional Results",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D.2. Full List of all First Stage Models",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "D.3. Layout-to-Image Synthesis",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "D.4. Class-Conditional Image Synthesis on ImageNet",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "D.6. Super-Resolution",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "E. Implementation Details and Hyperparameters",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "E.1. Hyperparameters",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "E.2. Implementation Details",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "E.2.1 Implementations of \u03c4\u03b8 for conditional LDMs",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "E.2.2 Inpainting",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "E.3. Evaluation Details",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "E.3.1 Quantitative Results in Unconditional and Class-Conditional Image Synthesis",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "E.3.2 Text-to-Image Synthesis",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "E.3.3 Layout-to-Image Synthesis",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "E.3.4 Super Resolution",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "E.3.5 Efficiency Analysis",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "E.3.6 User Study",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "F. Computational Requirements",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "G. Details on Autoencoder Models",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "H. Additional Qualitative Results",
+            "level": 1,
+            "page": 28
+        }
+    ]
+}

@@ -1,0 +1,617 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Setup",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Model",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "The Colossal Clean Crawled Corpus",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Downstream Tasks",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Input and Output Format",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Baseline",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Model",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Training",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Vocabulary",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Unsupervised Objective",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Baseline Performance",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Architectures",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Model Structures",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Comparing Different Model Structures",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Objectives",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Unsupervised Objectives",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Disparate High-Level Approaches",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Simplifying the BERT Objective",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Varying the Corruption Rate",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Corrupting Spans",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Discussion",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Pre-training Data set",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Unlabeled Data Sets",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "Pre-training Data set Size",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Training Strategy",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Fine-tuning Methods",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Multi-task Learning",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "Combining Multi-Task Learning with Fine-Tuning",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Scaling",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "Putting It All Together",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "Reflection",
+            "level": 0,
+            "page": 40
+        },
+        {
+            "title": "Takeaways",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "Outlook",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Contributions",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "Converting WNLI to Our Text-to-Text Format",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "Example Predictions on CNN/Daily Mail",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "Preprocessed Examples",
+            "level": 0,
+            "page": 46
+        },
+        {
+            "title": "CoLA",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "RTE",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "MNLI",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "MRPC",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "QNLI",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "QQP",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "SST2",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "STSB",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "CB",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "COPA",
+            "level": 1,
+            "page": 49
+        },
+        {
+            "title": "MultiRC",
+            "level": 1,
+            "page": 49
+        },
+        {
+            "title": "WiC",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "WSC and DPR",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "CNN/Daily Mail",
+            "level": 1,
+            "page": 51
+        },
+        {
+            "title": "SQuAD",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "WMT English to German",
+            "level": 1,
+            "page": 53
+        },
+        {
+            "title": "WMT English to French",
+            "level": 1,
+            "page": 53
+        },
+        {
+            "title": "WMT English to Romanian",
+            "level": 1,
+            "page": 53
+        },
+        {
+            "title": "Scores on Every Task for All Experiments",
+            "level": 0,
+            "page": 55
+        }
+    ],
+    "pages": 67,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 17,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Exploring the Limits of Transfer Learning with a Unified\nText-to-Text Transformer",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. Setup",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.1. Model",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.2. The Colossal Clean Crawled Corpus",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.3. Downstream Tasks",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "2.4. Input and Output Format",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3. Experiments",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "3.1. Baseline",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "3.1.1. Model",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "3.1.2. Training",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "3.1.3. Vocabulary",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "3.1.4. Unsupervised Objective",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "3.1.5. Baseline Performance",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "3.2. Architectures",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "3.2.1. Model Structures",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "3.2.2. Comparing Different Model Structures",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "3.2.3. Objectives",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "3.2.4. Results",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "3.3. Unsupervised Objectives",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "3.3.1. Disparate High-Level Approaches",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "3.3.2. Simplifying the BERT Objective",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "3.3.3. Varying the Corruption Rate",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "3.3.4. Corrupting Spans",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "3.3.5. Discussion",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "3.4. Pre-training Data set",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "3.4.1. Unlabeled Data Sets",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "3.4.2. Pre-training Data set Size",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "3.5. Training Strategy",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "3.5.1. Fine-tuning Methods",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "3.5.2. Multi-task Learning",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "3.5.3. Combining Multi-Task Learning with Fine-Tuning",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "3.6. Scaling",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "3.7. Putting It All Together",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "4. Reflection",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "4.1. Takeaways",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "4.2. Outlook",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "Appendix A. Contributions",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "Appendix B. Converting WNLI to Our Text-to-Text Format",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "Appendix C. Example Predictions on CNN/Daily Mail",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "D.14. CNN/Daily Mail",
+            "level": 3,
+            "page": 51
+        },
+        {
+            "title": "D.15. SQuAD",
+            "level": 3,
+            "page": 52
+        },
+        {
+            "title": "D.16. WMT English to German",
+            "level": 3,
+            "page": 53
+        },
+        {
+            "title": "D.17. WMT English to French",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "D.18. WMT English to Romanian",
+            "level": 3,
+            "page": 53
+        },
+        {
+            "title": "Appendix E. Scores on Every Task for All Experiments",
+            "level": 3,
+            "page": 55
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 57
+        }
+    ]
+}

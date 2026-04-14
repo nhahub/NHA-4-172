@@ -1,0 +1,147 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Architectural details",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Sparse Mixture of Experts",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Results",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Multilingual benchmarks",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Long range performance",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Bias Benchmarks",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Instruction Fine-tuning",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Routing analysis",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 7
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Mixtral of Experts",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Architectural details",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Sparse Mixture of Experts",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3 Results",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Multilingual benchmarks",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2 Long range performance",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Bias Benchmarks",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Instruction Fine-tuning",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5 Routing analysis",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        }
+    ]
+}

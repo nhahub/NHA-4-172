@@ -1,0 +1,462 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Methods",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Scope",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Base Models",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Generator",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Data Collection",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Outcome-supervised Reward Models (ORMs)",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Process-supervised Reward Models (PRMs)",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Large-scale Supervision",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Small-scale Synthetic Supervision",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Process vs Outcome Supervision",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Active Learning",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "OOD Generalization",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Credit Assignment",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Alignment Impact",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Test Set Contamination",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "Outcome vs Process Supervision",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Synthetic Supervision",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Natural Language Reasoning",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "MathMix",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "PRM800K",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Labelling Instructions",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "ORM Training Details",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "PRM Details",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "Training",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Scoring",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Difficulty Breakdown",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "Synthetic Supervision Details",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "PRM Visualizations",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "True Positives",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "True Negatives",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "False Positives",
+            "level": 1,
+            "page": 26
+        }
+    ],
+    "pages": 29,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Let's Verify Step by Step",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Methods",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Scope",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 Base Models",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.3 Generator",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.4 Data Collection",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.5 Outcome-supervised Reward Models (ORMs)",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.6 Process-supervised Reward Models (PRMs)",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "6",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3 Large-scale Supervision",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4 Small-scale Synthetic Supervision",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.1 Process vs Outcome Supervision",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.2 Active Learning",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 OOD Generalization",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6 Discussion",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.1 Credit Assignment",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "6.2 Alignment Impact",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "6.3 Test Set Contamination",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "7 Related Work",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "7.1 Outcome vs Process Supervision",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "7.2 Synthetic Supervision",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "7.3 Natural Language Reasoning",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A MathMix",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B PRM800K",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C Evaluation",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "D Labelling Instructions",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "E ORM Training Details",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "19",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "F PRM Details",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "F.1 Training",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "F.2 Scoring",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "G Difficulty Breakdown",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "21",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "H Synthetic Supervision Details",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "22",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "I PRM Visualizations",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "I.1 True Positives",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "23",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "24\n\n![23_image_2.png](23_image_2.png)\n\n\n\n![23_image_3.png](23_image_3.png)\n\n",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "I.2 True Negatives",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "25",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "26",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "I.3 False Positives",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "27",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "28",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "29",
+            "level": 3,
+            "page": 28
+        }
+    ]
+}

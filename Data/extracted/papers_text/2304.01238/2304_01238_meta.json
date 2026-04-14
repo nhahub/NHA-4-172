@@ -1,0 +1,192 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Spam-T5: Benchmarking Large Language Models for Few-Shot Email Spam Detection",
+            "level": 0,
+            "page": 0
+        }
+    ],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 1,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Spam-T5: Benchmarking Large Language\nModels for Few-Shot Email Spam Detection",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Maxime Labonne, Sean Moran",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "Spam-T5: Benchmarking Large Language Models for Spam Detection 3",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Spam Detection using Machine Learning",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Maxime Labonne, Sean Moran",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.2 Spam Detection using Large Language Models (LLMs)",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "Spam-T5: Benchmarking Large Language Models for Spam Detection 5",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3 Methods",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Problem Formulation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "6 Maxime Labonne, Sean Moran",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.2 Data Pipeline for Text Data",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Experimental Setup",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Datasets",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "8 Maxime Labonne, Sean Moran",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.2 Large Language Models",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "Spam-T5: Benchmarking Large Language Models for Spam Detection 9",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "10 Maxime Labonne, Sean Moran",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.3 Baseline techniques",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "5 Results",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "5.1 Full Training Sets",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "5.2 Few-shot Learning",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "12 Maxime Labonne, Sean Moran",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "6 Discussion",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "14 Maxime Labonne, Sean Moran",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "8 Ethical Statement",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "16 Maxime Labonne, Sean Moran",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "Spam-T5: Benchmarking Large Language Models for Spam Detection 17",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "18 Maxime Labonne, Sean Moran",
+            "level": 4,
+            "page": 17
+        }
+    ]
+}

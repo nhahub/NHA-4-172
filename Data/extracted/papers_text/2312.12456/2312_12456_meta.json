@@ -1,0 +1,392 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Background and Motivation",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "LLM Inference & Architecture",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Offloading-based LLM Serving",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Insights into Locality in LLM Inference",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Insight-1: Power-law Activation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Insight-2: Fast In-CPU Computation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "PowerInfer Overview",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Architecture and Workflow",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Single Layer Example",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Neuron-aware Inference Engine",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Adaptive Sparsity Predictors",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Neuron Placement and Management",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "GPU-CPU Hybrid Execution",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Neuron-aware Operator",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Neuron Placement Policy",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Offline Profiling",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Neuron Impact Metric",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Modeling of Neuron Placement",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Communication Constraint",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Memory Constraint",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "ILP Optimization",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Implementation",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Experimental Setup",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "End-to-End Performance",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Ablation Studies",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Performance Breakdown",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Neuron-aware Operator Performance",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Predictor Overhead",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Performance Comparison with A100",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "LLM Accuracy",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 0,
+            "page": 12
+        }
+    ],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 1,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU\u2217",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Background and Motivation",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 LLM Inference & Architecture",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Offloading-based LLM Serving",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Insights into Locality in LLM Inference",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Insight-2: Fast In-CPU Computation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 PowerInfer Overview",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.1 Architecture and Workflow",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 Single Layer Example",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5 Neuron-aware Inference Engine",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.1 Adaptive Sparsity Predictors",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.2 Neuron Placement and Management",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5.3 GPU-CPU Hybrid Execution",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5.4 Neuron-aware Operator",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6 Neuron Placement Policy",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6.1 Offline Profiling",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6.2 Neuron Impact Metric",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6.3 Modeling of Neuron Placement",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6.3.1 Communication Constraint",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "6.3.2 Memory Constraint",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "6.3.3 ILP Optimization",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "7 Implementation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "8 Evaluation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "8.1 Experimental Setup",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "8.2 End-to-End Performance",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "8.3 Ablation Studies",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "8.3.1 Performance Breakdown",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "8.3.2 Neuron-aware Operator Performance",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "8.3.3 Predictor Overhead",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "8.3.4 Performance Comparison with A100",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "8.4 LLM Accuracy",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "9 Related Work",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "10 Conclusion",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "11 Acknowledgments",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 12
+        }
+    ]
+}

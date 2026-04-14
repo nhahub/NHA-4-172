@@ -1,0 +1,252 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1.1 Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2 Surprise, Cross-Entropy, and Perplexity",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Theoretical Analysis of Sampling Methods",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "4 Perplexity-Controlled Text Generation",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "5 Experimental Analysis",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5.1 Cross-entropy rate for different sampling methods",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.2 Perplexity and repetitions",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.3 Boredom and confusion traps",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.4 Human Evaluations",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "A Examples",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "A.1 Relation between surprise, repetitions, and incoherence",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "A.2 Text generation and compression",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "B Theoretical results",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "C MMSE estimation of Zipf's exponent",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "D Human evaluations: Experimental setup",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "E Alternate algorithms to control perplexity",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "F Repetition analysis for CTRL",
+            "level": 0,
+            "page": 23
+        }
+    ],
+    "pages": 25,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 25,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 46,
+            "unsuccessful_ocr": 2,
+            "equations": 48
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "MIROSTAT: A NEURAL TEXT DECODING ALGORITHM\nTHAT DIRECTLY CONTROLS PERPLEXITY",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1.1 RELATED WORK",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2 SURPRISE, CROSS-ENTROPY, AND PERPLEXITY",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 THEORETICAL ANALYSIS OF SAMPLING METHODS",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4 PERPLEXITY-CONTROLLED TEXT GENERATION",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "5 EXPERIMENTAL ANALYSIS",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.1 CROSS-ENTROPY RATE FOR DIFFERENT SAMPLING METHODS",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5.2 PERPLEXITY AND REPETITIONS",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5.3 BOREDOM AND CONFUSION TRAPS",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.4 HUMAN EVALUATIONS",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6 CONCLUSION",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "A EXAMPLES",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "1. Observed average surprise value = 1.471 p = 0.4",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "2. Observed average surprise value = 1.887, p = 0.4",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "3. Observed average surprise value = 6.342 p = 1.0",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4. Observed average surprise value = 1.828 mirostat target surprise = 1.8",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "5. Observed average surprise value = 5.285 human-generated",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "A.2 TEXT GENERATION AND COMPRESSION",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "B THEORETICAL RESULTS",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "C MMSE ESTIMATION OF ZIPF'S EXPONENT",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "D HUMAN EVALUATIONS: EXPERIMENTAL SETUP",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "E ALTERNATE ALGORITHMS TO CONTROL PERPLEXITY",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "F REPETITION ANALYSIS FOR CTRL",
+            "level": 1,
+            "page": 23
+        }
+    ]
+}

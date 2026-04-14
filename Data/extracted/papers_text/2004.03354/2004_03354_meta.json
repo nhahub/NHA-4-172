@@ -1,0 +1,216 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 9,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 10,
+            "unsuccessful_ocr": 1,
+            "equations": 11
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Inexpensive Domain Adaptation of Pretrained Language Models:\nCase Studies on Biomedical NER and Covid-19 QA",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related work",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2.1 The BERT PTLM",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2.2 Domain-adapted PTLMs",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.3 Word vectors",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.4 Word vector space alignment",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Method",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 Creating new input vectors",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.2 Updating the wordpiece embedding layer",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.3 Updating the tokenizer",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Experiment 1: Biomedical NER",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Domain adaptation",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.2 Finetuning",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.3 Results and discussion",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.3.1 Ablation study",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "5 Experiment 2: Covid-19 QA",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "5.1 Domain adaptation",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.2 Results and discussion",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Inexpensive Domain Adaptation of\nPretrained Language Models (Appendix)",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Word2Vec training",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Experiment 1: Biomedical NER",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Pretrained models",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Data",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Preprocessing",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "X = [CLS] T (S) [SEP]",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Modeling, training and inference",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Hyperparameters",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Experiment 2: Covid-19 QA",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Pretrained model",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Data",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Preprocessing",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Modeling and inference",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Notes on Covid-QA",
+            "level": 2,
+            "page": 7
+        }
+    ]
+}

@@ -1,0 +1,176 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 29,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 17,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Marked Personas: Using Natural Language Prompts to Measure\nStereotypes in Language Models",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background and Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Methods",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Personas: Generating Intersectional\nPortrayals",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Marked Words: Lexicon-Free Stereotype\nMeasurement",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2.1 Robustness Checks: Other Measures",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "5 Persona Evaluation: Comparison to\nHuman-written Personas",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "6 Analyzing Marked Words: Pernicious\nPositive Portrayals",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "7 Downstream Applications: Stories",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "8 Recommendations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "9 Limitations",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Stereotype Measure Desiderata",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B Marked Words versus JSD",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C Prompting for Sentiment",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "D Results Across Models",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "D.1 Results for GPT-4",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "D.2 Results for GPT-3.5",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "D.2.1 text-davinci-003 versus\ntext-davinci-002",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "D.2.2 Results for text-davinci-003",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "D.3 Results for ChatGPT",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "D.4 Other models",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Prompt",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "Prompts",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "ACL 2023 Responsible NLP Checklist",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "C \u2713 Did you run computational experiments?",
+            "level": 1,
+            "page": 27
+        }
+    ]
+}

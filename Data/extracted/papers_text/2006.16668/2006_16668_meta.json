@@ -1,0 +1,347 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1.1 Practical Challenges for Scaling",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "1.2 Design Principles for Efficient Training at Scale",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2 Model",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "2.1 Sparse scaling of the Transformer architecture",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.2 Position-wise Mixture-of-Experts Layer",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3 Highly Parallel Implementation using GShard",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "3.1 Positions-wise Mixture-of-Expert Layer Expressed in Linear Algebra",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.2 GShard Annotation API for Parallel Execution",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.3 The XLA SPMD Partitioner for GShard",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "3.3.1 Communication Primitives",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "3.3.2 Per-Operator SPMD Partitioning",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "3.3.3 Supporting a Complete Set of Operators",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4 Massively Multilingual, Massive Machine Translation (M4)",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "4.1 Multilingual translation",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "4.2 Dataset and Baselines",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "4.3 Sparsely-Gated MoE Transformer: Model and Training",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "4.4 Results",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "4.5 Training Efficiency",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "5 Performance and Memory Consumption",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "5.1 Memory Efficiency and Scalability",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "5.2 Runtime Efficiency and Scalability",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "5.3 Communication Microbenchmarks and Per-Operator Scalability",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "6 Related Work",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "A Appendix",
+            "level": 0,
+            "page": 30
+        },
+        {
+            "title": "A.1 Decoding with Flat Beam Search",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "A.2 Machine Translation Experiments Details",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "A.3 General Sharding API",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "A.4 SPMD Partitioning for Convolution and Window-Based Operators",
+            "level": 1,
+            "page": 31
+        }
+    ],
+    "pages": 35,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 1,
+            "equations": 6
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "GShard: Scaling Giant Models with Conditional\nComputation and Automatic Sharding",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1.1 Practical Challenges for Scaling",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "1.2 Design Principles for Efficient Training at Scale",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2 Model",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.1 Sparse scaling of the Transformer architecture",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.2 Position-wise Mixture-of-Experts Layer",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 Highly Parallel Implementation using GShard",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.1 Positions-wise Mixture-of-Expert Layer Expressed in Linear Algebra",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.2 GShard Annotation API for Parallel Execution",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "3.3 The XLA SPMD Partitioner for GShard",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "3.3.1 Communication Primitives",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "3.3.2 Per-Operator SPMD Partitioning",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "3.3.3 Supporting a Complete Set of Operators",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4 Massively Multilingual, Massive Machine Translation (M4)",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "4.1 Multilingual translation",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.2 Dataset and Baselines",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "4.3 Sparsely-Gated MoE Transformer: Model and Training",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "4.4 Results",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "4.5 Training Efficiency",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "5 Performance and Memory Consumption",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "5.1 Memory Efficiency and Scalability",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "5.2 Runtime Efficiency and Scalability",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "5.3 Communication Microbenchmarks and Per-Operator Scalability",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "6 Related Work",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "A Appendix",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "A.1 Decoding with Flat Beam Search",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "A.2 Machine Translation Experiments Details",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "A.3 General Sharding API",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "A.4 SPMD Partitioning for Convolution and Window-Based Operators",
+            "level": 3,
+            "page": 31
+        }
+    ]
+}

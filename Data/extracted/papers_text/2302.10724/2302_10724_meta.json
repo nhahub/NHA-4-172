@@ -1,0 +1,706 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 40,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 118,
+        "code": 0,
+        "table": 16,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "A B S T R A C T",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. Related work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Evolution from Transformer architecture to ChatGPT",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3. Research question",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4. Tasks",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "5. Research methodology",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.1. Prompt generation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "ChatGPT evaluation flow diagram",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.2. Post-processing",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.3. Experimental setup",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.4. Performance measures",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6. Quantitative analysis",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6.2. Task difficulty vs. ChatGPT performance",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.3. Random Contextual Few-Shot Personalization",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.4. Impact of the context",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Table 3",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "6.5. Availability of the testing set for ChatGPT\ntraining",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "7. Qualitative analysis",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "7.1. Exploratory analysis: Case study",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "7.2. Benchmarking analysis: Validation based on\nhuman expert",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Table 5",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "7.3. Explanatory analysis: XAI",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "8. Limitations and discussion",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "9. Prospects for ChatGPT applications",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "10. Conclusions and future work",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "CRediT authorship contribution statement",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "A. Additional results",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Chat 8. Task: AggressionPer. Case 16.",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "B.3. CoLa\nChat 9. Task: CoLa. Case 0.",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "Chat 10. Task: CoLa. Case 4.",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "B.4. ColBERT\nChat 11. Task: ColBERT. Case 10.\nPrompt",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "Chat 12. Task: ColBERT. Case 455.",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "B.5. Sarcasm",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Chat 14. Task: Sarcasm. Case 151.",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "B.6. Spam",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "B.7. WordContext\nChat 17. Task: WordContext. Case 5428.",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "Chat 18. Task: WordContext. Case 5430.",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "B.8. TextEntail\nChat 19. Task: TextEntail. Case 2491.",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "Chat 20. Task: TextEntail. Case 2490.",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "B.9. WNLI\nChat 21. Task: WNLI. Case 675.\nPrompt",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "Chat 22. Task: WNLI. Case 672.",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "B.10. SQuAD",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Chat 23. Task: SQuAD. Case 163.",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "Chat 24. Task: SQuAD. Case 164.",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "B.11. MathQA\nChat 25. Task: MathQA. Case 10.",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Chat 26. Task: MathQA. Case 157.",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Explaination",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "B.12. ClarinEmo\nChat 27. Task: ClarinEmo. Case 13.",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Prompt (Translated to English)",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Prompt (Original prompt in Polish)",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Chat 28. Task: ClarinEmo. Case 112.",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "Prompt (translated)",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "ChatGPT answer (translated)",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "Prompt (original)",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "B.13. GoEmo",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Chat 29. Task: GoEmo. Case 894.",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "Chat 30. Task: GoEmo. Case 72.",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "B.14. GoEmoPer\nChat 31. Task: GoEmoPer. Case 596.",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Prompt (No Context)",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Chat 32. Task: GoEmoPer. Case 137.",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Prompt (Context 1)",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Chat 33. Task: GoEmoPer. Case 1132.",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Prompt (Context 2)",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Chat 34. Task: GoEmoPer. Case 1132.",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "B.15. Unhealthy",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Chat 35. Task: Unhealthy. Case 11.",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "B.16. UnhealthyPer",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "Chat 38. Task: UnhealthyPer. Case 8.",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "B.17. PolEmo\nChat 39. Task: PolEmo. Case 2.",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "Prompt (Original prompt in Polish)",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "Chat 40. Task: PolEmo. Case 575.",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "ChatGPT answer (Translated to English)",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "B.18. TweetEmoji",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "B.19. TweetSent",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "B.20. TweetStance",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "Chat 46. Task: TweetStance. Case 1137.",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "B.21. ReAding",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "Chat 47. Task: ReAding. Case 23.",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "B.22. WSD\nChat 48. Task: WSD. Case 3.",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "Chat 49. Task: WSD. Case 17.",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "C. Qualitative analysis",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "C.1. Exploratory analysis - prompts",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "Chat 51. Task: Other (exploratory analysis).",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "Chat 52. Task: Other (exploratory analysis).",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "C.2. Benchmarking analysis",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "Chat 59. Task: GoEmo. Case 7.",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "C.3. XAI: prompts, answers and explanation",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "Chat 63. Task: TweetSent. Case 2776.",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "Prompt",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "Chat 64. Task: TweetSent. Case 577.",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "Chat 66. Task: WSD. Case 24.",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "Chat 67. Task: GoEmotions. Case 422.",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "Chat 68. Task: GoEmotions. Case 278.",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "Prompt",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "ChatGPT answer",
+            "level": 3,
+            "page": 39
+        }
+    ]
+}

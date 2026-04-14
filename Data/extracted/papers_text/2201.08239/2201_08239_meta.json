@@ -1,0 +1,442 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 Related work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 LaMDA pre-training",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4 Metrics",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "4.1 Foundation metrics: Quality, Safety and Groundedness",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.2 Role-specific metrics: Helpfulness and Role consistency",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5 LaMDA fine-tuning and evaluation data",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "6 LaMDA fine-tuning",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "6.1 Discriminative and generative fine-tuning for Quality (SSI) and Safety",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6.2 Fine-tuning to learn to call an external information retrieval system",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "7 Results on foundation metrics",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "8 Domain grounding",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "9 Discussion and limitations",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "9.1 Examining bias",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "9.2 Adversarial data collection",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "9.3 Safety as a concept and a metric",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "9.4 Appropriateness as a concept and a metric",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "9.5 Cultural responsiveness",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "9.6 Impersonation and anthropomorphization",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "9.7 Future work",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "10 Energy and Carbon Footprint Estimate of LaMDA",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "11 Conclusion",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "A Safety objectives and data collection",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "A.1 Safety objectives",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "A.2 Safety data collection",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "A.2.1 Conversation generation",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "A.2.2 Safety annotation",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "A.3 Crowdworker demographics",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "A.4 Safety annotations data distribution",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "B Crowdworker instructions for quality and groundedness",
+            "level": 0,
+            "page": 33
+        },
+        {
+            "title": "C Selected example dialogs",
+            "level": 0,
+            "page": 35
+        },
+        {
+            "title": "C.1 The effects of the Safety fine-tuning",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "C.2 Examples responses to Palms weakness-targeting prompts solaiman2021palms",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "C.3 The effects of the Groundedness fine-tuning",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "C.4 Example dialogs with grounded responses",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "C.5 Example dialogs that further demonstrates LaMDA's domain grounding abilities",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "C.6 Examples showing LaMDA's ability to have open-ended dialogs",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "D Model hyper-parameters",
+            "level": 0,
+            "page": 46
+        },
+        {
+            "title": "E Pre-training data composition",
+            "level": 0,
+            "page": 46
+        },
+        {
+            "title": "F Pre-training and fine-tuning results",
+            "level": 0,
+            "page": 46
+        }
+    ],
+    "pages": 47,
+    "ocr_stats": {
+        "ocr_pages": 5,
+        "ocr_failed": 0,
+        "ocr_success": 5,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 29,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LaMDA: Language Models for Dialog Applications",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 Related work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 LaMDA pre-training",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 Metrics",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Foundation metrics: Quality, Safety and Groundedness",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Role-specific metrics: Helpfulness and Role consistency",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5 LaMDA fine-tuning and evaluation data",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "6 LaMDA fine-tuning",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6.1 Discriminative and generative fine-tuning for Quality (SSI) and Safety",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6.2 Fine-tuning to learn to call an external information retrieval system",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "Fine-tuning: We then fine-tune LaMDA to perform two tasks.",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "7\nResults on foundation metrics",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Domain grounding\n8",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "9 Discussion and limitations",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "9.1 Examining bias",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "9.2 Adversarial data collection",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "9.3 Safety as a concept and a metric",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "9.4 Appropriateness as a concept and a metric",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "9.5 Cultural responsiveness",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "9.6 Impersonation and anthropomorphization",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "9.7 Future work",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "10 Energy and Carbon Footprint Estimate of LaMDA",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "11 Conclusion",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "A Safety objectives and data collection",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "A.1 Safety objectives",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "A.2 Safety data collection",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "A.2.1 Conversation generation",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "A.2.2 Safety annotation",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "A.3 Crowdworker demographics",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "B Crowdworker instructions for quality and groundedness",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "C Selected example dialogs",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "C.2 Examples responses to Palms weakness-targeting prompts [87]",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "C.3 The effects of the Groundedness fine-tuning",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "C.4 Example dialogs with grounded responses",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "C.5 Example dialogs that further demonstrates LaMDA's domain grounding abilities",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "C.6 Examples showing LaMDA's ability to have open-ended dialogs",
+            "level": 4,
+            "page": 42
+        },
+        {
+            "title": "D Model hyper-parameters",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "E Pre-training data composition",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "F Pre-training and fine-tuning results",
+            "level": 2,
+            "page": 46
+        }
+    ]
+}

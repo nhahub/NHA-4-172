@@ -1,0 +1,202 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Model compression algorithms",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 BERT model compression",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Lightweight Adaptation of BERT",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Overview",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Matrix factorization",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.3 Weight pruning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.4 Knowledge distillation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Datasets & Baselines",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 Setup",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.3 Performance Comparison",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.4 Learning curve comparison",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.5 Effect of low-rank + sparsity",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 8
+        }
+    ],
+    "pages": 10,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 18,
+            "unsuccessful_ocr": 3,
+            "equations": 21
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LadaBERT: Lightweight Adaptation of BERT\nthrough Hybrid Model Compression",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Model compression algorithms",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 BERT model compression",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Lightweight Adaptation of BERT",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Overview",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Matrix factorization",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Weight pruning",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.4 Knowledge distillation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Datasets & Baselines",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Setup",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Performance Comparison",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.4 Learning curve comparison",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.5 Effect of low-rank + sparsity",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        }
+    ]
+}

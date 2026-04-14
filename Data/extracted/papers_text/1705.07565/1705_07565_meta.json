@@ -1,0 +1,207 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Works and Preliminary",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Layer-wise Optimal Brain Surgeon",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Problem Statement",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 Layer-Wise Error",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.3 Layer-Wise Error Propagation and Accumulation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.4 The Proposed Algorithm",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.4.1 Pruning on Fully-Connected Layers",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.4.2 Pruning on Convolutional Layers",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "4.1 Overall Comparison Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2 Comparison between L-OBS and Net-Trim",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 8
+        }
+    ],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 31,
+            "unsuccessful_ocr": 3,
+            "equations": 34
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Learning to Prune Deep Neural Networks via\nLayer-wise Optimal Brain Surgeon",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Works and Preliminary",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Layer-wise Optimal Brain Surgeon",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Problem Statement",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Layer-Wise Error",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Layer-Wise Error Propagation and Accumulation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4 The Proposed Algorithm",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4.1 Pruning on Fully-Connected Layers",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4.2 Pruning on Convolutional Layers",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.1 Overall Comparison Results",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Comparison between L-OBS and Net-Trim",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "APPENDIX",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Proof of Theorem 3.2",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Extensive Experiments and Details",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Redundancy of Networks",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "How To Set Tolerable Error Threshold",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "Iterative Layer-wise OBS",
+            "level": 3,
+            "page": 13
+        }
+    ]
+}

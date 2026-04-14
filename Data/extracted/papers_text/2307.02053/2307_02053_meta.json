@@ -1,0 +1,127 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Training Details",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Evaluation Tasks and Results",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Problem Solving Evaluation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Alignment to Human Values",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Writing Experiments",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Results",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Limitations and Future Work",
+            "level": 0,
+            "page": 6
+        }
+    ],
+    "pages": 10,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "FLACUNA: Unleashing the Problem Solving Power of\nVICUNA using FLAN Fine-Tuning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 Training Details",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Evaluation Tasks and Results",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Problem Solving Evaluation",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Alignment to Human Values",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3 Writing Experiments",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.4 Results",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "1. Introduction",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4 Limitations and Future Work",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 7
+        }
+    ]
+}

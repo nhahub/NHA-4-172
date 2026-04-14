@@ -1,0 +1,181 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 17,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 1,
+            "equations": 9
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Making Large Language Models Better Reasoners with Step-Aware Verifier",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Diverse Verifier on Reasoning Step",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Diverse Prompts",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Voting Verifier",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.3 Step-aware Voting Verifier",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3 Experimental Setup",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Reasoning Tasks",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Details",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Main Results",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 Effectiveness",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Comparing to Previous SOTAs",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5 Case Study",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "6 Analysis",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "6.1 The Effectiveness of Diverse Prompts",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "6.2 The Effectiveness of Voting Verifier",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "6.3 The Effectiveness of Step-aware Verifier",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.4 How Many Diverse Outputs Do We Need?",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6.5 How Many Training Data Do We Need?",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6.6 The Impact of the Number of Exemplars",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "7 Related Work",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "8 Conclusion and Future Work",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "9 Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A Preliminaries",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B Boosting Reasoning Paths via\nSelf-Teaching",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B.1 Self Teaching",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "B.2 Noises in Multiple Choice Tasks",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "C Data Statistics",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "D Our Changes to CLUTRR",
+            "level": 2,
+            "page": 15
+        }
+    ]
+}

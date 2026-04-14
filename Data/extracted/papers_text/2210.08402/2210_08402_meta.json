@@ -1,0 +1,492 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Collection Methodology",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Dataset Assembly Pipeline",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Safety During Collection",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4 Dataset Composition",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "5 Experiments Validating LAION-5B",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "5.1 Usage Examples",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.2 Experiments on CLIP Reproduction",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.2.1 Zero-Shot Classification and Robustness Performance",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5.3 Experiments with Generative Models",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Technical Limitations",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "7 Safety and Ethical Discussion",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "A Datasheet for LAION-5B dataset",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "A.1 Motivation",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "A.2 Composition",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "A.3 Collection Process",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "A.4 Preprocessing, Cleaning, and/or Labeling",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "A.5 Uses",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "A.6 Distribution",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "A.7 Maintenance",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "B Dataset Setup Procedure",
+            "level": 0,
+            "page": 30
+        },
+        {
+            "title": "C Dataset Preparation and Curation Details",
+            "level": 0,
+            "page": 30
+        },
+        {
+            "title": "C.1 Distributed img2dataset",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "C.2 Distributed CLIP inference",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "C.3 Distributed indexing",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "C.4 Integration in the search UI",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "C.5 Specialized NSFW image content tagging",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "C.6 Further inappropriate content tagging",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "C.7 Watermark and safety inference",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "D Dataset Samples and Statistics",
+            "level": 0,
+            "page": 33
+        },
+        {
+            "title": "E Further Experimental Details and Results on CLIP reproduction",
+            "level": 0,
+            "page": 35
+        },
+        {
+            "title": "E.1 Training Details",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "E.2 Distributed Training and InfoNCE Loss",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "E.3 Detailed Results & Further Analysis",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "F Overview of Experiments and Results on Generative Models",
+            "level": 0,
+            "page": 40
+        },
+        {
+            "title": "F.1 GLIDE",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "F.2 Stable Diffusion",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "G Further Discussion on Safety and Ethics",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "G.1 Privacy",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "G.2 Potential Biases Induced by CLIP Filtering",
+            "level": 1,
+            "page": 47
+        }
+    ],
+    "pages": 50,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LAION-5B: An open large-scale dataset for training next\ngeneration image-text models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Collection Methodology",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Dataset Assembly Pipeline",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Safety During Collection",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Dataset Composition",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5 Experiments Validating LAION-5B",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Usage Examples",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2 Experiments on CLIP Reproduction",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.2.1 Zero-Shot Classification and Robustness Performance",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.3 Experiments with Generative Models",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6 Technical Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7 Safety and Ethical Discussion",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A Datasheet for LAION-5B dataset",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "A.1 Motivation",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "A.2 Composition",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "A.3 Collection Process",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "A.4 Preprocessing, Cleaning, and/or Labeling",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "A.5 Uses",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "A.6 Distribution",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "A.7 Maintenance",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "B Dataset Setup Procedure",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "C Dataset Preparation and Curation Details",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "C.1 Distributed img2dataset",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "C.2 Distributed CLIP inference",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "C.3 Distributed indexing",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "C.4 Integration in the search UI",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "C.5 Specialized NSFW image content tagging",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "C.6 Further inappropriate content tagging",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "C.7 Watermark and safety inference",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "D Dataset Samples and Statistics",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "English\n\n![34_image_0.png](34_image_0.png)\n\n\n\n![34_image_1.png](34_image_1.png)\n\n",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "Multilingual",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "Low Confidence Language\n\n![34_image_7.png](34_image_7.png)\n\n",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "E Further Experimental Details and Results on CLIP reproduction",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "E.1 Training Details",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "E.2 Distributed Training and InfoNCE Loss",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "E.3 Detailed Results & Further Analysis",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "F Overview of Experiments and Results on Generative Models",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "F.1 GLIDE",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "F.2 Stable Diffusion",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "G Further Discussion on Safety and Ethics",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "G.1 Privacy",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "G.2 Potential Biases Induced by CLIP Filtering",
+            "level": 3,
+            "page": 47
+        },
+        {
+            "title": "Author contributions",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "Acknowledgments details",
+            "level": 2,
+            "page": 49
+        }
+    ]
+}

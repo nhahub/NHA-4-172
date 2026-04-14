@@ -1,0 +1,212 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Method",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Addition",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4 Polynomial Evaluation",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "5 Executing Python Programs",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5.1 Scratchpad Beats Direct Execution for Synthetic Python Programs",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5.2 Scratchpad Beats Direct Execution for Real Programs",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.2.1 Performance is Poor in the Very-Low-Data Regime",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.2.2 Sampled Programs Make Good Scratchpad Training Data",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.3 Scratchpad Training Makes Good Use of Large Datasets",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6 Related Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "7 Limitations and Future Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "A Effects of Scratchpad Execution Training on Synthesis Performance",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "B Long Addition Ablation Study",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "C Example few-shot prompt for synthetic Python experiments",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "D Incorrect output for synthetic Python problems",
+            "level": 0,
+            "page": 14
+        }
+    ],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 5,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDI-\nATE COMPUTATION WITH LANGUAGE MODELS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 METHOD",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 ADDITION",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 POLYNOMIAL EVALUATION",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "5 EXECUTING PYTHON PROGRAMS",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5.1 SCRATCHPAD BEATS DIRECT EXECUTION FOR SYNTHETIC PYTHON PROGRAMS",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5.2 SCRATCHPAD BEATS DIRECT EXECUTION FOR REAL PROGRAMS",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2.1 PERFORMANCE IS POOR IN THE VERY-LOW-DATA REGIME",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2.2 SAMPLED PROGRAMS MAKE GOOD SCRATCHPAD TRAINING DATA",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.3 SCRATCHPAD TRAINING MAKES GOOD USE OF LARGE DATASETS",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6 RELATED WORK",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7 LIMITATIONS AND FUTURE WORK",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "8 CONCLUSION",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A EFFECTS OF SCRATCHPAD EXECUTION TRAINING ON SYNTHESIS\nPERFORMANCE",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B LONG ADDITION ABLATION STUDY",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "C EXAMPLE FEW-SHOT PROMPT FOR SYNTHETIC PYTHON EXPERIMENTS",
+            "level": 2,
+            "page": 12
+        }
+    ]
+}

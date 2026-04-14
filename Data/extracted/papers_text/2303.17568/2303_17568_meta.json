@@ -1,0 +1,327 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 The CodeGeeX Model",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 CodeGeeX's Architecture",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.2 Pre-Training Setup",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.3 CodeGeeX Training",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.4 Fast Inference",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3 The HumanEval-X Benchmark",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "3.1 HumanEval-X: A Multilingual Benchmark",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.2 HumanEval-X: Tasks",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4 Evaluating CodeGeeX on HumanEval-X",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "4.1 Evaluation Settings",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.2 Results of Code Generation and Translation",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.3 The Multilingual Pre-Training Helps Problem Solving",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "5 The CodeGeeX Tools and Users",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "A Appendix",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "A.1 Statistics of Code Corpus",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "A.2 Tokenization of CodeGeeX",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "A.2.1 Details of Budget Allocation Strategies",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "A.3 Evaluation on HumanEval-X (Additional)",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "A.4 Evaluation on Other Benchmarks",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "A.4.1 Evaluation on HumanEval",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.4.2 Evaluation on MBPP",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.4.3 Evaluation on CodeXGLUE",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.4.4 Evaluation on XLCoST",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "A.5 Examples of CodeGeeX Generation",
+            "level": 1,
+            "page": 26
+        }
+    ],
+    "pages": 30,
+    "ocr_stats": {
+        "ocr_pages": 6,
+        "ocr_failed": 0,
+        "ocr_success": 6,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 16,
+        "equations": {
+            "successful_ocr": 14,
+            "unsuccessful_ocr": 0,
+            "equations": 14
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "CodeGeeX: A Pre-Trained Model for Code\nGeneration with Multilingual Evaluations on\nHumanEval-X",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 The CodeGeeX Model",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.1 CodeGeeX's Architecture",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.2 Pre-Training Setup",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.3 CodeGeeX Training",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "2.4 Fast Inference",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3 The HumanEval-X Benchmark",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "3.1 HumanEval-X: A Multilingual Benchmark",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "3.2 HumanEval-X: Tasks",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4 Evaluating CodeGeeX on HumanEval-X",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.1 Evaluation Settings",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.2 Results of Code Generation and Translation",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3 The Multilingual Pre-Training Helps Problem Solving",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5 The CodeGeeX Tools and Users",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "Acknowledgement",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "A Appendix",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "Contents",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "A.1 Statistics of Code Corpus",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "A.2 Tokenization of CodeGeeX",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "A.2.1 Details of Budget Allocation Strategies",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "Transform a given code into token pieces",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "Map token pieces to IDs in the dictionary",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "A.3    Evaluation on HumanEval-X (Additional)",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "A.4 Evaluation on Other Benchmarks",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "A.4.1 Evaluation on HumanEval",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "A.4.2 Evaluation on MBPP",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "A.4.3 Evaluation on CodeXGLUE",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "A.4.4 Evaluation on XLCoST",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "26",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "A.5 Examples of CodeGeeX Generation\n\n![26_image_0.png](26_image_0.png)\n\n",
+            "level": 3,
+            "page": 26
+        }
+    ]
+}

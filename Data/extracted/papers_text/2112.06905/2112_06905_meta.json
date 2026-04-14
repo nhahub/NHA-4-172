@@ -1,0 +1,181 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 23,
+        "code": 0,
+        "table": 13,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3. Training Dataset",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4. Model Architecture",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "5. Experiment Setup",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "5.1. Training Setting",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "GLaM (Base Dense Size/E) e.g., GLaM (8B/64E)",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "GLaM (Dense Size) e.g., GLaM (137B)",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5.2. Hyperparameters and Training Procedure",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5.3. Evaluation Setting",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "6. Results",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "6.1. Comparison between MoE and Dense Models",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.2. Effect of Data Quality",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.3. Scaling Studies",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.4. Efficiency of GLaM",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "7. Ethics and Unintended Biases",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "7.1. Co-occurrence prompts",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "7.2. WinoGender",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "7.3. Toxicity Degeneration",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "8. Discussion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "9. Conclusions",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A. Benchmarks",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "B. Scaling the Number of Experts",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C. Model Partitioning",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "D. Data Contamination",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "E. Ethics and Unintended Biases",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "F. Energy Usage",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "G. Results on All Tasks for All Model Sizes",
+            "level": 2,
+            "page": 18
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 13,
+            "unsuccessful_ocr": 2,
+            "equations": 15
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LLaMA-Adapter: Efficient Fine-tuning of Language\nModels with Zero-init Attention",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 LLaMA-Adapter",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Learnable Adaption Prompts",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Zero-initialized Attention",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3 Multi-modal Reasoning",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.4 Zero-initialized Attention for other Large Models",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Experiment",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Instruction-following Evaluation",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "193 Settings. Following Stanford Alpaca [43], we utilize 52K instruction-following data for training,",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "187 4 Experiment",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "192 4.1 Instruction-following Evaluation",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.2 Multi-modal Evaluation",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.3 Ablation Study",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.4 Zero-initialized Attention for other Large Models",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Appendix Overview",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "B Additional Experiments",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "B.1 Detailed Results on Vision Tasks",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "B.2 More Experiments on Language Tasks",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "B.3 Fine-tuning Vision-Language Models",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "C Full Comparison of Instruction-following Models",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "GPT-3:",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "D Comparison with LLaMA-I",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "LLaMA-I:",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "LLaMA-I:",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 17
+        }
+    ]
+}

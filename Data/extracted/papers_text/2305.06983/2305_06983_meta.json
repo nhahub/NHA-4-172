@@ -1,0 +1,216 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 24,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Active Retrieval Augmented Generation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Retrieval-Augmented Generation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1 Notations and Definitions",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 Single-time Retrieval-Augmented\nGeneration",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.3 Active Retrieval Augmented Generation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "qt = qry(x, y<t),",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "yt = LM([Dqt, x, y<t]),",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 FLARE: Forward-Looking Active\nREtrieval Augmented Generation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 FLARE with Retrieval Instructions",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Direct FLARE",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2.1 Confidence-based Active Retrieval",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2.2 Confidence-based Query Formulation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Implementation Details",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Multi-time Retrieval Baselines",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5 Experimental Setup",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.1 Multihop QA",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2 Commonsense Reasoning",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.3 Long-form QA",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.4 Open-domain Summarization",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6 Experimental Results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6.1 Comparison with Baselines",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.2 Ablation Study",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "8 Limitation",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "A Datasets and Settings",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "B Hyperparameters",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "C Prompts and Few-shot exemplars",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Prompt C.2: exemplars of 2WikiMultihopQA",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "Prompt C.3: exemplars of StrategyQA",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "Prompt C.4: exemplars of ASQA",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "Prompt C.5: exemplars of ASQA (cont.)",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "Prompt C.6: exemplars of ASQA-hint",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "Prompt C.7: exemplars of ASQA-hint (cont.)",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "Prompt C.8: exemplars of WikiAsp",
+            "level": 3,
+            "page": 23
+        }
+    ]
+}

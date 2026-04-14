@@ -1,0 +1,112 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "I Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "II Method",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "II-A Dataset",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "II-A1 Stress Detection Dataset",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "II-A2 Depression Detection Dataset",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "II-A3 Suicidality Detection Dataset",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "II-B ChatGPT Evaluation",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "III Results",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "IV Discussion",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 2
+        }
+    ],
+    "pages": 4,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Evaluation of ChatGPT for NLP-based Mental\nHealth Applications",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "I. INTRODUCTION",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "II. METHOD",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "B. ChatGPT Evaluation",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "III. RESULTS",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "IV. DISCUSSION",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "REFERENCES",
+            "level": 3,
+            "page": 2
+        }
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": ". Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": ". Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": ". Technical Approach",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": ". Hierarchical video annotations",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": ". Hierarchical joint video and text embedding",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": ". Efficient long-term features via aggregation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": ". Contrastive pretraining objective",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": ". Training strategy",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": ". Implementation Details",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": ". Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": ". Pretraining Evaluation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": ". Downstream Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": ". Conclusion",
+            "level": 0,
+            "page": 7
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "HierVL: Learning Hierarchical Video-Language Embeddings",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3. Technical Approach",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1. Hierarchical video annotations",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2. Hierarchical joint video and text embedding",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3. Efficient long-term features via aggregation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.4. Contrastive pretraining objective",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.5. Training strategy",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.6. Implementation Details",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4. Experiments",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1. Pretraining Evaluation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2. Downstream Evaluation",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5. Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        }
+    ]
+}

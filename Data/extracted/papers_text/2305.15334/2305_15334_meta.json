@@ -1,0 +1,232 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Methodology",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Dataset Collection",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Gorilla",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Verifying APIs",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "AST Accuracy on API call",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Test-Time Documentation Change",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "API Call with Constraints",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Limitations & Social Impacts",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgement",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Dataset Details",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Gorilla Details",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Performance Comparison",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Evaluation",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Hallucination",
+            "level": 2,
+            "page": 15
+        }
+    ],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Gorilla: Large Language Model Connected with\nMassive APIs",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Methodology",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Dataset Collection",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Gorilla",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Verifying APIs",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.1 AST Accuracy on API call",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Test-Time Documentation Change",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3 API Call with Constraints",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Limitations & Social Impacts",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "7 Acknowledgement",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "8 Appendix",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "8.1 Dataset Details",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "8.2 Gorilla Details",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "8.3 Performance Comparison",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "8.3.1 Evaluation",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "8.3.2 Hallucination",
+            "level": 3,
+            "page": 15
+        }
+    ]
+}

@@ -1,0 +1,362 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2 Switch Transformer",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "2.1 Simplifying Sparse Routing",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.2 Efficient Sparse Routing",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.3 Putting It All Together: The Switch Transformer",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "2.4 Improved Training and Fine-Tuning Techniques",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3 Scaling Properties",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "3.1 Scaling Results on a Step-Basis",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "3.2 Scaling Results on a Time-Basis",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "3.3 Scaling Versus a Larger Dense Model",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4 Downstream Results",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "4.1 Fine-Tuning",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "4.2 Distillation",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "4.3 Multilingual Learning",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5 Designing Models with Data, Model, and Expert-Parallelism",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "5.1 Data Parallelism",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "5.2 Model Parallelism",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "5.3 Model and Data Parallelism",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "5.4 Expert and Data Parallelism",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "5.5 Expert, Model and Data Parallelism",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "5.6 Towards Trillion Parameter Models",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "6 Related Work",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "7 Discussion",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "8 Future Work",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "9 Conclusion",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "A Switch for Attention",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "B Preventing Token Dropping with No-Token-Left-Behind",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "C Encouraging Exploration Across Experts",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "D Switch Transformers in Lower Compute Regimes",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "E Relation of Upstream to Downstream Model Performance",
+            "level": 0,
+            "page": 31
+        },
+        {
+            "title": "F Pseudo Code for Switch Transformers",
+            "level": 0,
+            "page": 32
+        }
+    ],
+    "pages": 40,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 12,
+        "table": 15,
+        "equations": {
+            "successful_ocr": 13,
+            "unsuccessful_ocr": 0,
+            "equations": 13
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Switch Transformers: Scaling to Trillion Parameter Models\nwith Simple and Efficient Sparsity",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2. Switch Transformer",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.1 Simplifying Sparse Routing",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.2 Efficient Sparse Routing",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "2.3 Putting It All Together: The Switch Transformer",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "2.4 Improved Training and Fine-Tuning Techniques",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "3. Scaling Properties",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "3.1 Scaling Results on a Step-Basis",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "3.2 Scaling Results on a Time-Basis",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "3.3 Scaling Versus a Larger Dense Model",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4. Downstream Results",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.1 Fine-Tuning",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.2 Distillation",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "4.3 Multilingual Learning",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "5. Designing Models with Data, Model, and Expert-Parallelism",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "5.1 Data Parallelism",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "5.2 Model Parallelism",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "How the data is split over cores",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "5.3 Model and Data Parallelism",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "5.4 Expert and Data Parallelism",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "5.5 Expert, Model and Data Parallelism",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "5.6 Towards Trillion Parameter Models",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "6. Related Work",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "7. Discussion",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "8. Future Work",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "9. Conclusion",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A. Switch for Attention",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "B. Preventing Token Dropping with No-Token-Left-Behind",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "C. Encouraging Exploration Across Experts",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "D. Switch Transformers in Lower Compute Regimes",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "E. Relation of Upstream to Downstream Model Performance",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "F. Pseudo Code for Switch Transformers",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 35
+        }
+    ]
+}

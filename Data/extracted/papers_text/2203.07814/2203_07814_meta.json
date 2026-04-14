@@ -1,0 +1,882 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "I ",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2 Problem setup",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.1 Competitive programming",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.2 Evaluation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3 Datasets",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.1 Pre-training dataset",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.2 CodeContests fine-tuning dataset",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.2.1 False positives and additional generated tests",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 Approach",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.1 Model architecture",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.2 Pre-training",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.3 Fine-tuning",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.4 Large scale sampling",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.5 Filtering",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.6 Clustering",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "5 Results",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "5.1 Codeforces competitions evaluation",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "5.2 CodeContests evaluation",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "5.3 CodeContests ablations & results ",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "5.3.1 Solve rates scale with respect to parameter count, compute, number of samples, and dataset size",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "5.3.2 Architecture changes to improve sampling speed",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "5.3.3 Choice of the pre-training dataset",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "5.3.4 Model enhancements",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "5.3.5 Filtering & clustering",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "5.4 Results on APPS",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "6 AlphaCode's capabilities & limitations",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "6.1 Copying from training data",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "6.2 Model solution characteristics",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "6.3 Sensitivity to problem descriptions",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "6.4 Sensitivity to provided metadata",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "6.5 Loss is a poor proxy for solve rate",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "7 Related work",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "7.1 Program synthesis",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "7.2 Transformers for program synthesis",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "7.3 Scaling sampling",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "7.4 Evaluation metrics",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "7.5 Competitive programming",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "8 Broader impact",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "8.1 Applications",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "8.2 Potential risks and benefits",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "9 Conclusion",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "10 Appendix",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "II Appendix",
+            "level": 0,
+            "page": 37
+        },
+        {
+            "title": "A Problem setup",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "A.1 Hidden tests",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "A.2 Program judging",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "A.3 Evaluation metrics",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "B Datasets",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "B.1 GitHub dataset composition",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "B.2 Dataset cleaning",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "B.3 Data leakage and temporal split",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "C Approach and Results",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "C.1 Ensembling",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "C.2 Metadata conditioning",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "C.3 GOLD",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "C.4 Additional results for filtering and clustering",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "C.5 HumanEval comparison",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "C.6 APPS dataset settings",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "C.7 Best settings for sampling",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "C.8 Scaling with dataset size",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "D Codeforces contest evaluation",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "D.1 Simulation",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "D.2 Multiple evaluations",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "D.3 Results",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "E Additional analysis of AlphaCode's capabilities and limitations",
+            "level": 1,
+            "page": 49
+        },
+        {
+            "title": "E.1 Model sample statistics",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "E.2 Solve rate for different problem difficulty ratings",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "E.3 Sensitivity to the problem descriptions",
+            "level": 2,
+            "page": 51
+        },
+        {
+            "title": "E.3.1 Simplification of problem descriptions",
+            "level": 3,
+            "page": 51
+        },
+        {
+            "title": "E.3.2 Incorrect or irrelevant rewordings",
+            "level": 3,
+            "page": 52
+        },
+        {
+            "title": "E.3.3 Capturing variables and their relations",
+            "level": 3,
+            "page": 53
+        },
+        {
+            "title": "E.3.4 Sensitivity to word-level changes",
+            "level": 3,
+            "page": 54
+        },
+        {
+            "title": "E.3.5 Description section ablations",
+            "level": 3,
+            "page": 55
+        },
+        {
+            "title": "E.4 Sensitivity to problem metadata",
+            "level": 2,
+            "page": 55
+        },
+        {
+            "title": "E.4.1 Problem ratings",
+            "level": 3,
+            "page": 55
+        },
+        {
+            "title": "E.4.2 Solution correctness",
+            "level": 3,
+            "page": 56
+        },
+        {
+            "title": "F Complete prompt and model examples",
+            "level": 1,
+            "page": 59
+        },
+        {
+            "title": "F.1 Solution duplication",
+            "level": 2,
+            "page": 61
+        },
+        {
+            "title": "F.1.1 Solution decompositions",
+            "level": 3,
+            "page": 61
+        },
+        {
+            "title": "F.1.2 Very long common subsequences between human solutions and finetuning data",
+            "level": 3,
+            "page": 65
+        },
+        {
+            "title": "F.2 Problem description rewordings",
+            "level": 2,
+            "page": 67
+        },
+        {
+            "title": "F.2.1 Simplified rewordings",
+            "level": 3,
+            "page": 67
+        },
+        {
+            "title": "F.2.2 Incorrect and verbose rewordings",
+            "level": 3,
+            "page": 71
+        }
+    ],
+    "pages": 74,
+    "ocr_stats": {
+        "ocr_pages": 7,
+        "ocr_failed": 0,
+        "ocr_success": 7,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 72,
+        "code": 2,
+        "table": 41,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Competition-Level Code Generation with\n\n![0_image_0.png](0_image_0.png)\n\n\nAlphaCode",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2. Problem setup",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.1. Competitive programming",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.2. Evaluation",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3. Datasets",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.1. Pre-training dataset",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "3.2. CodeContests fine-tuning dataset",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.2.1. False positives and additional generated tests",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4. Approach",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.1. Model architecture",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.2. Pre-training",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "4.3. Fine-tuning",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "used during sampling.",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.4. Large scale sampling",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.5. Filtering",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "4.6. Clustering",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5. Results",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "5.1. Codeforces competitions evaluation",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "5.2. CodeContests evaluation",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "5.3. CodeContests ablations & results",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "dataset size",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "5.3.2. Architecture changes to improve sampling speed",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "5.3.3. Choice of the pre-training dataset",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "5.3.4. Model enhancements",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "5.3.5. Filtering & clustering",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "5.4. Results on APPS",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "6. AlphaCode's capabilities & limitations",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "6.1. Copying from training data",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "6.2. Model solution characteristics",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "6.3. Sensitivity to problem descriptions",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "6.4. Sensitivity to provided metadata",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "6.5. Loss is a poor proxy for solve rate",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "7. Related work",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "7.1. Program synthesis",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "7.2. Transformers for program synthesis",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "7.3. Scaling sampling",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "7.4. Evaluation metrics",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "7.5. Competitive programming",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "8. Broader impact",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "8.1. Applications",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "8.2. Potential risks and benefits",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "9. Conclusion",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Author Contributions",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "Data availability",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "10. Appendix\n\n![37_image_0.png](37_image_0.png)\n\n",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "A. Problem setup",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "A.1. Hidden tests",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "A.2. Program judging",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "A.3. Evaluation metrics",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "B. Datasets",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "B.1. GitHub dataset composition",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "B.2. Dataset cleaning",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "B.3. Data leakage and temporal split",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "C. Approach and Results",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "C.1. Ensembling",
+            "level": 3,
+            "page": 42
+        },
+        {
+            "title": "C.2. Metadata conditioning",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "C.3. GOLD",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "C.5. HumanEval comparison",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "C.6. APPS dataset settings",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "C.7. Best settings for sampling",
+            "level": 3,
+            "page": 46
+        },
+        {
+            "title": "C.8. Scaling with dataset size",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "D. Codeforces contest evaluation",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "D.1. Simulation",
+            "level": 3,
+            "page": 48
+        },
+        {
+            "title": "D.2. Multiple evaluations",
+            "level": 3,
+            "page": 49
+        },
+        {
+            "title": "D.3. Results",
+            "level": 3,
+            "page": 49
+        },
+        {
+            "title": "E. Additional analysis of AlphaCode's capabilities and limitations",
+            "level": 1,
+            "page": 49
+        },
+        {
+            "title": "E.1. Model sample statistics",
+            "level": 3,
+            "page": 49
+        },
+        {
+            "title": "E.2. Solve rate for different problem difficulty ratings",
+            "level": 3,
+            "page": 49
+        },
+        {
+            "title": "E.3. Sensitivity to the problem descriptions",
+            "level": 3,
+            "page": 51
+        },
+        {
+            "title": "E.3.1. Simplification of problem descriptions",
+            "level": 3,
+            "page": 52
+        },
+        {
+            "title": "E.3.2. Incorrect or irrelevant rewordings",
+            "level": 3,
+            "page": 52
+        },
+        {
+            "title": "E.3.3. Capturing variables and their relations",
+            "level": 3,
+            "page": 53
+        },
+        {
+            "title": "E.3.4. Sensitivity to word-level changes",
+            "level": 3,
+            "page": 54
+        },
+        {
+            "title": "E.3.5. Description section ablations",
+            "level": 3,
+            "page": 55
+        },
+        {
+            "title": "E.4. Sensitivity to problem metadata",
+            "level": 3,
+            "page": 55
+        },
+        {
+            "title": "E.4.1. Problem ratings",
+            "level": 3,
+            "page": 55
+        },
+        {
+            "title": "E.4.2. Solution correctness",
+            "level": 3,
+            "page": 56
+        },
+        {
+            "title": "F. Complete prompt and model examples",
+            "level": 1,
+            "page": 59
+        },
+        {
+            "title": "Encoder Input :",
+            "level": 3,
+            "page": 60
+        },
+        {
+            "title": "Decoder Output :",
+            "level": 3,
+            "page": 60
+        },
+        {
+            "title": "F.1.  Solution duplication",
+            "level": 1,
+            "page": 61
+        },
+        {
+            "title": "F.2. Problem description rewordings",
+            "level": 4,
+            "page": 67
+        },
+        {
+            "title": "F.2.1. Simplified rewordings",
+            "level": 3,
+            "page": 67
+        },
+        {
+            "title": "F.2.2. Incorrect and verbose rewordings",
+            "level": 4,
+            "page": 71
+        }
+    ]
+}

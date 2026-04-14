@@ -1,0 +1,242 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Difficulties of ranking tasks for LLMs",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Pointwise approaches",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Listwise approaches",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Pairwise ranking prompting",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Prompting design",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "All pair comparisons",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Sorting-based",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Sliding window",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Remarks",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Datasets and Metrics",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Methods",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Main Result",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "More results on PRP-Sliding-K",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Robustness to input ordering",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Comparison of scoring mode and generation mode",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Limitations and discussions",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 9
+        }
+    ],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 11,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 1,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LARGELANGUAGEMODELS AREEFFECTIVETEXT\nRANKERS WITHPAIRWISERANKINGPROMPTING",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 DIFFICULTIES OF RANKING TASKS FOR LLMS",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 POINTWISE APPROACHES",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 LISTWISE APPROACHES",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 PAIRWISE RANKING PROMPTING",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 PROMPTING DESIGN",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 ALL PAIR COMPARISONS",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 SORTING-BASED",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4 SLIDING WINDOW",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.5 REMARKS",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 EXPERIMENTS",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 DATASETS AND METRICS",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 METHODS",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 MAIN RESULT",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.4 MORE RESULTS ON PRP-SLIDING-K",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.5 ROBUSTNESS TO INPUT ORDERING",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.6 COMPARISON OF SCORING MODE AND GENERATION MODE",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 LIMITATIONS AND DISCUSSIONS",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "6 RELATED WORK",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7 CONCLUSION",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 3,
+            "page": 9
+        }
+    ]
+}

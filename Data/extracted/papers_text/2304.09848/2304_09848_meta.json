@@ -1,0 +1,191 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 25,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 2,
+        "table": 19,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Evaluating Verifiability in Generative Search Engines",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Human Evaluation of Fluency,\nPerceived Utility, and Verifiability",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.1 Task Formulation",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2 Measuring Fluency and Perceived Utility",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.3 Measuring Citation Recall",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.4 Measuring Citation Precision",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "2.5 Citation F1",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3 Evaluation Setup",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Evaluated Generative Search Engines",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.2 Evaluated Query Distributions",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.3 Human Evaluation Protocol",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4 Results and Analysis",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.1 Fluency and Perceived Utility",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.2 Citation Recall and Precision",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.3 Citation Recall and Precision are\nInversely Related to Fluency and\nPerceived Utility",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "4.4 Generative Search Engines Often Copy\nor Closely Paraphrase From Cited\nWebpages",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "5 Discussion",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "6 Related Work",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": " Annotation Interface\nA",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "B Annotation Guidelines",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Overview",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Preliminaries: Logging In",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Step 1: Evaluating response quality",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Step 2: Filtering sentences that do not require\ncitation.",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Step 3: Judging whether each statement is fully\nsupported by its citation(s).",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Questions or feedback?",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "C Annotation Quality",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "D Citation F1",
+            "level": 2,
+            "page": 24
+        }
+    ]
+}

@@ -1,0 +1,162 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Separate Tribes",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 The General Purpose Era",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 The Hardware Lottery",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 The Lost Decades",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Software Lotteries",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4 The Persistence of the Hardware Lottery",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "5 The Likelyhood of Future Hardware Lotteries",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "6 The Way Forward",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "6.1 A Software Revolution",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "8 Acknowledgments",
+            "level": 0,
+            "page": 10
+        }
+    ],
+    "pages": 19,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "The Hardware Lottery",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Separate Tribes",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 The General Purpose Era",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 The Hardware Lottery",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 The Lost Decades",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Software Lotteries",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 The Persistence of the Hardware\nLottery",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5 The Likelyhood of Future\nHardware Lotteries",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6 The Way Forward",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6.1 A Software Revolution",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "8 Acknowledgments",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 11
+        }
+    ]
+}

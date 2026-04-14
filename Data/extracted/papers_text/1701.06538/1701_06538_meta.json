@@ -1,0 +1,307 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction and Related Work",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1.1 Conditional Computation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1.2 Our Approach: The Sparsely-Gated Mixture-of-Experts Layer",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "1.3 Related work on Mixtures of Experts",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2 The Structure of the Mixture-of-Experts layer",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 Gating Network",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3 Addressing Performance Challenges",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 The Shrinking Batch Problem",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Network Bandwidth",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4 Balancing Expert Utilization",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5 Experiments",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "5.1 1 Billion Word Language Modeling Benchmark",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5.2 100 Billion Word Google News Corpus",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.3 Machine Translation (Single Language Pair)",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.4 Multilingual Machine Translation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Appendices",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "A Load-Balancing Loss",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "B Hierachical Mixture of Experts",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "C 1 Billion Word Language Modeling Benchmark - Experimental Details",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "C.1 8-Million-Operations-per-Timestep Models",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C.2 More Expensive Models",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "D 100 Billion Word Google News Corpus - Experimental Details",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "E Machine Translation - Experimental Details",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "F Strictly Balanced Gating",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "G Attention Function",
+            "level": 1,
+            "page": 18
+        }
+    ],
+    "pages": 19,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 19,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 46,
+            "unsuccessful_ocr": 4,
+            "equations": 50
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "OUTRAGEOUSLY LARGE NEURAL NETWORKS:\nTHE SPARSELY-GATED MIXTURE-OF-EXPERTS LAYER",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION AND RELATED WORK",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1.1 CONDITIONAL COMPUTATION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1.2 OUR APPROACH: THE SPARSELY-GATED MIXTURE-OF-EXPERTS LAYER",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "1.3 RELATED WORK ON MIXTURES OF EXPERTS",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2 THE STRUCTURE OF THE MIXTURE-OF-EXPERTS LAYER",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 GATING NETWORK",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3 ADDRESSING PERFORMANCE CHALLENGES",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 THE SHRINKING BATCH PROBLEM",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 NETWORK BANDWIDTH",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 BALANCING EXPERT UTILIZATION",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5 EXPERIMENTS",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1 1 BILLION WORD LANGUAGE MODELING BENCHMARK",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.2 100 BILLION WORD GOOGLE NEWS CORPUS\n\n![6_image_0.png](6_image_0.png)\n\n",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.3 MACHINE TRANSLATION (SINGLE LANGUAGE PAIR)",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.4 MULTILINGUAL MACHINE TRANSLATION",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 CONCLUSION",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "APPENDICES",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A LOAD-BALANCING LOSS",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B HIERACHICAL MIXTURE OF EXPERTS",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C 1 BILLION WORD LANGUAGE MODELING BENCHMARK - EXPERIMENTAL DETAILS",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C.1 8-MILLION-OPERATIONS-PER-TIMESTEP MODELS",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C.2 MORE EXPENSIVE MODELS",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "D 100 BILLION WORD GOOGLE NEWS CORPUS - EXPERIMENTAL DETAILS",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "E MACHINE TRANSLATION - EXPERIMENTAL DETAILS",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "F STRICTLY BALANCED GATING",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "G ATTENTION FUNCTION",
+            "level": 2,
+            "page": 18
+        }
+    ]
+}

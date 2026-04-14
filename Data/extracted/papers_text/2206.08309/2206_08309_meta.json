@@ -1,0 +1,267 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Variational autoencoders",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Background",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Improvements upon the classical VAE method",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "The Pythae library",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Case study benchmark",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Benchmark setting",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Experiments",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Fixed latent dimension",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Varying latent dimension",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Usage of Pythae",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Interpolations",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Detailed experiments set-up",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "Additional results",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "Effect of the latent dimension on the 4 tasks with the CIFAR10 database",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Complete generation table",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Further interesting results",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Configurations and results by models",
+            "level": 1,
+            "page": 32
+        }
+    ],
+    "pages": 52,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 29,
+        "equations": {
+            "successful_ocr": 28,
+            "unsuccessful_ocr": 1,
+            "equations": 29
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Pythae: Unifying Generative Autoencoders in Python\nA Benchmarking Use Case",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Variational autoencoders",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Background",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.2 Improvements upon the classical VAE method",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 The Pythae library",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 Case study benchmark",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Benchmark setting",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.2 Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.2.1 Fixed latent dimension",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.2.2 Varying latent dimension",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Acknowledgments and Disclosure of Funding",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "A Usage of Pythae",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "B Interpolations",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "C Detailed experiments set-up",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "D Additional results",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "D.1 Effect of the latent dimension on the 4 tasks with the CIFAR10 database",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "D.2 Complete generation table",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "D.3 Further interesting results",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "D.4 Configurations and results by models",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Results by configuration",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "1. GAN-based: WAE-GAN",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "2. MMD-based",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "Results by configuration",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "Results by configuration",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "Results by configuration",
+            "level": 2,
+            "page": 50
+        }
+    ]
+}

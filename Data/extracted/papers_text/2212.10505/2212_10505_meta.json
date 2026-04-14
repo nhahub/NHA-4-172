@@ -1,0 +1,171 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 19,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "DEPLOT: One-shot visual language reasoning\nby plot-to-table translation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Standardizing the Plot-to-table Task",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Task Definition",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Training Plot-to-table Conversion Models",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3 Human Eval of Plot-to-table Metrics",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Prompting LLMs for Reasoning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5 Experiment",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.1 Experimental Setup",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5.2 Main Results",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "6 Analyses and Discussions",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6.1 Case Study and Error Analysis",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "6.2 Out-of-distribution Analysis",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "and their associated tables.",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Limitations",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Ethics Statement",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "A Details of Baselines",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "B Human Evaluation Questions",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "C Chain-of-thoughts and\nProgram-of-thoughts Prompt",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "D More Case Study",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "MATCHA: 0.8",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "DEPLOT+Codex PoT:",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "MATCHA: Belize",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "ACL 2023 Responsible NLP Checklist",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "C \u2713 Did you run computational experiments?",
+            "level": 1,
+            "page": 17
+        }
+    ]
+}

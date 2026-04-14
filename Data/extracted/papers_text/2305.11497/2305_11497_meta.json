@@ -1,0 +1,227 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Method",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Preliminary: Prompt Tuning in Visual Grounding",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 TreePrompt",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2.1 Tree Structure Generation",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2.2 Modular Network",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2.3 Integrated with Global Prompt",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Experimental Settings and Details",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 Model Agnostic Generalization",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.3 Comparison with Fully Finetuning Models",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.4 Ablation Studies",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.5 Qualitative Analysis",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion and Limitation",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "A Broader Impacts",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "B Detailed Results of Ablation Studies",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "C More Qualitative Results",
+            "level": 0,
+            "page": 9
+        }
+    ],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 10,
+            "unsuccessful_ocr": 1,
+            "equations": 11
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "TreePrompt: Learning to Compose Tree Prompts for\nExplainable Visual Grounding",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Method",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Preliminary: Prompt Tuning in Visual Grounding",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 TreePrompt",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2.1 Tree Structure Generation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2.2 Modular Network",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2.3 Integrated with Global Prompt",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.1 Experimental Settings and Details",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Model Agnostic Generalization",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Comparison with Fully Finetuning Models",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.4 Ablation Studies",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.5 Qualitative Analysis",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusion and Limitation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "A Broader Impacts",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "B Detailed Results of Ablation Studies",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "C More Qualitative Results",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 12
+        }
+    ]
+}

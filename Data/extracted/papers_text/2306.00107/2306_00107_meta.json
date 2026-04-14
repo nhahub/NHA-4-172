@@ -1,0 +1,277 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Methodology",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Pre-training with MLM",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Modelling Acoustic Information",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Modelling Musical Information",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Robust Representation Learning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Evaluation Protocol",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Baseline Methods",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Implementation Details",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Results Analysis",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Performance & Efficiency of MERT Models",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "The Effectiveness of Acoustic & Musical Teacher",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Ablation Study on Loss Weight & Mixup Probability ",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Methodology",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Experiment Details",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Downstream Tasks",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Testing Protocol Details",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Training Instability",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Representation Visualization",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Ethics",
+            "level": 0,
+            "page": 22
+        }
+    ],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 10,
+            "unsuccessful_ocr": 0,
+            "equations": 10
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "MERT: Acoustic Music Understanding Model with\nLarge-Scale Self-supervised Training",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Methodology",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Pre-training with MLM",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Modelling Acoustic Information",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Modelling Musical Information",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4 Robust Representation Learning",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Evaluation Protocol",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Baseline Methods",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Implementation Details",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Results Analysis\n5.1 Performance & Efficiency of MERT Models",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.2 The Effectiveness of Acoustic & Musical Teacher",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.3 Ablation Study on Loss Weight & Mixup Probability",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Limitation and Future Wrok",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgement",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Appendix A Methodology",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Appendix B Experiment Details",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B.1 Downstream Tasks",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "B.2 Testing Protocol Details",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "B.3 Training Instability",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "Appendix C Representation Visualization",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Appendix D Ethics",
+            "level": 2,
+            "page": 22
+        }
+    ]
+}

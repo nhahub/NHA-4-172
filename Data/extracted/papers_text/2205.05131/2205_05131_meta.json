@@ -1,0 +1,587 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "2 Background: Pre-trained Language Models",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "2.1 Pre-trained Language Models",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.2 Pre-training Objectives for Large Language Models",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "2.3 Unified Pre-training Proposals",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3 Unifying Language Learning Paradigms (UL2)",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "3.1 Pre-training",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.1.1 Unified Perspective for Pre-training Tasks",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.1.2 Mixture of Denoisers",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "3.1.3 Mode Switching",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "3.2 Model Architecture",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4 Ablative Experiments",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "4.1 Baselines",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.2 Experimental Setup",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "4.2.1 Datasets and Tasks",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.2.2 Metrics and Holistic Evaluation",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.2.3 Implementation Details",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.3 Overview of Ablative Experimental Results",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4.3.1 Decoder Vs Encoder-Decoder",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.3.2 Is GPT and/or T5 the optimal setup?",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.3.3 On the Performance of UniLM and SCLM",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.3.4 On the Performance of the Proposed UL2",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.4 Mode Switching Ablations",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "4.5 Mixture-of-Denoisers Ablations",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "4.6 Modestly Scaling Model Size and Pretraining Data",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "5 Scaling to 20B Parameters",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "5.1 Pretraining and Model Configuration",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5.2 Experiments at 20B scale",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5.2.1 Setup and Implementation Details",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "5.2.2 Datasets for Supervised Finetuning",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "5.2.3 Summary of Supervised Finetuning Results",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "5.2.4 Results on Supervised Finetuning",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "5.2.5 Tradeoffs between Finetuning and Prompt-based Zero-shot Learning (SuperGLUE)",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "5.2.6 Generative Few-shot: XSUM Summarization",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "5.2.7 UL2 for chain-of-thought prompting",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "5.2.8 Massively Multitask Language Understanding",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "5.3 Instruction Tuned UL2 20B with FLAN",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "5.3.1 Few-shot MMLU and Big-Bench Results after Flan training of UL2",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "5.3.2 Comparisons on using Chain-of-thought vs Direct Prompting",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "7 Acknowledgements",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "8 Author Contributions",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "9 Appendix",
+            "level": 0,
+            "page": 35
+        },
+        {
+            "title": "9.1 Model Release",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "9.2 Implementation Details and UL2 code",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "9.3 Details of Supervised Finetuning SOTA runs",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "9.4 Details of Prompts for few-shot and zero-shot",
+            "level": 1,
+            "page": 38
+        }
+    ],
+    "pages": 39,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 22,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "UL2: Unifying Language Learning Paradigms",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "6 Conclusion 25",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "8 Author Contributions 26",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2 Background: Pre-trained Language Models",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.1 Pre-trained Language Models",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "2.2 Pre-training Objectives for Large Language Models",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "2.3 Unified Pre-training Proposals",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3 Unifying Language Learning Paradigms (UL2)",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.1 Pre-training",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.1.1 Unified Perspective for Pre-training Tasks",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.1.2 Mixture of Denoisers",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "3.1.3 Mode Switching",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "3.2 Model Architecture",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4 Ablative Experiments",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.1 Baselines",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.2 Experimental Setup",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.2.1 Datasets and Tasks",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.2.2 Metrics and Holistic Evaluation",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.2.3 Implementation Details",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.3 Overview of Ablative Experimental Results",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "4.3.1 Decoder Vs Encoder-Decoder",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.3.2 Is GPT and/or T5 the optimal setup?",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.3.3 On the Performance of UniLM and SCLM",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.3.4 On the Performance of the Proposed UL2",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.4 Mode Switching Ablations",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "4.5 Mixture-of-Denoisers Ablations",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "4.6 Modestly Scaling Model Size and Pretraining Data",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "5 Scaling to 20B Parameters",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "5.1 Pretraining and Model Configuration",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "5.2 Experiments at 20B scale",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "5.2.1 Setup and Implementation Details",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "5.2.2 Datasets for Supervised Finetuning",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "5.2.3 Summary of Supervised Finetuning Results",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "5.2.4 Results on Supervised Finetuning",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "5.2.5 Tradeoffs between Finetuning and Prompt-based Zero-shot Learning (SuperGLUE)",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "5.2.6 Generative Few-shot: XSUM Summarization",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "5.2.7 UL2 for chain-of-thought prompting",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "5.2.8 Massively Multitask Language Understanding",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "5.3 Instruction Tuned UL2 20B with FLAN",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "5.3.2 Comparisons on using Chain-of-thought vs Direct Prompting",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "7 Acknowledgements",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "8 Author Contributions",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "9 Appendix",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "9.1 Model Release",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "9.2 Implementation Details and UL2 code",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "9.3 Details of Supervised Finetuning SOTA runs",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "9.4 Details of Prompts for few-shot and zero-shot",
+            "level": 2,
+            "page": 38
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Model Card and Evaluations for Claude Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Claude 2 Model Card",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Model details",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Intended uses",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Unintended uses and limitations",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "Ethical Considerations",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "Training Data",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3 Alignment Evaluations",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.1 Human Feedback Evaluations and Red-Teaming",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 BBQ Bias Evaluations",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 TruthfulQA",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4 Harmfulness Scores on Held Out Prompts",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "TruthfulQA",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.5\n Helpful, Honest, and Harmless (HHH) Evaluations",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "Automated Red-Teaming Evaluation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4 Capabilities Evaluations",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2 Long Contexts",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.3 Standard Benchmarks and Standardized Tests",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.3.1 The Graduate Record Exam (GRE) General Test [29]",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.3.2 Multistate Bar Examination (MBE) [32]",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.3.3 United States Medical Licensing Examination (USMLE) [34]",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.4 Use Case Specific Improvements",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "5 Areas for Improvement",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 10
+        }
+    ]
+}

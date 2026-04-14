@@ -1,0 +1,267 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Contents",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 Overview of ChatGPT",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "2.1 OpenAI",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.2 Capabilities",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3 Technology behind ChatGPT",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "3.1 Two core techniques",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.2 Technology path",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4 Applications of ChatGPT",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "4.1 Scientific writing",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.2 Education field",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4.3 Medical field",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "4.4 Other fields",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "5 Challenges",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "5.1 Technical limitations",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "5.2 Misuse cases",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5.3 Ethical concerns",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "5.4 Regulation policy",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "6 Outlook: Towards AGI",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "6.1 Technology aspect",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "6.2 Beyond technology",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 21
+        }
+    ],
+    "pages": 29,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 27,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "One Small Step for Generative AI, One Giant Leap for AGI: A Complete Survey",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 OVERVIEW OF CHATGPT",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.1 OpenAI",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.2 Capabilities",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3 TECHNOLOGY BEHIND CHATGPT",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.1 Two core techniques",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.2 Technology path",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4 APPLICATIONS OF CHATGPT",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.1 Scientific writing",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.2 Education field",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "4.3 Medical field",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.4 Other fields",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "5 CHALLENGES",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "5.1 Technical limitations",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "5.2 Misuse cases",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "5.3 Ethical concerns",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "5.4 Regulation policy",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "6 OUTLOOK: TOWARDS AGI",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "6.1 Technology aspect",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "6.2 Beyond technology",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "7 CONCLUSION",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "One Small Step for Generative AI, One Giant Leap for AGI: A Complete Survey on ChatGPT in AIGC Era 29",
+            "level": 2,
+            "page": 28
+        }
+    ]
+}

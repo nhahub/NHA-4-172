@@ -1,0 +1,121 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 24,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 24,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3. EVOPROMPTING Method",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1. Architecture search problem formulation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2. LMs for evolutionary crossover and mutation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3. EVOPROMPTING meta-learning algorithm",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4. Experiments and Results",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1. MNIST-1D",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2. CLRS",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5. Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "6. Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A. Appendix",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A.2. MNIST-1D Seed Models",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "A.3. Newly Discovered CLRS GNNs\n\n![15_image_0.png](15_image_0.png)\n\n",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "A.4. CLRS Seed Models",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "A.5. OOD Evaluation of Newly Discovered Models on CLRS",
+            "level": 3,
+            "page": 23
+        }
+    ]
+}

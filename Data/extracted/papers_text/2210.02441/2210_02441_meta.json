@@ -1,0 +1,592 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Ask Me Anything Prompting",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Preliminaries",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Effective Prompt Formats",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.3 Creating Prompt Collections at Scale",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.4 Prompt Aggregation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4 Information Flow in AMA",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "5 Results",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "5.1 Main Results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.2 Evaluation across Models",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.3 Evaluation against other aggregation methods",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "7 Reproducibility Statement",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "8 Ethics Statement",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "A Experiment Details",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "A.1 Models",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A.2 Metrics",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "A.3 Weak Supervision",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "B Additional Results",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "B.1 BLOOM Model Results",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "B.2 AMA Ablations",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "B.3 Weak Supervision Ablations",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "B.4 Additional AMA Baselines",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "C Weak Supervision Algorithm",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "D Information-Flow Theoretical Result",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "E AMA Diagnostics",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "F Understanding The Effectiveness of the Question-Answering Template",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "G Error Analysis",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "H Datasets and Prompts",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "H.1 AGNews",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "H.2 ANLI R1",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "H.3 ANLI R2",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "H.4 ANLI R3",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "H.5 Amazon",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "H.6 BoolQ",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "H.7 CB",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "H.8 COPA",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "H.9 DBPedia",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "H.10 DROP",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "H.11 MultiRC",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "H.12 Natural Questions (NQ)",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "H.13 RTE",
+            "level": 1,
+            "page": 49
+        },
+        {
+            "title": "H.14 ReCoRD",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "H.15 RealTime QA",
+            "level": 1,
+            "page": 53
+        },
+        {
+            "title": "H.16 SST2",
+            "level": 1,
+            "page": 56
+        },
+        {
+            "title": "H.17 Story Cloze",
+            "level": 1,
+            "page": 56
+        },
+        {
+            "title": "H.18 WSC",
+            "level": 1,
+            "page": 58
+        },
+        {
+            "title": "H.19 WebQuestions (WQ)",
+            "level": 1,
+            "page": 60
+        },
+        {
+            "title": "H.20 WiC",
+            "level": 1,
+            "page": 61
+        }
+    ],
+    "pages": 63,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 14,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 4,
+            "equations": 11
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ASK ME ANYTHING: A SIMPLE STRATEGY FOR PROMPTING\nLANGUAGE MODELS",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 ASK ME ANYTHING PROMPTING",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.1 Preliminaries",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Effective Prompt Formats",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Creating Prompt Collections at Scale",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4 Prompt Aggregation",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Information Flow in AMA",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Results",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.1 Main Results",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.2 Evaluation across Models",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.3 Evaluation against other aggregation methods",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "7 Reproducibility Statement",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "8 Ethics Statement",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "A Experiment Details",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "A.1 Models",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "A.2 Metrics",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "A.3 Weak Supervision",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "B Additional Results",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "B.1 BLOOM Model Results",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "B.2 AMA Ablations",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "B.3 Weak Supervision Ablations",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "B.4 Additional AMA Baselines",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "C Weak Supervision Algorithm",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "D Information-Flow Theoretical Result",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "E AMA Diagnostics",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "F Understanding The Effectiveness of the Question-Answering Template",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "G Error Analysis",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "Long-context (answer())",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "H Datasets and Prompts",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "H.1 AGNews",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "H.2 ANLI R1",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "ANLI R1 Few Shot",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "H.3 ANLI R2",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "H.4 ANLI R3",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "ANLI R3 Few Shot",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "H.5 Amazon",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "H.6 BoolQ",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "H.7 CB",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "H.8 COPA",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "H.9 DBPedia",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "H.10 DROP",
+            "level": 3,
+            "page": 42
+        },
+        {
+            "title": "H.11 MultiRC",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "H.12 Natural Questions (NQ)",
+            "level": 3,
+            "page": 48
+        },
+        {
+            "title": "H.13 RTE",
+            "level": 3,
+            "page": 49
+        },
+        {
+            "title": "RTE Few Shot",
+            "level": 3,
+            "page": 49
+        },
+        {
+            "title": "H.14 ReCoRD",
+            "level": 3,
+            "page": 50
+        },
+        {
+            "title": "ReCoRD Few Shot",
+            "level": 3,
+            "page": 51
+        },
+        {
+            "title": "Input",
+            "level": 3,
+            "page": 51
+        },
+        {
+            "title": "H.15 RealTime QA",
+            "level": 3,
+            "page": 53
+        },
+        {
+            "title": "H.16 SST2",
+            "level": 3,
+            "page": 56
+        },
+        {
+            "title": "H.17 Story Cloze",
+            "level": 3,
+            "page": 56
+        },
+        {
+            "title": "Train Size: 1871, Test Size: 1871",
+            "level": 3,
+            "page": 57
+        },
+        {
+            "title": "H.18 WSC",
+            "level": 3,
+            "page": 58
+        },
+        {
+            "title": "WSC Few Shot",
+            "level": 4,
+            "page": 58
+        },
+        {
+            "title": "H.19 WebQuestions (WQ)",
+            "level": 3,
+            "page": 60
+        },
+        {
+            "title": "H.20 WiC",
+            "level": 3,
+            "page": 61
+        },
+        {
+            "title": "WiC Few Shot",
+            "level": 3,
+            "page": 62
+        }
+    ]
+}

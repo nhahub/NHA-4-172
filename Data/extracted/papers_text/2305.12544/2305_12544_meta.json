@@ -1,0 +1,196 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 27,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A PhD Student's Perspective on Research in NLP\nin the Era of Very Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Background",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Multilinguality and Low-Resource\nLanguages",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 Reasoning",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 Knowledge Bases",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "5 Language Grounding",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "6 Computational Social Science",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "7 NLP for Online Environments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "8 Child Language Acquisition",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "9 Non-Verbal Communication",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "10 Synthetic Datasets",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "11 Interpretability",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "12 Efficient NLP",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "13 NLP in Education",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "14 NLP in Healthcare",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "15 NLP and Ethics",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Research Directions.",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "16 So What Should I Work On?",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 15
+        }
+    ]
+}

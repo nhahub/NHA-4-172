@@ -1,0 +1,402 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Quantization With Incoherence Processing: Adaptive Rounding Step ",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "LDLQ: An Optimal Adaptive Rounding Method",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Deriving the Optimality of the LDLQ Adaptive Rounding Procedure",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Incoherence: Optimality with a Spectral Bound",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Quantization With Incoherence Processing: Incoherence Processing Step ",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Incoherence via Efficient Orthogonal Multiplication",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Additional Heuristics",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Extensions and Further Analyses",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "OPTQ is a Special Case of LDLQ",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "A Bound for Rounding to a Finite Grid",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Checklist",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Broader Impacts",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Limitations",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Experiments, Reproducibility",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Additional Method Clarifications",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Subsection 4.2 (Incoherence-Based Heuristics)",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Subsection 4.2 (Greedy Updates)",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Additional Experimental Descriptions and Results",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Subsections 3.2 and 3.3 (Empirical Properties of H Across OPT-125m to 2.7b)",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Subsection 5.1 (Empirical Verification of OPTQ Equivalence)",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Subsection 5.2 (Empirical Verification of LDLQ/OPTQ Finite Grid Counterexample)",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Additional Details on the Experimental Setup and Computational Resources",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Section 6 (Main Results on Additional Evaluations) ",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Section 6 (All Methods, All Model Sizes, All Bit Weights, All Evaluation Tasks)",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Section 6 (Evaluating the Effectiveness of the Proxy Objective)",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Section 6 (Evaluating Unbiased Rounding in LDLQ/OPTQ)",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Section 6 (Evaluating Algorithm 5 Which Accounts for Clamping)",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Proofs for Section 3 (Quantization With Incoherence Processing: Adaptive Rounding Step )",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "Proofs for Section 4 (Quantization With Incoherence Processing: Incoherence Processing Step )",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "Proofs for Section 5 (Extensions and Further Analyses)",
+            "level": 0,
+            "page": 27
+        }
+    ],
+    "pages": 34,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 31,
+        "equations": {
+            "successful_ocr": 139,
+            "unsuccessful_ocr": 6,
+            "equations": 145
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "QuIP: 2-Bit Quantization of\nLarge Language Models With Guarantees",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Quantization With Incoherence Processing: Adaptive Rounding Step",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 LDLQ: An Optimal Adaptive Rounding Method",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Deriving the Optimality of the LDLQ Adaptive Rounding Procedure",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.3 Incoherence: Optimality with a Spectral Bound",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 Quantization With Incoherence Processing: Incoherence Processing Step",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Incoherence via Efficient Orthogonal Multiplication",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.2 Additional Heuristics",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5 Extensions and Further Analyses",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 OPTQ is a Special Case of LDLQ",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2 A Bound for Rounding to a Finite Grid",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6 Experiments",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements and Disclosure of Funding",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "A Checklist",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A.1 Broader Impacts",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "A.2 Limitations",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "A.3 Experiments, Reproducibility",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "B Additional Method Clarifications",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B.1 Subsection 4.2 (Incoherence-Based Heuristics)",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "B.2 Subsection 4.2 (Greedy Updates)",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "C Additional Experimental Descriptions and Results",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "C.1 Subsections 3.2 and 3.3 (Empirical Properties of H Across OPT-125m to 2.7b)",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "C.2 Subsection 5.1 (Empirical Verification of OPTQ Equivalence)",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "C.3 Subsection 5.2 (Empirical Verification of LDLQ/OPTQ Finite Grid Counterexample)",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "C.4 Additional Details on the Experimental Setup and Computational Resources",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "C.5 Section 6 (Main Results on Additional Evaluations)",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "C.6 Section 6 (All Methods, All Model Sizes, All Bit Weights, All Evaluation Tasks)",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "C.7 Section 6 (Evaluating the Effectiveness of the Proxy Objective)",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "C.8 Section 6 (Evaluating Unbiased Rounding in LDLQ/OPTQ)",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "C.9 Section 6 (Evaluating Algorithm 5 Which Accounts for Clamping)",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "D Proofs for Section 3 (Quantization With Incoherence Processing: Adaptive\nRounding Step )",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Subsection 3.2 (Deriving the Optimality of the LDLQ Adaptive Rounding Procedure)",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "Subsection 3.3 (Incoherence: Optimality with a Spectral Bound)",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "E Proofs for Section 4 (Quantization With Incoherence Processing:\nIncoherence Processing Step )",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "F Proofs for Section 5 (Extensions and Further Analyses)",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "References for the Appendix",
+            "level": 2,
+            "page": 32
+        }
+    ]
+}

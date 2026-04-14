@@ -1,0 +1,307 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Memory Wall",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Methodology",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Sensitivity-Based Non-uniform Quantization",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Dense-and-Sparse Quantization",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Dense-and-Sparse Kernel Implementation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Evaluations",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Experiment Setup",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Main Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Quantization of Instruction Following Models",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Hardware Deployment and Profiling",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Related Works on Quantization of Transformer-based Models",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Experiment Setup (Details)",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Data Skew in Per-channel Sparsity Pattern",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Ablation Studies",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Sensitivity-Based Quantization.",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Impact of Sparsity Levels on SqueezeLLM",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Impact of Grouping on SqueezeLLM",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Comparison of the OBD Framework versus the OBS Framework for Non-uniform Quantization",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Additional Hardware Profiling Results",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Additional Experiment Results",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Perplexity Evaluation",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "MMLU Evaluation",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Limitations",
+            "level": 1,
+            "page": 19
+        }
+    ],
+    "pages": 21,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SQUEEZELLM: DENSE-AND-SPARSE QUANTIZATION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 RELATED WORK",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 MEMORY WALL",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 METHODOLOGY",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 SENSITIVITY-BASED NON-UNIFORM QUANTIZATION",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.2 DENSE-AND-SPARSE QUANTIZATION",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.3 DENSE-AND-SPARSE KERNEL IMPLEMENTATION",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5 EVALUATIONS",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 EXPERIMENT SETUP",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.2 MAIN RESULTS",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.3 QUANTIZATION OF INSTRUCTION FOLLOWING MODELS",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5.4 HARDWARE DEPLOYMENT AND PROFILING",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6 CONCLUSION",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "7 ACKNOWLEDGEMENTS",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "A APPENDIX",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.1 RELATED WORKS ON QUANTIZATION OF TRANSFORMER-BASED MODELS",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.2 EXPERIMENT SETUP (DETAILS)",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.4 ABLATION STUDIES",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A.4.1 SENSITIVITY-BASED QUANTIZATION.",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A.4.4 COMPARISON OF THE OBD FRAMEWORK VERSUS THE OBS FRAMEWORK FOR\nNON-UNIFORM QUANTIZATION",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A.5 ADDITIONAL HARDWARE PROFILING RESULTS",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "A.6 ADDITIONAL EXPERIMENT RESULTS",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "A.6.1 PERPLEXITY EVALUATION",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "A.6.2 MMLU EVALUATION",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "A.7 LIMITATIONS",
+            "level": 2,
+            "page": 19
+        }
+    ]
+}

@@ -1,0 +1,352 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Methodology",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 Datasets",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 Prompting",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.3 Model Comparison",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3 Performance of GPT-4 on Medical Competency Exams",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "3.1 Results",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.1.1 Language- and Vision-Centric Challenges",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.2 Influence of Alignment and Safety Tuning",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4 Medical Challenge Benchmarks",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "4.1 Results",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "5 Calibration",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "6 Directions and Limitations",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "6.1 Richer Prompting Strategies",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "6.2 Memorization",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "6.3 Focus on multiple choice",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "7 Beyond Correct Answers: Probing Capabilities",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "7.1 Explanation",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "7.2 Metacognition",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "7.3 Challenge Problem to Interactive Session",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "8 From Benchmarks to Real World",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "9 Conclusion",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "A Dataset descriptions",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "B Memorization analysis",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "C Additional prompt examples",
+            "level": 0,
+            "page": 30
+        },
+        {
+            "title": "D Interactive educational session (continued)",
+            "level": 0,
+            "page": 32
+        }
+    ],
+    "pages": 35,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 15,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Capabilities of GPT-4 on Medical Challenge Problems",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Methodology",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Datasets",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "Prompt template for multiple choice questions",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "Sample question using prompt template",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.3 Model Comparison",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3 Performance of GPT-4 on Medical Competency Exams",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Results",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.1.1 Language- and Vision-Centric Challenges",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "GPT-4: Solving a question without seeing media.",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3.2 Influence of Alignment and Safety Tuning",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4 Medical Challenge Benchmarks",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.1 Results",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "5 Calibration",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "6 Directions and Limitations",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6.1 Richer Prompting Strategies",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "6.2 Memorization",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "6.3 Focus on multiple choice",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "7 Beyond Correct Answers: Probing Capabilities",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "GPT-4: Initial prompt",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Prompt:",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "GPT-4: Understanding the student",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "interaction continued",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "7.3 Challenge Problem to Interactive Session",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "GPT-4: Counterfactual rewrites",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "8 From Benchmarks to Real World",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "9 Conclusion",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Appendix",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "A Dataset descriptions",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "B Memorization analysis",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "C Additional prompt examples",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "D Interactive educational session (continued)",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "GPT-4: Formulating differential diagnosis",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "GPT-4: Information-gathering and testing",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "GPT-4: Schistosomiasis and Patient Conversations",
+            "level": 4,
+            "page": 34
+        }
+    ]
+}

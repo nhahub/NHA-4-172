@@ -1,0 +1,432 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background: Few-shot Prompting",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Program-aided Language Models",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "4 Experimental Setup",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "4.1 Mathematical Reasoning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.2 Symbolic Reasoning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.3 Algorithmic Tasks",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5 Results",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5.1 Math Results",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.2 Symbolic Reasoning & Algorithmic Tasks Results",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "6 Analysis",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "7 Related Work",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "I Appendix",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "A Alternative Prompts without Meaningful Variable Names",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "B Additional analysis on Arithmetic Reasoning",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "C Effect of Using Language Models of Code",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "D Analyzing the Effect of Increasing Number of Samples on PaL",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "E Standard Deviations Across Multiple Order of Prompts",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "F PaL Beyond Benchmarks",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "G Closer Look into Token-level Behaviors of Different Mechanisms",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "H Datasets",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "H.1 Creating gsm-hard",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "H.2 gsm-hard Analysis",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "I Generalization of PAL to Least-to-Most Prompting",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "J Prompts",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "J.1 Reasoning about Colored Objects",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "J.2 Penguins in a Table",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "J.3 Date Understanding",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "J.4 Math",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "J.5 Object Counting",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "J.6 Repeat Copy",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "K Success and Failure Modes in Symbolic Tasks",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "K.1 Colored Objects",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "K.2 Penguins in a Table",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "K.3 Date Understanding",
+            "level": 2,
+            "page": 33
+        }
+    ],
+    "pages": 34,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 17,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "PAL: Program-aided Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. Background: Few-shot Prompting",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3. Program-aided Language Models",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4. Experimental Setup",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4.1. Mathematical Reasoning",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.2. Symbolic Reasoning",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.3. Algorithmic Tasks",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5. Results",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.1. Math Results",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.2. Symbolic Reasoning & Algorithmic Tasks Results",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "6. Analysis",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "7. Related Work",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "8. Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Part I",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "A. Alternative Prompts without Meaningful Variable Names",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "(c) PAL prompts",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "B. Additional analysis on Arithmetic Reasoning",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "C. Effect of Using Language Models of Code",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "D. Analyzing the Effect of Increasing Number of Samples on PAL",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "(c) Hard Examples in Prompt (PAL)",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "(d) Hard Examples in Prompt (CoT)",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "E. Standard Deviations Across Multiple Order of Prompts",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "F. PAL Beyond Benchmarks",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "G. Closer Look into Token-level Behaviors of Different Mechanisms",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "H. Datasets",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "H.1. Creating GSM-HARD",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "H.2. GSM-HARD Analysis",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "I. Generalization of PAL to Least-to-Most Prompting",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "(c) PAL Math Solving Prompt\n\n![23_image_0.png](23_image_0.png)\n\n",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "J. Prompts",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "J.1. Reasoning about Colored Objects",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "J.2. Penguins in a Table",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "J.3. Date Understanding",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "J.4. Math",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "J.5. Object Counting",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "J.6. Repeat Copy",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "K. Success and Failure Modes in Symbolic Tasks",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "K.1. Colored Objects",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "K.2. Penguins in a Table",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "K.3. Date Understanding",
+            "level": 2,
+            "page": 33
+        }
+    ]
+}

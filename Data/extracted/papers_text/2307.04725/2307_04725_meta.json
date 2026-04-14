@@ -1,0 +1,217 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": ". Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": ". Related Works",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": ". Method",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": ". Preliminaries",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": ". Personalized Animation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": ". Motion Modeling Module",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": ". Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": ". Implementation Details",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": ". Qualitative Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": ". Comparison with Baselines",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": ". Ablative Study",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": ". Limitations and Future Works",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": ". Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": ". Additional Results",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": ". Model Diversity",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": ". Qualitative Results",
+            "level": 1,
+            "page": 11
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 0,
+            "equations": 8
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models\nwithout Specific Tuning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2. Related Works",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3. Method",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1. Preliminaries",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.2. Personalized Animation",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "strated in ControlNet [32].",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.3. Motion Modeling Module",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4. Experiments",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1. Implementation Details",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "slightly different from that used to train the original SD.",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.2. Qualitative Results",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.3. Comparison with Baselines",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.4. Ablative Study",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5. Limitations and Future Works",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6. Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Appendices",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "A. Additional Results",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "A.1. Model Diversity",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "A.2. Qualitative Results",
+            "level": 2,
+            "page": 11
+        }
+    ]
+}

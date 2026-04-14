@@ -1,0 +1,242 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Background",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Program tracing as meaning",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Methods",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Emergence of meaning",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Semantic content is attributable to model states (not the probe)",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Generated outputs differ from the training distribution",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Related work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Experimental details",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Karel grammar specification",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Facing direction abstraction",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Karel synthetic dataset statistics",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Training and language model details",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Additional experimental results",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Other alternative semantics",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Results by program length",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Regression plots and residuals",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Perplexity and Loss over Time",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Further discussions of related work",
+            "level": 0,
+            "page": 19
+        }
+    ],
+    "pages": 20,
+    "ocr_stats": {
+        "ocr_pages": 3,
+        "ocr_failed": 0,
+        "ocr_success": 3,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Evidence of Meaning\nin Language Models Trained on Programs",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.1 Program tracing as meaning",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Methods",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 Emergence of meaning",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4 Semantic content is attributable to model states (not the probe)",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5 Generated outputs differ from the training distribution",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6 Related work",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "A Experimental details",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "A.1 Karel grammar specification",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.2 Facing direction abstraction",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.3 Karel synthetic dataset statistics",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "A.4 Training and language model details",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "B Additional experimental results",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "B.1 Other alternative semantics",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "B.2 Results by program length",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "B.3\n Regression plots and residuals",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "B.4 Perplexity and Loss over Time",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "C\n Further discussions of related work",
+            "level": 2,
+            "page": 19
+        }
+    ]
+}

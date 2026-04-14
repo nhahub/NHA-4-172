@@ -1,0 +1,347 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Background",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Study Objectives",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Significance of the study",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Structure of the Paper",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Literature Review",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "AI-generated content and its impact on academic integrity",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "AI-generated content and its detection",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Advances in AI LLMs: GPT-4",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Methodology",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Context",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Ethical considerations",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experimental design",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Challenges faced in generating suitable content",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Results",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Summary results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Interpretation of results",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Implications for AI detection software development",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Implications for assessment design and academic integrity",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Limitations and Future Research",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Statements and Declarations",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Funding",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Competing interests",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Ethics approval and consent",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Data availability",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Author contributions",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "LLM usage disclaimer",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 15
+        }
+    ],
+    "pages": 21,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 42,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "GAME OF TONES: FACULTY DETECTION OF \nGPT-4 GENERATED CONTENT IN UNIVERSITY \nASSESSMENTS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Background",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Study Objectives",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Significance of the study",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Structure of the Paper",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Literature Review",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "AI-generated content and its impact on academic integrity",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "AI-generated content and its detection ",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Advances in AI LLMs: GPT-4",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Methodology",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Context",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Ethical considerations",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experimental design",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Challenges faced in generating suitable content ",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Summary results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": " ",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Discussion",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Interpretation of results",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Implications for AI detection software development",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Implications for assessment design and academic integrity",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Limitations and Future Research",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Conclusion",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Statements and Declarations",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Ethics approval and consent",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Data availability ",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Author contributions ",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "LLM usage disclaimer",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Acknowledgements ",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "References ",
+            "level": 1,
+            "page": 15
+        }
+    ]
+}

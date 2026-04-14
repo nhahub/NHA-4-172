@@ -1,0 +1,121 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 9,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 1,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Toxicity Detection with Generative Prompt-based Inference",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Concrete Problem Definition",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Task Formulation",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Datasets",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.3 Metrics",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "4 Baselines",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "5 Approach",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "5.1 Prompt-based Generative Classification",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "5.2 Task Demonstration",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "6 Results and Analysis",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "6.1 Prompt Engineering",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "6.2 Comparison Against Baselines",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "6.3 Qualitative Analysis",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "7 Ethical Implications",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 6
+        }
+    ]
+}

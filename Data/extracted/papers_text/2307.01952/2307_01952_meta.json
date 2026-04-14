@@ -1,0 +1,237 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Improving Stable Diffusion",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Architecture & Scale",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Micro-Conditioning",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Multi-Aspect Training",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Improved Autoencoder",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Putting Everything Together",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Future Work",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Limitations",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Diffusion Models",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Comparison to the State of the Art",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "Comparison to Midjourney v5.1",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Overall Votes",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Category & challenge comparisons on PartiPrompts (P2)",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "On FID Assessment of Generative Text-Image Foundation Models",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Additional Comparison between Single- and Two-Stage SDXL pipeline",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Comparison between SD 1.5 vs. SD 2.1 vs. SDXL",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Multi-Aspect Training Hyperparameters",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Pseudo-code for Conditioning Concatenation along the Channel Axis",
+            "level": 0,
+            "page": 17
+        }
+    ],
+    "pages": 21,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 1,
+            "equations": 8
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SDXL: Improving Latent Diffusion Models for\nHigh-Resolution Image Synthesis",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2 Improving Stable Diffusion",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Architecture & Scale",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Micro-Conditioning",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.3 Multi-Aspect Training",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.5 Putting Everything Together",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3 Future Work",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "A Acknowledgements",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "B Limitations",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "C Diffusion Models",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": " Comparison to the State of the Art\nD",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "E Comparison to Midjourney v5.1",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "E.1 Overall Votes",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "E.2 Category & challenge comparisons on PartiPrompts (P2)",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "F On FID Assessment of Generative Text-Image Foundation Models\n\n![13_image_1.png](13_image_1.png)\n\n",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "G Additional Comparison between Single- and Two-Stage SDXL pipeline\n\n![14_image_0.png](14_image_0.png)\n\n",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "H Comparison between SD 1.5 vs. SD 2.1 vs. SDXL",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "I Multi-Aspect Training Hyperparameters",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "J Pseudo-code for Conditioning Concatenation along the Channel Axis",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 18
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Method",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Audio tokenization",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Codebook interleaving patterns (see fig:pattern)",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Model conditioning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Model architecture",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Experimental setup",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Models and hyperparameters",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Datasets",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Evaluation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Results",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Comparison with the baselines",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Melody evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Ablation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Related work",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Model details",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Additional experimental results",
+            "level": 1,
+            "page": 12
+        }
+    ],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 15,
+            "unsuccessful_ocr": 1,
+            "equations": 16
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Simple and Controllable Music Generation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Method",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Audio tokenization",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2 Codebook interleaving patterns (see Figure 1)",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.3 Model conditioning",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.4 Model architecture",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 Experimental setup",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Models and hyperparameters",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2 Datasets",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Evaluation",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Results",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Comparison with the baselines",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Melody evaluation",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 Ablation",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Related work",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 Discussion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements.",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A.1 Model details",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "A.2 Additional experimental results",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "Effect of D-Adaptation.",
+            "level": 3,
+            "page": 13
+        }
+    ]
+}

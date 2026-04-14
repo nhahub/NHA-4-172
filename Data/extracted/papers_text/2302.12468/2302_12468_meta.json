@@ -1,0 +1,277 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "I Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "II Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "III Preliminaries",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "IV Methodology",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "IV-A Generation Module Pre-Training",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "IV-A1 Prototype Selection Task",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "IV-A2 Language Modeling Task",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "IV-B Knowledge Augmentation Module Pre-Training",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "IV-B1 Prompt Generation",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "IV-B2 Knowledge Augmentation Task",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "IV-C Knowledge Fusion through fine-tuning module",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "V Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "V-A Datasets and Experiment Setup",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "V-B Baseline Models",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "V-C Automatic Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "V-D Human Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "V-E Ablation Study",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "V-F Case Study",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "VI Conclusion",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Appendix A: Experiment Details",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Appendix B: Details of Human Evaluation Setup",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Appendix C: More Examples of Generated Results",
+            "level": 0,
+            "page": 10
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 12,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 0,
+            "equations": 8
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Few-Shot Table-to-Text Generation with\nPrompt-based Adapter",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "I. INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "II. RELATED WORK",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "III. PRELIMINARIES",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "IV. METHODOLOGY",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "A. Generation Module Pre-Training",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "B. Knowledge Augmentation Module Pre-Training",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "V. EXPERIMENTS\nA. Datasets and Experiment Setup",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "B. Baseline Models",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Naive seq2seq-based models:",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "TABLE II",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "Retrieval-based models:",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "C. Automatic Evaluation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "D. Human Evaluation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "F. Case Study",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "E. Ablation Study",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "VI. CONCLUSION",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "REFERENCES",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "APPENDIXA\nEXPERIMENTDETAILS",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "APPENDIX B \nDETAILS OF HUMAN EVALUATIONSETUP",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "APPENDIX C \nMORE EXAMPLES OF GENERATED RESULTS",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Human Evaluation Guidelines",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Example:",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "INPUT TABLE",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Referece Sentence",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "INPUT TABLE",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "INPUT TABLE",
+            "level": 2,
+            "page": 12
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 10,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 1,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Large Language Models respond to Influence like Humans",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract ",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction ",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Previous Research ",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "3 Illusory Truth Effect (ITE) ",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.1 Measuring ITE in GPT-3 Participants ",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Measuring ITE in Human Participants ",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Comparison of ITE in Humans and GPT-3 ",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4 Populist Framing of News (PFN) ",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 Measurement of PFN in Humans ",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 Measurement of PFN in GPT-3 ",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.3 Human and GPT-3 PFN compared ",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Summary & Conclusion ",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Ethics Statement ",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Data Availability ",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "References ",
+            "level": 1,
+            "page": 8
+        }
+    ]
+}

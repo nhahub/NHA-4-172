@@ -1,0 +1,387 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Model Architecture",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Training Data Preparation",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Datasets",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 Subword Tokenizer",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Training Setup",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "5 Evaluation Setups",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5.1 Few-shot Learning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.1.1 Denoising Mode",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1.2 CLM Mode",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1.3 CLM Mode with Fusion in the Decoder",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.2 Fine-tuning",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "6 Evaluation Results",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "6.1 Multilingual Natural Language Generation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "6.2 Machine Translation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6.3 Multilingual NLP Tasks",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6.4 English NLP Tasks",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6.4.1 SuperGLUE",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "6.4.2 SQuAD",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6.5 Shortcoming on Reasoning Tasks",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "7 Memorization",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "8 Fairness and Bias Analysis",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "8.1 Distributional Bias in Social Groups",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "8.1.1 Gender and Occupation Bias",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "8.1.2 Toxicity and Bias",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "8.2 Toxicity in Open-Ended Generation",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "8.3 Remarks",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "9 Environmental Impact",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "10 Related Work",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "11 Conclusion",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "12 Acknowledgments",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "A Extra Results",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "A.1 Machine Translation",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "B Prompt and Evaluation Format used for Different Tasks",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "C List of Filtered Datasets",
+            "level": 0,
+            "page": 31
+        }
+    ],
+    "pages": 32,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 23,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "AlexaTM 20B: Few-Shot Learning Using a\nLarge-Scale Multilingual Seq2seq Model",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Model Architecture",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Training Data Preparation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Datasets",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.2 Subword Tokenizer",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 Training Setup",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "5 Evaluation Setups",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.1 Few-shot Learning",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1.1 Denoising Mode",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "5.1.2 CLM Mode",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "5.1.3 CLM Mode with Fusion in the Decoder",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5.2 Fine-tuning",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "6 Evaluation Results",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "6.2 Machine Translation",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6.3 Multilingual NLP Tasks",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "6.4 English NLP Tasks",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "6.4.1 SuperGLUE",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "6.4.2 SQuAD",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "6.5 Shortcoming on Reasoning Tasks",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "7 Memorization",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "8 Fairness and Bias Analysis",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "8.1 Distributional Bias in Social Groups",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "8.1.1 Gender and Occupation Bias",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "8.1.2 Toxicity and Bias",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "8.2 Toxicity in Open-Ended Generation",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "8.3 Remarks",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "9 Environmental Impact",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "10 Related Work",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "11 Conclusion",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "12 Acknowledgments",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "A Extra Results",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "A.1 Machine Translation",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "B Prompt and Evaluation Format used for Different Tasks",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "C List of Filtered Datasets",
+            "level": 1,
+            "page": 31
+        }
+    ]
+}

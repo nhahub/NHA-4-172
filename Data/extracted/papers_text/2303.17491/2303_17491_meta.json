@@ -1,0 +1,422 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Methods",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "RCI Prompting",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "RCI for Computer Tasks",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Problem Setting",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Grounding Language Model in Computer Tasks",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Reasoning tasks",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Computer tasks",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Setup",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Outperforming baselines on MiniWoB++ task suite",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Lowest sample complexity",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Ablating the groundings",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Ablating the language model",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Broader Impacts",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Related Works",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Automated computer tasks",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "LLMs with actions",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "LLMs with reasoning",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Experimental setup",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Language models",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Reasoning tasks",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "MiniWoB++ task selection",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "MiniWoB++ task selection for ablation studies",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Modifications on MiniWoB++ tasks",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Prompts for MiniWoB++ tasks",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "Examples of cross grounding",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "Failure modes on MiniWoB++ tasks",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "click-dialog-2",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "click-menu",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "count-shape",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "guess-number",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "login-user-popup",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "tic-tac-toe",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "use-autocomplete",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Additional results",
+            "level": 0,
+            "page": 26
+        }
+    ],
+    "pages": 29,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Language Models can Solve Computer Tasks",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Methods",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 RCI Prompting",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2 RCI for Computer Tasks",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2.1 Problem Setting",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.2.2 Grounding Language Model in Computer Tasks",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3 Evaluation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.1 Reasoning tasks",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.2 Computer tasks",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.2.1 Setup",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.2.2 Outperforming baselines on MiniWoB++ task suite",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "3.2.3 Lowest sample complexity",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3.2.4 Ablating the groundings",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3.2.5 Ablating the language model",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4 Discussion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "A Broader Impacts",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B Related Works",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "B.1 Automated computer tasks",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "B.2 LLMs with actions",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "B.3 LLMs with reasoning",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "C Experimental setup",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "C.1 Language models",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "C.2 Reasoning tasks",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "C.3 MiniWoB++ task selection",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "C.4 MiniWoB++ task selection for ablation studies",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "C.5 Modifications on MiniWoB++ tasks",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "D Prompts for MiniWoB++ tasks",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "E Examples of cross grounding",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "F Failure modes on MiniWoB++ tasks",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "F.1 click-dialog-2",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "F.2 click-menu",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "F.3 count-shape",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "F.4 guess-number",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "F.5 login-user-popup",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "F.6 tic-tac-toe",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "F.7 use-autocomplete",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "G Additional results",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "29",
+            "level": 4,
+            "page": 28
+        }
+    ]
+}

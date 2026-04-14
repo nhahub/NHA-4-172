@@ -1,0 +1,157 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Background on the Pile",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Motivation For Dataset Creation",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Dataset Composition",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "4 Collection Process",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "5 Data Preprocessing",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "6 Dataset Distribution",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "7 Dataset Maintenance",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "8 Legal and Ethical Considerations",
+            "level": 0,
+            "page": 14
+        }
+    ],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Datasheet for the Pile",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Background on the Pile",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Datasets contained in the Pile:",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "2 Motivation For Dataset Creation",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "What (other) tasks could the dataset be used for?",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "Who funded the creation of the dataset?",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3 Dataset Composition",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "How many instances are there in total (of each type, if appropriate)?",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4 Collection Process",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "5 Data Preprocessing",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "6 Dataset Distribution",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Are there any copyrights on the data?",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "Are there any fees or access/export restrictions?",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "7 Dataset Maintenance",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Will the dataset be updated? If so, how often and by whom?",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "8 Legal and Ethical Considerations",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 17
+        }
+    ]
+}

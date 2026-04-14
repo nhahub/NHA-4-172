@@ -1,0 +1,142 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Track Anything Task",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Methodology",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3.1 Preliminaries",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.2 Implementation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4.1 Quantitative Results",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.2 Qualitative Results",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.3 Failed Cases",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5 Applications",
+            "level": 0,
+            "page": 5
+        }
+    ],
+    "pages": 7,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Track Anything: Segment Anything Meets Videos",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Track Anything Task",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Methodology",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.1 Preliminaries",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2 Implementation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.1 Quantitative Results",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Qualitative Results",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.3 Failed Cases",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5 Applications",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 5
+        }
+    ]
+}

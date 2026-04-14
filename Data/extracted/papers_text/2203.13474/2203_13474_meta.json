@@ -1,0 +1,342 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Model Training",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 Datasets",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 Models",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Single-Turn Evaluation",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 HumanEval Performance Scales as a Function of Model Size and Data Size",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Better User Intent Understanding Yields Better Synthesized Programs",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4 Multi-Turn Evaluation",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "4.1 Benchmark Construction",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 Execution Environment and Solution Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.3 Multi-Step Programming Capacity Scales with Model Size and Data Size",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.4 Better User Specification Understanding with Multi-turn Factorization",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.5 Qualitative Examples",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Related Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "A Model Training",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "A.1 Datasets",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A.2 Models",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A.3 Training",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "B Pass@k Estimator",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "C Type-relaxed Equivalence Check for MTPB Evaluation",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "D List of MTPB Problems",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "E Perplexity Computation for Single- and Multi-turn Prompts",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "F Perplexity Comparison for CodeGen-NL and CodeGen-Multi",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "G Additional Benchmark Results",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "H Generated Samples",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "H.1 Cases where CodeGen-Mono 16.1B under-performs",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "H.2 Cases where CodeGen-Mono 16.1B outperforms",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "I Additional Analyses on MTPB",
+            "level": 0,
+            "page": 22
+        }
+    ],
+    "pages": 25,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 25,
+        "code": 5,
+        "table": 18,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "CODEGEN: AN OPEN LARGE LANGUAGE MODEL FOR\nCODE WITH MULTI-TURN PROGRAM SYNTHESIS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 MODEL TRAINING",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 DATASETS",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 MODELS",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 SINGLE-TURN EVALUATION",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 HUMANEVAL PERFORMANCE SCALES AS A FUNCTION OF MODEL SIZE AND DATA SIZE",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 BETTER USER INTENT UNDERSTANDING YIELDS BETTER SYNTHESIZED PROGRAMS",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 MULTI-TURN EVALUATION",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 BENCHMARK CONSTRUCTION",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 EXECUTION ENVIRONMENT AND SOLUTION EVALUATION",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 MULTI-STEP PROGRAMMING CAPACITY SCALES WITH MODEL SIZE AND DATA SIZE",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.4 BETTER USER SPECIFICATION UNDERSTANDING WITH MULTI-TURN FACTORIZATION",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.5 QUALITATIVE EXAMPLES",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 RELATED WORK",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "6 CONCLUSION",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "BROADER IMPACT AND ETHICAL CONSIDERATIONS",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A MODEL TRAINING",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A.2 MODELS",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "A.3 TRAINING",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "B PASS@k ESTIMATOR",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "C TYPE-RELAXED EQUIVALENCE CHECK FOR MTPB EVALUATION",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "D LIST OF MTPB PROBLEMS",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "E PERPLEXITY COMPUTATION FOR SINGLE- AND MULTI-TURN PROMPTS",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "G ADDITIONAL BENCHMARK RESULTS",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "H GENERATED SAMPLES",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "CODEGEN-MONO 2.7B CODEGEN-MONO 16.1B",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "CODEGEN-MONO 2.7B CODEGEN-MONO 16.1B",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "H.2 CASES WHERE CODEGEN-MONO 16.1B OUTPERFORMS",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "CODEGEN-MONO 2.7B CODEGEN-MONO 16.1B",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "CODEGEN-MONO 2.7B CODEGEN-MONO 16.1B",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "I ADDITIONAL ANALYSES ON MTPB",
+            "level": 2,
+            "page": 22
+        }
+    ]
+}

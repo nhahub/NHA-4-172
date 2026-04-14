@@ -1,0 +1,161 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "One Embedder, Any Task: Instruction-Finetuned Text Embeddings",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract\n\n![0_image_0.png](0_image_0.png)\n\n",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 INSTRUCTOR",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Embedding Architecture",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 Training Objective",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.3 MEDI: Multitask Embedding Data with\nInstructions",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Experiments",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Main Results",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 Analysis and Ablations",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Instructions Enable Diverse Training",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.4 Model Sizes and Instruction Finetuning",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.5 Instructions Mitigate Domain Shifts",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.6 Qualititive Analysis",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5 Related Work",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "7 Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Appendices",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "A Training Setups",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "B Embedding Evaluations",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B.1 Massive Text Embedding Benchmark",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B.2 Prompt Retrieval",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B.3 Automatic Evaluation for Generation",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C Full instructions",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "D Full Results",
+            "level": 2,
+            "page": 13
+        }
+    ]
+}

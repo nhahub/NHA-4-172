@@ -1,0 +1,252 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Synthetic data technology promises to empower AI",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 The software challenge for synthetic data",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 The synthcity library",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview of the synthcity workflow",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 Data modalities",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2.1 Single dataset",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2.2 Composite dataset",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2.3 Metadata",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2.4 Missing data",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.3 Use cases and algorithms",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.3.1 Standard data generation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.3.2 Synthetic data for ML fairness",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.3.3 Synthetic data for privacy",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.3.4 Cross domain augmentation",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.4 Evaluation of synthetic data",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4 Comparison with existing libraries",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "5 Example usage scenarios",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "5.1 De-biasing medical datasets to build better and fairer prognostic scores",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.2 Using synthetic multi-source data to select the target audience of marketing campaigns",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.3 Outsourcing analytics to contractors or the open science community ",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6 Further involvement in the synthcity project",
+            "level": 0,
+            "page": 9
+        }
+    ],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Synthcity: facilitating innovative use cases of synthetic data\nin different data modalities",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Synthetic data technology promises to empower AI",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 The software challenge for synthetic data",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 The synthcity library",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview of the synthcity workflow",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.2 Data modalities",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2.1 Single dataset",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2.2 Composite dataset",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2.3 Metadata",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2.4 Missing data",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.3 Use cases and algorithms",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.3.1 Standard data generation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.3.2 Synthetic data for ML fairness",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.3.3 Synthetic data for privacy",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "3.3.4 Cross domain augmentation",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.4 Evaluation of synthetic data",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4 Comparison with existing libraries",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Example usage scenarios",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.1 De-biasing medical datasets to build better and fairer prognostic scores",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5.2 Using synthetic multi-source data to select the target audience of marketing campaigns",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5.3 Outsourcing analytics to contractors or the open science community",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6 Further involvement in the synthcity project",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 11
+        }
+    ]
+}

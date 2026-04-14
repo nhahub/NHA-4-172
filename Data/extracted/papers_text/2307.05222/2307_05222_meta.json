@@ -1,0 +1,352 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Emu: Predict the Next in Multimodality",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Architecture",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Training Objective",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Generalist Interface",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Emu Training",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Data",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Pretraining",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Visual Decoding",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Instruction Tuning",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Zero-shot Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Few-shot Evaluation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Qualitative Evaluation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Emu training",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Pretraining",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Dataset Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Training Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Visual Decoding",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Dataset Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Training Details",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Instruction Tuning",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Dataset Details",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "System Messages",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Evaluation",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Benchmarks",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Zero-shot Evaluation",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Few-shot Evaluation",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Qualitative Cases",
+            "level": 0,
+            "page": 19
+        }
+    ],
+    "pages": 27,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Generative Pretraining in Multimodality",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Emu: Predict the Next in Multimodality",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Architecture",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 Training Objective",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.3 Generalist Interface",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3 Emu Training",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Data",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.2 Pretraining",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.3 Visual Decoding",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4 Instruction Tuning",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5 Evaluation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Zero-shot Evaluation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.2 Few-shot Evaluation",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5.3 Qualitative Evaluation",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 Related Work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgement",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Emu training",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.1 Pretraining",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.1.1 Dataset Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.1.2 Training Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.2 Visual Decoding",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.2.1 Dataset Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.2.2 Training Details",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B Instruction Tuning",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "B.1 Dataset Details",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "B.2 System Messages",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C Evaluation",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C.1 Benchmarks",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C.2 Zero-shot Evaluation",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "C.3 Few-shot Evaluation",
+            "level": 2,
+            "page": 18
+        }
+    ]
+}

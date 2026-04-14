@@ -1,0 +1,186 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Exploring the Effectiveness of Prompt Engineering for Legal Reasoning\nTasks",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Legal Entailment Task",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "Entailment: NO",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Prior Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "4 Experiments and Results",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Zero-shot (ZS)",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "4.2 Few-shot (FS)",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.2.1 External Resource",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.2.2 Internal Resource: Clustering then\nFew-shot Learning",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.3 Zero-shot-Chain of Thought (ZS-CoT)",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.4 Fine-tuning LLM with and without\nExplanations",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.4.1 Pseudo-explanation",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.4.2 LLM-generated Explanation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.5 Legal Reasoning Prompts (LRPs)",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5 Conclusions and Discussion",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6 Limitations",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "7 Ethics Statement",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "ID: R02-13-A",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "ID: R02-36-E",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "ID: R02-37-I",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "ID: R02-27-O",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "ID: R02-1-I",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "ID: R02-12-A",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "ID: R02-9-O",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "ID: R02-16-U",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "ACL 2023 Responsible NLP Checklist",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B \u2713 Did you use or create scientific artifacts?",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "C \u2713 Did you run computational experiments?",
+            "level": 1,
+            "page": 14
+        }
+    ]
+}

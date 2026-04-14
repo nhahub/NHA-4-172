@@ -1,0 +1,127 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "References",
+            "level": 0,
+            "page": 0
+        }
+    ],
+    "pages": 9,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "GPT detectors are biased against non-native English\nwriters",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "GPT detectors exhibit bias against non-native English authors",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "Mitigating Bias through Linguistic Diversity Enhancement of Non-Native Samples",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "Simple prompt can easily bypass current GPT detectors",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "Discussion",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "Correspondence",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Competing interests",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Materials and Methods",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Data availability",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4. ChatGPT prompts for scientific abstracts",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "Data",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "US College Admission Essays",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "Scientific Abstracts",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "Statistical test",
+            "level": 4,
+            "page": 8
+        }
+    ]
+}

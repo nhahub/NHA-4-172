@@ -1,0 +1,342 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Preliminaries",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Pretrained Language Model Compression Problem",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Transformer Architecture",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3 Pretrained Language Model Compression Algorithms",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.4 Backgrounds",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3 Pruning",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "3.1 Overview",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.2 Pruning Granularity: Unstructured vs. Structured",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.3 Pruning Strategies: High-cost vs. Low-cost",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "3.4 Representative Algorithm: SparseGPT",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4 Quantization",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "4.1 Overview",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "4.2 Quantization Steps and Levels",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "4.3 Quantization Strategies: High-cost vs. Low-cost",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "4.4 Representative Algorithm: OPTQ",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "5 Other Algorithms",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "5.1 Knowledge Distillation",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "5.2 Low-Rank Approximation",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "5.3 Parameter Sharing",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "5.4 Efficient Architecture Design",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "5.5 Representative Algorithm: LoRA",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "6 Discussion",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "6.1 Comparing Types of Compression Algorithms",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "6.2 Two Desired Properties for Designing Successful Low-cost Compression",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "6.3 Promising Research Topics",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 28
+        }
+    ],
+    "pages": 35,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 36,
+            "unsuccessful_ocr": 2,
+            "equations": 38
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A Comprehensive Survey of Compression Algorithms for Language Models",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 PRELIMINARIES",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Pretrained Language Model Compression Problem",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.2 Transformer Architecture",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.3 Pretrained Language Model Compression Algorithms",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.4 Backgrounds",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3 PRUNING",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.1 Overview",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.2 Pruning Granularity: Unstructured vs. Structured",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3.3 Pruning Strategies: High-cost vs. Low-cost",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "3.4 Representative Algorithm: SparseGPT",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "4 QUANTIZATION",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.1 Overview",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "4.2 Quantization Steps and Levels",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "[ ()1]11 \u00b7 1 + [ ()2]11 \u00b7 2 = 6.375 + 6.325 = 12.7 = 11.",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "4.3 Quantization Strategies: High-cost vs. Low-cost",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "4.4 Representative Algorithm: OPTQ",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "5 OTHER ALGORITHMS",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "5.1 Knowledge Distillation",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "5.2 Low-Rank Approximation",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "5.3 Parameter Sharing",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "5.4 Efficient Architecture Design",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "5.5 Representative Algorithm: LoRA",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "6 DISCUSSION",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "6.1 Comparing Types of Compression Algorithms",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "6.2 Two Desired Properties for Designing Successful Low-cost Compression",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "6.3 Promising Research Topics",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "7 CONCLUSION",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "A Comprehensive Survey of Compression Algorithms for Language Models 31",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "A Comprehensive Survey of Compression Algorithms for Language Models 33",
+            "level": 2,
+            "page": 32
+        }
+    ]
+}

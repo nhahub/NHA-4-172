@@ -1,0 +1,182 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Mixture-of-Experts (MoE)",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 MoE: Model Structure",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Current Systems for MoE Training",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 FastMoE : System Design",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 A Flexible System for Diverse Model Explorers",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Enlarging the Model Capacity Distributedly",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Optimizations to Achieve High-performance",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5 Evaluation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "5.1 Experiment Setup",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.2 Training Speed on a Single GPU",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.3 Cross-GPU and Cross-node Scalability",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.4 End-to-end Performance Gain Using FastMoE ",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Summary and Future Work",
+            "level": 0,
+            "page": 7
+        }
+    ],
+    "pages": 11,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 11,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "FASTMOE: A FAST MIXTURE-OF-EXPERT TRAINING\nSYSTEM",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 MIXTURE-OF-EXPERTS (MOE)",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 MOE: MODEL STRUCTURE",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 CURRENT SYSTEMS FOR MOE TRAINING",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 FastMoE : SYSTEM DESIGN",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 A FLEXIBLE SYSTEM FOR DIVERSE MODEL EXPLORERS",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 ENLARGING THE MODEL CAPACITY DISTRIBUTEDLY",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 OPTIMIZATIONS TO ACHIEVE HIGH-PERFORMANCE",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5 EVALUATION",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.1 EXPERIMENT SETUP",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2 TRAINING SPEED ON A SINGLE GPU",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.3 CROSS-GPU AND CROSS-NODE SCALABILITY",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.4 END-TO-END PERFORMANCE GAIN USING FastMoE",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6 SUMMARY AND FUTURE WORK",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 9
+        }
+    ]
+}

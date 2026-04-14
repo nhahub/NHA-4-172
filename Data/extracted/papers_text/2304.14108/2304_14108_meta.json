@@ -1,0 +1,647 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "The DataComp benchmark",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Competition design",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "CommonPool generation, for the filtering track",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "The bring your own data (BYOD) track",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Training",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Baselines",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Filtering baselines",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "BYOD baselines",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Results and discussion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Building better datasets",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "DataComp design analyses",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Evaluation trends",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Limitations and conclusion",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "Benchmark rules",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "Filtering track rules",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Bring your own data track: amendments",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Contributions",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "Candidate pool",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Participant tooling",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Baselines",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Leadership and Advising",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Additional related work",
+            "level": 0,
+            "page": 29
+        },
+        {
+            "title": "Parsing Common Crawl",
+            "level": 0,
+            "page": 30
+        },
+        {
+            "title": "Not safe for work (NSFW) filtering",
+            "level": 0,
+            "page": 30
+        },
+        {
+            "title": "Deduplication against evaluation sets",
+            "level": 0,
+            "page": 31
+        },
+        {
+            "title": "Face blurring",
+            "level": 0,
+            "page": 32
+        },
+        {
+            "title": "DataComp CommonPool creation pipeline",
+            "level": 0,
+            "page": 35
+        },
+        {
+            "title": "CommonPool statistics",
+            "level": 0,
+            "page": 36
+        },
+        {
+            "title": "Efficient training on data subsets",
+            "level": 0,
+            "page": 40
+        },
+        {
+            "title": "Effect of duplicates in the training data",
+            "level": 0,
+            "page": 40
+        },
+        {
+            "title": "Hyperparameter ablations",
+            "level": 0,
+            "page": 41
+        },
+        {
+            "title": "Batch size",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Model architecture",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Number of training steps",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Training details",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "Evaluation details",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "Baseline details",
+            "level": 0,
+            "page": 48
+        },
+        {
+            "title": "Filtering track",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "BYOD track",
+            "level": 1,
+            "page": 54
+        },
+        {
+            "title": "Additional results",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "Fairness and biases",
+            "level": 0,
+            "page": 56
+        },
+        {
+            "title": "Diversity",
+            "level": 1,
+            "page": 56
+        },
+        {
+            "title": "Fairness",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "Extra figures and tables",
+            "level": 0,
+            "page": 59
+        },
+        {
+            "title": "Datasheet",
+            "level": 0,
+            "page": 68
+        },
+        {
+            "title": "Motivation",
+            "level": 1,
+            "page": 68
+        },
+        {
+            "title": "Composition",
+            "level": 1,
+            "page": 68
+        },
+        {
+            "title": "Collection Process",
+            "level": 1,
+            "page": 71
+        },
+        {
+            "title": "Preprocessing, Cleaning, and/or Labeling",
+            "level": 1,
+            "page": 74
+        },
+        {
+            "title": "Uses",
+            "level": 1,
+            "page": 74
+        },
+        {
+            "title": "Distribution",
+            "level": 1,
+            "page": 76
+        },
+        {
+            "title": "Maintenance",
+            "level": 1,
+            "page": 76
+        }
+    ],
+    "pages": 78,
+    "ocr_stats": {
+        "ocr_pages": 3,
+        "ocr_failed": 0,
+        "ocr_success": 3,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 29,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "DataComp:\nIn search of the next generation of multimodal datasets",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3 The DataComp benchmark",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.1 Competition design",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2 CommonPool generation, for the filtering track",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.3 The bring your own data (BYOD) track",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.4 Training",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.5 Evaluation",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 Baselines",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.1 Filtering baselines",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2 BYOD baselines",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Results and discussion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.1 Building better datasets",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.2 DataComp design analyses",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "5.3 Evaluation trends",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "6 Limitations and conclusion",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "A Benchmark rules",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "A.1 Filtering track rules",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "A.2 Bring your own data track: amendments",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "B Contributions",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "B.1 Candidate pool",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "B.2 Participant tooling",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "B.3 Baselines",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "B.4 Leadership and Advising",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "C Additional related work",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "D Parsing Common Crawl",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "E Not safe for work (NSFW) filtering",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "F Deduplication against evaluation sets",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "G Face blurring",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "H DataComp CommonPool creation pipeline\n\n![35_image_0.png](35_image_0.png)\n\n",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "I CommonPool statistics",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "39",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "40",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "J Efficient training on data subsets",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "K Effect of duplicates in the training data",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "L Hyperparameter ablations",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "L.1 Batch size",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "L.2 Model architecture",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "L.3 Number of training steps",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "M Training details",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "N Evaluation details",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "O Baseline details",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "O.1 Filtering track",
+            "level": 3,
+            "page": 52
+        },
+        {
+            "title": "S = {I(fi) | 1 \u2264 i \u2264 N}",
+            "level": 3,
+            "page": 53
+        },
+        {
+            "title": "O.2 BYOD track",
+            "level": 1,
+            "page": 54
+        },
+        {
+            "title": "O.2.1 Additional results",
+            "level": 4,
+            "page": 54
+        },
+        {
+            "title": "P Fairness and biases",
+            "level": 1,
+            "page": 56
+        },
+        {
+            "title": "P.1 Diversity",
+            "level": 4,
+            "page": 56
+        },
+        {
+            "title": "P.2 Fairness",
+            "level": 3,
+            "page": 57
+        },
+        {
+            "title": "Q Extra figures and tables",
+            "level": 1,
+            "page": 59
+        },
+        {
+            "title": "64",
+            "level": 4,
+            "page": 63
+        },
+        {
+            "title": "R Datasheet",
+            "level": 1,
+            "page": 68
+        },
+        {
+            "title": "R.1 Motivation",
+            "level": 3,
+            "page": 68
+        },
+        {
+            "title": "R.2 Composition",
+            "level": 3,
+            "page": 68
+        },
+        {
+            "title": "Q21 Any other comments?",
+            "level": 4,
+            "page": 71
+        },
+        {
+            "title": "R.3 Collection Process",
+            "level": 3,
+            "page": 71
+        },
+        {
+            "title": "Q34 Any other comments?",
+            "level": 4,
+            "page": 74
+        },
+        {
+            "title": "R.4 Preprocessing, Cleaning, and/or Labeling",
+            "level": 3,
+            "page": 74
+        },
+        {
+            "title": "Q38 Any other comments?",
+            "level": 4,
+            "page": 74
+        },
+        {
+            "title": "R.5 Uses",
+            "level": 3,
+            "page": 74
+        },
+        {
+            "title": "Q44 Any other comments?",
+            "level": 4,
+            "page": 75
+        },
+        {
+            "title": "R.6 Distribution",
+            "level": 3,
+            "page": 76
+        },
+        {
+            "title": "R.7 Maintenance",
+            "level": 3,
+            "page": 76
+        },
+        {
+            "title": "Q52 Who will be supporting/hosting/maintaining the dataset?",
+            "level": 4,
+            "page": 76
+        }
+    ]
+}

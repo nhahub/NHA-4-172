@@ -1,0 +1,247 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Training details and the importance of high-quality data",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Filtering of existing code datasets using a transformer-based classifier",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Creation of synthetic textbook-quality datasets",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Model architecture and training",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Spikes of model capability after finetuning on CodeExercises",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Finetuning improves the model's understanding",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Finetuning improves the model's ability to use external libraries",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Evaluation on unconventional problems with LLM grading",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Data pruning for unbiased performance evaluation",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "N-gram overlap",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Embedding and syntax-based similarity analysis",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Additional examples for Section 3",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Finetuning improves the model's understanding ability",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Finetuning improves the model's ability to use external libraries",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Limitation of phi-1 ",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "Examples for Section 5",
+            "level": 0,
+            "page": 23
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 19,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Textbooks Are All You Need",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2.1 Filtering of existing code datasets using a transformer-based classifier",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.2 Creation of synthetic textbook-quality datasets",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "The synthetic textbook dataset",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "The CodeExercises dataset",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "2.3 Model architecture and training",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3 Spikes of model capability after finetuning on CodeExercises",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.1 Finetuning improves the model's understanding",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.2 Finetuning improves the model's ability to use external libraries",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Prompt:",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "phi-1",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "\"\"\"",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4 Evaluation on unconventional problems with LLM grading",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "5 Data pruning for unbiased performance evaluation",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "5.1 N-gram overlap",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "5.2 Embedding and syntax-based similarity analysis",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "A Additional examples for Section 3",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "A.1 Finetuning improves the model's understanding ability",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "A.2 Finetuning improves the model's ability to use external libraries",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Prompt:",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "B Limitation of phi-1",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "C Examples for Section 5",
+            "level": 1,
+            "page": 23
+        }
+    ]
+}

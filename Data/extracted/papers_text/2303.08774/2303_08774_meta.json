@@ -1,0 +1,807 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Scope and Limitations of this Technical Report",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Predictable Scaling",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Loss Prediction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Scaling of Capabilities on HumanEval",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Capabilities",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Visual Inputs",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Limitations",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Risks & mitigations",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Exam Benchmark Methodology",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "Sourcing.",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Prompting: multiple-choice",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Prompting: free-response",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Images",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Scoring",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Codeforces rating",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Model snapshot details",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Example few-shot prompts",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Impact of RLHF on capability",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "Contamination on professional and academic exams",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "Contamination on academic benchmarks",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "GSM-8K in GPT-4 training",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "Multilingual MMLU",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "Examples of GPT-4 Visual Input",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "System Card",
+            "level": 0,
+            "page": 39
+        }
+    ],
+    "pages": 100,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 13,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "GPT-4 Technical Report",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Scope and Limitations of this Technical Report",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Predictable Scaling",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 Loss Prediction",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2 Scaling of Capabilities on HumanEval",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "4 Capabilities",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 Visual Inputs",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "Example of GPT-4 visual input:",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 Limitations",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6 Risks & mitigations",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Authorship, Credit Attribution, and Acknowledgements",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Data infrastructure11",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "Model safety11",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "Evaluation & analysis",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "OpenAI adversarial testers11",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "Deployment",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "Additional contributions",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A Exam Benchmark Methodology",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "A.1 Sourcing.",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "A.2 Prompting: multiple-choice",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "A.3 Prompting: free-response",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "A.4 Images",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "A.5 Scoring",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "A.6 Codeforces rating",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "A.7 Model snapshot details",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "A.8 Example few-shot prompts",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "Example prompt for a multiple choice exam (AP Art History [82])",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "B Impact of RLHF on capability",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "C Contamination on professional and academic exams",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "D Contamination on academic benchmarks",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "E GSM-8K in GPT-4 training",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "F Multilingual MMLU",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "G Examples of GPT-4 Visual Input",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "GPT-4 visual input example, Chart Reasoning:",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "GPT-4 visual input example, \u00c9cole Polytechnique Exam Question:",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "GPT-4 visual input example, Extreme Ironing:",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "GPT-4 visual input example, Pixel to Paper Summaries:",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "GPT-4 visual input example, Moar Layers:",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "H System Card",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "GPT-4 System Card",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "OpenAI",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "1.1 Overview of findings and mitigations",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "2 GPT-4 Observed Safety Challenges",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "2.1 Evaluation Approach",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "2.1.1 Qualitative Evaluations",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "2.1.2 Quantitative Evaluations",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "2.2 Hallucinations",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "2.3 Harmful Content",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "2.4 Harms of representation, allocation, and quality of service",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "2.5 Disinformation and Influence Operations",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "2.6 Proliferation of Conventional and Unconventional Weapons15",
+            "level": 2,
+            "page": 51
+        },
+        {
+            "title": "2.7 Privacy",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "2.8 Cybersecurity",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "2.9 Potential for Risky Emergent Behaviors",
+            "level": 2,
+            "page": 53
+        },
+        {
+            "title": "\u2022 The human then provides the results.",
+            "level": 3,
+            "page": 55
+        },
+        {
+            "title": "2.10 Interactions with other systems",
+            "level": 2,
+            "page": 55
+        },
+        {
+            "title": "2.11 Economic Impacts",
+            "level": 2,
+            "page": 57
+        },
+        {
+            "title": "2.12 Acceleration",
+            "level": 2,
+            "page": 58
+        },
+        {
+            "title": "2.13 Overreliance",
+            "level": 2,
+            "page": 58
+        },
+        {
+            "title": "3 Deployment Preparation",
+            "level": 1,
+            "page": 60
+        },
+        {
+            "title": "3.1 Model Mitigations",
+            "level": 2,
+            "page": 60
+        },
+        {
+            "title": "4 System Safety",
+            "level": 1,
+            "page": 65
+        },
+        {
+            "title": "4.1 Usage Policies and Monitoring",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "4.2 Content Classifier Development",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "5 Conclusion and Next Steps",
+            "level": 2,
+            "page": 67
+        },
+        {
+            "title": "6 Acknowledgements",
+            "level": 1,
+            "page": 69
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 70
+        },
+        {
+            "title": "A Full RBRM Instructions for Classifying Refusal Styles",
+            "level": 1,
+            "page": 79
+        },
+        {
+            "title": "Example Classification",
+            "level": 4,
+            "page": 80
+        },
+        {
+            "title": "B Full RBRM Instructions for Classifying Regulated Advice",
+            "level": 1,
+            "page": 81
+        },
+        {
+            "title": "C Full RBRM Instructions for Classifying Sexual Content",
+            "level": 1,
+            "page": 82
+        },
+        {
+            "title": "[Assistant]",
+            "level": 4,
+            "page": 82
+        },
+        {
+            "title": "Example Classification",
+            "level": 4,
+            "page": 82
+        },
+        {
+            "title": "D Harmful Content Table Full Examples",
+            "level": 1,
+            "page": 83
+        },
+        {
+            "title": "D.1 Prompt 1",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "D.2 Prompt 2",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "D.3 Prompt 3",
+            "level": 2,
+            "page": 84
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 84
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 84
+        },
+        {
+            "title": "D.4 Prompt 4",
+            "level": 2,
+            "page": 85
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 85
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 85
+        },
+        {
+            "title": "D.5 Prompt 5",
+            "level": 2,
+            "page": 85
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 85
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 85
+        },
+        {
+            "title": "D.6 Prompt 6",
+            "level": 2,
+            "page": 86
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 86
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 86
+        },
+        {
+            "title": "D.7 Prompt 7",
+            "level": 2,
+            "page": 86
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 86
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 86
+        },
+        {
+            "title": "D.8 Prompt 8",
+            "level": 2,
+            "page": 87
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 87
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 87
+        },
+        {
+            "title": "D.9 Prompt 9",
+            "level": 2,
+            "page": 88
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 88
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 88
+        },
+        {
+            "title": "E Harms of Representation Table Examples",
+            "level": 1,
+            "page": 89
+        },
+        {
+            "title": "E.1 Prompt 1",
+            "level": 2,
+            "page": 89
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 89
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 89
+        },
+        {
+            "title": "E.2 Prompt 2",
+            "level": 2,
+            "page": 89
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 89
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 89
+        },
+        {
+            "title": "E.3 Prompt 3",
+            "level": 2,
+            "page": 90
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 90
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 90
+        },
+        {
+            "title": "F Disinformation and Influence Operations Table Examples",
+            "level": 1,
+            "page": 92
+        },
+        {
+            "title": "F.1 Prompt 1",
+            "level": 2,
+            "page": 92
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 92
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 92
+        },
+        {
+            "title": "F.2 Prompt 2",
+            "level": 2,
+            "page": 92
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 92
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 92
+        },
+        {
+            "title": "F.3 Prompt 3",
+            "level": 2,
+            "page": 93
+        },
+        {
+            "title": "GPT-4 (early) response",
+            "level": 2,
+            "page": 93
+        },
+        {
+            "title": "GPT-4 (launch) response",
+            "level": 2,
+            "page": 93
+        },
+        {
+            "title": "F.4 Prompt",
+            "level": 2,
+            "page": 94
+        },
+        {
+            "title": "Assistant generation",
+            "level": 2,
+            "page": 95
+        },
+        {
+            "title": "Example of Chemical Compound Similarity and Purchase Tool Use",
+            "level": 3,
+            "page": 98
+        }
+    ]
+}

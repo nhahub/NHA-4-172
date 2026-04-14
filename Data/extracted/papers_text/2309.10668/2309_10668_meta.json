@@ -1,0 +1,162 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Background",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Experimental Evaluation",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Datasets",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Comparing Compression Rates",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Optimal Model-Dataset Size Tradeoff",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Compressors as Generative Models",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Sequential Evolution of In-Context Compression",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Tokenization Is Compression",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Related work",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 11
+        }
+    ],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 16,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. Background",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3. Experimental Evaluation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.1. Datasets",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2. Comparing Compression Rates",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3. Optimal Model-Dataset Size Tradeoff",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "3.4. Compressors as Generative Models",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "Context Text (1948 Bytes)",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "Ground Truth (100 Bytes)",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "3.5. Sequential Evolution of In-Context Compression",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "3.6. Tokenization Is Compression",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4. Related work",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "5. Conclusion",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 11
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "I Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "II Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "III ALOHA: A Low-cost Open-source Hardware System for Bimanual Teleoperation",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "IV Action Chunking with Transformers",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "IV-A Action Chunking and Temporal Ensemble",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "IV-B Modeling human data",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "IV-C Implementing ACT",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "V Experiments",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "V-A Tasks",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "V-B Data Collection",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "V-C Experiment Results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "VI Ablations",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "VI-A Action Chunking and Temporal Ensembling",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "VI-B Training with CVAE",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "VI-C Is High-Frequency Necessary?",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "VII Limitations and Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "A Comparing ALOHA with Prior Teleoperation Setups",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "B Example Image Observations",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "C Detailed Architecture Diagram",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "D Experiment Details and Hyperparameters",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "E User Study Details",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "F Limitations",
+            "level": 1,
+            "page": 14
+        }
+    ],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Learning Fine-Grained Bimanual Manipulation with\nLow-Cost Hardware",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "I. INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "III. ALOHA: A LOW-COST OPEN-SOURCE HARDWARE\nSYSTEM FOR BIMANUAL TELEOPERATION",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "IV. ACTION CHUNKING WITH TRANSFORMERS",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "A. Action Chunking and Temporal Ensemble",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Algorithm 1 ACT Training",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Algorithm 2 ACT Inference",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "B. Modeling human data",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "C. Implementing ACT",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "V. EXPERIMENTS",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "A. Tasks",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "B. Data Collection",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "C. Experiment Results",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "VI. ABLATIONS",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A. Action Chunking and Temporal Ensembling",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "B. Training with CVAE",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "C. Is High-Frequency Necessary?",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "VII. LIMITATIONS AND CONCLUSION",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "ACKNOWLEDGEMENT",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A. Comparing ALOHA with Prior Teleoperation Setups",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B. Example Image Observations",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C. Detailed Architecture Diagram",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "D. Experiment Details and Hyperparameters",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "E. User Study Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "F. Limitations",
+            "level": 2,
+            "page": 14
+        }
+    ]
+}

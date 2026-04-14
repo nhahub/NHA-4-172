@@ -1,0 +1,702 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 The Design Choices of GLM-130B",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 GLM-130B's Architecture",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 GLM-130B's Pre-Training Setup",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.3 Platform-Aware Parallel Strategies and Model Configurations",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3 The Training Stability of GLM-130B",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4 GLM-130B Inference on RTX 2080 Ti",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "5 The Results",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "5.1 Language Modeling",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.2 Massive Multitask Language Understanding (MMLU)",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.3 Beyond the Imitation Game Benchmark (BIG-bench)",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.4 Chinese Language Understanding Evaluation (CLUE)",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Related Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusion and Lessons",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "I Appendix",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "A A Brief History of GLM-130B",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "B Ethics: Evaluation on Biases and Toxicity",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "B.1 Bias Measurement: CrowS-Pairs",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B.2 Bias Measurement: StereoSet",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "B.3 Hate Speech Detection: ETHOS",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "B.4 Toxic Genearation: RealToxicPrompts",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "C Technical Details",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "C.1 Tokenization",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "C.2 Layer Normalization",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "C.3 Positional Encoding and Feed-forward Network",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "C.4 Pipeline Parallel Analysis",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "C.5 Inference Acceleration",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "C.6 Activation Outlier Analysis",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "C.7 Weight Quantization",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "C.7.1 Preliminaries",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "C.8 Quantization settings",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "C.8.1 Quantization Results at Scales",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "C.8.2 Weight Distribution Analysis",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "D Dataset and Evaluation Details",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "D.1 Multi-task Instruction Pre-training (MIP)",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "D.2 Data and prompts in MIP for DeepStruct",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "D.2.1 Dialogue State Tracking",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "D.2.2 Event Extraction",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "D.2.3 Joint Entity and Relation Extraction",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "D.2.4 Named Entity Recognition",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "D.2.5 Relation Classification",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "D.2.6 Semantic Role Labeling",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "D.3 BIG-bench-lite Evaluation",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "D.4 MMLU Evaluation",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "D.5 Language Modeling Evaluation",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "D.6 Chinese Language Understanding Evaluation",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "E Broader Impact",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "E.1 Impact on AI Research",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "E.2 Impact on Individual Developers and Small Companies",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "F Environmental Impact",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "G Contributions",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "G.1 Preparation",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "G.2 Model Training",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "G.3 Post Training",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "G.4 Project Management",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "G.5 Computation Sponsor",
+            "level": 2,
+            "page": 47
+        }
+    ],
+    "pages": 48,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 47,
+        "code": 0,
+        "table": 16,
+        "equations": {
+            "successful_ocr": 20,
+            "unsuccessful_ocr": 1,
+            "equations": 21
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "GLM-130B: AN OPEN BILINGUAL PRE-TRAINED\nMODEL",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 THE DESIGN CHOICES OF GLM-130B",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 GLM-130B'S PRE-TRAINING SETUP",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.3 PLATFORM-AWARE PARALLEL STRATEGIES AND MODEL CONFIGURATIONS",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3 THE TRAINING STABILITY OF GLM-130B",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4 GLM-130B INFERENCE ON RTX 2080 TI",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5 THE RESULTS",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.1 LANGUAGE MODELING",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.2 MASSIVE MULTITASK LANGUAGE UNDERSTANDING (MMLU)",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.3 BEYOND THE IMITATION GAME BENCHMARK (BIG-BENCH)",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5.4 CHINESE LANGUAGE UNDERSTANDING EVALUATION (CLUE)",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 RELATED WORK",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "7 CONCLUSION AND LESSONS",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "ACKNOWLEDGEMENT",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "ETHICAL STATEMENT",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "REPRODUCIBILITY",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Part I\nAppendix",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Table of Contents",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "A A BRIEF HISTORY OF GLM-130B",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Major Issues Encountered for Training GLM-130B",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "2022.1",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "2022.2",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "2022.3",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "2022.4",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "2022.5-6",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "2022.6-7",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "B ETHICS: EVALUATION ON BIASES AND TOXICITY",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "B.2 BIAS MEASUREMENT: STEREOSET",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "B.3 HATE SPEECH DETECTION: ETHOS",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "B.4 TOXIC GENEARATION: REALTOXICPROMPTS",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "C TECHNICAL DETAILS",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "C.1 TOKENIZATION",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "C.2 LAYER NORMALIZATION",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "C.3 POSITIONAL ENCODING AND FEED-FORWARD NETWORK",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "C.4 PIPELINE PARALLEL ANALYSIS",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "C.5 INFERENCE ACCELERATION",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "C.6 ACTIVATION OUTLIER ANALYSIS",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "C.7 WEIGHT QUANTIZATION",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "C.7.1 PRELIMINARIES",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "C.8 QUANTIZATION SETTINGS",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "C.8.1 QUANTIZATION RESULTS AT SCALES",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "C.8.2 WEIGHT DISTRIBUTION ANALYSIS",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "D DATASET AND EVALUATION DETAILS",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "D.1 MULTI-TASK INSTRUCTION PRE-TRAINING (MIP)",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "D.2 DATA AND PROMPTS IN MIP FOR DEEPSTRUCT",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "D.2.1 DIALOGUE STATE TRACKING",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "(Slot Filling, Prompt 0)",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "D.2.2 EVENT EXTRACTION",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "(Argument Identification, Prompt 0)",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "D.2.3 JOINT ENTITY AND RELATION EXTRACTION",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "(Relation Extraction, Prompt 0)",
+            "level": 4,
+            "page": 35
+        },
+        {
+            "title": "(Conditional Relation Extraction, Prompt 0)",
+            "level": 4,
+            "page": 35
+        },
+        {
+            "title": "(Knowledge Slot Filling, Prompt 1, KELM ONLY)",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "D.2.4 NAMED ENTITY RECOGNITION",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "(Entity Typing, Prompt 0)",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "(Entity Typing, Prompt 1)",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "(Entity Typing, Prompt 2)",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "D.2.5 RELATION CLASSIFICATION",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "(Relation Classification, Prompt 0)",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "(Relation Classification, Prompt 1)",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "(Knowledge Slot Filling, Prompt 0)",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "D.2.6 SEMANTIC ROLE LABELING",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "(Semantic Role Labeling, Prompt 0)",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "(Semantic Role Filling, Prompt 0)",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "(Predicate Recognition, Prompt 0)",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "D.3 BIG-BENCH-LITE EVALUATION",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "D.4 MMLU EVALUATION",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "(MMLU 1-shot Example)",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "D.5 LANGUAGE MODELING EVALUATION",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "D.6 CHINESE LANGUAGE UNDERSTANDING EVALUATION",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "E BROADER IMPACT",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "E.1 IMPACT ON AI RESEARCH",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "E.2 IMPACT ON INDIVIDUAL DEVELOPERS AND SMALL COMPANIES",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "F ENVIRONMENTAL IMPACT",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "G CONTRIBUTIONS",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "G.1 PREPARATION",
+            "level": 4,
+            "page": 47
+        }
+    ]
+}

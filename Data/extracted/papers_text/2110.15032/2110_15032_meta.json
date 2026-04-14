@@ -1,0 +1,171 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 24,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "OneFlow: Redesign the Distributed Deep Learning Framework from Scratch",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "framework.",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2 BACKGROUND AND MOTIVATION",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Distributing the Workload in Spatial Domain",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.3 Managing the Complex Dependencies",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.4 Summary",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 THE COMPILER",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Specifying Parallelism of Each Tensor and Each\nOperator among Assigned Devices",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Modeling Data Routing",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Difference from GShard's Abstractions",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.4 The Programming Interface",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 THE RUNTIME",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 The Actor Model",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Explicit Representation of Resource Dependency",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Applications: pipelining and back pressure",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 THE IMPLEMENTATION",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6 EVALUATION",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6.1 Data-preprocessing Pipeline",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.2 Data Parallelism",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.3 Model Parallelism",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.3.1 InsightFace",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.3.2 HugeCTR",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6.4 Parallelizing the Optimizer",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6.5 Hybrid Parallelism",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "7 CONCLUSION AND DISCUSSIONS",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "ACKNOWLEDGEMENTS",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 10
+        }
+    ]
+}

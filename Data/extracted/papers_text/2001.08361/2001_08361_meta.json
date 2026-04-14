@@ -1,0 +1,347 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 Background and Methods",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "3 Empirical Results and Basic Power Laws",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "4 Charting the Infinite Data Limit and Overfitting",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "5 Scaling Laws with Model Size and Training Time",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "6 Optimal Allocation of the Compute Budget",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "7 Related Work",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "8 Discussion",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Appendices",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "A Summary of Power Laws",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "B Empirical Model of Compute-Efficient Frontier",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "C Caveats",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "D Supplemental Figures",
+            "level": 0,
+            "page": 22
+        }
+    ],
+    "pages": 30,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 14,
+        "equations": {
+            "successful_ocr": 87,
+            "unsuccessful_ocr": 15,
+            "equations": 102
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Scaling Laws for Neural Language Models",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Contents",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "1.1 Summary",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "1.2 Summary of Scaling Laws",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "1.3 Notation",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "2 Background and Methods",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "2.1 Parameter and Compute Scaling of Transformers",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "2.2 Training Procedures",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "2.3 Datasets",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "3 Empirical Results and Basic Power Laws",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.1 Approximate Transformer Shape and Hyperparameter Independence",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3.2 Performance with Non-Embedding Parameter Count N",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3.2.1 Comparing to LSTMs and Universal Transformers",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "3.2.2 Generalization Among Data Distributions",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "3.3 Performance with Dataset Size and Compute",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4 Charting the Infinite Data Limit and Overfitting",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.1 Proposed L(N, D) Equation",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.2 Results",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "5 Scaling Laws with Model Size and Training Time",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "5.1 Adjustment for Training at Bcrit(L)",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "5.2 Results for L(N, Smin) and Performance with Model Size and Compute",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "5.3 Lower Bound on Early Stopping Step",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "6 Optimal Allocation of the Compute Budget",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "6.1 Optimal Performance and Allocations",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "6.2 Predictions from L(N, Smin)",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "6.3 Contradictions and a Conjecture",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "7 Related Work",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "8 Discussion",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Appendices",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "A Summary of Power Laws",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "B Empirical Model of Compute-Efficient Frontier",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "B.1 Defining Equations",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "B.2 Efficient Training",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "B.3 Comparison to Inefficient",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "B.4 Suboptimal Model Sizes",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "C Caveats",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "D Supplemental Figures",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "D.1 Early Stopping and Test vs Train",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "D.2 Universal Transformers",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "D.3 Batch Size",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "D.4 Sample Efficiency vs Model Size",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "D.5 Context Dependence",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "D.6 Learning Rate Schedules and Error Analysis",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "D.7 Fit Details and Power Law Quality",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "D.8 Generalization and Architecture",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "List of Figures",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "List of Tables",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 27
+        }
+    ]
+}

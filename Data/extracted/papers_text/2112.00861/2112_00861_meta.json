@@ -1,0 +1,392 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2 Conditioning on Aligned Behavior",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "3 Scaling of Preference Modeling vs Imitation Learning",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "4 Preference Model Pre-Training and Transfer",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "5 Discussion",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "A Language Model Pre-training",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "B More Details on Prompting, Context Distillation, and Evaluations",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "C More Details on Preference Models",
+            "level": 0,
+            "page": 33
+        },
+        {
+            "title": "D Per-Token GAN-Style Discriminator Results",
+            "level": 0,
+            "page": 39
+        },
+        {
+            "title": "E Definitions of Alignment and the HHH criteria",
+            "level": 0,
+            "page": 43
+        }
+    ],
+    "pages": 48,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 14,
+            "unsuccessful_ocr": 5,
+            "equations": 19
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A General Language Assistant\nas a Laboratory for Alignment",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Contents",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "1.1 Motivations",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "What are Helpfulness, Honesty, and Harmlessness?",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "Honest:",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "1.2 Research",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "Open-Ended Dialogue Format and Prompting",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "Scaling of Imitation Learning vs Preference Modeling, and Binary vs Rank-Ordered Preferences",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "Preference Model Pre-Training",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "Models",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "1.3 Contributions",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "2 Conditioning on Aligned Behavior",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "2.1 Context Distillation",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "2.2 Evaluations and Alignment Taxes",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "2.2.1 HHH Evaluations and TruthfulQA",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "2.2.2 Toxicity",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "2.2.3 Human Preferences and Model Performance",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "2.2.4 Alignment Taxes/Bonuses",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "3 Scaling of Preference Modeling vs Imitation Learning",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "3.1 Loss and Settings for Preference Modeling and Imitation Learning",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "Preference Modeling",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "Imitation Learning",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "3.2 Performance and Scaling Results for Ranked versus Binary Preference Datasets",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "Code Correctness (Binary)",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "Lambada (Binary)",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "HellaSwag (Ranked)",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "Ethics (Binary, except for Utilitarianism)",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "4 Preference Model Pre-Training and Transfer",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "LM Pre-training \u2192 PMP \u2192 PM Finetuning.",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "4.1 PMP and Datasets",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "4.2 Finetuning Results and Scaling Trends",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "4.3 Ranked Preference Modeling vs Binary Discrimination for PMP",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "4.4 Human-Model vs Human-Human Comparisons for PMP",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "5 Discussion",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "5.1 Related Work",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "5.2 Broader Impacts",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "5.3 Implications",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "Author Contributions",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "A Language Model Pre-training",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "B More Details on Prompting, Context Distillation, and Evaluations",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "B.1 Alignment Tax Evaluations",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "B.2 Toxicity Analysis Details",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "B.3 TruthfulQA Formatting",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "B.4 A Comment on Lambada Formatting",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "B.5 Context Distillation Finetuning",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "B.6 Estimator of Accuracy When Re-Ranking Samples",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "C More Details on Preference Models",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "C.1 Preference Model Pre-training",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "C.2 Preference Model Pre-Training",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "C.3 Language Modeling Improves PMP Transfer",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "C.4 End-of-context Token Improves Preference Modeling Performance",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "C.5 Ensembling Over PMP Models",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "C.6 Experiments on Ranked vs Binary PMP \u2013 Synthetic Symbols Dataset",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "D Per-Token GAN-Style Discriminator Results",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "E Definitions of Alignment and the HHH criteria",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "E.1 How the HHH criteria relate to alignment",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "E.2 The relation between the HHH criteria",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "E.3 Conflicts between the HHH criteria",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "E.4 The HHH criteria and secure AI",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 45
+        }
+    ]
+}

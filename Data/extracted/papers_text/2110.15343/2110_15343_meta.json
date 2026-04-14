@@ -1,0 +1,482 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Problem Setting and Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Characterization of Sparse + Low-rank Approx. to Attention Matrices",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Motivating Observations: Low-rank and Sparse Structures of Attention Matrices",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 A Generative Model of How Sparse + Low-rank Structure Can Arise",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Scatterbrain: Unifying Sparse and Low-rank Attention",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "4.1 Challenges of Designing an Accurate and Efficient Sparse + Low-rank Approximation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.2 Scatterbrain: Algorithm Intuition and Description",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.3 Scatterbrain: Analysis",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5 Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "5.1 Scatterbrain's Approximation Accuracy",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.2 End-to-end Training Performance",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5.2.1 Auto-regressive Tasks",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5.2.2 Classification Tasks",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "5.3 Scatterbrain's Efficiency, Scaling with Input Sequence Length",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6 Discussion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": " Appendix",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "A Extended Related Work",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "A.1 Robust PCA",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A.2 Efficient Transformers",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A.3 Locality Sensitive Hashing for Efficient Neural Network Training",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A.4 Structured Matrices for Efficient Machine Learning Models",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "B Motivating Observations: Low-rank and Sparse Structures of Attention Matrices",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "B.1 Setup",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "B.2 Observation 1: Sparse and low-rank approximation errors are negatively correlated",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "B.3 Observation 2: Sparse approximation error is lower when softmax entropy is low and low-rank approximation error is lower error when entropy is high",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "B.4 Observation 3: Sparse + Low-rank achieves better approximation error than sparse or low-rank alone",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "C Scatterbrain Algorithm and Implementation Details",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "D Proofs",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "D.1 Expressiveness of Sparse + Low-rank Matrices",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "D.2 Generative Model, Softmax Temperature, and Matrix Approximation",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "D.3 Scatterbrain: Analysis",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "E Additional Experiments and Details",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "E.1 Datasets",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "E.2 Settings",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "E.3 More Ablation Studies",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "E.3.1 Memory Budget",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "E.3.2 Different Sparse and Low-rank baselines",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "E.3.3 Different Sparse and Low-rank baselines",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "E.4 Analysis",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "E.5 Additional Experiments of Fine-tuning Bert on GLUE",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "F Further Discussions and Future Work",
+            "level": 1,
+            "page": 33
+        }
+    ],
+    "pages": 34,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 65,
+            "unsuccessful_ocr": 2,
+            "equations": 67
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Scatterbrain: Unifying Sparse and Low-rank Attention\nApproximation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Problem Setting and Related Work",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Characterization of Sparse + Low-rank Approx. to Attention\nMatrices",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Motivating Observations: Low-rank and Sparse Structures of Attention\nMatrices",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 A Generative Model of How Sparse + Low-rank Structure Can Arise",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4 Scatterbrain: Unifying Sparse and Low-rank Attention",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 Challenges of Designing an Accurate and\nEfficient Sparse + Low-rank Approximation",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Scatterbrain: Algorithm Intuition and Description",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Scatterbrain: Analysis",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Experiments",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.1 Scatterbrain's Approximation Accuracy",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.2 End-to-end Training Performance",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.2.1 Auto-regressive Tasks",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5.2.2 Classification Tasks",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "5.3 Scatterbrain's Efficiency, Scaling with Input Sequence Length",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "6 Discussion",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Table of Contents",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "A Extended Related Work",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "A.1 Robust PCA",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "A.2 Efficient Transformers",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "A.3 Locality Sensitive Hashing for Efficient Neural Network Training",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "A.4 Structured Matrices for Efficient Machine Learning Models",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "B Motivating Observations: Low-rank and Sparse Structures of\nAttention Matrices",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "B.1 Setup",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "B.2 Observation 1: Sparse and low-rank approximation errors are negatively\ncorrelated",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "B.3 Observation 2: Sparse approximation error is lower when softmax entropy\nis low and low-rank approximation error is lower error when entropy is\nhigh",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "B.4 Observation 3: Sparse + Low-rank achieves better approximation error\nthan sparse or low-rank alone",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "C Scatterbrain Algorithm and Implementation Details",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "softmax(QK>)V,",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "D Proofs",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "D.1 Expressiveness of Sparse + Low-rank Matrices",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "D.2 Generative Model, Softmax Temperature, and Matrix Approximation",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "D.3 Scatterbrain: Analysis",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "E Additional Experiments and Details",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "E.1 Datasets",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "E.2 Settings",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "E.3 More Ablation Studies",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "E.3.1 Memory Budget",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "E.3.2 Different Sparse and Low-rank baselines",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "E.3.3 Different Sparse and Low-rank baselines",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "E.4 Analysis",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "E.5 Additional Experiments of Fine-tuning Bert on GLUE",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "F Further Discussions and Future Work",
+            "level": 1,
+            "page": 33
+        }
+    ]
+}

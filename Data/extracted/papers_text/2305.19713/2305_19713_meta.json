@@ -1,0 +1,141 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 11,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Red Teaming Language Model Detectors with Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Settings and Overview",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "4 Attack with Word Substitutions",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Generating Word Substitution\nCandidates",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "ChatGPT",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Query-free Substitutions",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5 Attack by Instructional Prompts",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "6 Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "6.1 Experimental Settings",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.2 Attack with Word Substitutions",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "7 Conclusion and Discussion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Acknowledgement",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A Query-based Evolutionary Search",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "B Details on ChatGPT Experiments",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "C Attack Examples against\nWatermarking",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "ChatGPT Paraphrasing",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "Query-free Substitution",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "Query-based Substitution",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "Instructional Prompts",
+            "level": 4,
+            "page": 11
+        }
+    ]
+}

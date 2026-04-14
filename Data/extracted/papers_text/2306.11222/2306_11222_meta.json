@@ -1,0 +1,357 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Background",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Transformer Models",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Importance Scores for Pruning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Structured Pruning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Method",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Approximation by Low-rank and Sparse Matrices",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Algorithm",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Natural Language Understanding",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Question Answering",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Natural Language Generation",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Analysis",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Combination with Knowledge Distillation",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Embed with Other Compression Method",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "GLUE Dataset Statistics",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Natural Language Understanding",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Training Details",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Question Answering",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "Dataset",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Training Details",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Natural Language Generation",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "Training Details",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Combination with Knowledge Distillation",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "Teacher Models",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Training Details",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Combination with CoFi",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "Teacher Models",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Training Details",
+            "level": 1,
+            "page": 26
+        }
+    ],
+    "pages": 27,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 13,
+        "equations": {
+            "successful_ocr": 22,
+            "unsuccessful_ocr": 3,
+            "equations": 25
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LoSparse: Structured Compression of Large Language\nModels based on Low-Rank and Sparse Approximation \u2217",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Background",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.1 Transformer Models",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.2 Importance Scores for Pruning",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.3 Structured Pruning",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3 Method",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.1 Approximation by Low-rank and Sparse Matrices",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2 Algorithm",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "Algorithm 1 LoSparse",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.1 Natural Language Understanding",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.2 Question Answering",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3 Natural Language Generation",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.4 Analysis",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "4.5 Combination with Knowledge Distillation",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "4.6 Embed with Other Compression Method",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "5 Discussion",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "A GLUE Dataset Statistics",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "B Natural Language Understanding",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "B.1 Training Details",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "C Question Answering",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "C.1 Dataset",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "C.2 Training Details",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "D Natural Language Generation",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "D.1 Training Details",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "E Combination with Knowledge Distillation",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "E.1 Teacher Models",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "E.2 Training Details",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "F Combination with CoFi",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "F.1 Teacher Models",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "F.2 Training Details",
+            "level": 3,
+            "page": 26
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for\nLanguage Understanding",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Unsupervised Feature-based Approaches",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Unsupervised Fine-tuning Approaches",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.3 Transfer Learning from Supervised Data",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 BERT",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Pre-training BERT",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Fine-tuning BERT",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 GLUE",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 SQuAD v1.1",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 SQuAD v2.0",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.4 SWAG",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Ablation Studies",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.1 Effect of Pre-training Tasks",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.2 Effect of Model Size",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.3 Feature-based Approach with BERT",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Appendix for \"BERT: Pre-training of\nDeep Bidirectional Transformers for\nLanguage Understanding\"",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "A Additional Details for BERT",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "A.1 Illustration of the Pre-training Tasks",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "A.2 Pre-training Procedure",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "A.3 Fine-tuning Procedure",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "A.4 Comparison of BERT, ELMo ,and\nOpenAI GPT",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "A.5 Illustrations of Fine-tuning on Different\nTasks",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "B Detailed Experimental Setup",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "B.1 Detailed Descriptions for the GLUE\nBenchmark Experiments.",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "C Additional Ablation Studies",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "C.1 Effect of Number of Training Steps",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "C.2 Ablation for Different Masking\nProcedures",
+            "level": 4,
+            "page": 15
+        }
+    ]
+}

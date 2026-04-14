@@ -1,0 +1,212 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "LongNet",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Preliminary",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Dilated Attention",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Multi-Head Dilated Attention",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Computational Complexity and Token Dependency",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "LongNet as a Distributed Trainer: Scaling up to 1B Tokens",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Distributed Algorithm",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Scaling up to 1B Tokens",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Experiments on Language Modeling",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Setup",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Scaling Curves of Sequence Length",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Scaling up Model Size",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Long Context Prompting",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Conclusion and Future Work",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Hyperparameters",
+            "level": 0,
+            "page": 14
+        }
+    ],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 49,
+            "unsuccessful_ocr": 7,
+            "equations": 56
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LONGNET: Scaling Transformers to\n1,000,000,000 Tokens",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2 LONGNET",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1 Preliminary",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 Dilated Attention",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.3 Multi-Head Dilated Attention",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "2.4 Computational Complexity and Token Dependency",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3 LONGNET as a Distributed Trainer: Scaling up to 1B Tokens",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.1 Distributed Algorithm",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "3.2 Scaling up to 1B Tokens",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4 Experiments on Language Modeling",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.1 Setup",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.2 Results",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.3 Scaling Curves of Sequence Length",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.4 Scaling up Model Size",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4.5 Long Context Prompting",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "5 Conclusion and Future Work",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "A Hyperparameters",
+            "level": 1,
+            "page": 14
+        }
+    ]
+}

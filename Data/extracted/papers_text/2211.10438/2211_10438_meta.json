@@ -1,0 +1,111 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 12,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 0,
+            "equations": 6
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SmoothQuant: Accurate and Efficient\nPost-Training Quantization for Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Preliminaries",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Review of Quantization Difficulty",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 SmoothQuant",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "5 Experiments",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1 Setups",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5.2 Accurate Quantization",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5.3 Speedup and Memory Saving",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.4 Scaling Up: 530B Model Within a Single Node",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5.5 Ablation Study",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6 Related Work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Discussion on Weight-Only Quantization",
+            "level": 2,
+            "page": 12
+        }
+    ]
+}

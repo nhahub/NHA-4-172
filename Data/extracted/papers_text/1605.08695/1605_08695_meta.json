@@ -1,0 +1,272 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background & Motivation",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Requirements",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Related work",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 TensorFlow execution model",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Dataflow graph elements",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Partial and concurrent execution",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.3 Distributed execution",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.4 Dynamic control flow",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4 Extensibility case studies",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Differentiation and optimization",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 Handling very large models",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.3 Fault tolerance",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.4 Synchronous replica coordination",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 Implementation",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "6 Evaluation",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "6.1 Single-machine benchmarks",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.2 Synchronous replica microbenchmark",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.3 Image classification",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6.4 Language modeling",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "7 Conclusions",
+            "level": 0,
+            "page": 12
+        }
+    ],
+    "pages": 18,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "TensorFlow: A system for large-scale machine learning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Google Brain",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Background & Motivation",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Requirements",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Related work",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 TensorFlow execution model",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 Dataflow graph elements",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Partial and concurrent execution",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Distributed execution",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4 Dynamic control flow",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "RPC ...",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "RDMA CPU GPU ...",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4 Extensibility case studies",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.1 Differentiation and optimization",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Handling very large models",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 Fault tolerance",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.4 Synchronous replica coordination",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Implementation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6 Evaluation",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.1 Single-machine benchmarks",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "6.2 Synchronous replica microbenchmark",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "6.3 Image classification",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "6.4 Language modeling",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "7 Conclusions",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 12
+        }
+    ]
+}

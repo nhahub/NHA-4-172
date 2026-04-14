@@ -1,0 +1,347 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Fine-Grained Rlhf",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Task 1: Detoxification",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Experiments",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Task 2: Long-Form Question Answering (QA)",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "QA-Feedback: Long Form QA with Human Feedback",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Fine-Grained Reward Models",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experimental Setup",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Main Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "LM Customization with Fine-Grained Rlhf",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Analysis",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Broader Impacts",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Limitations and Future Work",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Appendices",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Qualitative Examples for Long-Form QA",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Examples on LM Customization",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Examples on LM Errors",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Examples on Reward Model Ablation",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Comparison with ChatGPT responses",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Algorithm and Training Details of Fine-Grained Rlhf",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "PPO with Fine-Grained Rewards",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Implementation Details",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Long-Form QA Data and Human Feedback Annotation",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "Data Construction",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Human Feedback Annotation",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Analysis of Collected Fine-Grained Feedback",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Long-Form QA Reward Model Training Details",
+            "level": 0,
+            "page": 22
+        }
+    ],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 1,
+            "equations": 6
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Fine-Grained Human Feedback Gives Better Rewards\nfor Language Model Training",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 FINE-GRAINED RLHF",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Task 1: Detoxification",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 Task 2: Long-Form Question Answering (QA)",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 QA-FEEDBACK: Long Form QA with Human Feedback",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.2 Fine-Grained Reward Models",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.3 Experimental Setup",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.4 Main Results",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.5 LM Customization with FINE-GRAINED RLHF",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.6 Analysis\n\n![7_image_0.png](7_image_0.png)\n\n",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5 Related Work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "6 Discussion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "6.1 Broader Impacts",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6.2 Limitations and Future Work",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "7 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Appendices",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "A Qualitative Examples for Long-Form QA",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "A.1 Examples on LM Customization",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "A.2 Examples on LM Errors",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "A.3 Examples on Reward Model Ablation",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "A.4 Comparison with ChatGPT responses",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "B Algorithm and Training Details of FINE-GRAINED RLHF",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "B.1 PPO with Fine-Grained Rewards",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "B.2 Implementation Details",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "C Long-Form QA Data and Human Feedback Annotation",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.1 Data Construction",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.2 Human Feedback Annotation",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "C.3 Analysis of Collected Fine-Grained Feedback",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "D Long-Form QA Reward Model Training Details",
+            "level": 2,
+            "page": 22
+        }
+    ]
+}

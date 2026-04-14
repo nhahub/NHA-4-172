@@ -1,0 +1,316 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 31,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Instruction Tuning for Large Language Models: A Survey",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Methodology",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Instruction Dataset Construction",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Instruction Tuning",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3 Datasets",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 Natural Instructions",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2 P3",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 xP3",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.4 Flan 2021",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.5 Unnatural Instructions",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.6 Self-Instruct",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.7 Evol-Instruct",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.8 LIMA",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.9 Super-Natural Instructions",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.10 Dolly",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.11 OpenAssistant Conversations",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.12 Baize",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4 Instruction Fine-tuned LLMs",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.1 InstructonGPT",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2 BLOOMZ",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3 Flan-T5",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.4 Alpaca",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.5 Vicuna",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "4.6 GPT-4-LLM",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.7 Claude",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.8 WizardLM",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.9 ChatGLM2",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.10 LIMA",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.11 Others",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "5 Multi-modality Instruction Fine-tuning",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "5.1 Multi-modality Datasets",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5.2 Multi-modality Instruction Fine-tuning\nModels",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "6 Domain-specific Instruction Finetuning",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "6.1 Dialogue",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "6.2 Intent Classification and Slot Tagging",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "6.3 Information Extraction",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "6.4 Aspect-based Sentiment Analysis",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "6.5 Writing",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "6.6 Medical",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "6.7 Arithmetic",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "6.8 Code",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "7 Efficient Tuning Techniques",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "7.1 LoRA",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "7.2 HINT",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "7.3 Qlora",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "7.4 LOMO",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "7.5 Delta-tuning",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "8 Evaluation, Analysis and Criticism",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "8.1 HELM Evaluation",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "8.2 Low-resource Instruction Tuning",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "8.3 Smaller Instruction Dataset",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "8.4 Evaluating Instruction-tuning Datasets",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "8.5 Do IT just learn Pattern Copying?",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "8.6 Proprietary LLMs Imitation",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "9 Conclusion",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 21
+        }
+    ]
+}

@@ -1,0 +1,427 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Large Model Training Infrastructure",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 Challenges",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1.1 Memory and Compute Efficiency",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1.2 Tradeoffs of Data, Tensor, and Pipeline Parallelism",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.2 Software System \u2014 3D Parallelism with DeepSpeed and Megatron ",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.2.1 Topology-Aware 3D Mapping",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "2.3 Hardware System",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "2.4 System Performance Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3 Training Dataset and Model Configuration",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "3.1 Training Dataset and Preprocessing",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.1.1 Training Dataset",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.1.2 Pre-Processing Details",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.2 Model and Training Process",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4 Results and Achievements",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "4.1 Completion Prediction",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "4.2 Reading Comprehension",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "4.3 Commonsense Reasoning",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4.4 Natural Language Inference",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "4.5 Word Sense Disambiguation",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "5 Exploring Social Biases",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "5.1 Introducing the Challenge of Social Bias in NLP Models",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5.2 Gender and Occupation Analysis",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "5.3 Adjective Co-Occurrence Analysis",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "5.4 Sentiment Analysis",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "5.5 Discussion",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "6 Natural Language Understanding and In-Context Learning",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "6.1 Limitations of NLP benchmarks",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "6.2 Evaluating Grasp of Language Systematicity",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "6.3 Factors Affecting In-Context Learning",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "6.4 Summary of Evaluation",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "7 Qualitative Examples for MT-NLG Generation Capabilities",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "8 Related Works",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "9 Conclusions",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "A Analysis Results on HANS Dataset",
+            "level": 0,
+            "page": 34
+        },
+        {
+            "title": "A.1 Structure and examples",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "A.2 Performance per subcase",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "B Qualitative Examples of MT-NLG Text Generation",
+            "level": 0,
+            "page": 35
+        }
+    ],
+    "pages": 44,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 18,
+        "equations": {
+            "successful_ocr": 10,
+            "unsuccessful_ocr": 1,
+            "equations": 11
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Using DeepSpeed and Megatron to Train Megatron-Turing NLG\n530B, A Large-Scale Generative Language Model",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Large Model Training Infrastructure",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1 Challenges",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1.1 Memory and Compute Efficiency",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.1.2 Tradeoffs of Data, Tensor, and Pipeline Parallelism",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.2 Software System \u2014 3D Parallelism with DeepSpeed and Megatron",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "2.2.1 Topology-Aware 3D Mapping",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "2.3 Hardware System",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "2.4 System Performance Evaluation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3 Training Dataset and Model Configuration",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.1 Training Dataset and Preprocessing",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.1.1 Training Dataset",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3.1.2 Pre-Processing Details",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3.2 Model and Training Process",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4 Results and Achievements",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.1 Completion Prediction",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "4.2 Reading Comprehension",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "4.3 Commonsense Reasoning",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "4.4 Natural Language Inference",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "4.5 Word Sense Disambiguation",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "5 Exploring Social Biases",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5.1 Introducing the Challenge of Social Bias in NLP Models",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "5.2 Gender and Occupation Analysis",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "5.3 Adjective Co-Occurrence Analysis",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "5.4 Sentiment Analysis",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "5.5 Discussion",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "6 Natural Language Understanding and In-Context Learning",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "6.1 Limitations of NLP benchmarks",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "6.2 Evaluating Grasp of Language Systematicity",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "6.3 Factors Affecting In-Context Learning",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "6.4 Summary of Evaluation",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "7 Qualitative Examples for MT-NLG Generation Capabilities",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "8 Related Works",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "9 Conclusions",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Supplementary Materials",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "A Analysis Results on HANS Dataset",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "A.1 Structure and examples",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "A.2 Performance per subcase",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "B Qualitative Examples of MT-NLG Text Generation",
+            "level": 1,
+            "page": 35
+        }
+    ]
+}

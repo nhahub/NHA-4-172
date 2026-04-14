@@ -1,0 +1,116 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 10,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 43,
+            "unsuccessful_ocr": 7,
+            "equations": 50
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Up or Down? Adaptive Rounding for Post-Training Quantization",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Motivation",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "3. Method",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1. Task loss based rounding",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2. From Taylor expansion to local loss",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3. AdaRound",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4. Background and related work",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5. Experiments",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1. Ablation study",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "ment in accuracy for different models.",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2. Literature comparison",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6. Conclusion",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Up or Down? Adaptive Rounding for Post-Training Quantization",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "A. Comparison among QUBO solvers",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "B. From Taylor expansion to local loss (conv. layer)",
+            "level": 2,
+            "page": 10
+        }
+    ]
+}

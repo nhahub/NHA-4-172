@@ -1,0 +1,262 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Methods",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Discover All Coupled Structure in LLMs",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Grouped Importance Estimation of Coupled Structure",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Fast Recovery with Low-rank Approximation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Experimental Settings",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Zero-shot Performance",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "More Analysis",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Detailed Explanations for the Dependency Rules",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Implementation Details",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "For Pruning",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "For Recovery Stage",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "More Analysis",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "More Data for Recovery",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Pruning vs. Quantization",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Global Pruning vs. Local Pruning",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Overfitting Phenomena in Post-Training",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Pruning with Large Rates",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Generations From Compressed Model",
+            "level": 0,
+            "page": 16
+        }
+    ],
+    "pages": 20,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 19,
+        "equations": {
+            "successful_ocr": 8,
+            "unsuccessful_ocr": 0,
+            "equations": 8
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LLM-Pruner: On the Structural Pruning\nof Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Methods",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Discover All Coupled Structure in LLMs",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.2 Grouped Importance Estimation of Coupled Structure",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.3 Fast Recovery with Low-rank Approximation",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Experimental Settings",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.2 Zero-shot Performance",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.3 More Analysis",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "A Detailed Explanations for the Dependency Rules",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "B Implementation Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "B.1 For Pruning",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "B.2 For Recovery Stage",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "C More Analysis",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "C.1 More Data for Recovery",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "C.2 Pruning vs. Quantization",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "C.3 Global Pruning vs. Local Pruning",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C.4 Overfitting Phenomena in Post-Training",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C.5 Pruning with Large Rates",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "D Generations From Compressed Model",
+            "level": 2,
+            "page": 16
+        }
+    ]
+}

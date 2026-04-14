@@ -1,0 +1,307 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Study",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "ChatGPT",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Study Setup",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Method Name Suggestion or Code Summarization",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Log Summarization",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Commit Message Generation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Duplicate Bug Report Detection",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Merge Conflict Resolution",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Anaphora Resolution",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Code Review",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Type Inference Suggestion",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Code Generation from Natural Language for Data Frame Analysis",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Defect or Vulnerability Detection",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Code Clone or Duplicate Code Detection",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Test Oracle Generation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Code Refactoring",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Natural Language Code Search",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Test Case Prioritization",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Prioritization based on past faults found",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Prioritization based on code changes",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Prioritization based on operation order",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Other Tasks",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Code Deobfuscation",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Efficient Algorithm Generation:",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Automated Program Repair:",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Overall Summary:",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Threats to Validity",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 10
+        }
+    ],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 2,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ChatGPT: A Study on its Utility for Ubiquitous\nSoftware Engineering Tasks",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "I. INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "II. STUDY",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "A. ChatGPT",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "B. Study Setup",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "C. Method Name Suggestion or Code Summarization",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "D. Log Summarization",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "E. Commit Message Generation",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "F. Duplicate Bug Report Detection",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "G. Merge Conflict Resolution",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "H. Anaphora Resolution",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "I. Code Review",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "J. Type Inference Suggestion",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "L. Defect or Vulnerability Detection",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "M. Code Clone or Duplicate Code Detection",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "N. Test Oracle Generation",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "O. Code Refactoring",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "P. Natural Language Code Search",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Q. Test Case Prioritization",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "R. Other Tasks",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "S. Overall Summary:",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "T. Threats to Validity",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "III. RELATED WORK",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "IV. CONCLUSION",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 10
+        }
+    ]
+}

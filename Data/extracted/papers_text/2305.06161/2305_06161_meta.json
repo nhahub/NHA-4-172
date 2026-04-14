@@ -1,0 +1,557 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3 Data Curation and Cleaning",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "3.1 Programming Languages",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.2 Jupyter notebooks",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.3 GitHub issues",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.4 Git commits",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "3.5 Deduplication",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "3.6 Weighting of data sources",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4 PII redaction",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "4.1 Data collection",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.2 StarEncoder",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.3 PII detection model",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "5 Model training",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "5.1 Data formatting",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "5.2 Training data decontamination",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "5.3 Tokenizer",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "5.4 Model Architecture",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "5.5 Training details",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "5.6 Multi-Node GPU Setup",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "5.7 CO2 emissions",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "6 Evaluation",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "6.1 StarCoder: Python Evaluation",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "6.1.1 The HumanEval and MBPP Benchmarks",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "6.1.2 The DS-1000 Python Data Science Benchmarks",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "6.2 StarCoder and StarCoderBase: Multi-Language Evaluation",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "6.2.1 Evaluation on 19 Programming Languages with MultiPL-E",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "6.2.2 The ``Asleep at the Keyboard'' Security Benchmark",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "6.2.3 Fill in the Middle Benchmarks",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "6.3 Performance Improvement Through the Training Process",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "6.4 Perplexity With Long Contexts",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "7 Natural Language Evaluation",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "7.1 Math Reasoning",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "7.2 World Knowledge and Reading Comprehension",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "7.3 Measuring Harmful Generation",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "7.3.1 Social Bias",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "7.3.2 Toxicity",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "7.4 Reasoning Tasks in HELM",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "8 Qualitative Evaluation",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "8.1 Using Pretraining Templates",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "8.2 Technical Assistant",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "9 Attribution Tools",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "9.1 Membership Checking",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "9.2 Search Index",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "10 Social Impact and limitations",
+            "level": 0,
+            "page": 30
+        },
+        {
+            "title": "11 Conclusion",
+            "level": 0,
+            "page": 33
+        },
+        {
+            "title": "A GitHub issues filtering",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "B Annotator countries",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "C Replacements for IP addresses",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "D Evaluation",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "E Prompt",
+            "level": 0,
+            "page": 48
+        }
+    ],
+    "pages": 54,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 54,
+        "code": 0,
+        "table": 33,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "S TA R C O D E R :\nM AY T H E S O U R C E B E W I T H Y O U !",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "A B S T R A C T",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 I N T R O D U C T I O N",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 RE L AT E D WO R K",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 DATA C U R AT I O N A N D CL E A N I N G",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3 . 1 P R O G R A M M I N G L A N G U A G E S",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3 . 2 J U P Y T E R N O T E B O O K S",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3 . 3 G I T H U B I S S U E S",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "3 . 4 G I T C O M M I T S",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "3 . 5 D E D U P L I C AT I O N",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "3 . 6 WE I G H T I N G O F D ATA S O U R C E S",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4 P I I R E D A C T I O N",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4 . 1 DATA C O L L E C T I O N",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4 . 2 S TA R E N C O D E R",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "L = LMLM + LNSP . (1)",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4 . 3 P I I D E T E C T I O N M O D E L",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "5 M O D E L T R A I N I N G",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "5 . 1 DATA F O R M AT T I N G",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "5 . 2 T R A I N I N G D ATA D E C O N TA M I N AT I O N",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "5 . 3 T O K E N I Z E R",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "5 . 4 M O D E L A R C H I T E C T U R E",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "5 . 5 T R A I N I N G D E TA I L S",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "5 . 6 M U LT I - N O D E G P U S E T U P",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "5 . 7 C O 2 E M I S S I O N S",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "6 E VA L U AT I O N",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "6 . 1 S TA R C O D E R : P Y T H O N E VA L U AT I O N",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "6 . 1 . 1 T H E H U M A N E VA L A N D M B P P BE N C H M A R K S",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "6 . 1 . 2 T H E D S - 1 0 0 0 P Y T H O N DATA S C I E N C E BE N C H M A R K S",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "6 . 2 S TA R C O D E R A N D S TA R C O D E R B A S E : M U LT I - L A N G U A G E E VA L U AT I O N",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "6 . 2 . 1 E VA L U AT I O N O N 1 9 P R O G R A M M I N G L A N G U A G E S W I T H M U LT I P L - E",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "6 . 2 . 2 T H E \"A S L E E P AT T H E K E Y B O A R D \" S E C U R I T Y BE N C H M A R K",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "6 . 2 . 3 F I L L I N T H E M I D D L E BE N C H M A R K S",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "6 . 3 P E R F O R M A N C E I M P R O V E M E N T T H R O U G H T H E T R A I N I N G P R O C E S S",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "6 . 4 P E R P L E X I T Y WI T H L O N G C O N T E X T S",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "7 NAT U R A L L A N G U A G E E VA L U AT I O N",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "7 . 1 M AT H RE A S O N I N G",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "7 . 2 WO R L D K N OW L E D G E A N D RE A D I N G C O M P R E H E N S I O N",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "7 . 3 M E A S U R I N G H A R M F U L G E N E R AT I O N",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "7 . 3 . 1 S O C I A L BI A S",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "7 . 3 . 2 T O X I C I T Y",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "7 . 4 RE A S O N I N G TA S K S I N H E L M",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "8 QU A L I TAT I V E E VA L U AT I O N",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "8 . 1 U S I N G P R E T R A I N I N G TE M P L AT E S",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "8 . 2 TE C H N I C A L A S S I S TA N T",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "9 AT T R I B U T I O N T O O L S",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "9 . 1 M E M B E R S H I P C H E C K I N G",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "9 . 2 S E A R C H I N D E X",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "1 0 S O C I A L I M PA C T A N D L I M I TAT I O N S",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "1 1 C O N C L U S I O N",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "RE F E R E N C E S",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "A G I T H U B I S S U E S F I LT E R I N G",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "B A N N O TAT O R C O U N T R I E S",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "C RE P L A C E M E N T S F O R I P A D D R E S S E S",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "D E VA L U AT I O N",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "E P R O M P T",
+            "level": 3,
+            "page": 48
+        }
+    ]
+}

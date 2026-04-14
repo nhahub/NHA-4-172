@@ -1,0 +1,222 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Method",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Rethink the Functionality of Optimizer",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Using SGD",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Implicit Batch Size",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "LOMO: LOw-Memory Optimization",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Stabilize Training with LOMO",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Alternatives to Gradient Normalization and Clipping",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Mitigating Precision Degradation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Experiment",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Memory Profile",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Throughput",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Downstream Performance",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Main results",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "LoRA with LOMO",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Hyperparameters",
+            "level": 0,
+            "page": 12
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 13,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "FULL PARAMETER FINE-TUNING FOR LARGE\nLANGUAGE MODELS WITH LIMITED RESOURCES",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 RELATED WORK",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 METHOD",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 RETHINK THE FUNCTIONALITY OF OPTIMIZER",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.1.1 USING SGD",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "Algorithm 1 Fusion Update in LOMO",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.1.2 IMPLICIT BATCH SIZE",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 LOMO: LOW-MEMORY OPTIMIZATION",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 STABILIZE TRAINING WITH LOMO",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3.2 MITIGATING PRECISION DEGRADATION",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 EXPERIMENT",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.1 MEMORY PROFILE",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 THROUGHPUT",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3 DOWNSTREAM PERFORMANCE",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3.1 MAIN RESULTS",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3.2 LORA WITH LOMO",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5 CONCLUSION",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "A HYPERPARAMETERS",
+            "level": 1,
+            "page": 12
+        }
+    ]
+}

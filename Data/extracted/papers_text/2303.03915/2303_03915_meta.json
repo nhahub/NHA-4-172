@@ -1,0 +1,322 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "1.1 Outline of the Paper",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "1.2 Related Work",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2 (Crowd) Sourcing a Language Resource Catalogue",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "2.1 Obtaining Data from the Identified Resources",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.2 Processing Pipeline for Quality Improvement on Crowdsourced Datasets",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3 Processing OSCAR",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "3.1 Data cleaning and filtering",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.2 Deduplication",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.3 Personally identifiable information",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4 A First look at ROOTS",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "4.1 Natural Languages",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.2 Programming Languages",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.3 Tokenizer analysis of the component datasets",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "A Ethical Considerations and Broader Impacts Statement",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "B Details on tools used to obtain crowdsourced dataset",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "B.1 Pseudocode to recreate the text structure from the HTML code",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "B.2 Visualization tool use cases",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "B.3 Exhaustive list of functions used in (Crowd)Sourced dataset",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "C Exhaustive list of human curated filters used on OSCAR",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "D PII filtering initiative",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "E Data Sources",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "F Author contributions",
+            "level": 0,
+            "page": 33
+        }
+    ],
+    "pages": 36,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 17,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "The BigScience ROOTS Corpus:\nA 1.6TB Composite Multilingual Dataset",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Contents",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "1.1 Outline of the Paper",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "1.2 Related Work",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2 (Crowd) Sourcing a Language Resource Catalogue",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.1 Obtaining Data from the Identified Resources",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "2.2 Processing Pipeline for Quality Improvement on Crowdsourced Datasets",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3 Processing OSCAR",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.1 Data cleaning and filtering",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "3.2 Deduplication",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "3.3 Personally identifiable information",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4 A First look at ROOTS",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.1 Natural Languages",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4.2 Programming Languages",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.3 Tokenizer analysis of the component datasets",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Ethical Considerations and Broader Impacts Statement",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "A Ethical Considerations and Broader Impacts Statement",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "BigScience Values",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "Putting Our Values into Practice",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "Limitations of the Approach.",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "B Details on tools used to obtain crowdsourced dataset",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "B.1 Pseudocode to recreate the text structure from the HTML code",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "B.2 Visualization tool use cases",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "B.3 Exhaustive list of functions used in (Crowd)Sourced dataset",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "Algorithm 1 Pseudo-code to concatenate texts retrieved from the HTML DOM",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "C Exhaustive list of human curated filters used on OSCAR",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "D PII filtering initiative",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "E Data Sources",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "F Author contributions",
+            "level": 1,
+            "page": 33
+        }
+    ]
+}

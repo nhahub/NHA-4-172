@@ -1,0 +1,247 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "I Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "II Background",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "II-A Data Parallelism",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "II-B Model Parallelism",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "II-C Zero Redundancy Data Parallelism",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "II-D Heterogeneous Training",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "III Design",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "III-A Multi-dimensional model parallelism",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "III-B Enhanced Sharding and Offloading",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "IV Implementation",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "IV-1 Modularity",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "IV-2 Extensibility",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "IV-3 User-Friendliness",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "V Evaluation",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "V-A Experiment Setup",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "V-B Multi-Dimensional Tensor Parallelism",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "V-C Sequence Parallelism",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "V-D Sharding and Offloading",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "VI Conclusion",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 11
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Colossal-AI: A Unified Deep Learning System\nFor Large-Scale Parallel Training",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "I. INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "II. BACKGROUND",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "A. Data Parallelism",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "B. Model Parallelism",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2) Pipeline Parallelism",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3) Sequence Parallelism",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Attention(Q, K, V ) = sof tmax(QKT/pdk)V",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "C. Zero Redundancy Data Parallelism",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "D. Heterogeneous Training",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "III. DESIGN",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "A. Multi-dimensional model parallelism",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "B. Enhanced Sharding and Offloading",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "IV. IMPLEMENTATION",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "B. Multi-Dimensional Tensor Parallelism",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "1) Convergence",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "2) Memory Efficiency",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "3) Hardware Compatibility",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4) Throughput Comparison",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "C. Sequence Parallelism",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "1) Memory Efficiency",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "D. Sharding and Offloading",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "VI. CONCLUSION",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 11
+        }
+    ]
+}

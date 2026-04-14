@@ -1,0 +1,367 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Preliminaries",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Foundational Models and Scope of the Survey",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Architecture Types",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Training Objectives",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Contrastive Objectives",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Generative Objectives",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Large-scale Training",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Pre-training Data",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Fine-tuning",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Prompt Engineering",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Textually Prompted Models",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Contrastive Learning (CL)",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "CL for General Purpose Foundational Models",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "CL for Visual Grounding Foundational Models",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Generative Learning",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Hybrid Contrastive and Generative Learning",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Foundational Models for Generic Vision-Language Learning",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Foundational Models for Visual Grounding Tasks",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Conversational Vision-Language Models",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Visually Prompted Models",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Foundational Models for Segmentation",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "SAM for Medical Segmentation",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "SAM for Tracking",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "SAM for Remote Sensing",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "SAM for Captioning",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "SAM for Mobile Applications",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Generalist Models",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Heterogeneous Modalities based Models",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Embodied Foundational Agents",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "Open Challenges & Research Directions",
+            "level": 0,
+            "page": 25
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 27
+        }
+    ],
+    "pages": 40,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Foundational Models Defining a New Era in\nVision: A Survey and Outlook",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "2 PRELIMINARIES",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.1 Foundational Models and Scope of the Survey",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.2 Architecture Types",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.3 Training Objectives",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.3.1 Contrastive Objectives",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.3.2 Generative Objectives",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.4 Large-scale Training",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.4.1 Pre-training Data",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "jects365 [234].",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.4.2 Fine-tuning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "2.4.3   Prompt Engineering",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3 TEXTUALLY PROMPTED MODELS",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.1 Contrastive Learning (CL)",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.1.1 CL for General Purpose Foundational Models",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "and linear probe-based methods.",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.1.2 CL for Visual Grounding Foundational Models",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "3.2 Generative Learning",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "3.3 Hybrid Contrastive and Generative Learning",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "\u2022Unification of tasks:",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "4 CONVERSATIONAL VISION-LANGUAGE MODELS",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "5 VISUALLY PROMPTED MODELS",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "5.1 Foundational Models for Segmentation",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "5.1.1 SAM for Medical Segmentation",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "5.1.2 SAM for Tracking",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "5.1.3 SAM for Remote Sensing",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "5.1.4 SAM for Captioning",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "5.1.5 SAM for Mobile Applications",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "5.2 Generalist Models",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "6 HETEROGENEOUS MODALITIES BASED MODELS",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "7 EMBODIED FOUNDATIONAL AGENTS",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "8 OPEN CHALLENGES & RESEARCH DIRECTIONS",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "9 CONCLUSION",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 27
+        }
+    ]
+}

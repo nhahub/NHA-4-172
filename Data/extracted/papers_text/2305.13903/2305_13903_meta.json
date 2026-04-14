@@ -1,0 +1,111 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 9,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Let's Think Frame by Frame: Evaluating Video Chain of Thought with\nVideo Infilling and Prediction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": " Dense Scene Description",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Pipeline",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Keyframe Extraction",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Extracting information from Keyframes",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Generating Scene Descriptions",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Tasks",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Video Infilling",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Video Prediction",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5 Experiments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Video Infilling Qualitative Analysis",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2 Video Prediction Qualitative Analysis",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 7
+        }
+    ]
+}

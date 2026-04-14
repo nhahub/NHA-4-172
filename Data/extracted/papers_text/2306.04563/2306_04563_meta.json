@@ -1,0 +1,161 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 16,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ChatGPT is fun, but it is not funny!\nHumor is still challenging Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Method",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.1 Joke Generation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Joke Explanation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Joke Detection",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Results",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.1 Joke Generation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "T5. Why did the cookie go to the doctor?\nBecause it was feeling crumbly. (79)",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 Joke Explanation",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Joke Detection",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Discussion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Limitations",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Ethics Statement",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "A Access Dates",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "B Joke Generation - Top 25 Jokes",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "C Joke Explanation",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "D Joke Detection",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "D.1 Modification A - Minus Wordplay",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "D.2 Modification B - Minus Topic",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "D.3 Modification C - Minus Structure",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "D.4 Modification D - Minus Wordplay 2",
+            "level": 3,
+            "page": 14
+        }
+    ]
+}

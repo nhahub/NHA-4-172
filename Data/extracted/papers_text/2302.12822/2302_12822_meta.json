@@ -1,0 +1,166 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 13,
+        "equations": {
+            "successful_ocr": 14,
+            "unsuccessful_ocr": 1,
+            "equations": 15
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Automatic Prompt Augmentation and Selection with Chain-of-Thought\nfrom Labeled Data",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Motivation",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Approach",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Augment and Prune",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Select",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4 Experimental Settings",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 Datasets and Evaluation Metrics",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Baselines",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "representation ability.",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.3 Implementation",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5 Experimental Results",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "6 Additional Experiments and Analysis",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6.1 Effects of Selection Algorithm",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6.2 Effects of Pool Size",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6.3 Effects of Chain Complexity",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.4 Effects of Several Tricks",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "6.5 Bypass Manual Effort by Zero-shot-CoT",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "7 Related Work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7.1 Prompt-based Learning",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "7.2 Chain-of-thought Prompting",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "7.3 Black-box Optimization",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Algorithm Details",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "B Additional Comparison with Fine-tuning",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "C Exact Match Number over Each Hop",
+            "level": 2,
+            "page": 15
+        }
+    ]
+}

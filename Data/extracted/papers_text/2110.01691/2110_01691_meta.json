@@ -1,0 +1,402 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background and Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2.1 Large Language Models",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 Human-AI Collaboration",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3 Workflows in Crowdsourcing",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Chaining LLMs",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 LLM Challenges & Primitive Operations",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Designing Operations for LLM Chaining",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4 Interactive User Interface",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Design Rationales",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2 Interface Design and Implementation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5 User Study",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "5.1 Study Design",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.2 Quantitative Results: Increased Transparency & Control, and Higher-quality Task Outcome",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "5.3 Qualitative results: Chaining as Guardrails and Operation Manuals",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6 Case Studies",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "6.1 Case 1: Visualization code debugging",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "6.2 Case 2: Assisted Text Entry",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "7 Discussion & Future Directions",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "A Identifying LLM Primitive Operations",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "B Additional Details for User Study",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "B.1 Questions in the Exit Survey",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "B.2 Clickstream Categorization",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "B.3 Case 0: Metaphor Creation (Used in tutorial)",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "B.4 Case 1: Flashcard Creation",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "B.5 Case 2: Peer Review Paragraph Rewriting",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "C Full LLM Chains for Case Studies",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "D The Full Implementation of Primitive Operations",
+            "level": 0,
+            "page": 21
+        }
+    ],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "AI Chains: Transparent and Controllable Human-AI Interaction\nby Chaining Large Language Model Prompts",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "CCS CONCEPTS",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "KEYWORDS",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 BACKGROUND AND RELATED WORK\n2.1 Large Language Models",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 Human-AI Collaboration",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.3 Workflows in Crowdsourcing",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 CHAINING LLMS",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 LLM Challenges & Primitive Operations",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "output data (which we call data layers). For example, the Split point",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.2 Designing Operations for LLM Chaining",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 INTERACTIVE USER INTERFACE",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Design Rationales",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.2 Interface Design and Implementation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5 USER STUDY",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5.1 Study Design",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.2 Quantitative Results: Increased\nTransparency & Control, and\nHigher-quality Task Outcome",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "5.3 Qualitative results: Chaining as Guardrails\nand Operation Manuals",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6 CASE STUDIES",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "6.1 Case 1: Visualization code debugging",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "6.2 Case 2: Assisted Text Entry",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "7 DISCUSSION & FUTURE DIRECTIONS",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "8 CONCLUSION",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "CHI '22, April 29-May 5, 2022, New Orleans, LA, USA Tongshuang Wu, Michael Terry, and Carrie J. Cai",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "We reviewed 73 existing demos to identify promising LLM capabilities that may help overcome the challenges above by scoping the\ninputs/outputs to be more amenable to what an LLM can handle.",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "A IDENTIFYING LLM PRIMITIVE OPERATIONS",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "B.1 Questions in the Exit Survey",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "B ADDITIONAL DETAILS FOR USER STUDY",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "After completing the given task in both conditions, participants self-rated their experience on the following dimensions, in the form of\nseven-point Likert scale [43]. Each question was asked twice, once on Sandbox and once on Chaining. They described their reasoning along",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "B.1 Questions in the Exit Survey",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "B.2 Clickstream Categorization",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "B.3 Case 0: Metaphor Creation (Used in tutorial)",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "B.4 Case 1: Flashcard Creation",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "B.5 Case 2: Peer Review Paragraph Rewriting",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Default baseline commands. we offer two versions:",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "C FULL LLM CHAINS FOR CASE STUDIES",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "{ ",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "fi",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "D THE FULL IMPLEMENTATION OF PRIMITIVE OPERATIONS",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "D THE FULL IMPLEMENTATION OF PRIMITIVE OPERATIONS",
+            "level": 2,
+            "page": 21
+        }
+    ]
+}

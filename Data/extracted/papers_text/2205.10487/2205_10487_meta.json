@@ -1,0 +1,242 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1.1 Summary of Results",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2 Results",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3 Methods",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "4 Related Work",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "5 Discussion",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "5.1 Why does repeating a small fraction of data damage performance so much?",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "5.2 Generalization, memorization, and induction heads",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "5.3 Bridging mechanistic interpretability and scaling laws",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "5.4 Repeated data and fine-tuning",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "5.5 Limitations",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "5.6 Future Directions",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "A Model Size Multiplier and Poor Performance Region Fits",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "B Appendix: Logit Attribution Analysis, 2 Layer Models",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "C Appendix: Copying and Prefix Matching Score Fits",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "D Appendix: Harry Potter Copying Evaluation with Fewer Characters",
+            "level": 0,
+            "page": 20
+        }
+    ],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Scaling Laws and Interpretability of Learning from\nRepeated Data",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1.1 Summary of Results",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2 Results",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3 Methods",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4 Related Work",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Scaling Laws",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "Mechanistic Interpretability",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "Double Descent",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "Rise of Engineering Large, Diverse Language Datasets",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "5 Discussion",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "5.1 Why does repeating a small fraction of data damage performance so much?",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "5.2 Generalization, memorization, and induction heads",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "5.3 Bridging mechanistic interpretability and scaling laws",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5.4 Repeated data and fine-tuning",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5.5 Limitations",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5.6 Future Directions",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Author Contributions",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A Model Size Multiplier and Poor Performance Region Fits",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "B Appendix: Logit Attribution Analysis, 2 Layer Models",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "C Appendix: Copying and Prefix Matching Score Fits",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "D Appendix: Harry Potter Copying Evaluation with Fewer Characters",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 21
+        }
+    ]
+}

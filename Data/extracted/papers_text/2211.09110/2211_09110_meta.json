@@ -1,0 +1,1277 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "HELM",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Empirical findings",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Contributions",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Preliminaries",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Scenarios",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Adaptation",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Metrics",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Roadmap",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Core scenarios",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Taxonomy",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Selection",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Question answering",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Information retrieval",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Summarization",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Sentiment analysis",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Toxicity detection",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Miscellaneous text classification",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "General metrics",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "Taxonomy",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Selection",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Accuracy",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Calibration and uncertainty",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Robustness",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Fairness",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Bias and stereotypes",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Toxicity",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "Efficiency",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "Targeted evaluations",
+            "level": 0,
+            "page": 34
+        },
+        {
+            "title": "Language",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "Knowledge",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "Reasoning",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "Memorization & copyright",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "Disinformation",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "Bias",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Toxicity",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Models",
+            "level": 0,
+            "page": 42
+        },
+        {
+            "title": "Adaptation via prompting",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "Experiments and results",
+            "level": 0,
+            "page": 46
+        },
+        {
+            "title": "Meta-analysis",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "Prompting analysis",
+            "level": 1,
+            "page": 55
+        },
+        {
+            "title": "Task-specific results for core scenarios",
+            "level": 1,
+            "page": 59
+        },
+        {
+            "title": "Targeted evaluations",
+            "level": 1,
+            "page": 66
+        },
+        {
+            "title": "Human evaluations",
+            "level": 1,
+            "page": 72
+        },
+        {
+            "title": "Related work and discussion",
+            "level": 0,
+            "page": 74
+        },
+        {
+            "title": "What is missing",
+            "level": 0,
+            "page": 76
+        },
+        {
+            "title": "Missing scenarios",
+            "level": 1,
+            "page": 77
+        },
+        {
+            "title": "Missing metrics",
+            "level": 1,
+            "page": 78
+        },
+        {
+            "title": "Missing targeted evaluations",
+            "level": 1,
+            "page": 78
+        },
+        {
+            "title": "Missing models",
+            "level": 1,
+            "page": 79
+        },
+        {
+            "title": "Missing adaptation",
+            "level": 1,
+            "page": 79
+        },
+        {
+            "title": "Limitations and future work",
+            "level": 0,
+            "page": 80
+        },
+        {
+            "title": "Limitations of results",
+            "level": 1,
+            "page": 80
+        },
+        {
+            "title": "Limitations of HELM implementation",
+            "level": 1,
+            "page": 80
+        },
+        {
+            "title": "Limitations of HELM design",
+            "level": 1,
+            "page": 81
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 82
+        },
+        {
+            "title": "Author contributions",
+            "level": 0,
+            "page": 117
+        },
+        {
+            "title": "Core scenarios",
+            "level": 0,
+            "page": 120
+        },
+        {
+            "title": "Question answering",
+            "level": 1,
+            "page": 120
+        },
+        {
+            "title": "Information retrieval",
+            "level": 1,
+            "page": 124
+        },
+        {
+            "title": "Summarization",
+            "level": 1,
+            "page": 126
+        },
+        {
+            "title": "Sentiment analysis",
+            "level": 1,
+            "page": 127
+        },
+        {
+            "title": "Toxicity detection",
+            "level": 1,
+            "page": 128
+        },
+        {
+            "title": "Miscellaneous text classification",
+            "level": 1,
+            "page": 128
+        },
+        {
+            "title": "General metrics",
+            "level": 0,
+            "page": 129
+        },
+        {
+            "title": "Accuracy",
+            "level": 1,
+            "page": 129
+        },
+        {
+            "title": "Calibration and uncertainty",
+            "level": 1,
+            "page": 130
+        },
+        {
+            "title": "Robustness",
+            "level": 1,
+            "page": 132
+        },
+        {
+            "title": "Fairness",
+            "level": 1,
+            "page": 133
+        },
+        {
+            "title": "Bias and stereotypes",
+            "level": 1,
+            "page": 133
+        },
+        {
+            "title": "Toxicity",
+            "level": 1,
+            "page": 136
+        },
+        {
+            "title": "Efficiency",
+            "level": 1,
+            "page": 136
+        },
+        {
+            "title": "Perturbations",
+            "level": 0,
+            "page": 138
+        },
+        {
+            "title": "Robustness",
+            "level": 1,
+            "page": 138
+        },
+        {
+            "title": "Fairness",
+            "level": 1,
+            "page": 139
+        },
+        {
+            "title": "Targeted evaluations",
+            "level": 0,
+            "page": 140
+        },
+        {
+            "title": "Language",
+            "level": 1,
+            "page": 140
+        },
+        {
+            "title": "Knowledge",
+            "level": 1,
+            "page": 143
+        },
+        {
+            "title": "Reasoning",
+            "level": 1,
+            "page": 143
+        },
+        {
+            "title": "Memorization & copyright",
+            "level": 1,
+            "page": 151
+        },
+        {
+            "title": "Disinformation",
+            "level": 1,
+            "page": 152
+        },
+        {
+            "title": "Bias",
+            "level": 1,
+            "page": 152
+        },
+        {
+            "title": "Toxicity",
+            "level": 1,
+            "page": 153
+        },
+        {
+            "title": "Comparison with other evaluations",
+            "level": 0,
+            "page": 154
+        },
+        {
+            "title": "Contamination",
+            "level": 0,
+            "page": 154
+        },
+        {
+            "title": "Priority system",
+            "level": 0,
+            "page": 155
+        },
+        {
+            "title": "Models",
+            "level": 0,
+            "page": 157
+        },
+        {
+            "title": "Adaptation",
+            "level": 0,
+            "page": 159
+        },
+        {
+            "title": "Formatting test instances",
+            "level": 1,
+            "page": 159
+        },
+        {
+            "title": "Formatting the remainder of the prompt",
+            "level": 1,
+            "page": 160
+        },
+        {
+            "title": "Decoding parameters",
+            "level": 1,
+            "page": 160
+        },
+        {
+            "title": "Adaptation methods",
+            "level": 1,
+            "page": 161
+        }
+    ],
+    "pages": 162,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 162,
+        "code": 0,
+        "table": 19,
+        "equations": {
+            "successful_ocr": 52,
+            "unsuccessful_ocr": 5,
+            "equations": 57
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Holistic Evaluation of Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "1.1 HELM",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "1.2 Empirical findings",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "1.3 Contributions",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Contents",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "2 Preliminaries",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "2.1 Scenarios",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "2.2 Adaptation",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "2.3 Metrics",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "2.4 Roadmap",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "3 Core scenarios",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "3.1 Taxonomy",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "3.2 Selection",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "3.3 Question answering",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "3.4 Information retrieval",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "3.5 Summarization",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "3.6 Sentiment analysis",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "3.7 Toxicity detection",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "3.8 Miscellaneous text classification",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "model%3Dtogether_gpt-j-6b%2Cdata_augmentation%3Dcanonical%22%2C%20%22raft%3Asubset%3Dbanking",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "_77%2Cmodel%3Dtogether_gpt-neox-20b%2Cdata_augmentation%3Dcanonical%22%2C%20%22raft%3Asubse\nt%3Dbanking_77%2Cmodel%3Dtogether_opt-66b%2Cdata_augmentation%3Dcanonical%22%2C%20%22raft%3",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "4 General metrics",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "4.1 Taxonomy",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "4.2 Selection",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "4.3 Accuracy",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "4.4 Calibration and uncertainty",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "4.5 Robustness",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "4.6 Fairness",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "4.7 Bias and stereotypes",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "0%22bold%3Asubject%3Dall%2Cmodel%3Dai21_j1-large%22%2C%20%22bold%3Asubject%3Dall%2Cmodel%3Dopenai_davinci%22%2C%20%22bold%3Asubject%3Dall%2Cmodel%3Dopenai_curie%22%2C%20%22bold%3\nAsubject%3Dall%2Cmodel%3Dopenai_babbage%22%2C%20%22bold%3Asubject%3Dall%2Cmodel%3Dopenai_ada%22%2C%20%22bold%3Asubject%3Dall%2Cmodel%3Dopenai_text-davinci-002%22%2C%20%22bold%3As",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "4.8 Toxicity",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "ubject%3Dall%2Cmodel%3Dopenai_text-curie-001%22%2C%20%22bold%3Asubject%3Dall%2Cmodel%3Dopenai_text-babbage-001%22%2C%20%22bold%3Asubject%3Dall%2Cmodel%3Dopenai_text-ada-001%22%2C%20%",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "https://crfm-models.stanford.edu/static/benchmarking.html?suite=v7&runSpecs=%5B%22bold%3Asubject%3Dall%2Cmodel%3Dai21_j1-jumbo%22%2C%20%22bold%3Asubject%3Dall%2Cmodel%3Dai21_j1-grande%22%2C%2",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "4.9 Efficiency",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "4.9.1 Training efficiency",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "4.9.2 Inference efficiency",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "d: dictionary that maps num_prompt_tokens to \ntime taken to encode the prompt",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "5 Targeted evaluations",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "5.1 Language",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "5.1.1 Language modeling",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "5.1.2 Minimal pairs",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "5.2 Knowledge",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "5.2.1 Knowledge-intensive QA",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "5.2.2 Fact completion",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "5.3 Reasoning",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "5.3.1 Reasoning primitives",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "5.3.2 Realistic reasoning",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "5.4 Memorization & copyright",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "5.5 Disinformation",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "5.6 Bias",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "5.7 Toxicity",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "7 Adaptation via prompting",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "8 Experiments and results",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "8.1 Meta-analysis",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "8.2 Prompting analysis",
+            "level": 2,
+            "page": 55
+        },
+        {
+            "title": "8.3 Task-specific results for core scenarios",
+            "level": 2,
+            "page": 59
+        },
+        {
+            "title": "8.4 Targeted evaluations",
+            "level": 2,
+            "page": 66
+        },
+        {
+            "title": "8.5 Human evaluations",
+            "level": 2,
+            "page": 72
+        },
+        {
+            "title": "8.5.1 Disinformation",
+            "level": 2,
+            "page": 72
+        },
+        {
+            "title": "9 Related work and discussion",
+            "level": 1,
+            "page": 74
+        },
+        {
+            "title": "10 What is missing",
+            "level": 1,
+            "page": 76
+        },
+        {
+            "title": "10.1 Missing scenarios",
+            "level": 2,
+            "page": 77
+        },
+        {
+            "title": "10.2 Missing metrics",
+            "level": 2,
+            "page": 78
+        },
+        {
+            "title": "10.3 Missing targeted evaluations",
+            "level": 2,
+            "page": 78
+        },
+        {
+            "title": "10.4 Missing models",
+            "level": 2,
+            "page": 79
+        },
+        {
+            "title": "10.5 Missing adaptation",
+            "level": 2,
+            "page": 79
+        },
+        {
+            "title": "11 Limitations and future work",
+            "level": 1,
+            "page": 80
+        },
+        {
+            "title": "11.1 Limitations of results",
+            "level": 2,
+            "page": 80
+        },
+        {
+            "title": "11.2 Limitations of HELM implementation",
+            "level": 4,
+            "page": 80
+        },
+        {
+            "title": "11.3 Limitations of HELM design",
+            "level": 2,
+            "page": 81
+        },
+        {
+            "title": "12 Conclusion",
+            "level": 1,
+            "page": 82
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 83
+        },
+        {
+            "title": "2022. doi: 10.48550/ARXIV.2211.05100. URL https://arxiv.org/abs/2211.05100.",
+            "level": 2,
+            "page": 109
+        },
+        {
+            "title": "A Author contributions",
+            "level": 1,
+            "page": 117
+        },
+        {
+            "title": "B Core scenarios",
+            "level": 1,
+            "page": 120
+        },
+        {
+            "title": "B.1 Question answering",
+            "level": 2,
+            "page": 120
+        },
+        {
+            "title": "B.1.1 BoolQ",
+            "level": 2,
+            "page": 120
+        },
+        {
+            "title": "B.1.2 NewsQA",
+            "level": 2,
+            "page": 120
+        },
+        {
+            "title": "B.1.3 NarrativeQA",
+            "level": 2,
+            "page": 121
+        },
+        {
+            "title": "B.1.4 NaturalQA",
+            "level": 4,
+            "page": 121
+        },
+        {
+            "title": "B.1.5 QuAC",
+            "level": 2,
+            "page": 122
+        },
+        {
+            "title": "B.1.6 HellaSwag",
+            "level": 2,
+            "page": 123
+        },
+        {
+            "title": "B.1.7 OpenBookQA",
+            "level": 2,
+            "page": 123
+        },
+        {
+            "title": "B.1.8 TruthfulQA",
+            "level": 2,
+            "page": 123
+        },
+        {
+            "title": "B.1.9 MMLU",
+            "level": 2,
+            "page": 124
+        },
+        {
+            "title": "B.2 Information retrieval",
+            "level": 2,
+            "page": 124
+        },
+        {
+            "title": "B.2.1 MS MARCO (regular)",
+            "level": 2,
+            "page": 124
+        },
+        {
+            "title": "B.2.2 MS MARCO (TREC)",
+            "level": 2,
+            "page": 125
+        },
+        {
+            "title": "B.3 Summarization",
+            "level": 2,
+            "page": 126
+        },
+        {
+            "title": "B.3.1 CNN/DM",
+            "level": 2,
+            "page": 126
+        },
+        {
+            "title": "B.3.2 XSUM",
+            "level": 2,
+            "page": 127
+        },
+        {
+            "title": "B.4 Sentiment analysis",
+            "level": 2,
+            "page": 127
+        },
+        {
+            "title": "B.4.1 IMDB",
+            "level": 2,
+            "page": 127
+        },
+        {
+            "title": "B.5 Toxicity detection",
+            "level": 2,
+            "page": 128
+        },
+        {
+            "title": "B.5.1 CivilComments",
+            "level": 2,
+            "page": 128
+        },
+        {
+            "title": "B.6 Miscellaneous text classification",
+            "level": 2,
+            "page": 128
+        },
+        {
+            "title": "B.6.1 RAFT",
+            "level": 2,
+            "page": 128
+        },
+        {
+            "title": "C General metrics",
+            "level": 1,
+            "page": 129
+        },
+        {
+            "title": "C.1 Accuracy",
+            "level": 2,
+            "page": 129
+        },
+        {
+            "title": "C.1.1 General",
+            "level": 2,
+            "page": 129
+        },
+        {
+            "title": "C.1.2 Information Retrieval",
+            "level": 2,
+            "page": 129
+        },
+        {
+            "title": "C.1.3 Summarization",
+            "level": 2,
+            "page": 130
+        },
+        {
+            "title": "C.1.4 Language",
+            "level": 2,
+            "page": 130
+        },
+        {
+            "title": "C.1.5 Reasoning",
+            "level": 2,
+            "page": 130
+        },
+        {
+            "title": "C.2 Calibration and uncertainty",
+            "level": 2,
+            "page": 130
+        },
+        {
+            "title": "C.3 Robustness",
+            "level": 2,
+            "page": 132
+        },
+        {
+            "title": "C.4 Fairness",
+            "level": 2,
+            "page": 133
+        },
+        {
+            "title": "C.5 Bias and stereotypes",
+            "level": 2,
+            "page": 133
+        },
+        {
+            "title": "C.6 Toxicity",
+            "level": 2,
+            "page": 136
+        },
+        {
+            "title": "C.7 Efficiency",
+            "level": 2,
+            "page": 136
+        },
+        {
+            "title": "D Perturbations",
+            "level": 1,
+            "page": 138
+        },
+        {
+            "title": "D.1 Robustness",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "D.1.1 Individual perturbations",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "D.1.2 Composing perturbations",
+            "level": 2,
+            "page": 139
+        },
+        {
+            "title": "D.2 Fairness",
+            "level": 2,
+            "page": 139
+        },
+        {
+            "title": "E Targeted evaluations",
+            "level": 1,
+            "page": 140
+        },
+        {
+            "title": "E.1 Language",
+            "level": 2,
+            "page": 140
+        },
+        {
+            "title": "E.1.1 The Pile",
+            "level": 2,
+            "page": 140
+        },
+        {
+            "title": "E.1.2 BLiMP",
+            "level": 2,
+            "page": 140
+        },
+        {
+            "title": "E.1.3 WikiText-103",
+            "level": 2,
+            "page": 141
+        },
+        {
+            "title": "E.1.4 TwitterAAE",
+            "level": 2,
+            "page": 141
+        },
+        {
+            "title": "IMA PAY OOMFS FONE BILL ,JUS KUZ I WANNA TALK TO HER",
+            "level": 2,
+            "page": 141
+        },
+        {
+            "title": "E.1.5 ICE",
+            "level": 2,
+            "page": 142
+        },
+        {
+            "title": "E.2 Knowledge",
+            "level": 2,
+            "page": 143
+        },
+        {
+            "title": "E.2.1 WikiFact",
+            "level": 2,
+            "page": 143
+        },
+        {
+            "title": "E.3 Reasoning",
+            "level": 2,
+            "page": 143
+        },
+        {
+            "title": "E.3.1 Synthetic Reasoning (Symbolic)",
+            "level": 2,
+            "page": 143
+        },
+        {
+            "title": "E.3.2 Synthetic Reasoning (Natural)",
+            "level": 2,
+            "page": 146
+        },
+        {
+            "title": "E.3.3 bAbI",
+            "level": 2,
+            "page": 146
+        },
+        {
+            "title": "E.3.4 Dyck Languages",
+            "level": 2,
+            "page": 147
+        },
+        {
+            "title": "E.3.5 GSM8K",
+            "level": 2,
+            "page": 147
+        },
+        {
+            "title": "E.3.6 MATH",
+            "level": 2,
+            "page": 147
+        },
+        {
+            "title": "E.3.7 HumanEval",
+            "level": 2,
+            "page": 148
+        },
+        {
+            "title": "E.3.8 APPS",
+            "level": 2,
+            "page": 148
+        },
+        {
+            "title": "E.3.9 LegalSupport",
+            "level": 2,
+            "page": 149
+        },
+        {
+            "title": "E.3.10 LSAT",
+            "level": 2,
+            "page": 149
+        },
+        {
+            "title": "E.3.11 Entity Matching",
+            "level": 2,
+            "page": 150
+        },
+        {
+            "title": "E.3.12 Data Imputation",
+            "level": 2,
+            "page": 150
+        },
+        {
+            "title": "E.4 Memorization & copyright",
+            "level": 2,
+            "page": 151
+        },
+        {
+            "title": "E.5 Disinformation",
+            "level": 2,
+            "page": 152
+        },
+        {
+            "title": "E.6 Bias",
+            "level": 2,
+            "page": 152
+        },
+        {
+            "title": "E.6.1 BBQ",
+            "level": 2,
+            "page": 152
+        },
+        {
+            "title": "E.7 Toxicity",
+            "level": 2,
+            "page": 153
+        },
+        {
+            "title": "E.7.1 BOLD",
+            "level": 2,
+            "page": 153
+        },
+        {
+            "title": "E.7.2 RealToxicityPrompts",
+            "level": 2,
+            "page": 154
+        },
+        {
+            "title": "F Comparison with other evaluations",
+            "level": 1,
+            "page": 154
+        },
+        {
+            "title": "G Contamination",
+            "level": 1,
+            "page": 154
+        },
+        {
+            "title": "H Priority system",
+            "level": 1,
+            "page": 155
+        },
+        {
+            "title": "I Models",
+            "level": 1,
+            "page": 157
+        },
+        {
+            "title": "J Adaptation",
+            "level": 1,
+            "page": 159
+        },
+        {
+            "title": "J.1 Formatting test instances",
+            "level": 2,
+            "page": 159
+        },
+        {
+            "title": "J.2 Formatting the remainder of the prompt",
+            "level": 2,
+            "page": 160
+        },
+        {
+            "title": "J.3 Decoding parameters",
+            "level": 2,
+            "page": 160
+        },
+        {
+            "title": "J.4 Adaptation methods",
+            "level": 2,
+            "page": 161
+        }
+    ]
+}

@@ -1,0 +1,171 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 13,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 1,
+            "equations": 8
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Deduplicating Training Data Makes Language Models Better",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Language Modeling Datasets",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Methods for Identifying Duplicates",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Exact Substring Duplication",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.1.1 Suffix Arrays",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.1.2 Substring matching",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Approximate Matching with MinHash",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5 Deduplication Results",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1 Amount of Text Removed",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5.2 Properties of Duplicated Text",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5.3 Train / Test Set Leakage",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6 Impact on Trained Models",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "6.1 Model Perplexity",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.2 Generated Text",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6.3 Impact on Existing Models",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "7 Discussion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Ethics",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Contributions",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A Further Details on NEARDUP",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B Further Details on EXACTSUBSTR",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "C Further Details on Model Training",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "D Energy Consumption",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "E More Results",
+            "level": 2,
+            "page": 14
+        }
+    ]
+}

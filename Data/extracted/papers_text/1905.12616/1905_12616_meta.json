@@ -1,0 +1,267 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Fake News in a Neural and Adversarial Setting",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Grover: Modeling Conditional Generation of Neural Fake News",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Language Modeling results: measuring the importance of data, context, and size",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Carefully restricting the variance of generations with Nucleus Sampling",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4 Humans are Easily Fooled by Grover-written Propaganda",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5 Neural Fake News Detection",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "5.1 A semi-supervised setting for neural fake news detection",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5.2 Discrimination results: Grover performs best at detecting Grover's fake news",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5.3 Weak supervision: what happens if we don't have access to Grover-Mega?",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6 How does a model distinguish between human and machine text?",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "7 Conclusion: a Release Strategy for Grover",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "A Optimization Hyperparameters",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "B Real News and Propaganda Websites",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "C Domain Adaptation of BERT",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "D Hyperparameters for the Discriminators",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "E Human Evaluation Prompt",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "E.1 Evaluating Quality",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "E.2 Evaluating consistency",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "F Examples",
+            "level": 0,
+            "page": 13
+        }
+    ],
+    "pages": 21,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Defending Against Neural Fake News",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Fake News in a Neural and Adversarial Setting",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Grover: Modeling Conditional Generation of Neural Fake News",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Language Modeling results: measuring the importance of data, context, and size",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Carefully restricting the variance of generations with Nucleus Sampling",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4 Humans are Easily Fooled by Grover-written Propaganda",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5 Neural Fake News Detection",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1 A semi-supervised setting for neural fake news detection",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5.2 Discrimination results: Grover performs best at detecting Grover's fake news",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.3 Weak supervision: what happens if we don't have access to Grover-Mega?",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6 How does a model distinguish between human and machine text?",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "7 Conclusion: a Release Strategy for Grover",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Supplemental Material",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A Optimization Hyperparameters",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B Real News and Propaganda Websites",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "C Domain Adaptation of BERT",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "D Hyperparameters for the Discriminators",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "E Human Evaluation Prompt",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "E.1 Evaluating Quality",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "E.2 Evaluating consistency",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "F Examples",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Original Headline: Timing of May's 'festival of Britain' risks Irish anger",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Original Headline: Don't drink the water: The dark side of water fluoridation",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "Provided headline: 'Link found between autism and vaccines'",
+            "level": 4,
+            "page": 16
+        }
+    ]
+}

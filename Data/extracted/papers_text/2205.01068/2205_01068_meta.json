@@ -1,0 +1,196 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 30,
+    "ocr_stats": {
+        "ocr_pages": 5,
+        "ocr_failed": 0,
+        "ocr_success": 5,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "OPT: Open Pre-trained Transformer Language Models",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Method",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.1 Models",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Training Setup",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.3 Pre-training Corpus",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.4 Training Efficiency",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.5 Training Processes",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 Evaluations",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.1 Prompting & Few-Shot",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Dialogue",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Bias & Toxicity Evaluations",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.1 Hate Speech Detection",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 CrowS-Pairs",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 StereoSet",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.4 RealToxicityPrompts",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.5 Dialogue Safety Evaluations",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 Limitations",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6 Considerations for Release",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "7 Related Work",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "A Additional Evaluations",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "B Contributions",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "C Datasheet",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "C.2 Composition",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "C.6 Distribution",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "D Model Card",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "D.1 Model Details",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "D.2 Intended Use",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "D.3 Data, Limitations, and Recommendations",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "E\nSample Model Outputs",
+            "level": 2,
+            "page": 25
+        }
+    ]
+}

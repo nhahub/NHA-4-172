@@ -1,0 +1,342 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Preliminaries",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Direct Preference Optimization",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Theoretical Analysis of DPO",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Your Language Model Is Secretly a Reward Model",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Instability of Actor-Critic Algorithms",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "How well can DPO optimize the RLHF objective?",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Can DPO scale to real preference datasets?",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Generalization to a new input distribution",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Validating GPT-4 judgments with human judgments",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Mathematical Derivations",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Deriving the Optimum of the KL-Constrained Reward Maximization Objective",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Deriving the DPO Objective Under the Bradley-Terry Model",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Deriving the DPO Objective Under the Plackett-Luce Model",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Deriving the Gradient of the DPO Objective",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Proof of Lemma 1 and 2",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Proof of Theorem 1",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "DPO Implementation Details and Hyperparameters",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Further Details on the Experimental Set-Up",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "IMDb Sentiment Experiment and Baseline Details",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "GPT-4 prompts for computing summarization and dialogue win rates",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Unlikelihood baseline",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Additional Empirical Results",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "Performance of Best of N baseline for Various N",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Sample Responses and GPT-4 Judgments",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Human study details",
+            "level": 1,
+            "page": 26
+        }
+    ],
+    "pages": 27,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 42,
+            "unsuccessful_ocr": 7,
+            "equations": 49
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Direct Preference Optimization:\nYour Language Model is Secretly a Reward Model",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Preliminaries",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Direct Preference Optimization",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "5 Theoretical Analysis of DPO",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1 Your Language Model Is Secretly a Reward Model",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5.2 Instability of Actor-Critic Algorithms",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6 Experiments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6.1 How well can DPO optimize the RLHF objective?",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "6.2 Can DPO scale to real preference datasets?",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6.3 Generalization to a new input distribution",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6.4 Validating GPT-4 judgments with human judgments",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "7 Discussion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Author Contributions",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A Mathematical Derivations",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "A.2 Deriving the DPO Objective Under the Bradley-Terry Model",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "A.3 Deriving the DPO Objective Under the Plackett-Luce Model",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "A.4 Deriving the Gradient of the DPO Objective",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "A.5 Proof of Lemma 1 and 2",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "A.6 Proof of Theorem 1",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "B DPO Implementation Details and Hyperparameters",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "C Further Details on the Experimental Set-Up",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "C.1 IMDb Sentiment Experiment and Baseline Details",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "C.2 GPT-4 prompts for computing summarization and dialogue win rates",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "Summarization GPT-4 win rate prompt (C).",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "C.3 Unlikelihood baseline",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "D Additional Empirical Results",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "D.1 Performance of Best of N baseline for Various N",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "D.2 Sample Responses and GPT-4 Judgments",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "D.3 Human study details",
+            "level": 3,
+            "page": 26
+        }
+    ]
+}

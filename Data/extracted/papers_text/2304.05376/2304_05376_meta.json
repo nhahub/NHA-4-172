@@ -1,0 +1,327 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Evaluation and results",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Risks and Mitigation Strategies",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Discussion & Conclusions",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Methods",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "LLMs",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "LLMs application framework \u2013 LangChain",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Tools",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "General tools",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Molecule tools",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Safety tools",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Chemical reaction tools",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Human evaluation",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Synthesis example: GPT-4 vs ChemCrow",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Safety Considerations",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Reproducibility",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Limitations",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "Tasks and Evaluation",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "Task 1 - Synthesis for Safinamide",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Task 2 - Propose New Organocatalyst",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Task 3 - Explain Mechanisms",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Task 4 - Synthesize Insect Repellent",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Task 5 - How to Make Target",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Task 6 - Compare Catalyst Mechanisms",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Task 7 - Synthesize Similar Molecule",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Task 8 - Synthesis Planning of Riccis's Organocatalyst",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Task 9 - Predict Success of Reaction",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Task 10 - Property of Reaction Product",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Task 11 - Similar molecule to nitroglycerin",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Task 12 - Synthesis and cost of atorvastatin",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "Task 13 - Synthesis of Aspirin",
+            "level": 1,
+            "page": 32
+        },
+        {
+            "title": "Task 14 - Synthesis of Takemoto's organocatalyst",
+            "level": 1,
+            "page": 33
+        }
+    ],
+    "pages": 34,
+    "ocr_stats": {
+        "ocr_pages": 15,
+        "ocr_failed": 0,
+        "ocr_success": 15,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 20,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Augmenting large language models with chemistry tools",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Evaluation and results",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Risks and Mitigation Strategies",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 Discussion & Conclusions",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5 Methods",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.1 LLMs",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2 LLMs application framework \u2013 LangChain",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.3.1 General tools",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.3.2 Molecule tools",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "5.3.3 Safety tools",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "5.3.4 Chemical reaction tools",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "Data & Code availability",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "A Human evaluation",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "B Synthesis example: GPT-4 vs ChemCrow",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "C\nSafety Considerations",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "D Reproducibility",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "E Limitations",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "F Tasks and Evaluation",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "ChemCrow Workflow",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "ChemCrow Workflow",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": " Task 6 - Compare Catalyst Mechanisms",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "ChemCrow Workflow",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": " Task 8 - Synthesis Planning of Riccis's Organocatalyst",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "ChemCrow Workflow",
+            "level": 1,
+            "page": 31
+        }
+    ]
+}

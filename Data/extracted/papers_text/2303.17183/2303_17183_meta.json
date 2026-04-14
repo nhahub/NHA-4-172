@@ -1,0 +1,151 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 2,
+            "unsuccessful_ocr": 0,
+            "equations": 2
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "The Nordic Pile: A 1.2TB Nordic Dataset for Language Modeling",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "3 Data Collection",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "4 Data Processing Pipeline",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Normalization",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.2 Metrics",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.3 Quality Filtering",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4.4 Exact Deduplication",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.5 Language Segmentation",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4.6 Fuzzy Deduplication",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.6.1 Intra-shard Deduplication",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.6.2 Inter-shard Deduplication",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.7 Language & Shard Merging",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5 Results",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6 Discussion",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A Deduplication Algorithms",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "B Sharding per language",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "C Data Sources",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "D Quality Filter Configurations",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "15. Trailing Ellipsis",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "E Fuzzy Duplicate Group Examples",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "F Data Pipeline Deviations",
+            "level": 3,
+            "page": 11
+        }
+    ]
+}

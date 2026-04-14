@@ -1,0 +1,477 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Zeroth-order optimization",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Memory-efficient ZO-SGD (MeZO)",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "MeZO extensions",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Medium-sized masked language models",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Large autoregressive language models",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Training with non-differentiable objectives",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Memory usage",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Theory",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Per-step analysis",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Global convergence analysis",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Related work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Zeroth-order optimization",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Memory-efficient backpropagation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Gradient-free adaptation of large language models",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Algorithmic Ablations",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Prompting",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "Sample Schedules",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "MeZO Variants",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "Memory-efficient n-SPSA",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Augmenting MeZO with Gradient History",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Modifying the Variance of MeZO",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Modifying the Expectation of MeZO",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Memory Analysis",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "Experiment setup",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Datasets",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Prompts",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Hyperparameters",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Modeling and implementation",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "Parameter-efficient fine-tuning",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Training with non-differentiable objectives",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Memory profiling",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "More experiment results",
+            "level": 0,
+            "page": 26
+        },
+        {
+            "title": "RoBERTa-large experiments",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "OPT experiments",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Convergence of MeZO with full-parameter and PEFT",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "ZO vs BBTv2",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Memory profiling",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Proofs",
+            "level": 0,
+            "page": 29
+        },
+        {
+            "title": "Proofs of Global Convergence",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Verification of assumptions",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Proofs for Gaussian perturbations",
+            "level": 1,
+            "page": 32
+        }
+    ],
+    "pages": 36,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 21,
+        "equations": {
+            "successful_ocr": 64,
+            "unsuccessful_ocr": 7,
+            "equations": 71
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Fine-Tuning Language Models with Just\nForward Passes",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Zeroth-order optimization",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Memory-efficient ZO-SGD (MeZO)",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.2 MeZO extensions",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Medium-sized masked language models",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Large autoregressive language models",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Training with non-differentiable objectives",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.4 Memory usage",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Theory",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.1 Per-step analysis",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Global convergence analysis",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Related work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5.1 Zeroth-order optimization",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.2 Memory-efficient backpropagation",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.3 Gradient-free adaptation of large language models",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "A Algorithmic Ablations",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "A.1 Prompting",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "A.2 Sample Schedules",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "B MeZO Variants",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "B.1 Memory-efficient n-SPSA",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "B.2 Augmenting MeZO with Gradient History",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "B.3 Modifying the Variance of MeZO",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "B.4 Modifying the Expectation of MeZO",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "C Memory Analysis",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "D Experiment setup",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "D.1 Datasets",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "D.2 Prompts",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "D.3 Hyperparameters",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "D.4 Modeling and implementation",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "D.5 Parameter-efficient fine-tuning",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "D.6 Training with non-differentiable objectives",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "D.7 Memory profiling",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "E More experiment results",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "E.1 RoBERTa-large experiments",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "E.2 OPT experiments",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "E.3 Convergence of MeZO with full-parameter and PEFT",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "E.4 ZO vs BBTv2",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "E.5 Memory profiling",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "F Proofs",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "F.2 Proofs for Gaussian perturbations",
+            "level": 3,
+            "page": 32
+        }
+    ]
+}

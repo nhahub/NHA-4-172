@@ -1,0 +1,362 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 U-PaLM",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Training Data",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Prefix Language Model Architecture",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.3 Loss Objectives",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.4 Training",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "4.1 Improved Scaling Properties on Few-shot Learning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.2 BigBench Emergent Suite",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2.1 BIG-Bench results",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.2.2 Analyzing individual task performance on BIG-Bench",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.3 Zero-shot and Few-shot NLP",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.3.1 Commonsense Reasoning",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.3.2 Question Answering and Reading Comprehension",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4.3.3 Reasoning and Chain-of-thought Experiments",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.3.4 Multilingual Few-shot Reasoning and Question Answering Tasks",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "4.3.5 Massively Multi-Task Language Understanding",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "4.4 Finetuning",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "5 Qualitative Analysis: New Prompting Capabilities",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "5.1 Infilling Ability",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "5.2 Leveraging Specific Pretraining Modes",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "5.3 Improved Diversity for Open-ended Generation",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "6 Conclusion and Future Work",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "7 Appendix",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "7.1 Details of Scaling Curves for Few-shot Experiments",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "7.2 Details of Vocab and Sentinel Tokens",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "7.3 Additional Discussion",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "7.3.1 What about training from scratch?",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "7.3.2 What about supervised finetuning on many new tasks like FLAN or T0?",
+            "level": 2,
+            "page": 20
+        }
+    ],
+    "pages": 21,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Transcending Scaling Laws with 0.1% Extra Compute",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 U-PaLM",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 Training Data",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Prefix Language Model Architecture",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.3 Loss Objectives",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.4 Training",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 Improved Scaling Properties on Few-shot Learning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.2 BigBench Emergent Suite",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2.1 BIG-Bench results",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2.2 Analyzing individual task performance on BIG-Bench",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "important in context reasoning tasks.",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.3 Zero-shot and Few-shot NLP",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.3.1 Commonsense Reasoning",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.3.2 Question Answering and Reading Comprehension",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "4.3.3 Reasoning and Chain-of-thought Experiments",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3.4 Multilingual Few-shot Reasoning and Question Answering Tasks",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "4.3.5 Massively Multi-Task Language Understanding",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "4.4 Finetuning",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "5 Qualitative Analysis: New Prompting Capabilities",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "5.1 Infilling Ability",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5.2 Leveraging Specific Pretraining Modes",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "5.3 Improved Diversity for Open-ended Generation",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "6 Conclusion and Future Work",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "7 Appendix",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "7.1 Details of Scaling Curves for Few-shot Experiments",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "7.2 Details of Vocab and Sentinel Tokens",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "7.3 Additional Discussion",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "7.3.1 What about training from scratch?",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "7.3.2 What about supervised finetuning on many new tasks like FLAN or T0?",
+            "level": 3,
+            "page": 20
+        }
+    ]
+}

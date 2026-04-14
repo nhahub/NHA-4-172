@@ -1,0 +1,267 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 Public Instruction Tuning Collections",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Flan 2022 Instruction Tuning Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Ablation Studies",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.2 Training with Mixed Prompt Settings",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.3 Scaling Small Models to 1.8k+ Tasks",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "3.4 Task Enrichment with Input Inversion",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.5 Balancing Data Sources",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.6 Discussion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4 Instruction Tuning Enhances Single-Task Finetuning",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "5 Related Work",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "6 Conclusions",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": " Appendix",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "A Experimental Details",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "A.1 Instruction Tuning",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "A.2 Single-Task Finetuning",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "A.3 Evaluation",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "B Input Inversion Details",
+            "level": 1,
+            "page": 20
+        }
+    ],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "The Flan Collection: Designing Data and Methods\nfor Effective Instruction Tuning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Public Instruction Tuning Collections",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Flan 2022 Instruction Tuning Experiments",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.1 Ablation Studies",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.2 Training with Mixed Prompt Settings",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.3 Scaling Small Models to 1.8k+ Tasks",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "3.4 Task Enrichment with Input Inversion",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.5 Balancing Data Sources",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.6 Discussion",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4 Instruction Tuning Enhances Single-Task Finetuning",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "5 Related Work",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6 Conclusions",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Table of Contents",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "A Experimental Details",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "A.1 Instruction Tuning",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "A.2 Single-Task Finetuning",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "A.3 Evaluation",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "B Input Inversion Details",
+            "level": 1,
+            "page": 20
+        }
+    ]
+}

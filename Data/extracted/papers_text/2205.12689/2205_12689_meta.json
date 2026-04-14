@@ -1,0 +1,321 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 25,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 8,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Large Language Models are Few-Shot Clinical Information Extractors",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Prompt-Based Learning",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 Pretrained LMs for Clinical NLP",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3 Methods",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Predicting Structured Outputs with LLMs",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Dataset Annotation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Clinical Sense Disambiguation",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "5 Biomedical Evidence Extraction",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "6 Coreference Resolution",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "7 Medication Extraction",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "7.1 Recognition + Status Classification",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "7.2 Recognition + Relation Extraction",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Limitations",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Ethics Statement",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "A Prompts and Sample GPT-3 Outputs",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A.1 Clinical Sense Disambiguation",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "Example 1",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "GPT-3 edit prompt:",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "GPT-3 edit output:",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "Example 2",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "GPT-3 edit input:",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "GPT-3 edit prompt:",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "GPT-3 edit output:",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "A.2 Biomedical Evidence Extraction",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "Example 1",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "Example 2",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "A.3 Coreference Resolution",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "Example 1: Zero-shot unguided",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "GPT-3 Davinci:",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "Example 1: One-shot guided (incorrect)",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "Example 1: One-shot guided (correct)",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "A.4 Medication Status Extraction",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "Example 1: Zero-shot guided",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "Example 1: One-shot guided (incorrect)",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "Example 1: One-shot guided (correct)",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "A.5 Medication Attribute Extraction",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "Example 1: Token-level",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "Example 1: Phrase-level",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "Example 1: Relation Extraction",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "B Annotation Process",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "B.1 Biomedical Evidence Extraction",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "B.2 Coreference Resolution",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "B.3 Medication Status Extraction",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "B.4 Medication Attribute Extraction",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "C Additional Experimental details",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "C.1 Clinical Sense Disambiguation",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "C.2 Biomedical Evidence Extraction",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "Resolved GPT-3 output:",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "Gold-label (token-level):",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "C.3 Coreference Resolution",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "C.4 Medication + Status Extraction",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "C.5 Medication + Relation Extraction",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "D Experimental Cost",
+            "level": 1,
+            "page": 24
+        }
+    ]
+}

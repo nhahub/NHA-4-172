@@ -1,0 +1,156 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 26,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 11,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ART: Automatic multi-step reasoning and tool-use for\nlarge language models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 ART",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Task Library",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.3 Tool Library",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.4 Human feedback",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4 Experimental Setup",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5 Results",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1 Results on the task library",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2 Test tasks (cross-task transfer)",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.3 Improving ART",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "A.1 Task Library",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "String Operations",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "Search",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "A.2 Task Selection",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "A.3 Tool Use",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "A.4 Baselines",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "A.5 Human Feedback",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "After",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "Table 19: Human feedback: Tracking shuffled objects",
+            "level": 4,
+            "page": 25
+        }
+    ]
+}

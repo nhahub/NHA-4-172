@@ -1,0 +1,196 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "WikiChat: A Few-Shot LLM-Based Chatbot\nGrounded with Wikipedia",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.1 Factuality of Large Language Models",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.2 Knowledge-Grounded Chatbots",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.3 Evaluating Factuality",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 WikiChat, the Few-Shot\nKnowledge-Grounded Chatbot",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Curating Information",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1.1 Retrieval from Corpus",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1.2 LLM Generation and Fact-Checking",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 Forming the Response",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 A Novel Evaluation Methodology",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 User Simulation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.2 Conversation Topics",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.3 Human Evaluation of Factual Accuracy",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.4 Automatic Evaluation of\nConversationality",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5 Experiments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Baselines",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.2 Implementation of WikiChat",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.3 Evaluation",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 Experimental Results",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6.1 Factuality",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6.2 Conversationality",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "7 Analysis of Results",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7.1 Simulated Dialogues",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "7.2 Analysis of WikiChat",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Example of a Simulated Conversation",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "B Hyperparameters",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "C Human Evaluation",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "D Prompts",
+            "level": 2,
+            "page": 14
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Programming Interface",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Symbol: Declarative Symbolic Expressions",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 NDArray: Imperative Tensor Computation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3 KVStore: Data Synchronization Over Devices",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.4 Other Modules",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Implementation",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Computation Graph",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Dependency Engine",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.3 Data Communication",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 4
+        }
+    ],
+    "pages": 6,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "MXNet: A Flexible and Efficient Machine Learning\nLibrary for Heterogeneous Distributed Systems",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Programming Interface",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Symbol: Declarative Symbolic Expressions",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 NDArray: Imperative Tensor Computation",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.3 KVStore: Data Synchronization Over Devices",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.4 Other Modules",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 Implementation",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.2 Dependency Engine",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3 Data Communication",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 5
+        }
+    ]
+}

@@ -1,0 +1,227 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Motivation: Cost of LLMs",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Goals: Reduce Cost by Unification and Open-source",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Findings: A Mixed Bag of Results",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Contributions: Lessons, Recipe, and Open-Source",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Related Work",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Method: From Unification to Ablation",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Requirement: Performance on a Variety of Tasks",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Components: Architecture, Objective, Sampling, Data",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Results: Lessons and Recipe",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Lesson 1: Prefix-LM's benefit is questionable",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Data",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Representation",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Objective",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Lesson 2: Infill is not a Free Lunch",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Lesson 3: Objective can be Simple, yet Needs to be Carefully Chosen",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Lesson 4: Multi-modal Data Mixing",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Lesson 5: Multi-epoch Training",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Conclusion: Lessons and Open-Source",
+            "level": 0,
+            "page": 8
+        }
+    ],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 12,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "CODEGEN2: LESSONS FOR TRAINING LLMS ON PRO-\nGRAMMING AND NATURAL LANGUAGES",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1.1 MOTIVATION: COST OF LLMS",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1.2 GOALS: REDUCE COST BY UNIFICATION AND OPEN-SOURCE",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "1.3 FINDINGS: A MIXED BAG OF RESULTS",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "1.4 CONTRIBUTIONS: LESSONS, RECIPE, AND OPEN-SOURCE",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "1.5 RELATED WORK",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2 METHOD: FROM UNIFICATION TO ABLATION",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.2 COMPONENTS: ARCHITECTURE, OBJECTIVE, SAMPLING, DATA",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 RESULTS: LESSONS AND RECIPE",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.1 LESSON 1: PREFIX-LM'S BENEFIT IS QUESTIONABLE",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.1.1 DATA",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.1.2 REPRESENTATION",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.1.3 OBJECTIVE",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.2 LESSON 2: INFILL IS NOT A FREE LUNCH",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3 LESSON 3: OBJECTIVE CAN BE SIMPLE, YET NEEDS TO BE CAREFULLY CHOSEN",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.4 LESSON 4: MULTI-MODAL DATA MIXING",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.5 LESSON 5: MULTI-EPOCH TRAINING",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4 CONCLUSION: LESSONS AND OPEN-SOURCE",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 8
+        }
+    ]
+}

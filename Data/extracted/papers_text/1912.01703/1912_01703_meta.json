@@ -1,0 +1,242 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 Background",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Design principles",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "4 Usability centric design",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "4.1 Deep learning models are just Python programs",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4.2 Interoperability and extensibility",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.3 Automatic differentiation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5 Performance focused implementation",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "5.1 An efficient C++ core",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "5.2 Separate control and data flow",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5.3 Custom caching tensor allocator",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5.4 Multiprocessing",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.5 Reference counting",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6 Evaluation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "6.1 Asynchronous dataflow",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6.2 Memory management",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6.3 Benchmarks",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6.4 Adoption",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusion and future work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "8 Acknowledgements",
+            "level": 0,
+            "page": 8
+        }
+    ],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 10,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 1,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "PyTorch: An Imperative Style, High-Performance\nDeep Learning Library",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 Background",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Design principles",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Usability centric design",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Deep learning models are just Python programs",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "4.2 Interoperability and extensibility",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4.3 Automatic differentiation",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "5 Performance focused implementation",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1 An efficient C++ core",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "5.2 Separate control and data flow",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5.3 Custom caching tensor allocator",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5.4 Multiprocessing",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.5 Reference counting",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6 Evaluation",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6.1 Asynchronous dataflow",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "6.2 Memory management",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "6.3 Benchmarks",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "6.4 Adoption",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "7 Conclusion and future work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "8 Acknowledgements",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        }
+    ]
+}

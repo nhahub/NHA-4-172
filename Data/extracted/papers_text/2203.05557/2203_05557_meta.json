@@ -1,0 +1,177 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 . Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 . Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 . Methodology",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 . Reviews of CLIP and CoOp",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 . CoCoOp: Conditional Context Optimization",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 . Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4.1 . Generalization From Base to New Classes",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 . Cross-Dataset Transfer",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.3 . Domain Generalization",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.4 . Further Analysis",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5 . Limitations",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "6 . Discussion and Conclusion",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "A . Results on DOSCO-2k",
+            "level": 0,
+            "page": 8
+        }
+    ],
+    "pages": 11,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Conditional Prompt Learning for Vision-Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3. Methodology",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1. Reviews of CLIP and CoOp",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2. CoCoOp: Conditional Context Optimization",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4. Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1. Generalization From Base to New Classes",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2. Cross-Dataset Transfer",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.3. Domain Generalization",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.4. Further Analysis",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5. Limitations",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6. Discussion and Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Appendix",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A. Results on DOSCO-2k",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        }
+    ]
+}

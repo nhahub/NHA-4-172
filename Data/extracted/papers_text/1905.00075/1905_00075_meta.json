@@ -1,0 +1,137 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Dataset",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Metadata",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Full Text",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3 Co-Citations",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3 Conclusion",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "A Logistic Regression Article Classification Baseline",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "A.1 Building Features",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "A.2 Training",
+            "level": 1,
+            "page": 6
+        }
+    ],
+    "pages": 7,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 6,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ON THE USE OF ARXIV AS ADATASET",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 DATASET",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 METADATA",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2.2 FULL TEXT",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.3 CO-CITATIONS",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3 CONCLUSION",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "ACKNOWLEDGEMENTS",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "A LOGISTIC REGRESSION ARTICLE CLASSIFICATION BASELINE",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "A.1 BUILDING FEATURES",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "A.2 TRAINING",
+            "level": 3,
+            "page": 6
+        }
+    ]
+}

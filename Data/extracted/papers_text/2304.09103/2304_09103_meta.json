@@ -1,0 +1,192 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background and Related Works",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 ChatGPT Applications, Opportunities, and Threats",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Business and Industry",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 Education",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.3 Science and Technology",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.4 Government and Politics",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "3.5 Healthcare and Medicine",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.6 Infrastructure",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.7 Environment and Sustainability",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.8 Communication",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "3.9 Arts and Culture",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "3.10 Lifestyle and Leisure",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4 Experimental Study",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusions",
+            "level": 0,
+            "page": 10
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 13,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ChatGPT: Applications, Opportunities, and Threats",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background and Related Works",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 ChatGPT Applications, Opportunities, and Threats",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 Business and Industry",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.2 Education",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.3 Science and Technology",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.4 Government and Politics",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "3.5 Healthcare and Medicine",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.6 Infrastructure",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.7 Environment and Sustainability",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.8 Communication",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "3.9 Arts and Culture",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "3.10 Lifestyle and Leisure",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "4 Experimental Study",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "5 Conclusions",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        }
+    ]
+}

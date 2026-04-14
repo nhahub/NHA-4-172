@@ -1,0 +1,152 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Framework",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Unsupervised pre-training",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Supervised fine-tuning",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Task-specific input transformations",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Setup",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Supervised fine-tuning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Analysis",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 7
+        }
+    ],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 6,
+        "equations": {
+            "successful_ocr": 10,
+            "unsuccessful_ocr": 1,
+            "equations": 11
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Improving Language Understanding\nby Generative Pre-Training",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Framework",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Unsupervised pre-training",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Supervised fine-tuning",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3 Task-specific input transformations",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.1 Setup",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.2 Supervised fine-tuning",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5 Analysis",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 7
+        }
+    ]
+}

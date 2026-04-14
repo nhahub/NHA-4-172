@@ -1,0 +1,121 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 3,
+        "ocr_failed": 0,
+        "ocr_success": 3,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 20,
+            "unsuccessful_ocr": 0,
+            "equations": 20
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Matching Patients to Clinical Trials with\nLarge Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Results",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Cohort characteristics",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "TrialGPT achieves a high criterion-level prediction accuracy",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "Aggregated TrialGPT scores correlate with trial-level eligibility",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "TrialGPT can effectively rank and exclude candidate clinical trials",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "Case study and error analysis",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "Discussions",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Methods",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "TrialGPT",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "Backbone LLM",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "Criterion-level prediction",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "level eligibility. The ",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Compared methods",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "Data availability",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 19
+        }
+    ]
+}

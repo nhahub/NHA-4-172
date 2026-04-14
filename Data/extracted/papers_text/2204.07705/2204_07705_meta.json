@@ -1,0 +1,166 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 25,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 17,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "SUPER-NATURALINSTRUCTIONS:\nGeneralization via Declarative Instructions on 1600+ NLP Tasks",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 SUPER-NATURALINSTRUCTIONS",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Tk-INSTRUCT: Learning to Follow\nInstructions at Scale",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5 Benchmarking Cross-Task\nGeneralization with SUP-NATINST",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "5.1 Evaluation Setup",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "5.2 Baselines and Existing Models",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6 Experimental Results",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.1 Overall Results",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "6.2 Human Evaluation",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "7 Further Analysis",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "7.1 Scaling Trends of Generalization",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "7.2 Instructing with Different Elements",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "9 Limitations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Supplemental Material",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "A Crowdsourcing Human Feedback",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B Crowdsourcing Human Judgements of\nGeneration Quality",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "C Instruction Schema",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "D Model Implementation Details",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "E Evaluation Metrics",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "F Distribution of Tasks",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "G Evaluation Tasks",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "H Performance Improvement per\nEvaluation Task",
+            "level": 2,
+            "page": 14
+        }
+    ]
+}

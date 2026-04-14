@@ -1,0 +1,181 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 1,
+            "unsuccessful_ocr": 0,
+            "equations": 1
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "IMAGEBIND: One Embedding Space To Bind Them All",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2. Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3. Method",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1. Preliminaries",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2. Binding modalities with images",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.3. Implementation Details",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4. Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1. Emergent zero-shot classification",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4.2. Comparison to prior work",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.3. Few-shot classification",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.4. Analysis and Applications",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "5. Ablation Study",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5.1. Scaling the Image Encoder",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2. Training Loss and Architecture",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "6. Discussion and Limitations",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A. Datasets and Metrics",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "A.1. Data Representations",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "B. Evaluation details",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "B.1. Inference implementation details",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "B.2. Few-shot evaluation details",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "B.3. Zero-shot evaluation details",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "B.4. Qualitative evaluation details",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "C. Pretraining details",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C.1. Best setup",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "C.2. Ablation setup",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "D. Additional Results",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "E. Additional Ablations",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "F. Ethical considerations",
+            "level": 2,
+            "page": 14
+        }
+    ]
+}

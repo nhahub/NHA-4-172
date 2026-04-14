@@ -1,0 +1,312 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Abstract",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Music Visualization",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Video Creation and Editing",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3 Generative AI in Creative Workflows",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Formative Study",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4 Designing with Generative Disco",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 The Generative Disco interface",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 System Implementation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5 Evaluation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "5.1 Experimental Design",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.2 Results",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.3 Quantitative Feedback on Generative Disco",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Qualitative Feedback",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "6.1 Multimodal Interactions with Music",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.2 Benefits of Workflow to Professionals",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "6.3 Usage of Transitions ",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "6.4 Creating Consistency throughout the Video.",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "7 Discussion",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "7.1 Connecting Sound, Language, and Image",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "7.2 Empowering professionals with AI",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "7.3 Future Work and Limitations",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "References",
+            "level": 0,
+            "page": 17
+        }
+    ],
+    "pages": 20,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 7,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Generative Disco: Text-to-Video Generation for Music\nVisualization",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "CCS CONCEPTS",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "KEYWORDS",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 RELATED WORK",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Music Visualization",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.2 Video Creation and Editing",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.3 Generative AI in Creative Workflows",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 FORMATIVE STUDY",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 DESIGNING WITH GENERATIVE DISCO",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 The Generative Disco interface",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.2 System Implementation",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5 EVALUATION",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Experimental Design",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.2 Results",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "5.3 Quantitative Feedback on Generative Disco",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 QUALITATIVE FEEDBACK",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6.1 Multimodal Interactions with Music",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "6.2 Benefits of Workflow to Professionals",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "my brain\u2013with no experience\u2013I didn't think that\nthat was possible.\" -P7",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "6.3 Usage of Transitions",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "6.4 Creating Consistency throughout the\nVideo.",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "7 DISCUSSION",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "7.1 Connecting Sound, Language, and Image",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "7.2 Empowering professionals with AI",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "7.3 Future Work and Limitations",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "8 CONCLUSION",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Woodstock '18, June 03\u201305, 2018, Woodstock, NY Liu et. al.",
+            "level": 4,
+            "page": 19
+        }
+    ]
+}

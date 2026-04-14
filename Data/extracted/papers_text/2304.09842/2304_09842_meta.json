@@ -1,0 +1,257 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "General Framework: Chameleon",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Applications of Chameleon",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Module Inventory",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Science Question Answering",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Tabular Mathematical Reasoning",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Experimental Results",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Qualitative Analysis",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Case Study",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Acknowledgment",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Current Tool-Augmented LLMs",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Experimental Details",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Experimental Results",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Limitations",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Broader Impacts",
+            "level": 0,
+            "page": 15
+        }
+    ],
+    "pages": 31,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 12,
+        "equations": {
+            "successful_ocr": 7,
+            "unsuccessful_ocr": 0,
+            "equations": 7
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Chameleon: Plug-and-Play Compositional Reasoning\nwith Large Language Models",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 General Framework: Chameleon",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 Applications of Chameleon",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Module Inventory ",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 Science Question Answering",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Tabular Mathematical Reasoning",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5 Experiments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5.1 Experimental Results",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5.2 Qualitative Analysis",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.3 Case Study",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "7 Acknowledgment",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Supplementary Materials for\nChameleon: Plug-and-Play Compositional Reasoning\nwith Large Language Models",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A.1 Current Tool-Augmented LLMs",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "A.2 Experimental Details",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "A.3 Experimental Results",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "B Limitations",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "C Broader Impacts",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Solution Generator:",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "Knowledge Retrieval:",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Table:",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "Correct Answer (Ground Truth): 151.60",
+            "level": 3,
+            "page": 29
+        }
+    ]
+}

@@ -1,0 +1,222 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Toolkit Overview",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "System Design",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Installation",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Data Format",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Continuous Pretraining",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Instruction Tuning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "RLHF as Finetuning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Efficient Tuning",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Inference",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "API Documentation",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Case Studies",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "Task Tuning",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Instruction Tuning",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Alignment Tuning",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "LMFlow Benchmark",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Conclusion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Comment 5.1 ",
+            "level": 0,
+            "page": 12
+        }
+    ],
+    "pages": 13,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 1,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LMFlow: An Extensible Toolkit for Finetuning and\nInference of Large Foundation Models",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Toolkit Overview",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 System Design",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Installation",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.3 Data Format",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.4 Continuous Pretraining",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.5 Instruction Tuning",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.6 RLHF as Finetuning",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.7 Efficient Tuning",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "2.8 Inference",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3 API Documentation",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 Case Studies",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Task Tuning",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.2 Instruction Tuning",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.3 Alignment Tuning",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": " LMFlow Benchmark\n5",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "HH-RLHF Examples",
+            "level": 4,
+            "page": 12
+        }
+    ]
+}

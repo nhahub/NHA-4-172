@@ -1,0 +1,1582 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "1.1 Our approach to studying GPT-4's intelligence",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "1.2 Organization of our demonstration",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "2 Multimodal and interdisciplinary composition",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "2.1 Integrative ability",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "2.2 Vision",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "2.3 Music",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "3 Coding",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "3.1 From instructions to code",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "3.2 Understanding existing code",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "4 Mathematical abilities",
+            "level": 0,
+            "page": 29
+        },
+        {
+            "title": "4.1 A mathematical conversation with GPT-4",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "4.2 Performance on mathematical problem datasets",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "4.3 Mathematical modeling in various domains",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "4.4 Higher-level mathematics",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "5 Interaction with the world",
+            "level": 0,
+            "page": 42
+        },
+        {
+            "title": "5.1 Tool use",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "5.2 Embodied Interaction",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "6 Interaction with humans",
+            "level": 0,
+            "page": 53
+        },
+        {
+            "title": "6.1 Understanding Humans: Theory of Mind",
+            "level": 1,
+            "page": 53
+        },
+        {
+            "title": "6.2 Talking to Humans: Explainability",
+            "level": 1,
+            "page": 59
+        },
+        {
+            "title": "7 Discriminative capabilities",
+            "level": 0,
+            "page": 68
+        },
+        {
+            "title": "7.1 PII Detection",
+            "level": 1,
+            "page": 68
+        },
+        {
+            "title": "7.2 Misconceptions and Fact-Checking",
+            "level": 1,
+            "page": 69
+        },
+        {
+            "title": "8 Limitations of autoregressive architecture highlighted by GPT-4",
+            "level": 0,
+            "page": 75
+        },
+        {
+            "title": "8.1 Warm-up with two basic examples",
+            "level": 1,
+            "page": 75
+        },
+        {
+            "title": "8.2 Lack of planning in arithmetic/reasoning problems",
+            "level": 1,
+            "page": 76
+        },
+        {
+            "title": "8.3 Lack of planning in text generation",
+            "level": 1,
+            "page": 77
+        },
+        {
+            "title": "9 Societal influences",
+            "level": 0,
+            "page": 81
+        },
+        {
+            "title": "9.1 Challenges of erroneous generations",
+            "level": 1,
+            "page": 81
+        },
+        {
+            "title": "9.2 Misinformation and manipulation",
+            "level": 1,
+            "page": 82
+        },
+        {
+            "title": "9.3 Bias",
+            "level": 1,
+            "page": 85
+        },
+        {
+            "title": "9.4 Human expertise, jobs, and economics",
+            "level": 1,
+            "page": 88
+        },
+        {
+            "title": "9.5 Constellation of influences and considerations",
+            "level": 1,
+            "page": 89
+        },
+        {
+            "title": "10 Directions and Conclusions",
+            "level": 0,
+            "page": 91
+        },
+        {
+            "title": "10.1 Definitions of intelligence, AI, and AGI",
+            "level": 1,
+            "page": 91
+        },
+        {
+            "title": "10.2 On the path to more general artificial intelligence",
+            "level": 1,
+            "page": 92
+        },
+        {
+            "title": "10.3 What is actually happening?",
+            "level": 1,
+            "page": 93
+        },
+        {
+            "title": "A GPT-4 has common sense grounding",
+            "level": 0,
+            "page": 100
+        },
+        {
+            "title": "B Appendix for multimodal and interdisciplinary composition",
+            "level": 0,
+            "page": 104
+        },
+        {
+            "title": "B.1 Further details on integrative ability results",
+            "level": 1,
+            "page": 104
+        },
+        {
+            "title": "B.2 Further details on vision results",
+            "level": 1,
+            "page": 107
+        },
+        {
+            "title": "B.3 Graphic novel design example",
+            "level": 1,
+            "page": 109
+        },
+        {
+            "title": "C Appendix for the Coding section",
+            "level": 0,
+            "page": 110
+        },
+        {
+            "title": "C.1 Measuring human performance on LeetCode",
+            "level": 1,
+            "page": 110
+        },
+        {
+            "title": "C.2 Example of GPT-4 visualizing IMDb data.",
+            "level": 1,
+            "page": 111
+        },
+        {
+            "title": "C.3 More examples on visualization",
+            "level": 1,
+            "page": 114
+        },
+        {
+            "title": "C.4 Example for 2D HTML game development",
+            "level": 1,
+            "page": 115
+        },
+        {
+            "title": "C.5 Example for graphical user interface programming",
+            "level": 1,
+            "page": 115
+        },
+        {
+            "title": "C.6 Example for reverse engineering",
+            "level": 1,
+            "page": 118
+        },
+        {
+            "title": "C.7 Testing GPT-4's ability to execute (pseudo) code",
+            "level": 1,
+            "page": 120
+        },
+        {
+            "title": "D Additional examples for mathematical reasoning",
+            "level": 0,
+            "page": 121
+        },
+        {
+            "title": "D.1 Limitations",
+            "level": 1,
+            "page": 121
+        },
+        {
+            "title": "D.2 Further examples",
+            "level": 1,
+            "page": 125
+        },
+        {
+            "title": "D.3 Generating math problems with GPT-4",
+            "level": 1,
+            "page": 137
+        },
+        {
+            "title": "D.4 Mitigating calculation errors via external code execution",
+            "level": 1,
+            "page": 138
+        },
+        {
+            "title": "E Additional Interpretability Examples",
+            "level": 0,
+            "page": 140
+        },
+        {
+            "title": "E.1 Explanation Agent Mismatches",
+            "level": 1,
+            "page": 140
+        },
+        {
+            "title": "F Additional examples for interaction with the world",
+            "level": 0,
+            "page": 143
+        },
+        {
+            "title": "F.1 Interact with tools",
+            "level": 1,
+            "page": 143
+        },
+        {
+            "title": "F.2 Examples for interaction with environments",
+            "level": 1,
+            "page": 148
+        },
+        {
+            "title": "G Supplementary Materials: Discriminative Capabilities",
+            "level": 0,
+            "page": 154
+        },
+        {
+            "title": "G.1 Misconceptions: Detailed Results",
+            "level": 1,
+            "page": 154
+        }
+    ],
+    "pages": 155,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 13,
+        "table": 35,
+        "equations": {
+            "successful_ocr": 26,
+            "unsuccessful_ocr": 6,
+            "equations": 32
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Sparks of Artificial General Intelligence:\nEarly experiments with GPT-4",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Contents",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "GPT-4:",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "ChatGPT",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "1.1 Our approach to studying GPT-4's intelligence",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "1.2 Organization of our demonstration",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "2 Multimodal and interdisciplinary composition",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "2.1 Integrative ability",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "2.2 Vision",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "2.2.1 Image generation beyond memorization",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "2.2.2 Image generation following detailed instructions (`a la Dall-E)",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "2.2.3 Possible application in sketch generation",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "GPT-4 and Stable Diffusion",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "2.3 Music",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "3 Coding",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "3.1 From instructions to code",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "3.1.1 Coding challenges",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "GPT-4:\n\n![21_image_0.png](21_image_0.png)\n\n",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "3.1.2 Real world scenarios",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "3.2 Understanding existing code",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "ChatGPT:\n\n![27_image_8.png](27_image_8.png)\n\n",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Figure 3.7: GPT-4 executes Python code.\n\n![27_image_9.png](27_image_9.png)\n\n\n\n![27_image_10.png](27_image_10.png)\n\n\n\n![27_image_11.png](27_image_11.png)\n\n",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "GPT-4:\n\n![28_image_2.png](28_image_2.png)\n\n",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "Figure 3.8: GPT-4 executes pseudo-code.\n\n![28_image_1.png](28_image_1.png)\n\n\n\n![28_image_3.png](28_image_3.png)\n\n",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "4 Mathematical abilities",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "4.1 A mathematical conversation with GPT-4",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "4.1.1 A first generalization of the original question",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "GPT-4\n\n![30_image_0.png](30_image_0.png)\n\n",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "4.1.2 A second variant of the original question",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "4.1.3 Analysis of the limitations highlighted by conversation",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "4.2 Performance on mathematical problem datasets",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "GPT-4 Generating Template",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "GPT-4 memorization test by alternating the numbers",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "Prompt:",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "4.3 Mathematical modeling in various domains",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "Figure 4.5: GPT-4 answers Fermi questions.\n\n![38_image_1.png](38_image_1.png)\n\n",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "4.4 Higher-level mathematics",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 39
+        },
+        {
+            "title": "GPT-4:",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "Figure 4.6: A discussion regarding k-SAT problems and graph theory.",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "5 Interaction with the world",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "5.1 Tool use",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "GPT-4: tool warmup",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "5.1.1 Using multiple tools to solve more complex tasks",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "5.1.2 Discussion",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "5.2 Embodied Interaction",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "5.2.1 Warmup: navigating a map",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "5.2.2 Text-based games",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "GPT-4 fails to use unusual tools",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "5.2.3 Real world problems",
+            "level": 2,
+            "page": 51
+        },
+        {
+            "title": "5.2.4 Discussion",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "6 Interaction with humans",
+            "level": 1,
+            "page": 53
+        },
+        {
+            "title": "6.1 Understanding Humans: Theory of Mind",
+            "level": 1,
+            "page": 53
+        },
+        {
+            "title": "6.1.1 Testing specific aspects of theory of mind",
+            "level": 2,
+            "page": 53
+        },
+        {
+            "title": "6.1.2 Testing theory of mind in realistic scenarios",
+            "level": 2,
+            "page": 53
+        },
+        {
+            "title": "GPT-4: Understanding beliefs",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "GPT-4: Understanding emotions",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "GPT-4: Understanding intentions",
+            "level": 2,
+            "page": 55
+        },
+        {
+            "title": "GPT-4:",
+            "level": 4,
+            "page": 55
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 4,
+            "page": 55
+        },
+        {
+            "title": "GPT-4 and ChatGPT: Realistic Scenario 1",
+            "level": 2,
+            "page": 56
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 56
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 56
+        },
+        {
+            "title": "GPT-4: Realistic scenario 2",
+            "level": 2,
+            "page": 57
+        },
+        {
+            "title": "ChatGPT: Realistic scenario 2",
+            "level": 2,
+            "page": 58
+        },
+        {
+            "title": "6.1.3 Discussion",
+            "level": 2,
+            "page": 59
+        },
+        {
+            "title": "6.2 Talking to Humans: Explainability",
+            "level": 1,
+            "page": 59
+        },
+        {
+            "title": "Output-consistent explanation for wrong answer \u2014 GPT-4",
+            "level": 2,
+            "page": 61
+        },
+        {
+            "title": "Explanation of Poetry Writing \u2014 GPT-4 vs text-davinci-003",
+            "level": 1,
+            "page": 62
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 62
+        },
+        {
+            "title": "Testing Poetry Writing Explanations for Process Consistency",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "Prompt Prefix 1:",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "Prompt Prefix 2",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "Process-Inconsistent explanations\u2014 GPT-4",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "Explanation of Music Composition \u2014 GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "GPT-4:",
+            "level": 3,
+            "page": 65
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 3,
+            "page": 65
+        },
+        {
+            "title": "GPT-4 checks its own explanation for process-consistency",
+            "level": 2,
+            "page": 67
+        },
+        {
+            "title": "7 Discriminative capabilities",
+            "level": 1,
+            "page": 68
+        },
+        {
+            "title": "7.1 PII Detection",
+            "level": 1,
+            "page": 68
+        },
+        {
+            "title": "7.2 Misconceptions and Fact-Checking",
+            "level": 1,
+            "page": 69
+        },
+        {
+            "title": "7.2.1 Why Are Current Metrics Insufficient?",
+            "level": 2,
+            "page": 70
+        },
+        {
+            "title": "7.2.2 GPT-4 as a Judge",
+            "level": 2,
+            "page": 72
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 73
+        },
+        {
+            "title": "8 Limitations of autoregressive architecture highlighted by GPT-4",
+            "level": 1,
+            "page": 75
+        },
+        {
+            "title": "8.1 Warm-up with two basic examples",
+            "level": 1,
+            "page": 75
+        },
+        {
+            "title": "8.2 Lack of planning in arithmetic/reasoning problems",
+            "level": 1,
+            "page": 76
+        },
+        {
+            "title": "8.3 Lack of planning in text generation",
+            "level": 1,
+            "page": 77
+        },
+        {
+            "title": "GPT-4",
+            "level": 3,
+            "page": 78
+        },
+        {
+            "title": "9 Societal influences",
+            "level": 1,
+            "page": 81
+        },
+        {
+            "title": "9.1 Challenges of erroneous generations",
+            "level": 1,
+            "page": 81
+        },
+        {
+            "title": "9.2 Misinformation and manipulation",
+            "level": 1,
+            "page": 82
+        },
+        {
+            "title": "Pre-alignment model",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "Pre-alignment model",
+            "level": 2,
+            "page": 85
+        },
+        {
+            "title": "9.3 Bias",
+            "level": 1,
+            "page": 85
+        },
+        {
+            "title": "9.4 Human expertise, jobs, and economics",
+            "level": 1,
+            "page": 88
+        },
+        {
+            "title": "9.5 Constellation of influences and considerations",
+            "level": 1,
+            "page": 89
+        },
+        {
+            "title": "10 Directions and Conclusions",
+            "level": 1,
+            "page": 91
+        },
+        {
+            "title": "10.1 Definitions of intelligence, AI, and AGI",
+            "level": 1,
+            "page": 91
+        },
+        {
+            "title": "10.2 On the path to more general artificial intelligence",
+            "level": 1,
+            "page": 92
+        },
+        {
+            "title": "10.3 What is actually happening?",
+            "level": 1,
+            "page": 93
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 95
+        },
+        {
+            "title": "A GPT-4 has common sense grounding",
+            "level": 1,
+            "page": 100
+        },
+        {
+            "title": "Figure A.1",
+            "level": 2,
+            "page": 100
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 101
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 101
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 101
+        },
+        {
+            "title": "Figure A.2\n\n![101_image_0.png](101_image_0.png)\n\n\n\n![101_image_1.png](101_image_1.png)\n\n\n\n![101_image_2.png](101_image_2.png)\n\n",
+            "level": 2,
+            "page": 101
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 101
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 101
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 101
+        },
+        {
+            "title": "jaguar.",
+            "level": 4,
+            "page": 101
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 102
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 102
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 102
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 102
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 3,
+            "page": 102
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 102
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 103
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 103
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 103
+        },
+        {
+            "title": "B Appendix for multimodal and interdisciplinary composition",
+            "level": 1,
+            "page": 104
+        },
+        {
+            "title": "GPT-4 (some lines are merged for space saving)",
+            "level": 2,
+            "page": 104
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 106
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 106
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 107
+        },
+        {
+            "title": "B.2 Further details on vision results",
+            "level": 2,
+            "page": 107
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 107
+        },
+        {
+            "title": "ChatGPT",
+            "level": 2,
+            "page": 108
+        },
+        {
+            "title": "GPT-4",
+            "level": 3,
+            "page": 109
+        },
+        {
+            "title": "C Appendix for the Coding section",
+            "level": 1,
+            "page": 110
+        },
+        {
+            "title": "C.1 Measuring human performance on LeetCode",
+            "level": 1,
+            "page": 110
+        },
+        {
+            "title": "C.2 Example of GPT-4 visualizing IMDb data.",
+            "level": 1,
+            "page": 111
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 114
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 114
+        },
+        {
+            "title": "GPT-4",
+            "level": 3,
+            "page": 115
+        },
+        {
+            "title": "C.5 Example for graphical user interface programming",
+            "level": 1,
+            "page": 115
+        },
+        {
+            "title": "C.6 Example for reverse engineering",
+            "level": 1,
+            "page": 118
+        },
+        {
+            "title": "C.7 Testing GPT-4's ability to execute (pseudo) code",
+            "level": 1,
+            "page": 120
+        },
+        {
+            "title": "D Additional examples for mathematical reasoning",
+            "level": 1,
+            "page": 121
+        },
+        {
+            "title": "D.1 Limitations",
+            "level": 1,
+            "page": 121
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 122
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 122
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 122
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 124
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 124
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 124
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 124
+        },
+        {
+            "title": "D.2 Further examples",
+            "level": 1,
+            "page": 125
+        },
+        {
+            "title": "D.2.1 Algebra",
+            "level": 2,
+            "page": 125
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 126
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 126
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 127
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 127
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 127
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 129
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 129
+        },
+        {
+            "title": "D.2.2 Geometry",
+            "level": 2,
+            "page": 129
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 130
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 131
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 131
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 132
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 132
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 132
+        },
+        {
+            "title": "D.2.3 Calculus",
+            "level": 2,
+            "page": 132
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 133
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 134
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 134
+        },
+        {
+            "title": "If xy = ln(x + y), what is dy",
+            "level": 3,
+            "page": 134
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 135
+        },
+        {
+            "title": "D.2.4 Mathematical modeling",
+            "level": 2,
+            "page": 136
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 136
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 136
+        },
+        {
+            "title": "GPT-4:",
+            "level": 3,
+            "page": 136
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 136
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 137
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 137
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 137
+        },
+        {
+            "title": "...",
+            "level": 4,
+            "page": 137
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 137
+        },
+        {
+            "title": "D.3 Generating math problems with GPT-4",
+            "level": 1,
+            "page": 137
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "GPT-4 vs ChatGPT",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "ChatGPT:",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "D.4 Mitigating calculation errors via external code execution",
+            "level": 1,
+            "page": 138
+        },
+        {
+            "title": "Prompt:",
+            "level": 2,
+            "page": 139
+        },
+        {
+            "title": "GPT-4:",
+            "level": 2,
+            "page": 139
+        },
+        {
+            "title": "GPT-4",
+            "level": 3,
+            "page": 141
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 141
+        },
+        {
+            "title": "GPT-4 vs text-davinci-003",
+            "level": 2,
+            "page": 142
+        },
+        {
+            "title": "F Additional examples for interaction with the world",
+            "level": 1,
+            "page": 143
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 143
+        },
+        {
+            "title": "GPT-4 lists its own tools",
+            "level": 2,
+            "page": 144
+        },
+        {
+            "title": "GPT-4",
+            "level": 2,
+            "page": 145
+        },
+        {
+            "title": "F.1.1 The zoo game in Section 5.1.1",
+            "level": 2,
+            "page": 146
+        },
+        {
+            "title": "GPT-4 excerpt",
+            "level": 3,
+            "page": 146
+        },
+        {
+            "title": "F.1.2 The zoo game in Section 5.1.1 with more guidelines",
+            "level": 2,
+            "page": 147
+        },
+        {
+            "title": "GPT-4 excerpt",
+            "level": 3,
+            "page": 147
+        },
+        {
+            "title": "F.2 Examples for interaction with environments",
+            "level": 1,
+            "page": 148
+        },
+        {
+            "title": "F.2.1 The first game in Section 5.2.2",
+            "level": 2,
+            "page": 148
+        },
+        {
+            "title": "GPT-4: Page 1",
+            "level": 3,
+            "page": 148
+        },
+        {
+            "title": "GPT-4: Page 2",
+            "level": 3,
+            "page": 149
+        },
+        {
+            "title": "F.2.2 The first game in Section 5.2.2 by text-davinci-003",
+            "level": 2,
+            "page": 150
+        },
+        {
+            "title": "text-davinci-003",
+            "level": 3,
+            "page": 150
+        },
+        {
+            "title": "GPT-4: Page 1",
+            "level": 3,
+            "page": 151
+        },
+        {
+            "title": "GPT-4: Page 2",
+            "level": 3,
+            "page": 152
+        },
+        {
+            "title": "F.2.4 The second game in Section 5.2.2 with 1-shot",
+            "level": 2,
+            "page": 153
+        },
+        {
+            "title": "GPT-4 excerpt",
+            "level": 3,
+            "page": 153
+        },
+        {
+            "title": "G Supplementary Materials: Discriminative Capabilities",
+            "level": 1,
+            "page": 154
+        },
+        {
+            "title": "G.1 Misconceptions: Detailed Results",
+            "level": 1,
+            "page": 154
+        }
+    ]
+}

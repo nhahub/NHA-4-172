@@ -1,0 +1,176 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 13,
+        "equations": {
+            "successful_ocr": 9,
+            "unsuccessful_ocr": 0,
+            "equations": 9
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Pretraining Without Attention",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Background",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 State Space Models",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.2 Learning SSMs",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "3.3 Multiplicative Gating",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 BiGS Model",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "5 Experimental Setup",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "6 Results",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "6.1 GLUE",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "6.2 Long-Form Classification",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "7 Analysis",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "7.1 Role of SSM",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "7.2 Role of Gating",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "7.3 Syntactic Analysis",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "agreement phenomena.",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "7.4 Efficiency and FLOP Analysis",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "8 Limitations",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "9 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "10 Ethical Considerations",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "11 Acknowledgement",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "A.1 Pre-training Procedure",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "A.2 Downstream Tasks",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "A.2.1 GLUE",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "A.2.2 Other tasks",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "A.3 Annotated CoLA",
+            "level": 3,
+            "page": 10
+        }
+    ]
+}

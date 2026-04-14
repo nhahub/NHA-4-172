@@ -1,0 +1,247 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Problem Definition and Background",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4 An Optimal Greedy Solver for Sparsity",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "5 The Optimal Brain Quantizer (OBQ)",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "6 Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "7 Conclusions & Future Work",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "8 Acknowledgements",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "A Appendix",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "A.1 Proof of Lemma 1 (Row & Column Removal)",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A.2 ExactOBS Global Step Pseudocode",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A.3 OBQ-ExactOBS Algorithm Pseudocode",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A.4 Further Experiment Details",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "A.5 Timing Information",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "A.6 Multiple AdaPrune Iterations",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "A.7 Independent Quantization Comparison",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "A.8 Sequential Quantization with OBQ",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "A.9 Impact of ImageNet Data Augmentations",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "A.10 Sensitivity to Random Seeds",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "A.11 Compound Compression Comparisons",
+            "level": 1,
+            "page": 18
+        }
+    ],
+    "pages": 20,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 14,
+        "equations": {
+            "successful_ocr": 21,
+            "unsuccessful_ocr": 2,
+            "equations": 23
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Optimal Brain Compression: A Framework for\nAccurate Post-Training Quantization and Pruning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Problem Definition and Background",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4 An Optimal Greedy Solver for Sparsity",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "5 The Optimal Brain Quantizer (OBQ)",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6 Experiments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "7 Conclusions & Future Work",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "8 Acknowledgements",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Contents",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "A Appendix",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "A.1 Proof of Lemma 1 (Row & Column Removal)",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "A.2 ExactOBS Global Step Pseudocode",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "A.3 OBQ-ExactOBS Algorithm Pseudocode",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "A.4 Further Experiment Details",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "A.5 Timing Information",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "A.6 Multiple AdaPrune Iterations",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "A.7 Independent Quantization Comparison",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "A.8 Sequential Quantization with OBQ",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "A.9 Impact of ImageNet Data Augmentations",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "A.10 Sensitivity to Random Seeds",
+            "level": 4,
+            "page": 18
+        },
+        {
+            "title": "A.11 Compound Compression Comparisons",
+            "level": 4,
+            "page": 18
+        }
+    ]
+}

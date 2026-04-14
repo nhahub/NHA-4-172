@@ -1,0 +1,572 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Contributions and Motivations",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Preliminaries",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Transformer Architecture",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Attention Mechanism",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Multi-head attention",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Architecture of the Transformer Model",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Encoder module",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Decoder module",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Research Methodology",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Related Work ",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "TRANSFORMER APPLICATIONS ",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "APPLICATION-BASED CLASSIFICATION TAXONOMY OF TRANSFORMERS",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "Natural Language Processing (NLP)",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Language Translation",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Classification & Segmentation",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Question Answering",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Text Summarization",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Text Generation",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Natural Language Reasoning",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Automated symbolic reasoning",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Computer Vision",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Natural Image processing",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Image Classification",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Image Recognition & Object Detection",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": " Image Segmentation",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": " Image Generation",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Medical Image processing",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "Medical Image Segmentation",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Medical Image Classification",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "Medical Image Translation",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "Multi-Modality",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Visual Question Answering",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "Classification & Segmentation",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Visual Captioning",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "Visual Commonsense Reasoning",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "Image/Video/Speech Generation",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "Cloud computing",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "Audio & Speech",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "Speech Recognition",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "Speech Separation",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "Speech Classification",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "Signal Processing",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Wireless Network & Signal Processing",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "Medical Signal processing",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "Future Prospects and Challenges",
+            "level": 0,
+            "page": 44
+        },
+        {
+            "title": "Transformers in Wireless Network and Cloud Computing",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "Medical Image & Signal Processing",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "Reinforcement Learning",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "Other Prospects",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 47
+        }
+    ],
+    "pages": 58,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 43,
+        "equations": {
+            "successful_ocr": 3,
+            "unsuccessful_ocr": 0,
+            "equations": 3
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A COMPREHENSIVE SURVEY ON APPLICATIONS OF\nTRANSFORMERS FOR DEEP LEARNING TASKS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1.1 CONTRIBUTIONS AND MOTIVATIONS",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "2 PRELIMINARIES",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 TRANSFORMER ARCHITECTURE",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.1.1 ATTENTION MECHANISM",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.1.2 MULTI-HEAD ATTENTION",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "MultiHead(Q, K, V ) = Concat(head1, head2, ....headH)W0",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.2 ARCHITECTURE OF THE TRANSFORMER MODEL",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "2.2.1 ENCODER MODULE",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "headk = Attention(QWkQ, KWkK, V WkV )",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.2.2 DECODER MODULE",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3 RESEARCH METHODOLOGY",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4 RELATED WORK",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5 TRANSFORMER APPLICATIONS",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6 APPLICATION-BASED CLASSIFICATION TAXONOMY OF TRANSFORMERS",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6.1 NATURAL LANGUAGE PROCESSING (NLP)",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "6.1.1 LANGUAGE TRANSLATION",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "6.1.2 CLASSIFICATION & SEGMENTATION",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "6.1.3 QUESTION ANSWERING",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "6.1.4 TEXT SUMMARIZATION",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "6.1.5 TEXT GENERATION",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "6.1.6 NATURAL LANGUAGE REASONING",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "6.1.7 AUTOMATED SYMBOLIC REASONING",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "6.2 COMPUTER VISION",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "6.2.1 NATURAL IMAGE PROCESSING",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "6.2.2 IMAGE CLASSIFICATION",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "6.2.3 IMAGE RECOGNITION & OBJECT DETECTION",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "6.2.4 IMAGE SEGMENTATION",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "6.2.5 IMAGE GENERATION",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "6.3 MEDICAL IMAGE PROCESSING",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "6.3.1 MEDICAL IMAGE SEGMENTATION",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "6.3.2 MEDICAL IMAGE CLASSIFICATION",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "6.3.3 MEDICAL IMAGE TRANSLATION",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "6.4 MULTI-MODALITY",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "6.4.1 VISUAL QUESTION ANSWERING",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "6.4.2 CLASSIFICATION & SEGMENTATION",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "6.4.3 VISUAL CAPTIONING",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "6.4.4 VISUAL COMMONSENSE REASONING",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "6.4.5 IMAGE/VIDEO/SPEECH GENERATION",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "6.4.6 CLOUD COMPUTING",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "6.5 AUDIO & SPEECH",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "6.5.1 SPEECH RECOGNITION",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "6.5.2 SPEECH SEPARATION",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "6.5.3 SPEECH CLASSIFICATION",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "6.6 SIGNAL PROCESSING",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "6.6.1 WIRELESS NETWORK & SIGNAL PROCESSING",
+            "level": 3,
+            "page": 42
+        },
+        {
+            "title": "6.6.2 MEDICAL SIGNAL PROCESSING",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "\u2022 Epilepsy disease case:",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "7 FUTURE PROSPECTS AND CHALLENGES",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "Scope of future work for the wireless Signal communication:",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "Future possibilities for the Cloud:",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "7.2 MEDICAL IMAGE & SIGNAL PROCESSING",
+            "level": 3,
+            "page": 46
+        },
+        {
+            "title": "7.3 REINFORCEMENT LEARNING",
+            "level": 3,
+            "page": 46
+        },
+        {
+            "title": "7.4 OTHER PROSPECTS",
+            "level": 3,
+            "page": 47
+        },
+        {
+            "title": "8 CONCLUSION",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 47
+        }
+    ]
+}

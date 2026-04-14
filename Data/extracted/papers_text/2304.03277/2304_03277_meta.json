@@ -1,0 +1,177 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Dataset",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Instruction-Tuning Language Models",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "3.1 Self-Instruct Tuning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "3.2 Reward Models",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Experimental Results",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4.1 Benchmarks",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.2 Human Evaluation with Alignment Criteria",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.3 Comparisons with SoTA using Automatic Evaluation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5 Related Work",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "6 Conclusions",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "A Implementation Details",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "A.1 Human Evaluation",
+            "level": 1,
+            "page": 11
+        }
+    ],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 0,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "INSTRUCTION TUNING WITH GPT-4",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 DATASET",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 INSTRUCTION-TUNING LANGUAGE MODELS",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 SELF-INSTRUCT TUNING",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 REWARD MODELS",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 EXPERIMENTAL RESULTS",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "4.1 BENCHMARKS",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4.2 HUMAN EVALUATION WITH ALIGNMENT CRITERIA",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.3 COMPARISONS WITH SOTA USING AUTOMATIC EVALUATION",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5 RELATED WORK",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "6 CONCLUSIONS",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "REFERENCES",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "A IMPLEMENTATION DETAILS",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "A.1 HUMAN EVALUATION",
+            "level": 4,
+            "page": 11
+        }
+    ]
+}

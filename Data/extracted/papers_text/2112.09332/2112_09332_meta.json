@@ -1,0 +1,432 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Environment design",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Methods",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3.1 Data collection",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.2 Training",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "4.1 ELI5",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.2 TruthfulQA",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.3 TriviaQA",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5 Experiments",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "5.1 Comparison of training methods",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.2 Scaling experiments",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Discussion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "6.1 Truthfulness of WebGPT",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6.2 Perceived truthfulness of WebGPT",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.3 Reinforcement of bias",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "6.4 Using references to evaluate factual accuracy",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "6.5 Risks of live web access",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "7 Related work",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "9 Author contributions",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "10 Acknowledgments",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "A Environment design details",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "B Question dataset details",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "C Data collection details",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "C.1 Demonstrations",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "C.2 Comparisons",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "D Contractor survey",
+            "level": 0,
+            "page": 18
+        },
+        {
+            "title": "E Hyperparameters",
+            "level": 0,
+            "page": 19
+        },
+        {
+            "title": "F Minimal comparison instructions",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "G TriviaQA evaluation",
+            "level": 0,
+            "page": 23
+        },
+        {
+            "title": "H Analysis of effect of question stance and reference point bias",
+            "level": 0,
+            "page": 24
+        },
+        {
+            "title": "H.1 Effect of question stance on factual accuracy and answer stance",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "H.2 Reference point bias",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "I Predicting rejection sampling performance",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "J References for example answer and alternative answers",
+            "level": 0,
+            "page": 28
+        },
+        {
+            "title": "K Comparison dataset release details",
+            "level": 0,
+            "page": 31
+        }
+    ],
+    "pages": 32,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 15,
+        "equations": {
+            "successful_ocr": 5,
+            "unsuccessful_ocr": 0,
+            "equations": 5
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "WebGPT: Browser-assisted question-answering with\nhuman feedback",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Environment design",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Methods",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Data collection",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Training",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 Evaluation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 ELI5",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 TruthfulQA",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.3 TriviaQA",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5 Experiments",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5.1 Comparison of training methods",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "5.2 Scaling experiments",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "6 Discussion",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "6.1 Truthfulness of WebGPT",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "6.2 Perceived truthfulness of WebGPT",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "6.3 Reinforcement of bias",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "6.4 Using references to evaluate factual accuracy",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "6.5 Risks of live web access",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "7 Related work",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "9 Author contributions",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "10 Acknowledgments",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "A Environment design details",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "B Question dataset details",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "C Data collection details",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "C.1 Demonstrations",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "C.2 Comparisons",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "D Contractor survey",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "E Hyperparameters",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "F Minimal comparison instructions",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Comparing answers (minimal version)",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "FAQ",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "G TriviaQA evaluation",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "H Analysis of effect of question stance and reference point bias",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "H.1 Effect of question stance on factual accuracy and answer stance",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "H.2 Reference point bias",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "I Predicting rejection sampling performance",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "J References for example answer and alternative answers",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "[2] Why Are Some Words 'Bad'? | Vermont Public Radio (www.vpr.org)",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "[3] Why Are Some Words 'Bad'? | Vermont Public Radio (www.vpr.org)",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "K Comparison dataset release details",
+            "level": 1,
+            "page": 31
+        }
+    ]
+}

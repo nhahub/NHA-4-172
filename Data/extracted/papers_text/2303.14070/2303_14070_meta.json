@@ -1,0 +1,312 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Objective",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Methods",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Conclusion",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Materials And Methods",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Collection and preparation of patient-physician conversation dataset",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "FIGURE 1: A summary of the process involved in gathering the patient-physician conversation dataset and the steps involved in training the ChatDoctor model.",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "Creation of external knowledge database",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "FIGURE 2: Overview of the autonomous ChatDoctor model based on information retrieval from an external knowledge brain.",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "FIGURE 3: Some samples in our offline disease database consist of symptoms, clinical test/treatment approaches, and medication suggestions.",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "Development of autonomous ChatDoctor with knowledge brain",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "FIGURE 4: Autonomously extract keywords for information retrieval.",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "FIGURE 5: Autonomous information retrieval from the disease database through the prompt.",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "FIGURE 6: Instruct the ChatDoctor to read the retrieved domain knowledge and provide a reliable answer.",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "Model training",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Results",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "FIGURE 7: Comparison between the ChatGPT and the autonomous ChatDoctor for relatively new medical diseases/terms. The ChatGPT cannot recognize the word Mpox (aka, Monkeypox), while our ChatDoctor can provide the precise answer for the relevant medical tests of Mpox, with the help of the external knowledge brain.",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "FIGURE 8: Comparison between the ChatGPT and the autonomous ChatDoctor. The ChatGPT provided a more general answer about otitis, while the ChatDoctor provided a more specialized response about the treatments of otitis, with the help of the external knowledge brain.",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "FIGURE 9: Comparison between the ChatGPT and the autonomous ChatDoctor. The ChatGPT is unfamiliar with the \u201cDaybue\u201d medication which received approval from the Food and Drug Administration (FDA) in early 2023. The ChatDoctor accurately pointed out the purpose of Daybue (trofinetide), with the help of the external knowledge brain.",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "TABLE 1: Quantitative comparison with BERTScore between ChatDoctor and ChatGPT. The p-values in the table are derived from our paired t-test.",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "FIGURE 10: Example 1: a patient suffering from a unilateral headache expressed concerns about a potential association with a brain tumor. Our ChatDoctor accurately proposed sinusitis as a possible cause for the headache, mirroring the diagnosis provided by the physician from iCliniq. On the other hand, ChatGPT failed to deliver a congruent interpretation regarding the root cause of the one-sided headache.",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "FIGURE 11: Example 2: a patient reported having a white lump in their throat for several months and expressed concerns about potential cancer. All three entities, iCliniq, ChatGPT, and ChatDoctor suggested that the patient could be dealing with abnormally enlarged lymph nodes. Both iCliniq and ChatDoctor additionally recommended that a biopsy and radiological diagnosis would be necessary if initial treatments proved unsuccessful. However, ChatGPT's response was limited to advising the patient to consult with an Ear, Nose, and Throat (ENT) specialist.",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "FIGURE 12: Example 3: a patient reported experiencing a sharp back pain during exercise, which intensified during breathing and rotation of the torso or neck. The patient was unsure whether urgent medical attention was necessary. ChatDoctor generated a closer answer to iCliniq than ChatGPT.",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "FIGURE 13: Example 4: a patient experienced blurred vision and was particularly concerned about the health of their left eye. Taking into consideration the patient's past medical history of retinal detachment, all three sources\u2014iCliniq, ChatGPT, and ChatDoctor\u2014advised the individual to seek professional consultation with ophthalmologists for a comprehensive assessment and swift treatment. Due to possible limitations in providing medical diagnoses (and advice), ChatGPT did not speculate on the cause of the diminished vision. On the other hand, both iCliniq and ChatDoctor identified the possibility of retinal detachment or bleeding as potential issues.",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Discussion",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Limitations",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Conclusions",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Additional Information",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Disclosures",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 11
+        }
+    ],
+    "pages": 12,
+    "ocr_stats": {
+        "ocr_pages": 5,
+        "ocr_failed": 0,
+        "ocr_success": 5,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ChatDoctor: A Medical Chat Model Fine-Tuned on\na Large Language Model Meta-AI (LLaMA) Using\nMedical Domain Knowledge",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Objective",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Methods",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Results",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Conclusion",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Materials And Methods",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "Collection and preparation of patient-physician conversation dataset",
+            "level": 3,
+            "page": 1
+        },
+        {
+            "title": "Creation of external knowledge database",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "Disease Database",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "Development of autonomous ChatDoctor with knowledge brain",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Model training",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "Results",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Example of Mpox",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "Example of Otitis",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Example 1: ChatGPT vs ChatDoctor.",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "Example 2: ChatGPT vs ChatDoctor.",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Example 3: ChatGPT vs ChatDoctor.",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "Discussion",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Limitations",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "Conclusions",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Additional Information\nDisclosures",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 11
+        }
+    ]
+}

@@ -1,0 +1,417 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Method",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "GPT-4",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Experimental Design",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Descriptive",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Application-Centric",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Conclusions",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "General Remarks",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Additional Details, Prompts and Supportive Experiments",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Population, Life Expectancy and CO2 Emissions",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Area",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Height",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Location",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Distance Estimation",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Topography",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Outlines",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Languages.",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Route Planning",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Navigation",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "Networks",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Itinerary Planning",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "Abstract Routing",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "Landmarks",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Multi-criteria Place Retrieval",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Supply Chains",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "Natural World",
+            "level": 2,
+            "page": 33
+        }
+    ],
+    "pages": 34,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "GPT4GEO: How a Language Model\nSees the World's Geography",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Method",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.1 GPT-4",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3.2 Experimental Design",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4.1 Descriptive",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "Discussion",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4.2 Application-Centric",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "Discussion",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "5 Conclusions",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "Appendix",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "A General Remarks",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "B Additional Details, Prompts and Supportive Experiments",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "B.1 Population, Life Expectancy and CO2 Emissions",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "Population",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "Life Expectancy",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "CO2 Emissions",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "B.2 Area",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "B.3 Height",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "B.4 Location",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "B.6 Topography",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "B.7 Outlines",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "Iteration 2.",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "Continental USA",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "Lake Winnipeg",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "Lake Superior",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "B.8 Languages.",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "B.9 Route Planning",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "B.10 Navigation",
+            "level": 3,
+            "page": 24
+        },
+        {
+            "title": "(a) Initial prompt.",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "B.11 Networks",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Hong Kong MTR Network",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "Airport Network",
+            "level": 3,
+            "page": 27
+        },
+        {
+            "title": "B.12 Itinerary Planning",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "B.13 Abstract Routing",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Every node",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Every edge",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "Alternative wording for Riddle",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "B.14 Landmarks",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "Dense Landmarks",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "B.15 Multi-criteria Place Retrieval",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "B.16 Supply Chains",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "B.17 Natural World",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "Wildlife Ranges",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "Bird Migrations",
+            "level": 3,
+            "page": 33
+        }
+    ]
+}

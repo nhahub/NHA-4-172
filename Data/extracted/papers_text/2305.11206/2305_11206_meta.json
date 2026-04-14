@@ -1,0 +1,232 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Alignment Data",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "2.1 Community Questions & Answers",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.2 Manually Authored Examples",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3 Training LIMA",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4 Human Evaluation",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4.1 Experiment Setup",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.2 Results",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.3 Analysis",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5 Why is Less More? Ablations on Data Diversity, Quality, and Quantity",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "6 Multi-Turn Dialogue",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "7 Discussion",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "A Training Examples",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "B Anticorrelation between Perplexity and Generation Quality",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "C Human Annotation",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "D ChatGPT Score",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "E Generating Text with Complex Structure",
+            "level": 0,
+            "page": 11
+        }
+    ],
+    "pages": 15,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "LIMA: Less Is More for Alignment",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Alignment Data",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.1 Community Questions & Answers",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Manually Authored Examples",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 Training LIMA",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4 Human Evaluation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.1 Experiment Setup",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4.2 Results",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.3 Analysis",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5 Why is Less More? Ablations on Data Diversity, Quality, and Quantity",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "6 Multi-Turn Dialogue",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "7 Discussion",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "A Training Examples",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "B Anticorrelation between Perplexity and Generation Quality",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "C Human Annotation",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "D ChatGPT Score",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "E Generating Text with Complex Structure",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Part 1 of 3: prioritize what's important",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "LIMA w/o 6 Format Constraint Examples (994 Examples) LIMA (1,000 Examples)",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "Coffee Shop Marketing Plan",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "\u2022 Reviews: [...]",
+            "level": 4,
+            "page": 14
+        }
+    ]
+}

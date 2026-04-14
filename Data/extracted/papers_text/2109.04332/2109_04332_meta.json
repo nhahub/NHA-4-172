@@ -1,0 +1,166 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 9,
+        "equations": {
+            "successful_ocr": 12,
+            "unsuccessful_ocr": 0,
+            "equations": 12
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "PPT: Pre-trained Prompt Tuning for Few-shot Learning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 Pilot Experiments",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 Pre-trained Prompt Tuning (PPT)",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.1 Overview",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2 Designing Pattern-Verbalizer Pairs for\nPre-training",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2.1 Sentence-Pair Classification",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3.2.2 Multiple-Choice Classification",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.2.3 Single-Sentence Classification",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "3.3 Unifying Task Formats",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4 Experiments",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.1 Setup",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.2 Main Results",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 Sample Efficiency",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5 Related Works",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "6 Conclusion and Future Work",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Appendices",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "A Dataset Information",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "B PVPs for Chinese Tasks",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "C Training Details",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "C.1 Full-Model Tuning",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "C.2 Prompt Tuning",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "C.3 Prompt Pre-Training",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "D Hard Prompts",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "E Training Consumption",
+            "level": 1,
+            "page": 12
+        }
+    ]
+}

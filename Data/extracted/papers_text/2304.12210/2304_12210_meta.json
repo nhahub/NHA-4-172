@@ -1,0 +1,612 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "What is Self-Supervised Learning and Why Bother?",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Why a Cookbook for Self-Supervised Learning?",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "The Families and Origins of SSL",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Origins of SSL",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "The Deep Metric Learning Family: SimCLR/NNCLR/MeanSHIFT/SCL",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "The Self-Distillation Family: BYOL/SimSIAM/DINO",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "The Canonical Correlation Analysis Family: VICReg/BarlowTwins/SWAV/W-MSE",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Masked Image Modeling",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "A Theoretical Unification Of Self-Supervised Learning",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Theoretical Study of SSL",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "Dimensional Collapse of Representations",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Pretraining Data",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "A Cook's Guide to Successful SSL Training and Deployment",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "Role of Data-Augmentation",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Role of multi-crop",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "Role of the Projector",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "The Uniform Prior in SSL or the Failure of SSL on Unbalanced Data",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Teacher-Student Architecture Specific Tricks",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "Role of the Moving Average Teacher",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "Role of the Predictor in Self-Labeling SSL",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Role of Standard Hyper-Parameters",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Role of Mini-Batch Size",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Role of Learning Rate (Schedulers) and Optimizers",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Role of Weight-Decay",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Vision Transformers Considerations",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Techniques for High Performance Masked Image Modeling",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "Evaluating Your SSL Models",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Evaluation with labels",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "Evaluation without labels",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Going beyond classification",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Visual Evaluation",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "Speeding up Training",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "Distributed Training",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "Even Faster Training with FFCV and Other Speedups",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "Speeding Up Training of Vision Transformers",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "Extending Self-Supervised Learning Beyond Images and Classification",
+            "level": 0,
+            "page": 37
+        },
+        {
+            "title": "Strategies for Other Data Domains",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "Incorporating Multiple Modalities into SSL Training",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Building Feature Extractors with Localization for Dense Prediction Tasks",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 44
+        }
+    ],
+    "pages": 71,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 21,
+            "unsuccessful_ocr": 1,
+            "equations": 22
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A Cookbook of Self-Supervised Learning",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Contents",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "1 What is Self-Supervised Learning and Why Bother?",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "1.1 Why a Cookbook for Self-Supervised Learning?",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "3",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2 The Families and Origins of SSL",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.1 Origins of SSL",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "2.2 The Deep Metric Learning Family:\nSimCLR/NNCLR/MeanSHIFT/SCL",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "2.3 The Self-Distillation Family: BYOL/SimSIAM/DINO",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "8",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "9",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "A Brief History of the infoNCE loss",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "A Brief History of the Self-Distillation Family",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "2.4 The Canonical Correlation Analysis Family:\nVICReg/BarlowTwins/SWAV/W-MSE",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "13",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "2.5 Masked Image Modeling",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "14",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "2.6 A Theoretical Unification Of Self-Supervised Learning",
+            "level": 3,
+            "page": 15
+        },
+        {
+            "title": "2.6.1 Theoretical Study of SSL",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "17",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "2.6.2 Dimensional Collapse of Representations",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "2.7 Pretraining Data",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "3 A Cook's Guide to Successful SSL Training and Deploy-\nment",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "3.1 Role of Data-Augmentation",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "21",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "3.1.1 Role of multi-crop",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "22",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "3.2 Role of the Projector",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "23",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "25",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "3.3 The Uniform Prior in SSL or the Failure of SSL on Unbalanced\nData",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "3.4 Teacher-Student Architecture Specific Tricks",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "3.4.1 Role of the Moving Average Teacher",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "26",
+            "level": 4,
+            "page": 25
+        },
+        {
+            "title": "3.4.2 Role of the Predictor in Self-Labeling SSL",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "3.5 Role of Standard Hyper-Parameters",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "3.5.1 Role of Mini-Batch Size",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "27",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "3.5.2 Role of Learning Rate (Schedulers) and Optimizers",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "3.5.3 Role of Weight-Decay",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "3.5.4 Vision Transformers Considerations",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "28",
+            "level": 4,
+            "page": 27
+        },
+        {
+            "title": "3.6 Techniques for High Performance Masked Image Modeling",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "29",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "3.7 Evaluating Your SSL Models",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "3.7.1 Evaluation with labels",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "3.7.2 Evaluation without labels",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "3.7.3 Going beyond classification",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "33",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "3.7.4 Visual Evaluation",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "3.8 Speeding up Training",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "3.8.1 Distributed Training",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "34",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "3.8.2 Even Faster Training with FFCV and Other Speedups",
+            "level": 4,
+            "page": 35
+        },
+        {
+            "title": "3.8.3 Speeding Up Training of Vision Transformers",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "37",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "4 Extending Self-Supervised Learning Beyond Images and\nClassification",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "4.1 Strategies for Other Data Domains",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "38",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "for contrastive learning.",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "39",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "41",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "4.2 Incorporating Multiple Modalities into SSL Training",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "4.3 Building Feature Extractors with Localization for Dense Predic-\ntion Tasks",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "44",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "45",
+            "level": 4,
+            "page": 44
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "50",
+            "level": 4,
+            "page": 49
+        },
+        {
+            "title": "58",
+            "level": 4,
+            "page": 57
+        },
+        {
+            "title": "59",
+            "level": 4,
+            "page": 58
+        },
+        {
+            "title": "61",
+            "level": 4,
+            "page": 60
+        },
+        {
+            "title": "63",
+            "level": 4,
+            "page": 62
+        },
+        {
+            "title": "70",
+            "level": 4,
+            "page": 69
+        },
+        {
+            "title": "71",
+            "level": 4,
+            "page": 70
+        }
+    ]
+}

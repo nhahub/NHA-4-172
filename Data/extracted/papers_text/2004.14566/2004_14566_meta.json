@@ -1,0 +1,202 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Related Works",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3 Methodology",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "3.1 Preliminaries",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.2 Trained Rank Pruning",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3.3 Nuclear Norm Regularization",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "3.4 Theoretic Analysis",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4.1 Datasets and Baseline",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "4.2 Implementation Details",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.3 Results on CIFAR-10",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.4 Results on ImageNet",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.5 Rank Variation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.6 Ablation Study",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.7 Runtime Speed up of Decomposed Networks",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 5
+        }
+    ],
+    "pages": 7,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 22,
+            "unsuccessful_ocr": 2,
+            "equations": 24
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "TRP: Trained Rank Pruning for Efficient Deep Neural Networks",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Related Works",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Methodology",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 Preliminaries",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.2 Trained Rank Pruning",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.3 Nuclear Norm Regularization",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3.4 Theoretic Analysis",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "4 Experiments",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "4.1 Datasets and Baseline",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4.2 Implementation Details",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.3 Results on CIFAR-10",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.4 Results on ImageNet",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.5 Rank Variation",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.6 Ablation Study",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.7 Runtime Speed up of Decomposed Networks",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 6
+        }
+    ]
+}

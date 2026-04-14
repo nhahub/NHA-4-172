@@ -1,0 +1,962 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Overview",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Background for LLMs",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Technical Evolution of GPT-series Models",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Resources of LLMs",
+            "level": 0,
+            "page": 10
+        },
+        {
+            "title": "Publicly Available Model Checkpoints or APIs",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Commonly Used Corpora for Pre-training",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Commonly Used Datasets for Fine-tuning",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Instruction Tuning Datasets",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "Alignment Datasets",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "Library Resource",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Pre-training",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Data Collection and Preparation",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Data Source",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Data Preprocessing",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "Data Scheduling",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Summary of Data Preparation",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Architecture",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Typical Architectures",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "Detailed Configuration",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Pre-training Tasks",
+            "level": 2,
+            "page": 24
+        },
+        {
+            "title": "Long Context Modeling",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "Decoding Strategy",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Summary and Discussion",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "Model Training",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Optimization Setting",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "Scalable Training Techniques",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "Adaptation of LLMs",
+            "level": 0,
+            "page": 31
+        },
+        {
+            "title": "Instruction Tuning",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "Formatted Instance Construction",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Instruction Tuning Strategies",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "The Effect of Instruction Tuning",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "Empirical Analysis for Instruction Tuning",
+            "level": 2,
+            "page": 34
+        },
+        {
+            "title": "Alignment Tuning",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "Background and Criteria for Alignment",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "Collecting Human Feedback",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "Reinforcement Learning from Human Feedback",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "Alignment without RLHF",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "Remarks on SFT and RLHF",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "Parameter-Efficient Model Adaptation",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "Parameter-Efficient Fine-Tuning Methods",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "Parameter-Efficient Fine-Tuning on LLMs",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "Memory-Efficient Model Adaptation",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "Background for Quantization",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "Quantization Methods for LLMs",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "Empirical Analysis and Findings",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "Open-source Libraries and Quantized LLMs",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "Utilization",
+            "level": 0,
+            "page": 46
+        },
+        {
+            "title": "Prompting",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "Prompt Creation",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "Prompt Optimization",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "In-Context Learning",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "ICL Formulation",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "Demonstration Design",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "Underlying Mechanism",
+            "level": 2,
+            "page": 53
+        },
+        {
+            "title": "Chain-of-Thought Prompting",
+            "level": 1,
+            "page": 54
+        },
+        {
+            "title": "Basic CoT Prompting Approach",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "Improved CoT Prompting Strategies",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "Further Discussion on CoT Prompting",
+            "level": 2,
+            "page": 55
+        },
+        {
+            "title": "Planning for Complex Task Solving",
+            "level": 1,
+            "page": 56
+        },
+        {
+            "title": "The Overall Framework",
+            "level": 2,
+            "page": 56
+        },
+        {
+            "title": "Plan Generation",
+            "level": 2,
+            "page": 57
+        },
+        {
+            "title": "Feedback Acquisition",
+            "level": 2,
+            "page": 57
+        },
+        {
+            "title": "Plan Refinement",
+            "level": 2,
+            "page": 57
+        },
+        {
+            "title": "Capacity and Evaluation",
+            "level": 0,
+            "page": 58
+        },
+        {
+            "title": "Basic Ability",
+            "level": 1,
+            "page": 58
+        },
+        {
+            "title": "Language Generation",
+            "level": 2,
+            "page": 58
+        },
+        {
+            "title": "Knowledge Utilization",
+            "level": 2,
+            "page": 60
+        },
+        {
+            "title": "Complex Reasoning",
+            "level": 2,
+            "page": 62
+        },
+        {
+            "title": "Advanced Ability",
+            "level": 1,
+            "page": 63
+        },
+        {
+            "title": "Human Alignment",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "Interaction with External Environment",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "Tool Manipulation",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "Benchmarks and Evaluation Approaches",
+            "level": 1,
+            "page": 65
+        },
+        {
+            "title": "Comprehensive Evaluation Benchmarks",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "Evaluation Approaches",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "Empirical Evaluation",
+            "level": 1,
+            "page": 68
+        },
+        {
+            "title": "Experimental Settings",
+            "level": 2,
+            "page": 68
+        },
+        {
+            "title": "Results Analysis and Findings",
+            "level": 2,
+            "page": 71
+        },
+        {
+            "title": "Applications",
+            "level": 0,
+            "page": 72
+        },
+        {
+            "title": "LLM for Research Community",
+            "level": 1,
+            "page": 72
+        },
+        {
+            "title": "LLM for Classic NLP Tasks",
+            "level": 2,
+            "page": 72
+        },
+        {
+            "title": "LLM for Information Retrieval",
+            "level": 2,
+            "page": 73
+        },
+        {
+            "title": "LLM for Recommender Systems",
+            "level": 2,
+            "page": 74
+        },
+        {
+            "title": "Multimodal Large Language Model",
+            "level": 2,
+            "page": 75
+        },
+        {
+            "title": "KG-Enhanced LLM",
+            "level": 2,
+            "page": 77
+        },
+        {
+            "title": "LLM-based Agent",
+            "level": 2,
+            "page": 78
+        },
+        {
+            "title": "LLM for Evaluation",
+            "level": 2,
+            "page": 79
+        },
+        {
+            "title": "LLM for Specific Domains",
+            "level": 1,
+            "page": 80
+        },
+        {
+            "title": "Conclusion and Future Directions",
+            "level": 0,
+            "page": 81
+        }
+    ],
+    "pages": 124,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 17,
+        "equations": {
+            "successful_ocr": 19,
+            "unsuccessful_ocr": 0,
+            "equations": 19
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A Survey of Large Language Models",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "2 OVERVIEW",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "2.1 Background for LLMs",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "2.2 Technical Evolution of GPT-series Models",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "3 RESOURCES OF LLMS",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "3.1 Publicly Available Model Checkpoints or APIs",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "3.2 Commonly Used Corpora for Pre-training",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "3.3 Commonly Used Datasets for Fine-tuning",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "3.3.1 Instruction Tuning Datasets",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "3.3.2 Alignment Datasets",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "3.4 Library Resource",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "4 PRE-TRAINING",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "4.1 Data Collection and Preparation",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "4.1.1 Data Source",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "4.1.2 Data Preprocessing",
+            "level": 4,
+            "page": 17
+        },
+        {
+            "title": "4.1.3 Data Scheduling",
+            "level": 4,
+            "page": 19
+        },
+        {
+            "title": "4.1.4 Summary of Data Preparation",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "4.2 Architecture",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "4.2.1 Typical Architectures",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "in Section 4.2.6.",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "4.2.2 Detailed Configuration",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "4.2.3 Pre-training Tasks",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "4.2.4 Long Context Modeling",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "4.2.5 Decoding Strategy",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "Memory Wall",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "4.2.6 Summary and Discussion",
+            "level": 4,
+            "page": 28
+        },
+        {
+            "title": "4.3 Model Training",
+            "level": 4,
+            "page": 29
+        },
+        {
+            "title": "4.3.1 Optimization Setting",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "4.3.2 Scalable Training Techniques",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "5 ADAPTATION OF LLMS",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "5.1 Instruction Tuning",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "5.1.1 Formatted Instance Construction",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "5.1.2 Instruction Tuning Strategies",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "5.1.3 The Effect of Instruction Tuning",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "5.1.4 Empirical Analysis for Instruction Tuning",
+            "level": 4,
+            "page": 34
+        },
+        {
+            "title": "Instruction Tuning Suggestions",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "5.2 Alignment Tuning",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "5.2.2 Collecting Human Feedback",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "5.2.3 Reinforcement Learning from Human Feedback",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "5.2.4 Alignment without RLHF",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "5.2.5 Remarks on SFT and RLHF",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "5.3 Parameter-Efficient Model Adaptation",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "5.3.1 Parameter-Efficient Fine-Tuning Methods",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "5.3.2 Parameter-Efficient Fine-Tuning on LLMs",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "5.4 Memory-Efficient Model Adaptation",
+            "level": 4,
+            "page": 44
+        },
+        {
+            "title": "5.4.1 Background for Quantization",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "5.4.2 Quantization Methods for LLMs",
+            "level": 4,
+            "page": 44
+        },
+        {
+            "title": "5.4.3 Empirical Analysis and Findings",
+            "level": 4,
+            "page": 45
+        },
+        {
+            "title": "5.4.4 Open-source Libraries and Quantized LLMs",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "6 UTILIZATION",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "6.1 Prompting",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "6.1.1 Prompt Creation",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "6.1.2 Prompt Optimization",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "6.2 In-Context Learning",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "6.2.1 ICL Formulation",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "6.2.2 Demonstration Design",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "6.2.3 Underlying Mechanism",
+            "level": 2,
+            "page": 53
+        },
+        {
+            "title": "6.3 Chain-of-Thought Prompting",
+            "level": 4,
+            "page": 54
+        },
+        {
+            "title": "6.3.1 Basic CoT Prompting Approach",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "6.3.2 Improved CoT Prompting Strategies",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "6.3.3 Further Discussion on CoT Prompting",
+            "level": 4,
+            "page": 55
+        },
+        {
+            "title": "6.4 Planning for Complex Task Solving",
+            "level": 4,
+            "page": 56
+        },
+        {
+            "title": "6.4.1 The Overall Framework",
+            "level": 4,
+            "page": 56
+        },
+        {
+            "title": "6.4.2 Plan Generation",
+            "level": 2,
+            "page": 57
+        },
+        {
+            "title": "6.4.3 Feedback Acquisition",
+            "level": 4,
+            "page": 57
+        },
+        {
+            "title": "6.4.4 Plan Refinement",
+            "level": 2,
+            "page": 57
+        },
+        {
+            "title": "7 CAPACITY AND EVALUATION",
+            "level": 1,
+            "page": 58
+        },
+        {
+            "title": "7.1 Basic Ability",
+            "level": 2,
+            "page": 58
+        },
+        {
+            "title": "7.1.1 Language Generation",
+            "level": 2,
+            "page": 58
+        },
+        {
+            "title": "Underperforming Specialized Generation",
+            "level": 2,
+            "page": 60
+        },
+        {
+            "title": "7.1.2 Knowledge Utilization",
+            "level": 2,
+            "page": 60
+        },
+        {
+            "title": "7.2 Advanced Ability",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "7.2.1 Human Alignment",
+            "level": 4,
+            "page": 64
+        },
+        {
+            "title": "7.2.2 Interaction with External Environment",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "7.2.3 Tool Manipulation",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "7.3 Benchmarks and Evaluation Approaches",
+            "level": 4,
+            "page": 65
+        },
+        {
+            "title": "7.3.1 Comprehensive Evaluation Benchmarks",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "7.3.2 Evaluation Approaches",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "7.4 Empirical Evaluation",
+            "level": 4,
+            "page": 68
+        },
+        {
+            "title": "7.4.1 Experimental Settings",
+            "level": 4,
+            "page": 68
+        },
+        {
+            "title": "7.4.2 Results Analysis and Findings",
+            "level": 4,
+            "page": 71
+        },
+        {
+            "title": "8 APPLICATIONS",
+            "level": 1,
+            "page": 72
+        },
+        {
+            "title": "8.1 LLM for Research Community",
+            "level": 4,
+            "page": 72
+        },
+        {
+            "title": "8.1.1 LLM for Classic NLP Tasks",
+            "level": 4,
+            "page": 72
+        },
+        {
+            "title": "8.1.2 LLM for Information Retrieval",
+            "level": 2,
+            "page": 73
+        },
+        {
+            "title": "8.1.3 LLM for Recommender Systems",
+            "level": 2,
+            "page": 74
+        },
+        {
+            "title": "8.1.4 Multimodal Large Language Model",
+            "level": 2,
+            "page": 75
+        },
+        {
+            "title": "8.1.5 KG-Enhanced LLM",
+            "level": 4,
+            "page": 77
+        },
+        {
+            "title": "8.1.6 LLM-based Agent",
+            "level": 4,
+            "page": 78
+        },
+        {
+            "title": "8.1.7 LLM for Evaluation",
+            "level": 2,
+            "page": 79
+        },
+        {
+            "title": "8.2 LLM for Specific Domains",
+            "level": 4,
+            "page": 80
+        },
+        {
+            "title": "9 CONCLUSION AND FUTURE DIRECTIONS",
+            "level": 1,
+            "page": 81
+        },
+        {
+            "title": "CODA",
+            "level": 1,
+            "page": 83
+        },
+        {
+            "title": "ACKNOWLEDGMENTS",
+            "level": 1,
+            "page": 84
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 84
+        }
+    ]
+}

@@ -1,0 +1,136 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 22,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 25,
+        "equations": {
+            "successful_ocr": 4,
+            "unsuccessful_ocr": 0,
+            "equations": 4
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "A SIMPLE AND EFFECTIVE PRUNING APPROACH FOR\nLARGE LANGUAGE MODELS",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1 INTRODUCTION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2 PRELIMINARIES",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "3 WANDA: PRUNING BY WEIGHTS AND ACTIVATIONS",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "4 EXPERIMENTS",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "4.1 ZERO-SHOT TASKS",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "4.2 LANGUAGE MODELING",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "4.3 SPEEDUP",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "5 ANALYSIS",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "6 RELATED WORK",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "7 CONCLUSION",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "REFERENCES",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "A IMAGE CLASSIFIERS",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "B WANDA ON PREVIOUS LLMS",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "C ADDITIONAL BASELINES",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "D COMPLEMENTARY EXPERIMENTAL RESULTS",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "D.1 ROBUSTNESS ANALYSIS",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "D.2 HIGHER SPARSITY",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "D.3 FEW-SHOT RESULTS ON MMLU",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "D.4 FINE-TUNING",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "D.5 ZERO-SHOT TASKS",
+            "level": 3,
+            "page": 19
+        }
+    ]
+}

@@ -1,0 +1,422 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Background and Related Work",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Preliminary",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Absolute position embedding",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Relative position embedding",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Proposed approach",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Formulation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Rotary position embedding",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "A 2D case",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "General form",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "Properties of RoPE",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Theoretical Explanation",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Derivation of RoPE under 2D",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Computational efficient realization of rotary matrix multiplication",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Long-term decay of RoPE",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "Experiments and Evaluation",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Machine Translation",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Experimental Settings",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Implementation details",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Pre-training Language Modeling",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Experimental Settings",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Implementation details",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Fine-tuning on GLUE tasks",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Experimental Settings",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Implementation details",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "Performer with RoPE",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Implementation details",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Evaluation on Chinese Data",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Implementation",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Pre-training",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Downstream Tasks & Dataset",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Limitations of the work",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Conclusions",
+            "level": 0,
+            "page": 11
+        }
+    ],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 13,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 68,
+            "unsuccessful_ocr": 6,
+            "equations": 74
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "ROFORMER: ENHANCED TRANSFORMER WITH ROTARY\nPOSITION EMBEDDING",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Background and Related Work",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Preliminary",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Absolute position embedding",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.3 Relative position embedding",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3 Proposed approach",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Formulation",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Rotary position embedding",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2.1 A 2D case",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2.2 General form",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.3 Properties of RoPE",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "3.4 Theoretical Explanation",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.4.1 Derivation of RoPE under 2D",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.4.2 Computational efficient realization of rotary matrix multiplication",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "3.4.3 Long-term decay of RoPE",
+            "level": 4,
+            "page": 7
+        },
+        {
+            "title": "4 Experiments and Evaluation",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "4.1 Machine Translation",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.1.1 Experimental Settings",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.1.2 Implementation details",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.1.3 Results",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.2 Pre-training Language Modeling",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.2.1 Experimental Settings",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.2.2 Implementation details",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.2.3 Results",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.3 Fine-tuning on GLUE tasks",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.3.1 Experimental Settings",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.3.2 Implementation details",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.3.3 Results",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.4 Performer with RoPE",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.4.1 Implementation details",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "4.4.2 Results",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "4.5 Evaluation on Chinese Data",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "4.5.1 Implementation",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "4.5.2 Pre-training",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "4.5.3 Downstream Tasks & Dataset",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "4.5.4 Results",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "4.5.5 Limitations of the work",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "5 Conclusions",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 11
+        }
+    ]
+}

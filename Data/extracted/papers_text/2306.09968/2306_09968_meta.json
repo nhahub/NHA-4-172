@@ -1,0 +1,202 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Methods",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Dataset",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Finetuning",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Reward model",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Reinforcement learning",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Experiments and results",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Implemented details",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Medical conversation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Medical examination",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Diagnosis",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Medical question answering",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Medical knowledge graphs",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Prompt templates",
+            "level": 0,
+            "page": 9
+        }
+    ],
+    "pages": 11,
+    "ocr_stats": {
+        "ocr_pages": 1,
+        "ocr_failed": 0,
+        "ocr_success": 1,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "CLINICALGPT: LARGE LANGUAGE MODELS FINETUNED WITH\nDIVERSE MEDICAL DATA AND COMPREHENSIVE EVALUATION",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 3,
+            "page": 0
+        },
+        {
+            "title": "2 Methods",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1 Dataset",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "2.2 Finetuning",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.3 Reward model",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.4 Reinforcement learning",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3 Experiments and results",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3.1 Implemented details",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.2 Medical conversation",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.3 Medical examination",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3.4 Diagnosis",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "3.5 Medical question answering",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4 Conclusion",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "Acknowledgments",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "References",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "Appendix",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Medical knowledge graphs",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "B Prompt templates",
+            "level": 2,
+            "page": 9
+        }
+    ]
+}

@@ -1,0 +1,332 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Overview of ChatGPT and its capabilities",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "3 Transformers and pre-trained language models",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "4 Applications of ChatGPT in real-world scenarios",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Healthcare:",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.2 Education:",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.3 Customer service:",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.4 Content creation:",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.5 Language translation:",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "4.6 Entertainment:",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.7 Financial services:",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.8 Atmospheric science",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "4.9 Chatbots:",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "4.10 ChatGPT for computer science developers and coding:",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "5 Advantages of ChatGPT in natural language processing",
+            "level": 0,
+            "page": 11
+        },
+        {
+            "title": "6 Limitations and potential challenges",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "6.1 Bias and harmful language patterns",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "6.2 Limited ability to understand context",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "6.3 Need for large amounts of training data",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "6.4 Cybersecurity risks",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "6.5 Response quality",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "7 Ethical considerations when using ChatGPT",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "7.1 Fairness and bias in training data",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "7.2 Privacy concerns",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "7.3 Responsibility in deploying the tool",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "8 Prompt engineering and generation",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "9 Future directions for ChatGPT and natural language processing",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "10 Future directions for ChatGPT in vision domain",
+            "level": 0,
+            "page": 17
+        },
+        {
+            "title": "11 Conclusion",
+            "level": 0,
+            "page": 18
+        }
+    ],
+    "pages": 23,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 1,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "UNLOCKING THE POTENTIAL OF CHATGPT: A\nCOMPREHENSIVE EXPLORATION OF ITS APPLICATIONS,\nADVANTAGES, LIMITATIONS, AND FUTURE DIRECTIONS IN\nNATURAL LANGUAGE PROCESSING",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "ABSTRACT",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Overview of ChatGPT and its capabilities",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "3 Transformers and pre-trained language models",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Applications of ChatGPT in real-world scenarios\n4",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Healthcare:",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.2 Education:",
+            "level": 4,
+            "page": 6
+        },
+        {
+            "title": "4.3 Customer service:",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.4 Content creation:",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.5 Language translation:",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "4.6 Entertainment:",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.7 Financial services:",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.8 Atmospheric science",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "4.9 Chatbots:",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "4.10 ChatGPT for computer science developers and coding:",
+            "level": 4,
+            "page": 10
+        },
+        {
+            "title": "5 Advantages of ChatGPT in natural language processing",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "6 Limitations and potential challenges",
+            "level": 2,
+            "page": 12
+        },
+        {
+            "title": "6.1 Bias and harmful language patterns",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "6.2 Limited ability to understand context",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "6.3 Need for large amounts of training data",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "6.4 Cybersecurity risks",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "6.5 Response quality",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "7 Ethical considerations when using ChatGPT",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "7.1 Fairness and bias in training data",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "7.2 Privacy concerns",
+            "level": 4,
+            "page": 15
+        },
+        {
+            "title": "7.3 Responsibility in deploying the tool",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "8 Prompt engineering and generation",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "9 Future directions for ChatGPT and natural language processing",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "10 Future directions for ChatGPT in vision domain",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "11 Conclusion",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 18
+        }
+    ]
+}

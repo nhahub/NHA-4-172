@@ -1,0 +1,192 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2 Background: Neural Attention",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "2.1 Dot-Product Attention",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2.2 Multi-head Attention",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "2.3 Multi-head Attention (Batched)",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.3.1 Performance Analysis of Batched Multi-head Attention",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.4 Multihead Attention (Incremental)",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "2.4.1 Performance Analysis",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "3 Multi-Query Attention",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "3.1 Performance Analysis for Incremental Multi-Query Attention",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4 Experiments and Results",
+            "level": 0,
+            "page": 5
+        },
+        {
+            "title": "4.1 Experimental Setup",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "4.2 Model Quality",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "4.3 Speed",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 0,
+            "page": 7
+        }
+    ],
+    "pages": 9,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 3,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Fast Transformer Decoding: One Write-Head is All\nYou Need",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Background: Neural Attention",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2.1 Dot-Product Attention",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2.2 Multi-head Attention",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.3 Multi-head Attention (Batched)",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.3.1 Performance Analysis of Batched Multi-head Attention",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.4 Multihead Attention (Incremental)",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2.4.1 Performance Analysis",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "3 Multi-Query Attention",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "3.1 Performance Analysis for Incremental Multi-Query Attention",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4 Experiments and Results",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.1 Experimental Setup",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "4.2 Model Quality",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "4.3 Speed",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "5 Conclusion",
+            "level": 2,
+            "page": 7
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 7
+        }
+    ]
+}

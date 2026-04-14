@@ -1,0 +1,172 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Creative limitations of existing generative AI Systems",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Living with uncertainty",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "The Issue of \u2018The Slot Machine Effect\u2019 in current Generative AI tools",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Large Language Models",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Diffusion Models",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Simulation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Episode Generation",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Reducing Latency",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Simulate creative thinking",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Blank Page Problem",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Who is driving the story",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "SHOW-1 and Intentionality",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 12
+        }
+    ],
+    "pages": 14,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 2,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "To Infinity and Beyond: SHOW-1 and Showrunner\n\n![0_image_0.png](0_image_0.png)\n\n\nAgents in Multi-Agent Simulations",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "10 1 Creative limitations of existing generative AI Systems",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "16 1.1 Living with uncertainty\n\n![1_image_0.png](1_image_0.png)\n\n",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "36 1.2 The Issue of 'The Slot Machine Effect' in current Generative AI tools",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "64 1.3 Large Language Models",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "114 1.4 Diffusion Models",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "151 2 Simulation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "167 3 Episode Generation",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "180 3.1 Reducing Latency",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "196 3.2 Simulate creative thinking",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "221 3.3 Blank Page Problem",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "227 3.4 Who is driving the story",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "239 3.5 SHOW-1 and Intentionality",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "312 4 Conclusion",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "325 References",
+            "level": 1,
+            "page": 12
+        }
+    ]
+}

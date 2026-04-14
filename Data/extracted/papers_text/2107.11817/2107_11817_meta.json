@@ -1,0 +1,232 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Mixture-of-Experts",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Conditional Computation with MoE",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Routing",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Balanced Loading",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Go wider instead of deeper",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "Sharing MoE across transformer blocks",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Individual Layer Normalization",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Optimization",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 3
+        },
+        {
+            "title": "Computer Vision",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Natural Language Processing",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "MoE Analysis",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Layer Norm Analysis",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Ablation Study: Contributions of key modifications",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Appendix",
+            "level": 0,
+            "page": 9
+        },
+        {
+            "title": "Finetuning results on computer vision",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Hyper-parameters of experiments on computer vision",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Hyper-parameters of experiments on natural language processing",
+            "level": 1,
+            "page": 9
+        }
+    ],
+    "pages": 10,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 7,
+        "equations": {
+            "successful_ocr": 15,
+            "unsuccessful_ocr": 1,
+            "equations": 16
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Go Wider Instead of Deeper",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Mixture-of-Experts",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Conditional Computation with MoE",
+            "level": 4,
+            "page": 1
+        },
+        {
+            "title": "Routing",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "Balanced Loading",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "Go wider instead of deeper\nSharing MoE across transformer blocks",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "Individual Layer Normalization",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "Optimization",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "Experiments",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Computer Vision",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "Natural Language Processing",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "MoE Analysis",
+            "level": 3,
+            "page": 4
+        },
+        {
+            "title": "Layer Norm Analysis",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "Ablation Study: Contributions of key modifications",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "Conclusion",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Finetuning results on computer vision",
+            "level": 4,
+            "page": 9
+        },
+        {
+            "title": "Hyper-parameters of experiments on computer\nvision",
+            "level": 3,
+            "page": 9
+        },
+        {
+            "title": "Hyper-parameters of experiments on natural\nlanguage processing",
+            "level": 3,
+            "page": 9
+        }
+    ]
+}

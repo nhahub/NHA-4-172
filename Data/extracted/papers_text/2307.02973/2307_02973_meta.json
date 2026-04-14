@@ -1,0 +1,272 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "Assumptions",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Comparison on statistical distributions",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Quantization error",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Pruning error",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Analytical comparison",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Experiments on real weight tensors",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Per-layer comparison",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Post-training quantization",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Post-training pruning",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Experiments",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Full-model comparison",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Discussion",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "Related work",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Conclusion",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "Expected quantization error computation",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Truncated Student's-t distribution",
+            "level": 0,
+            "page": 13
+        },
+        {
+            "title": "Sparsity in quantized tensors",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Correlation between model accuracy and per layer SNR",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Details of PyTorch model zoo tensors experiments",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Details of per-layer experiments",
+            "level": 0,
+            "page": 15
+        },
+        {
+            "title": "Details of the full-model experiments",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Analysis of representations learned during fine-tuning in QAT and pruning",
+            "level": 0,
+            "page": 16
+        }
+    ],
+    "pages": 19,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 4,
+        "equations": {
+            "successful_ocr": 34,
+            "unsuccessful_ocr": 7,
+            "equations": 41
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Pruning vs Quantization: Which is Better?",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 4,
+            "page": 0
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "2 Assumptions",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3 Comparison on statistical distributions",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "3.1 Quantization error",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.2 Pruning error",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.3 Analytical comparison",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "3.4 Experiments on real weight tensors",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "4 Per-layer comparison",
+            "level": 2,
+            "page": 4
+        },
+        {
+            "title": "4.1 Post-training quantization",
+            "level": 4,
+            "page": 4
+        },
+        {
+            "title": "4.2 Post-training pruning",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "4.3 Experiments",
+            "level": 4,
+            "page": 5
+        },
+        {
+            "title": "5 Full-model comparison",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "6 Discussion",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "7 Related work",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "8 Conclusion",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "A Expected quantization error computation",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "B Truncated Student's-t distribution",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "C Sparsity in quantized tensors",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "D Correlation between model accuracy and per layer SNR",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "E Details of PyTorch model zoo tensors experiments",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "F Details of per-layer experiments",
+            "level": 2,
+            "page": 15
+        },
+        {
+            "title": "G Details of the full-model experiments",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "H Analysis of representations learned during fine-tuning in QAT and pruning",
+            "level": 2,
+            "page": 16
+        }
+    ]
+}

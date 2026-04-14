@@ -1,0 +1,727 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Introduction",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "RoboCat",
+            "level": 0,
+            "page": 1
+        },
+        {
+            "title": "Training and task specification",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Architecture and pretraining",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "Fine-tuning and self-improvement",
+            "level": 2,
+            "page": 3
+        },
+        {
+            "title": "Real-world deployment",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Tasks and Data",
+            "level": 0,
+            "page": 4
+        },
+        {
+            "title": "Embodiments",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Object sets",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Task families",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Data sources",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Experimental Setup",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "RoboCat training tasks",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Training and fine-tuning",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Evaluation",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Baselines",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "Experiments",
+            "level": 0,
+            "page": 7
+        },
+        {
+            "title": "Overall RoboCat performance",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "Generalisation and adaptation",
+            "level": 1,
+            "page": 9
+        },
+        {
+            "title": "Self-improvement via RoboCat fine-tuning and self-generation of data",
+            "level": 1,
+            "page": 11
+        },
+        {
+            "title": "Further ablations",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Related Work",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "Transformers for decision making",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Visual pretraining for control",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "Goal-conditioned policies",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Generalist robotic agents",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Summary and Future Work",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "Model Card",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Tasks and Data",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "Task families",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "Lifting objects",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Building structures",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Inserting and removing objects",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "NIST-i tasks",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "Data sources",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "Embodiments and Environments",
+            "level": 0,
+            "page": 27
+        },
+        {
+            "title": "Robot arms",
+            "level": 1,
+            "page": 30
+        },
+        {
+            "title": "Sawyer",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "Panda",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "KUKA",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Basket and setup",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "Environment resets",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "VQ-GAN Training Details",
+            "level": 0,
+            "page": 31
+        },
+        {
+            "title": "Datasets",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "Model architecture and loss",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "Ablations for our VQ-GAN design choices",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "RoboCat Training Details",
+            "level": 0,
+            "page": 36
+        },
+        {
+            "title": "Data processing",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "Data weighting",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "Training and fine-tuning parameters",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "RoboCat-lim training data",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "Evaluation and Real-World Deployment",
+            "level": 0,
+            "page": 39
+        },
+        {
+            "title": "Evaluation for real-world RGB tasks",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "Evaluation for real-world tasks with no rewards or scripted resets",
+            "level": 1,
+            "page": 40
+        },
+        {
+            "title": "Success detection",
+            "level": 2,
+            "page": 40
+        },
+        {
+            "title": "Policy pools as generalised reset policies",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "Additional Experiments",
+            "level": 0,
+            "page": 41
+        },
+        {
+            "title": "Generalist capabilities and expert performance",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Training tasks",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "Fine-tuning performance",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "Visual foundation baselines",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "NIST-i extended study",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "Task complexity",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "Data bias",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "Skill transfer",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "Additional observations",
+            "level": 2,
+            "page": 49
+        }
+    ],
+    "pages": 51,
+    "ocr_stats": {
+        "ocr_pages": 2,
+        "ocr_failed": 0,
+        "ocr_success": 2,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 50,
+        "code": 0,
+        "table": 22,
+        "equations": {
+            "successful_ocr": 6,
+            "unsuccessful_ocr": 0,
+            "equations": 6
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "RoboCat: A Self-Improving Foundation Agent\n\n![0_image_0.png](0_image_0.png)\n\n\nfor Robotic Manipulation",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "1. Introduction",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "2. RoboCat",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "2.1. Training and task specification",
+            "level": 3,
+            "page": 2
+        },
+        {
+            "title": "2.1.1. Architecture and pretraining",
+            "level": 4,
+            "page": 2
+        },
+        {
+            "title": "2.1.2. Fine-tuning and self-improvement",
+            "level": 4,
+            "page": 3
+        },
+        {
+            "title": "2.2. Real-world deployment",
+            "level": 3,
+            "page": 3
+        },
+        {
+            "title": "3. Tasks and Data",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "3.1. Embodiments",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.2. Object sets",
+            "level": 3,
+            "page": 5
+        },
+        {
+            "title": "3.3. Task families",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "3.4. Data sources",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "4. Experimental Setup",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "4.1. RoboCat training tasks",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.2. Training and fine-tuning",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.3. Evaluation",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "4.4. Baselines",
+            "level": 3,
+            "page": 7
+        },
+        {
+            "title": "5. Experiments",
+            "level": 1,
+            "page": 7
+        },
+        {
+            "title": "5.1. Overall RoboCat performance",
+            "level": 3,
+            "page": 8
+        },
+        {
+            "title": "5.2. Generalisation and adaptation",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "5.3. Self-improvement via RoboCat fine-\ntuning and self-generation of data",
+            "level": 3,
+            "page": 11
+        },
+        {
+            "title": "5.4. Further ablations",
+            "level": 3,
+            "page": 12
+        },
+        {
+            "title": "6. Related Work",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "6.1. Transformers for decision making",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "6.2. Visual pretraining for control",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "6.3. Goal-conditioned policies",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "6.4. Generalist robotic agents",
+            "level": 3,
+            "page": 14
+        },
+        {
+            "title": "7. Summary and Future Work",
+            "level": 1,
+            "page": 14
+        },
+        {
+            "title": "Broader Impact",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Acknowledgements",
+            "level": 1,
+            "page": 15
+        },
+        {
+            "title": "Author Contributions",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Data and tasks",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "Advisors",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "A. Model Card",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "B. Tasks and Data",
+            "level": 1,
+            "page": 22
+        },
+        {
+            "title": "B.1. Task families",
+            "level": 3,
+            "page": 22
+        },
+        {
+            "title": "B.1.1. Lifting objects",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "B.1.2. Building structures",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "B.1.3. Inserting and removing objects",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "B.1.4. NIST-i tasks",
+            "level": 4,
+            "page": 26
+        },
+        {
+            "title": "B.2. Data sources",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "C. Embodiments and Environ-\nments",
+            "level": 1,
+            "page": 27
+        },
+        {
+            "title": "C.1. Robot arms",
+            "level": 3,
+            "page": 30
+        },
+        {
+            "title": "C.1.1. Sawyer",
+            "level": 4,
+            "page": 30
+        },
+        {
+            "title": "C.1.2. Panda",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "C.1.3. KUKA",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "C.2. Basket and setup",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "C.3. Environment resets",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "D. VQ-GAN Training Details",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "D.1. Datasets",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "D.2. Model architecture and loss",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "D.3. Ablations for our VQ-GAN design\nchoices",
+            "level": 3,
+            "page": 33
+        },
+        {
+            "title": "E. RoboCat Training Details",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "E.1. Data processing",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "E.2. Data weighting",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "E.3. Training and fine-tuning parameters",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "E.4. RoboCat-lim training data",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "F. Evaluation and Real-World\nDeployment",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "F.1. Evaluation for real-world RGB tasks",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "F.2. Evaluation for real-world tasks with\nno rewards or scripted resets",
+            "level": 3,
+            "page": 40
+        },
+        {
+            "title": "F.2.1. Success detection",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "F.2.2. Policy pools as generalised reset policies",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "G. Additional Experiments",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "G.1. Generalist capabilities and expert\nperformance",
+            "level": 3,
+            "page": 41
+        },
+        {
+            "title": "G.1.1. Training tasks",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "G.1.2. Fine-tuning performance",
+            "level": 4,
+            "page": 43
+        },
+        {
+            "title": "G.2. Visual foundation baselines",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "G.3. NIST-i extended study",
+            "level": 3,
+            "page": 46
+        },
+        {
+            "title": "G.3.1. Task complexity",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "G.3.2. Data bias",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "G.3.3. Skill transfer",
+            "level": 4,
+            "page": 49
+        },
+        {
+            "title": "G.3.4. Additional observations",
+            "level": 4,
+            "page": 49
+        }
+    ]
+}

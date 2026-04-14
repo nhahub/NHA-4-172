@@ -1,0 +1,502 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "1 Introduction",
+            "level": 0,
+            "page": 2
+        },
+        {
+            "title": "2 Interactive Objects",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "2.1 Human-in-the-loop",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "2.2 KB-in-the-loop",
+            "level": 1,
+            "page": 8
+        },
+        {
+            "title": "2.3 Model/Tool-in-the-loop",
+            "level": 1,
+            "page": 10
+        },
+        {
+            "title": "2.4 Environment-in-the-loop",
+            "level": 1,
+            "page": 13
+        },
+        {
+            "title": "3 Interaction Interface",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "3.1 Natural Language",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "3.2 Formal Language",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "3.3 Edits",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "3.4 Machine Language",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "3.5 Shared Memory",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "4 Interaction Methods",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "4.1 Pre-trained Language Models",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "4.2 Prompting",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "4.2.1 Standard Prompting",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "4.2.2 Elicitive Prompting",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "4.2.3 Prompt Chaining",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "4.3 Fine-Tuning",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "4.3.1 Supervised Instruction Tuning",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "4.3.2 Continual Learning",
+            "level": 2,
+            "page": 29
+        },
+        {
+            "title": "4.3.3 Parameter-Efficient Fine-Tuning",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "4.3.4 Semi-Supervised Fine-Tuning",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "4.4 Active Learning",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "4.5 Reinforcement Learning",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "4.5.1 Feedback Loop",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "4.5.2 Reward Modeling",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "4.6 Imitation Learning",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "4.7 Interaction Message Fusion",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "5 Evaluation",
+            "level": 0,
+            "page": 41
+        },
+        {
+            "title": "5.1 Evaluating Human-in-the-loop Interaction",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "5.2 Evaluating KB-in-the-loop Interaction",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "5.3 Evaluating Model/Tool-in-the-loop Interaction",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "5.4 Evaluating Environment-in-the-loop Interaction",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "6 Application",
+            "level": 0,
+            "page": 45
+        },
+        {
+            "title": "6.1 Controllable Text Generation",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "6.2 Writing Assistant",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "6.3 Embodied AI",
+            "level": 1,
+            "page": 47
+        },
+        {
+            "title": "6.4 Text Game",
+            "level": 1,
+            "page": 48
+        },
+        {
+            "title": "6.5 Other Applications",
+            "level": 1,
+            "page": 51
+        },
+        {
+            "title": "7 Ethics and Safety",
+            "level": 0,
+            "page": 52
+        },
+        {
+            "title": "8 Future Directions",
+            "level": 0,
+            "page": 53
+        },
+        {
+            "title": "9 Conclusion",
+            "level": 0,
+            "page": 55
+        },
+        {
+            "title": "10 Acknowledgements",
+            "level": 0,
+            "page": 56
+        },
+        {
+            "title": "A Contributions",
+            "level": 0,
+            "page": 108
+        }
+    ],
+    "pages": 110,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 5,
+        "equations": {
+            "successful_ocr": 12,
+            "unsuccessful_ocr": 1,
+            "equations": 13
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Interactive Natural Language Processing",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 0
+        },
+        {
+            "title": "Contents",
+            "level": 2,
+            "page": 1
+        },
+        {
+            "title": "1 Introduction",
+            "level": 2,
+            "page": 2
+        },
+        {
+            "title": "2 Interactive Objects",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "2.1 Human-in-the-loop",
+            "level": 3,
+            "page": 6
+        },
+        {
+            "title": "2.2 KB-in-the-loop",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "2.3 Model/Tool-in-the-loop",
+            "level": 3,
+            "page": 10
+        },
+        {
+            "title": "2.4 Environment-in-the-loop",
+            "level": 3,
+            "page": 13
+        },
+        {
+            "title": "3 Interaction Interface",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "3.1 Natural Language",
+            "level": 3,
+            "page": 16
+        },
+        {
+            "title": "3.2 Formal Language",
+            "level": 3,
+            "page": 17
+        },
+        {
+            "title": "3.3 Edits",
+            "level": 3,
+            "page": 18
+        },
+        {
+            "title": "3.4 Machine Language",
+            "level": 3,
+            "page": 19
+        },
+        {
+            "title": "3.5 Shared Memory",
+            "level": 3,
+            "page": 20
+        },
+        {
+            "title": "4 Interaction Methods",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "4.1 Pre-trained Language Models",
+            "level": 3,
+            "page": 21
+        },
+        {
+            "title": "4.2 Prompting",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "4.2.1 Standard Prompting",
+            "level": 3,
+            "page": 23
+        },
+        {
+            "title": "4.2.2 Elicitive Prompting",
+            "level": 3,
+            "page": 25
+        },
+        {
+            "title": "4.2.3 Prompt Chaining",
+            "level": 3,
+            "page": 26
+        },
+        {
+            "title": "4.3 Fine-Tuning",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "4.3.1 Supervised Instruction Tuning",
+            "level": 3,
+            "page": 28
+        },
+        {
+            "title": "4.3.2 Continual Learning",
+            "level": 3,
+            "page": 29
+        },
+        {
+            "title": "4.3.3 Parameter-Efficient Fine-Tuning",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "L\u03b80(h(\u03b8)(LM(x; h(\u03b8))) (3)\n\n![31_image_0.png](31_image_0.png)\n\n",
+            "level": 3,
+            "page": 31
+        },
+        {
+            "title": "4.3.4 Semi-Supervised Fine-Tuning",
+            "level": 3,
+            "page": 32
+        },
+        {
+            "title": "4.4 Active Learning\n\n![34_image_0.png](34_image_0.png)\n\n",
+            "level": 3,
+            "page": 34
+        },
+        {
+            "title": "4.5 Reinforcement Learning",
+            "level": 3,
+            "page": 35
+        },
+        {
+            "title": "4.5.1 Feedback Loop",
+            "level": 3,
+            "page": 36
+        },
+        {
+            "title": "4.5.2 Reward Modeling",
+            "level": 3,
+            "page": 37
+        },
+        {
+            "title": "4.6 Imitation Learning",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "4.7 Interaction Message Fusion",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "5 Evaluation",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "5.1 Evaluating Human-in-the-loop Interaction",
+            "level": 3,
+            "page": 42
+        },
+        {
+            "title": "5.2 Evaluating KB-in-the-loop Interaction",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "5.3 Evaluating Model/Tool-in-the-loop Interaction",
+            "level": 3,
+            "page": 43
+        },
+        {
+            "title": "5.4 Evaluating Environment-in-the-loop Interaction",
+            "level": 3,
+            "page": 44
+        },
+        {
+            "title": "6 Application",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "6.1 Controllable Text Generation",
+            "level": 3,
+            "page": 45
+        },
+        {
+            "title": "6.2 Writing Assistant",
+            "level": 3,
+            "page": 46
+        },
+        {
+            "title": "6.3 Embodied AI",
+            "level": 3,
+            "page": 47
+        },
+        {
+            "title": "6.4 Text Game",
+            "level": 3,
+            "page": 48
+        },
+        {
+            "title": "6.5 Other Applications",
+            "level": 3,
+            "page": 51
+        },
+        {
+            "title": "7 Ethics and Safety",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "8 Future Directions",
+            "level": 2,
+            "page": 53
+        },
+        {
+            "title": "9 Conclusion",
+            "level": 2,
+            "page": 55
+        },
+        {
+            "title": "10 Acknowledgements",
+            "level": 2,
+            "page": 56
+        },
+        {
+            "title": "References",
+            "level": 2,
+            "page": 56
+        },
+        {
+            "title": "A Contributions",
+            "level": 2,
+            "page": 108
+        }
+    ]
+}
