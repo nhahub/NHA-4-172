@@ -1,0 +1,2567 @@
+{
+    "languages": [
+        "en"
+    ],
+    "filetype": "pdf",
+    "pdf_toc": [
+        {
+            "title": "Build a Large Language Model (From Scratch)",
+            "level": 0,
+            "page": 0
+        },
+        {
+            "title": "brief contents",
+            "level": 0,
+            "page": 6
+        },
+        {
+            "title": "contents",
+            "level": 0,
+            "page": 8
+        },
+        {
+            "title": "preface",
+            "level": 0,
+            "page": 12
+        },
+        {
+            "title": "acknowledgments",
+            "level": 0,
+            "page": 14
+        },
+        {
+            "title": "about this book",
+            "level": 0,
+            "page": 16
+        },
+        {
+            "title": "Who should read this book",
+            "level": 1,
+            "page": 16
+        },
+        {
+            "title": "How this book is organized: A roadmap",
+            "level": 1,
+            "page": 17
+        },
+        {
+            "title": "About the code",
+            "level": 1,
+            "page": 18
+        },
+        {
+            "title": "liveBook discussion forum",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "Other online resources",
+            "level": 1,
+            "page": 19
+        },
+        {
+            "title": "about the author",
+            "level": 0,
+            "page": 20
+        },
+        {
+            "title": "about the cover illustration",
+            "level": 0,
+            "page": 21
+        },
+        {
+            "title": "1 Understanding large language models",
+            "level": 0,
+            "page": 22
+        },
+        {
+            "title": "1.1 What is an LLM?",
+            "level": 1,
+            "page": 23
+        },
+        {
+            "title": "1.2 Applications of LLMs",
+            "level": 1,
+            "page": 25
+        },
+        {
+            "title": "1.3 Stages of building and using LLMs",
+            "level": 1,
+            "page": 26
+        },
+        {
+            "title": "1.4 Introducing the transformer architecture",
+            "level": 1,
+            "page": 28
+        },
+        {
+            "title": "1.5 Utilizing large datasets",
+            "level": 1,
+            "page": 31
+        },
+        {
+            "title": "1.6 A closer look at the GPT architecture",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "1.7 Building a large language model",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "Summary",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "2 Working with text data",
+            "level": 0,
+            "page": 38
+        },
+        {
+            "title": "2.1 Understanding word embeddings",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "2.2 Tokenizing text",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "2.3 Converting tokens into token IDs",
+            "level": 1,
+            "page": 45
+        },
+        {
+            "title": "2.4 Adding special context tokens",
+            "level": 1,
+            "page": 50
+        },
+        {
+            "title": "2.5 Byte pair encoding",
+            "level": 1,
+            "page": 54
+        },
+        {
+            "title": "2.6 Data sampling with a sliding window",
+            "level": 1,
+            "page": 56
+        },
+        {
+            "title": "2.7 Creating token embeddings",
+            "level": 1,
+            "page": 62
+        },
+        {
+            "title": "2.8 Encoding word positions",
+            "level": 1,
+            "page": 64
+        },
+        {
+            "title": "Summary",
+            "level": 1,
+            "page": 69
+        },
+        {
+            "title": "3 Coding attention mechanisms",
+            "level": 0,
+            "page": 71
+        },
+        {
+            "title": "3.1 The problem with modeling long sequences",
+            "level": 1,
+            "page": 73
+        },
+        {
+            "title": "3.2 Capturing data dependencies with attention mechanisms",
+            "level": 1,
+            "page": 75
+        },
+        {
+            "title": "3.3 Attending to different parts of the input with self-attention",
+            "level": 1,
+            "page": 76
+        },
+        {
+            "title": "3.3.1 A simple self-attention mechanism without trainable weights",
+            "level": 2,
+            "page": 77
+        },
+        {
+            "title": "3.3.2 Computing attention weights for all input tokens",
+            "level": 2,
+            "page": 82
+        },
+        {
+            "title": "3.4 Implementing self-attention with trainable weights",
+            "level": 1,
+            "page": 85
+        },
+        {
+            "title": "3.4.1 Computing the attention weights step by step",
+            "level": 2,
+            "page": 86
+        },
+        {
+            "title": "3.4.2 Implementing a compact self-attention Python class",
+            "level": 2,
+            "page": 91
+        },
+        {
+            "title": "3.5 Hiding future words with causal attention",
+            "level": 1,
+            "page": 95
+        },
+        {
+            "title": "3.5.1 Applying a causal attention mask",
+            "level": 2,
+            "page": 96
+        },
+        {
+            "title": "3.5.2 Masking additional attention weights with dropout",
+            "level": 2,
+            "page": 99
+        },
+        {
+            "title": "3.5.3 Implementing a compact causal attention class",
+            "level": 2,
+            "page": 101
+        },
+        {
+            "title": "3.6 Extending single-head attention to multi-head attention",
+            "level": 1,
+            "page": 103
+        },
+        {
+            "title": "3.6.1 Stacking multiple single-head attention layers",
+            "level": 2,
+            "page": 103
+        },
+        {
+            "title": "3.6.2 Implementing multi-head attention with weight splits",
+            "level": 2,
+            "page": 107
+        },
+        {
+            "title": "Summary",
+            "level": 1,
+            "page": 112
+        },
+        {
+            "title": "4 Implementing a GPT model from scratch to generate text",
+            "level": 0,
+            "page": 113
+        },
+        {
+            "title": "4.1 Coding an LLM architecture",
+            "level": 1,
+            "page": 114
+        },
+        {
+            "title": "4.2 Normalizing activations with layer normalization",
+            "level": 1,
+            "page": 120
+        },
+        {
+            "title": "4.3 Implementing a feed forward network with GELU activations",
+            "level": 1,
+            "page": 126
+        },
+        {
+            "title": "4.4 Adding shortcut connections",
+            "level": 1,
+            "page": 130
+        },
+        {
+            "title": "4.5 Connecting attention and linear layers in a transformer block",
+            "level": 1,
+            "page": 134
+        },
+        {
+            "title": "4.6 Coding the GPT model",
+            "level": 1,
+            "page": 138
+        },
+        {
+            "title": "4.7 Generating text",
+            "level": 1,
+            "page": 143
+        },
+        {
+            "title": "Summary",
+            "level": 1,
+            "page": 148
+        },
+        {
+            "title": "5 Pretraining on unlabeled data",
+            "level": 0,
+            "page": 149
+        },
+        {
+            "title": "5.1 Evaluating generative text models",
+            "level": 1,
+            "page": 150
+        },
+        {
+            "title": "5.1.1 Using GPT to generate text",
+            "level": 2,
+            "page": 151
+        },
+        {
+            "title": "5.1.2 Calculating the text generation loss",
+            "level": 2,
+            "page": 153
+        },
+        {
+            "title": "5.1.3 Calculating the training and validation set losses",
+            "level": 2,
+            "page": 161
+        },
+        {
+            "title": "5.2 Training an LLM",
+            "level": 1,
+            "page": 167
+        },
+        {
+            "title": "5.3 Decoding strategies to control randomness",
+            "level": 1,
+            "page": 172
+        },
+        {
+            "title": "5.3.1 Temperature scaling",
+            "level": 2,
+            "page": 173
+        },
+        {
+            "title": "5.3.2 Top-k sampling",
+            "level": 2,
+            "page": 176
+        },
+        {
+            "title": "5.3.3 Modifying the text generation function",
+            "level": 2,
+            "page": 178
+        },
+        {
+            "title": "5.4 Loading and saving model weights in PyTorch",
+            "level": 1,
+            "page": 180
+        },
+        {
+            "title": "5.5 Loading pretrained weights from OpenAI",
+            "level": 1,
+            "page": 181
+        },
+        {
+            "title": "Summary",
+            "level": 1,
+            "page": 188
+        },
+        {
+            "title": "6 Fine-tuning for classification",
+            "level": 0,
+            "page": 190
+        },
+        {
+            "title": "6.1 Different categories of fine-tuning",
+            "level": 1,
+            "page": 191
+        },
+        {
+            "title": "6.2 Preparing the dataset",
+            "level": 1,
+            "page": 193
+        },
+        {
+            "title": "6.3 Creating data loaders",
+            "level": 1,
+            "page": 196
+        },
+        {
+            "title": "6.4 Initializing a model with pretrained weights",
+            "level": 1,
+            "page": 202
+        },
+        {
+            "title": "6.5 Adding a classification head",
+            "level": 1,
+            "page": 204
+        },
+        {
+            "title": "6.6 Calculating the classification loss and accuracy",
+            "level": 1,
+            "page": 211
+        },
+        {
+            "title": "6.7 Fine-tuning the model on supervised data",
+            "level": 1,
+            "page": 216
+        },
+        {
+            "title": "6.8 Using the LLM as a spam classifier",
+            "level": 1,
+            "page": 221
+        },
+        {
+            "title": "Summary",
+            "level": 1,
+            "page": 223
+        },
+        {
+            "title": "7 Fine-tuning to follow instructions",
+            "level": 0,
+            "page": 225
+        },
+        {
+            "title": "7.1 Introduction to instruction fine-tuning",
+            "level": 1,
+            "page": 226
+        },
+        {
+            "title": "7.2 Preparing a dataset for supervised instruction fine-tuning",
+            "level": 1,
+            "page": 228
+        },
+        {
+            "title": "7.3 Organizing data into training batches",
+            "level": 1,
+            "page": 232
+        },
+        {
+            "title": "7.4 Creating data loaders for an instruction dataset",
+            "level": 1,
+            "page": 244
+        },
+        {
+            "title": "7.5 Loading a pretrained LLM",
+            "level": 1,
+            "page": 247
+        },
+        {
+            "title": "7.6 Fine-tuning the LLM on instruction data",
+            "level": 1,
+            "page": 250
+        },
+        {
+            "title": "7.7 Extracting and saving responses",
+            "level": 1,
+            "page": 254
+        },
+        {
+            "title": "7.8 Evaluating the fine-tuned LLM",
+            "level": 1,
+            "page": 259
+        },
+        {
+            "title": "7.9 Conclusions",
+            "level": 1,
+            "page": 268
+        },
+        {
+            "title": "7.9.1 What\u2019s next?",
+            "level": 2,
+            "page": 268
+        },
+        {
+            "title": "7.9.2 Staying up to date in a fast-moving field",
+            "level": 2,
+            "page": 269
+        },
+        {
+            "title": "7.9.3 Final words",
+            "level": 2,
+            "page": 269
+        },
+        {
+            "title": "Summary",
+            "level": 1,
+            "page": 270
+        },
+        {
+            "title": "appendix A\u2014Introduction to PyTorch",
+            "level": 0,
+            "page": 272
+        },
+        {
+            "title": "A.1 What is PyTorch?",
+            "level": 1,
+            "page": 272
+        },
+        {
+            "title": "A.1.1 The three core components of PyTorch",
+            "level": 2,
+            "page": 273
+        },
+        {
+            "title": "A.1.2 Defining deep learning",
+            "level": 2,
+            "page": 273
+        },
+        {
+            "title": "A.1.3 Installing PyTorch",
+            "level": 2,
+            "page": 275
+        },
+        {
+            "title": "A.2 Understanding tensors",
+            "level": 1,
+            "page": 279
+        },
+        {
+            "title": "A.2.1 Scalars, vectors, matrices, and tensors",
+            "level": 2,
+            "page": 279
+        },
+        {
+            "title": "A.2.2 Tensor data types",
+            "level": 2,
+            "page": 280
+        },
+        {
+            "title": "A.2.3 Common PyTorch tensor operations",
+            "level": 2,
+            "page": 281
+        },
+        {
+            "title": "A.3 Seeing models as computation graphs",
+            "level": 1,
+            "page": 282
+        },
+        {
+            "title": "A.4 Automatic differentiation made easy",
+            "level": 1,
+            "page": 284
+        },
+        {
+            "title": "A.5 Implementing multilayer neural networks",
+            "level": 1,
+            "page": 286
+        },
+        {
+            "title": "A.6 Setting up efficient data loaders",
+            "level": 1,
+            "page": 291
+        },
+        {
+            "title": "A.7 A typical training loop",
+            "level": 1,
+            "page": 295
+        },
+        {
+            "title": "A.8 Saving and loading models",
+            "level": 1,
+            "page": 299
+        },
+        {
+            "title": "A.9 Optimizing training performance with GPUs",
+            "level": 1,
+            "page": 300
+        },
+        {
+            "title": "A.9.1 PyTorch computations on GPU devices",
+            "level": 2,
+            "page": 300
+        },
+        {
+            "title": "A.9.2 Single-GPU training",
+            "level": 2,
+            "page": 301
+        },
+        {
+            "title": "A.9.3 Training with multiple GPUs",
+            "level": 2,
+            "page": 303
+        },
+        {
+            "title": "Summary",
+            "level": 1,
+            "page": 309
+        },
+        {
+            "title": "appendix B\u2014References and further reading",
+            "level": 0,
+            "page": 310
+        },
+        {
+            "title": "Chapter 1",
+            "level": 1,
+            "page": 310
+        },
+        {
+            "title": "Chapter 2",
+            "level": 1,
+            "page": 311
+        },
+        {
+            "title": "Chapter 3",
+            "level": 1,
+            "page": 312
+        },
+        {
+            "title": "Chapter 4",
+            "level": 1,
+            "page": 313
+        },
+        {
+            "title": "Chapter 5",
+            "level": 1,
+            "page": 314
+        },
+        {
+            "title": "Chapter 6",
+            "level": 1,
+            "page": 316
+        },
+        {
+            "title": "Chapter 7",
+            "level": 1,
+            "page": 317
+        },
+        {
+            "title": "Appendix A",
+            "level": 1,
+            "page": 319
+        },
+        {
+            "title": "appendix C\u2014Exercise solutions",
+            "level": 0,
+            "page": 321
+        },
+        {
+            "title": "Chapter 2",
+            "level": 1,
+            "page": 321
+        },
+        {
+            "title": "Exercise 2.1",
+            "level": 2,
+            "page": 321
+        },
+        {
+            "title": "Exercise 2.2",
+            "level": 2,
+            "page": 322
+        },
+        {
+            "title": "Chapter 3",
+            "level": 1,
+            "page": 322
+        },
+        {
+            "title": "Exercise 3.1",
+            "level": 2,
+            "page": 322
+        },
+        {
+            "title": "Exercise 3.2",
+            "level": 2,
+            "page": 322
+        },
+        {
+            "title": "Exercise 3.3",
+            "level": 2,
+            "page": 322
+        },
+        {
+            "title": "Chapter 4",
+            "level": 1,
+            "page": 323
+        },
+        {
+            "title": "Exercise 4.1",
+            "level": 2,
+            "page": 323
+        },
+        {
+            "title": "Exercise 4.2",
+            "level": 2,
+            "page": 323
+        },
+        {
+            "title": "Exercise 4.3",
+            "level": 2,
+            "page": 323
+        },
+        {
+            "title": "Chapter 5",
+            "level": 1,
+            "page": 325
+        },
+        {
+            "title": "Exercise 5.1",
+            "level": 2,
+            "page": 325
+        },
+        {
+            "title": "Exercise 5.2",
+            "level": 2,
+            "page": 325
+        },
+        {
+            "title": "Exercise 5.3",
+            "level": 2,
+            "page": 326
+        },
+        {
+            "title": "Exercise 5.4",
+            "level": 2,
+            "page": 326
+        },
+        {
+            "title": "Exercise 5.5",
+            "level": 2,
+            "page": 326
+        },
+        {
+            "title": "Exercise 5.6",
+            "level": 2,
+            "page": 327
+        },
+        {
+            "title": "Chapter 6",
+            "level": 1,
+            "page": 327
+        },
+        {
+            "title": "Exercise 6.1",
+            "level": 2,
+            "page": 327
+        },
+        {
+            "title": "Exercise 6.2",
+            "level": 2,
+            "page": 327
+        },
+        {
+            "title": "Exercise 6.3",
+            "level": 2,
+            "page": 327
+        },
+        {
+            "title": "Chapter 7",
+            "level": 1,
+            "page": 328
+        },
+        {
+            "title": "Exercise 7.1",
+            "level": 2,
+            "page": 328
+        },
+        {
+            "title": "Exercise 7.2",
+            "level": 2,
+            "page": 328
+        },
+        {
+            "title": "Exercise 7.3",
+            "level": 2,
+            "page": 330
+        },
+        {
+            "title": "Exercise 7.4",
+            "level": 2,
+            "page": 330
+        },
+        {
+            "title": "Appendix A",
+            "level": 1,
+            "page": 331
+        },
+        {
+            "title": "Exercise A.1",
+            "level": 2,
+            "page": 331
+        },
+        {
+            "title": "Exercise A.2",
+            "level": 2,
+            "page": 332
+        },
+        {
+            "title": "Exercise A.3",
+            "level": 2,
+            "page": 332
+        },
+        {
+            "title": "Exercise A.4",
+            "level": 2,
+            "page": 333
+        },
+        {
+            "title": "appendix D\u2014Adding bells and whistles to the training loop",
+            "level": 0,
+            "page": 334
+        },
+        {
+            "title": "D.1 Learning rate warmup",
+            "level": 1,
+            "page": 335
+        },
+        {
+            "title": "D.2 Cosine decay",
+            "level": 1,
+            "page": 337
+        },
+        {
+            "title": "D.3 Gradient clipping",
+            "level": 1,
+            "page": 338
+        },
+        {
+            "title": "D.4 The modified training function",
+            "level": 1,
+            "page": 340
+        },
+        {
+            "title": "appendix E\u2014Parameter-efficient fine-tuning with LoRA",
+            "level": 0,
+            "page": 343
+        },
+        {
+            "title": "E.1 Introduction to LoRA",
+            "level": 1,
+            "page": 343
+        },
+        {
+            "title": "E.2 Preparing the dataset",
+            "level": 1,
+            "page": 345
+        },
+        {
+            "title": "E.3 Initializing the model",
+            "level": 1,
+            "page": 347
+        },
+        {
+            "title": "E.4 Parameter-efficient fine-tuning with LoRA",
+            "level": 1,
+            "page": 349
+        },
+        {
+            "title": "index",
+            "level": 0,
+            "page": 358
+        },
+        {
+            "title": "Symbols",
+            "level": 1,
+            "page": 358
+        },
+        {
+            "title": "Numerics",
+            "level": 1,
+            "page": 358
+        },
+        {
+            "title": "A",
+            "level": 1,
+            "page": 358
+        },
+        {
+            "title": "B",
+            "level": 1,
+            "page": 358
+        },
+        {
+            "title": "C",
+            "level": 1,
+            "page": 358
+        },
+        {
+            "title": "D",
+            "level": 1,
+            "page": 359
+        },
+        {
+            "title": "E",
+            "level": 1,
+            "page": 359
+        },
+        {
+            "title": "F",
+            "level": 1,
+            "page": 360
+        },
+        {
+            "title": "G",
+            "level": 1,
+            "page": 360
+        },
+        {
+            "title": "I",
+            "level": 1,
+            "page": 360
+        },
+        {
+            "title": "K",
+            "level": 1,
+            "page": 361
+        },
+        {
+            "title": "L",
+            "level": 1,
+            "page": 361
+        },
+        {
+            "title": "M",
+            "level": 1,
+            "page": 361
+        },
+        {
+            "title": "N",
+            "level": 1,
+            "page": 361
+        },
+        {
+            "title": "O",
+            "level": 1,
+            "page": 362
+        },
+        {
+            "title": "P",
+            "level": 1,
+            "page": 362
+        },
+        {
+            "title": "Q",
+            "level": 1,
+            "page": 362
+        },
+        {
+            "title": "R",
+            "level": 1,
+            "page": 362
+        },
+        {
+            "title": "S",
+            "level": 1,
+            "page": 363
+        },
+        {
+            "title": "T",
+            "level": 1,
+            "page": 363
+        },
+        {
+            "title": "U",
+            "level": 1,
+            "page": 364
+        },
+        {
+            "title": "V",
+            "level": 1,
+            "page": 364
+        },
+        {
+            "title": "W",
+            "level": 1,
+            "page": 364
+        },
+        {
+            "title": "X",
+            "level": 1,
+            "page": 364
+        },
+        {
+            "title": "Z",
+            "level": 1,
+            "page": 364
+        }
+    ],
+    "pages": 370,
+    "ocr_stats": {
+        "ocr_pages": 0,
+        "ocr_failed": 0,
+        "ocr_success": 0,
+        "ocr_engine": "none"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 0,
+        "table": 60,
+        "equations": {
+            "successful_ocr": 18,
+            "unsuccessful_ocr": 5,
+            "equations": 23
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "BUILD A",
+            "level": 1,
+            "page": 0
+        },
+        {
+            "title": "Build a Large\nLanguage Model\n(From Scratch)",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "brief contents",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "vii",
+            "level": 4,
+            "page": 8
+        },
+        {
+            "title": "3 Coding attention mechanisms 50",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "4 Implementing a GPT model from scratch to generate text 92",
+            "level": 2,
+            "page": 9
+        },
+        {
+            "title": "5 Pretraining on unlabeled data 128",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "7 Fine-tuning to follow instructions 204",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "xi",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "acknowledgments",
+            "level": 2,
+            "page": 14
+        },
+        {
+            "title": "xiii",
+            "level": 4,
+            "page": 14
+        },
+        {
+            "title": "about this book",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "Who should read this book",
+            "level": 2,
+            "page": 16
+        },
+        {
+            "title": "xv",
+            "level": 4,
+            "page": 16
+        },
+        {
+            "title": "How this book is organized: A roadmap",
+            "level": 2,
+            "page": 17
+        },
+        {
+            "title": "About the code",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "liveBook discussion forum",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "Other online resources",
+            "level": 2,
+            "page": 19
+        },
+        {
+            "title": "about the author",
+            "level": 2,
+            "page": 20
+        },
+        {
+            "title": "xix",
+            "level": 4,
+            "page": 20
+        },
+        {
+            "title": "about the cover illustration",
+            "level": 2,
+            "page": 21
+        },
+        {
+            "title": "xx",
+            "level": 4,
+            "page": 21
+        },
+        {
+            "title": "Understanding large\nlanguage models",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "1",
+            "level": 4,
+            "page": 22
+        },
+        {
+            "title": "1.1 What is an LLM?",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "1.2 Applications of LLMs",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "1.3 Stages of building and using LLMs",
+            "level": 2,
+            "page": 26
+        },
+        {
+            "title": "1.4 Introducing the transformer architecture",
+            "level": 2,
+            "page": 28
+        },
+        {
+            "title": "Transformers vs. LLMs",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "1.5 Utilizing large datasets",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "GPT-3 dataset details",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "1.6 A closer look at the GPT architecture",
+            "level": 2,
+            "page": 33
+        },
+        {
+            "title": "1.7 Building a large language model",
+            "level": 2,
+            "page": 35
+        },
+        {
+            "title": "Summary",
+            "level": 2,
+            "page": 36
+        },
+        {
+            "title": "Working with text data\n\n![38_image_0.png](38_image_0.png)\n\n\n\n![38_image_1.png](38_image_1.png)\n\n",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "This chapter covers\n\n![38_image_2.png](38_image_2.png)\n\n",
+            "level": 3,
+            "page": 38
+        },
+        {
+            "title": "17",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "2.1 Understanding word embeddings",
+            "level": 3,
+            "page": 39
+        },
+        {
+            "title": "2.2 Tokenizing text",
+            "level": 2,
+            "page": 42
+        },
+        {
+            "title": "2.3 Converting tokens into token IDs",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "Listing 2.2 Creating a vocabulary",
+            "level": 4,
+            "page": 46
+        },
+        {
+            "title": "This outputs:",
+            "level": 4,
+            "page": 49
+        },
+        {
+            "title": "2.4 Adding special context tokens",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "The output is",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "2.5 Byte pair encoding",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "Exercise 2.1 Byte pair encoding of unknown words ",
+            "level": 4,
+            "page": 55
+        },
+        {
+            "title": "2.6 Data sampling with a sliding window",
+            "level": 2,
+            "page": 56
+        },
+        {
+            "title": "This prints",
+            "level": 4,
+            "page": 61
+        },
+        {
+            "title": "2.7 Creating token embeddings",
+            "level": 2,
+            "page": 62
+        },
+        {
+            "title": "2.8 Encoding word positions",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "Summary",
+            "level": 2,
+            "page": 69
+        },
+        {
+            "title": "Coding attention\nmechanisms",
+            "level": 2,
+            "page": 71
+        },
+        {
+            "title": "This chapter covers",
+            "level": 3,
+            "page": 71
+        },
+        {
+            "title": "50",
+            "level": 4,
+            "page": 71
+        },
+        {
+            "title": "3.1 The problem with modeling long sequences",
+            "level": 2,
+            "page": 73
+        },
+        {
+            "title": "3.2 Capturing data dependencies with attention \nmechanisms",
+            "level": 3,
+            "page": 75
+        },
+        {
+            "title": "3.3 Attending to different parts of the input \nwith self-attention",
+            "level": 3,
+            "page": 76
+        },
+        {
+            "title": "The \"self\" in self-attention ",
+            "level": 4,
+            "page": 77
+        },
+        {
+            "title": "3.3.1 A simple self-attention mechanism without trainable weights",
+            "level": 4,
+            "page": 77
+        },
+        {
+            "title": "Understanding dot products ",
+            "level": 4,
+            "page": 79
+        },
+        {
+            "title": "3.3.2 Computing attention weights for all input tokens",
+            "level": 4,
+            "page": 82
+        },
+        {
+            "title": "3.4 Implementing self-attention with trainable weights",
+            "level": 2,
+            "page": 85
+        },
+        {
+            "title": "3.4.1 Computing the attention weights step by step",
+            "level": 4,
+            "page": 86
+        },
+        {
+            "title": "The rationale behind scaled-dot product attention",
+            "level": 4,
+            "page": 90
+        },
+        {
+            "title": "Why query, key, and value?",
+            "level": 4,
+            "page": 91
+        },
+        {
+            "title": "3.4.2 Implementing a compact self-attention Python class",
+            "level": 4,
+            "page": 91
+        },
+        {
+            "title": "Listing 3.1 A compact self-attention class",
+            "level": 4,
+            "page": 91
+        },
+        {
+            "title": "The output is",
+            "level": 4,
+            "page": 94
+        },
+        {
+            "title": "Exercise 3.1 Comparing SelfAttention_v1 and SelfAttention_v2",
+            "level": 4,
+            "page": 94
+        },
+        {
+            "title": "3.5 Hiding future words with causal attention",
+            "level": 2,
+            "page": 95
+        },
+        {
+            "title": "3.5.1 Applying a causal attention mask",
+            "level": 4,
+            "page": 96
+        },
+        {
+            "title": "Information leakage",
+            "level": 4,
+            "page": 97
+        },
+        {
+            "title": "3.5.2 Masking additional attention weights with dropout",
+            "level": 4,
+            "page": 99
+        },
+        {
+            "title": "3.5.3 Implementing a compact causal attention class",
+            "level": 4,
+            "page": 101
+        },
+        {
+            "title": "Listing 3.3 A compact causal attention class",
+            "level": 4,
+            "page": 102
+        },
+        {
+            "title": "3.6 Extending single-head attention to multi-head \nattention",
+            "level": 3,
+            "page": 103
+        },
+        {
+            "title": "3.6.1 Stacking multiple single-head attention layers",
+            "level": 4,
+            "page": 103
+        },
+        {
+            "title": "Listing 3.4 A wrapper class to implement multi-head attention",
+            "level": 4,
+            "page": 105
+        },
+        {
+            "title": "3.6.2 Implementing multi-head attention with weight splits",
+            "level": 4,
+            "page": 107
+        },
+        {
+            "title": "Listing 3.5 An efficient multi-head attention class",
+            "level": 4,
+            "page": 107
+        },
+        {
+            "title": "Exercise 3.3 Initializing GPT-2 size attention modules",
+            "level": 4,
+            "page": 112
+        },
+        {
+            "title": "Summary",
+            "level": 2,
+            "page": 112
+        },
+        {
+            "title": "Implementing\na GPT model from\nscratch to generate text",
+            "level": 2,
+            "page": 113
+        },
+        {
+            "title": "This chapter covers",
+            "level": 3,
+            "page": 113
+        },
+        {
+            "title": "92",
+            "level": 4,
+            "page": 113
+        },
+        {
+            "title": "4.1 Coding an LLM architecture",
+            "level": 3,
+            "page": 114
+        },
+        {
+            "title": "GPT-2 vs. GPT-3 ",
+            "level": 4,
+            "page": 115
+        },
+        {
+            "title": "Listing 4.1 A placeholder GPT model architecture class",
+            "level": 4,
+            "page": 117
+        },
+        {
+            "title": "4.2 Normalizing activations with layer normalization",
+            "level": 2,
+            "page": 120
+        },
+        {
+            "title": "Listing 4.2 A layer normalization class",
+            "level": 4,
+            "page": 124
+        },
+        {
+            "title": "Biased variance ",
+            "level": 4,
+            "page": 124
+        },
+        {
+            "title": "Layer normalization vs. batch normalization",
+            "level": 4,
+            "page": 125
+        },
+        {
+            "title": "4.3 Implementing a feed forward network \nwith GELU activations",
+            "level": 3,
+            "page": 126
+        },
+        {
+            "title": "Listing 4.4 A feed forward neural network module",
+            "level": 4,
+            "page": 128
+        },
+        {
+            "title": "4.4 Adding shortcut connections",
+            "level": 2,
+            "page": 130
+        },
+        {
+            "title": "Listing 4.5 A neural network to illustrate shortcut connections",
+            "level": 4,
+            "page": 131
+        },
+        {
+            "title": "4.5 Connecting attention and linear layers \nin a transformer block",
+            "level": 3,
+            "page": 134
+        },
+        {
+            "title": "4.6 Coding the GPT model",
+            "level": 2,
+            "page": 138
+        },
+        {
+            "title": "4.7 Generating text",
+            "level": 2,
+            "page": 143
+        },
+        {
+            "title": "Listing 4.8 A function for the GPT model to generate text",
+            "level": 4,
+            "page": 145
+        },
+        {
+            "title": "Exercise 4.3 Using separate dropout parameters ",
+            "level": 4,
+            "page": 148
+        },
+        {
+            "title": "Summary",
+            "level": 2,
+            "page": 148
+        },
+        {
+            "title": "Pretraining\non unlabeled data",
+            "level": 2,
+            "page": 149
+        },
+        {
+            "title": "This chapter covers\n\n![149_image_0.png](149_image_0.png)\n\n",
+            "level": 3,
+            "page": 149
+        },
+        {
+            "title": "128",
+            "level": 4,
+            "page": 149
+        },
+        {
+            "title": "Weight parameters ",
+            "level": 4,
+            "page": 150
+        },
+        {
+            "title": "5.1 Evaluating generative text models",
+            "level": 2,
+            "page": 150
+        },
+        {
+            "title": "5.1.1 Using GPT to generate text",
+            "level": 4,
+            "page": 151
+        },
+        {
+            "title": "Listing 5.1 Utility functions for text to token ID conversion",
+            "level": 4,
+            "page": 152
+        },
+        {
+            "title": "5.1.2 Calculating the text generation loss",
+            "level": 4,
+            "page": 153
+        },
+        {
+            "title": "Backpropagation",
+            "level": 4,
+            "page": 158
+        },
+        {
+            "title": "(continued)",
+            "level": 4,
+            "page": 161
+        },
+        {
+            "title": "5.1.3 Calculating the training and validation set losses",
+            "level": 4,
+            "page": 161
+        },
+        {
+            "title": "The cost of pretraining LLMs \n\n![162_image_0.png](162_image_0.png)\n\n",
+            "level": 4,
+            "page": 162
+        },
+        {
+            "title": "Listing 5.2 Function to compute the training and validation loss",
+            "level": 4,
+            "page": 165
+        },
+        {
+            "title": "5.2 Training an LLM",
+            "level": 2,
+            "page": 167
+        },
+        {
+            "title": "Listing 5.3 The main function for pretraining LLMs",
+            "level": 4,
+            "page": 168
+        },
+        {
+            "title": "AdamW ",
+            "level": 4,
+            "page": 169
+        },
+        {
+            "title": "5.3 Decoding strategies to control randomness",
+            "level": 3,
+            "page": 172
+        },
+        {
+            "title": "5.3.1 Temperature scaling",
+            "level": 4,
+            "page": 173
+        },
+        {
+            "title": "Exercise 5.1",
+            "level": 4,
+            "page": 176
+        },
+        {
+            "title": "5.3.2 Top-k sampling",
+            "level": 4,
+            "page": 176
+        },
+        {
+            "title": "5.3.3 Modifying the text generation function",
+            "level": 4,
+            "page": 178
+        },
+        {
+            "title": "The generated text is",
+            "level": 4,
+            "page": 179
+        },
+        {
+            "title": "Exercise 5.2",
+            "level": 4,
+            "page": 179
+        },
+        {
+            "title": "Exercise 5.3",
+            "level": 4,
+            "page": 180
+        },
+        {
+            "title": "5.4 Loading and saving model weights in PyTorch",
+            "level": 2,
+            "page": 180
+        },
+        {
+            "title": "Exercise 5.4",
+            "level": 4,
+            "page": 181
+        },
+        {
+            "title": "5.5 Loading pretrained weights from OpenAI",
+            "level": 2,
+            "page": 181
+        },
+        {
+            "title": "Listing 5.5 Loading OpenAI weights into our GPT model code",
+            "level": 4,
+            "page": 186
+        },
+        {
+            "title": "Exercise 5.5",
+            "level": 4,
+            "page": 188
+        },
+        {
+            "title": "Exercise 5.6",
+            "level": 4,
+            "page": 188
+        },
+        {
+            "title": "Summary",
+            "level": 2,
+            "page": 188
+        },
+        {
+            "title": "Fine-tuning\nfor classification",
+            "level": 2,
+            "page": 190
+        },
+        {
+            "title": "169",
+            "level": 4,
+            "page": 190
+        },
+        {
+            "title": "6.1 Different categories of fine-tuning",
+            "level": 3,
+            "page": 191
+        },
+        {
+            "title": "Choosing the right approach ",
+            "level": 4,
+            "page": 192
+        },
+        {
+            "title": "6.2 Preparing the dataset",
+            "level": 2,
+            "page": 193
+        },
+        {
+            "title": "Listing 6.3 Splitting the dataset",
+            "level": 4,
+            "page": 196
+        },
+        {
+            "title": "6.3 Creating data loaders",
+            "level": 2,
+            "page": 196
+        },
+        {
+            "title": "Listing 6.4 Setting up a Pytorch Dataset class",
+            "level": 4,
+            "page": 198
+        },
+        {
+            "title": "Exercise 6.1 Increasing the context length ",
+            "level": 4,
+            "page": 200
+        },
+        {
+            "title": "Listing 6.5 Creating PyTorch data loaders",
+            "level": 4,
+            "page": 201
+        },
+        {
+            "title": "6.4 Initializing a model with pretrained weights",
+            "level": 2,
+            "page": 202
+        },
+        {
+            "title": "Listing 6.6 Loading a pretrained GPT model",
+            "level": 4,
+            "page": 203
+        },
+        {
+            "title": "6.5 Adding a classification head",
+            "level": 2,
+            "page": 204
+        },
+        {
+            "title": "Output layer nodes ",
+            "level": 4,
+            "page": 204
+        },
+        {
+            "title": "Fine-tuning selected layers vs. all layers",
+            "level": 4,
+            "page": 206
+        },
+        {
+            "title": "6.6 Calculating the classification loss and accuracy",
+            "level": 2,
+            "page": 211
+        },
+        {
+            "title": "Listing 6.8 Calculating the classification accuracy",
+            "level": 4,
+            "page": 213
+        },
+        {
+            "title": "Listing 6.9 Calculating the classification loss",
+            "level": 4,
+            "page": 215
+        },
+        {
+            "title": "6.7 Fine-tuning the model on supervised data",
+            "level": 2,
+            "page": 216
+        },
+        {
+            "title": "Listing 6.10 Fine-tuning the model to classify spam",
+            "level": 4,
+            "page": 217
+        },
+        {
+            "title": "Listing 6.11 Plotting the classification loss",
+            "level": 4,
+            "page": 219
+        },
+        {
+            "title": "Choosing the number of epochs ",
+            "level": 4,
+            "page": 220
+        },
+        {
+            "title": "6.8 Using the LLM as a spam classifier",
+            "level": 2,
+            "page": 221
+        },
+        {
+            "title": "Listing 6.12 Using the model to classify new texts",
+            "level": 4,
+            "page": 222
+        },
+        {
+            "title": "Summary",
+            "level": 2,
+            "page": 223
+        },
+        {
+            "title": "Fine-tuning to follow\n\n![225_image_0.png](225_image_0.png)\n\n\ninstructions",
+            "level": 2,
+            "page": 225
+        },
+        {
+            "title": "This chapter covers",
+            "level": 3,
+            "page": 225
+        },
+        {
+            "title": "204",
+            "level": 4,
+            "page": 225
+        },
+        {
+            "title": "7.1 Introduction to instruction fine-tuning",
+            "level": 2,
+            "page": 226
+        },
+        {
+            "title": "7.2 Preparing a dataset for supervised instruction \nfine-tuning",
+            "level": 3,
+            "page": 228
+        },
+        {
+            "title": "Listing 7.1 Downloading the dataset\n\n![228_image_0.png](228_image_0.png)\n\n",
+            "level": 4,
+            "page": 228
+        },
+        {
+            "title": "Exercise 7.1 Changing prompt styles ",
+            "level": 4,
+            "page": 230
+        },
+        {
+            "title": "Listing 7.3 Partitioning the dataset",
+            "level": 4,
+            "page": 231
+        },
+        {
+            "title": "7.3 Organizing data into training batches",
+            "level": 2,
+            "page": 232
+        },
+        {
+            "title": "Listing 7.4 Implementing an instruction dataset class",
+            "level": 4,
+            "page": 234
+        },
+        {
+            "title": "Exercise 7.2 Instruction and input masking",
+            "level": 4,
+            "page": 244
+        },
+        {
+            "title": "7.4 Creating data loaders for an instruction dataset",
+            "level": 2,
+            "page": 244
+        },
+        {
+            "title": "Listing 7.6 Initializing the data loaders",
+            "level": 4,
+            "page": 246
+        },
+        {
+            "title": "7.5 Loading a pretrained LLM",
+            "level": 2,
+            "page": 247
+        },
+        {
+            "title": "Listing 7.7 Loading the pretrained model",
+            "level": 4,
+            "page": 248
+        },
+        {
+            "title": "7.6 Fine-tuning the LLM on instruction data",
+            "level": 2,
+            "page": 250
+        },
+        {
+            "title": "Dealing with hardware limitations",
+            "level": 4,
+            "page": 251
+        },
+        {
+            "title": "Listing 7.8 Instruction fine-tuning the pretrained LLM",
+            "level": 4,
+            "page": 252
+        },
+        {
+            "title": "Exercise 7.3 Fine-tuning on the original Alpaca dataset ",
+            "level": 4,
+            "page": 254
+        },
+        {
+            "title": "7.7 Extracting and saving responses",
+            "level": 2,
+            "page": 254
+        },
+        {
+            "title": "### Instruction:",
+            "level": 3,
+            "page": 256
+        },
+        {
+            "title": "Correct response:",
+            "level": 3,
+            "page": 256
+        },
+        {
+            "title": "Model response:",
+            "level": 3,
+            "page": 256
+        },
+        {
+            "title": "### Instruction:",
+            "level": 3,
+            "page": 256
+        },
+        {
+            "title": "Correct response:",
+            "level": 3,
+            "page": 256
+        },
+        {
+            "title": "Model response:",
+            "level": 3,
+            "page": 256
+        },
+        {
+            "title": "### Instruction:",
+            "level": 3,
+            "page": 257
+        },
+        {
+            "title": "Correct response:",
+            "level": 3,
+            "page": 257
+        },
+        {
+            "title": "Model response:",
+            "level": 3,
+            "page": 257
+        },
+        {
+            "title": "Conversational performance",
+            "level": 4,
+            "page": 257
+        },
+        {
+            "title": "Listing 7.9 Generating test set responses",
+            "level": 4,
+            "page": 258
+        },
+        {
+            "title": "7.8 Evaluating the fine-tuned LLM",
+            "level": 2,
+            "page": 259
+        },
+        {
+            "title": "Using larger LLMs via web APIs ",
+            "level": 4,
+            "page": 260
+        },
+        {
+            "title": "Alternative Ollama models ",
+            "level": 4,
+            "page": 262
+        },
+        {
+            "title": "Running the code in a new Python session ",
+            "level": 4,
+            "page": 263
+        },
+        {
+            "title": "Listing 7.10 Querying a local Ollama model",
+            "level": 4,
+            "page": 263
+        },
+        {
+            "title": "Dataset response:",
+            "level": 3,
+            "page": 265
+        },
+        {
+            "title": "Model response:",
+            "level": 3,
+            "page": 265
+        },
+        {
+            "title": "Score:",
+            "level": 3,
+            "page": 265
+        },
+        {
+            "title": "Dataset response:",
+            "level": 3,
+            "page": 266
+        },
+        {
+            "title": "Model response:",
+            "level": 3,
+            "page": 266
+        },
+        {
+            "title": "Score:",
+            "level": 3,
+            "page": 266
+        },
+        {
+            "title": "Dataset response:",
+            "level": 3,
+            "page": 266
+        },
+        {
+            "title": "Model response:",
+            "level": 3,
+            "page": 266
+        },
+        {
+            "title": "Score:",
+            "level": 3,
+            "page": 266
+        },
+        {
+            "title": "Listing 7.11 Evaluating the instruction fine-tuning LLM",
+            "level": 4,
+            "page": 267
+        },
+        {
+            "title": "Exercise 7.4 Parameter-efficient fine-tuning with LoRA \n\n![268_image_0.png](268_image_0.png)\n\n",
+            "level": 4,
+            "page": 268
+        },
+        {
+            "title": "7.9 Conclusions",
+            "level": 2,
+            "page": 268
+        },
+        {
+            "title": "7.9.1 What's next?",
+            "level": 4,
+            "page": 268
+        },
+        {
+            "title": "7.9.2 Staying up to date in a fast-moving field",
+            "level": 4,
+            "page": 269
+        },
+        {
+            "title": "7.9.3 Final words",
+            "level": 4,
+            "page": 269
+        },
+        {
+            "title": "Summary",
+            "level": 2,
+            "page": 270
+        },
+        {
+            "title": "appendix A\nIntroduction to PyTorch",
+            "level": 2,
+            "page": 272
+        },
+        {
+            "title": "A.1 What is PyTorch?",
+            "level": 2,
+            "page": 272
+        },
+        {
+            "title": "251",
+            "level": 4,
+            "page": 272
+        },
+        {
+            "title": "A.1.1 The three core components of PyTorch",
+            "level": 4,
+            "page": 273
+        },
+        {
+            "title": "A.1.2 Defining deep learning",
+            "level": 4,
+            "page": 273
+        },
+        {
+            "title": "A.1.3 Installing PyTorch",
+            "level": 4,
+            "page": 275
+        },
+        {
+            "title": "Python version ",
+            "level": 4,
+            "page": 275
+        },
+        {
+            "title": "PyTorch on Apple Silicon ",
+            "level": 4,
+            "page": 278
+        },
+        {
+            "title": "Exercise A.1",
+            "level": 4,
+            "page": 278
+        },
+        {
+            "title": "Exercise A.2",
+            "level": 4,
+            "page": 278
+        },
+        {
+            "title": "A.2 Understanding tensors",
+            "level": 2,
+            "page": 279
+        },
+        {
+            "title": "PyTorch with a NumPy-like API ",
+            "level": 4,
+            "page": 279
+        },
+        {
+            "title": "A.2.1 Scalars, vectors, matrices, and tensors",
+            "level": 4,
+            "page": 279
+        },
+        {
+            "title": "Listing A.1 Creating PyTorch tensors ",
+            "level": 4,
+            "page": 280
+        },
+        {
+            "title": "A.2.2 Tensor data types",
+            "level": 4,
+            "page": 280
+        },
+        {
+            "title": "A.2.3 Common PyTorch tensor operations",
+            "level": 4,
+            "page": 281
+        },
+        {
+            "title": "A.3 Seeing models as computation graphs",
+            "level": 2,
+            "page": 282
+        },
+        {
+            "title": "A.4 Automatic differentiation made easy",
+            "level": 2,
+            "page": 284
+        },
+        {
+            "title": "PARTIAL DERIVATIVES AND GRADIENTS",
+            "level": 4,
+            "page": 284
+        },
+        {
+            "title": "Listing A.3 Computing gradients via autograd",
+            "level": 4,
+            "page": 285
+        },
+        {
+            "title": "A.5 Implementing multilayer neural networks",
+            "level": 2,
+            "page": 286
+        },
+        {
+            "title": "This prints",
+            "level": 4,
+            "page": 288
+        },
+        {
+            "title": "The result is",
+            "level": 4,
+            "page": 289
+        },
+        {
+            "title": "A.6 Setting up efficient data loaders",
+            "level": 2,
+            "page": 291
+        },
+        {
+            "title": "Listing A.5 Creating a small toy dataset ",
+            "level": 4,
+            "page": 291
+        },
+        {
+            "title": "Listing A.7 Instantiating data loaders ",
+            "level": 4,
+            "page": 293
+        },
+        {
+            "title": "A.7 A typical training loop",
+            "level": 2,
+            "page": 295
+        },
+        {
+            "title": "Listing A.9 Neural network training in PyTorch ",
+            "level": 4,
+            "page": 295
+        },
+        {
+            "title": "Exercise A.3",
+            "level": 4,
+            "page": 296
+        },
+        {
+            "title": "A.8 Saving and loading models",
+            "level": 2,
+            "page": 299
+        },
+        {
+            "title": "A.9 Optimizing training performance with GPUs",
+            "level": 2,
+            "page": 300
+        },
+        {
+            "title": "A.9.1 PyTorch computations on GPU devices",
+            "level": 4,
+            "page": 300
+        },
+        {
+            "title": "A.9.2 Single-GPU training",
+            "level": 4,
+            "page": 301
+        },
+        {
+            "title": "Listing A.11 A training loop on a GPU",
+            "level": 4,
+            "page": 302
+        },
+        {
+            "title": "PyTorch on macOS \n\n![303_image_0.png](303_image_0.png)\n\n",
+            "level": 4,
+            "page": 303
+        },
+        {
+            "title": "Exercise A.4",
+            "level": 4,
+            "page": 303
+        },
+        {
+            "title": "A.9.3 Training with multiple GPUs",
+            "level": 4,
+            "page": 303
+        },
+        {
+            "title": "Listing A.12 PyTorch utilities for distributed training",
+            "level": 4,
+            "page": 305
+        },
+        {
+            "title": "Alternative PyTorch APIs for multi-GPU training ",
+            "level": 4,
+            "page": 309
+        },
+        {
+            "title": "Summary",
+            "level": 2,
+            "page": 309
+        },
+        {
+            "title": "appendix B\nReferences and\nfurther reading",
+            "level": 2,
+            "page": 310
+        },
+        {
+            "title": "Chapter 1",
+            "level": 2,
+            "page": 310
+        },
+        {
+            "title": "289",
+            "level": 4,
+            "page": 310
+        },
+        {
+            "title": "Chapter 2",
+            "level": 2,
+            "page": 311
+        },
+        {
+            "title": "Chapter 3",
+            "level": 2,
+            "page": 312
+        },
+        {
+            "title": "Chapter 4",
+            "level": 2,
+            "page": 313
+        },
+        {
+            "title": "Chapter 5",
+            "level": 2,
+            "page": 314
+        },
+        {
+            "title": "Chapter 6",
+            "level": 2,
+            "page": 316
+        },
+        {
+            "title": "Chapter 7",
+            "level": 2,
+            "page": 317
+        },
+        {
+            "title": "Appendix A",
+            "level": 2,
+            "page": 319
+        },
+        {
+            "title": "appendix C\nExercise solutions",
+            "level": 2,
+            "page": 321
+        },
+        {
+            "title": "300",
+            "level": 4,
+            "page": 321
+        },
+        {
+            "title": "Chapter 3",
+            "level": 3,
+            "page": 322
+        },
+        {
+            "title": "Exercise 3.2",
+            "level": 4,
+            "page": 322
+        },
+        {
+            "title": "Chapter 4",
+            "level": 2,
+            "page": 323
+        },
+        {
+            "title": "Exercise 4.2",
+            "level": 4,
+            "page": 323
+        },
+        {
+            "title": "Exercise 4.3",
+            "level": 4,
+            "page": 323
+        },
+        {
+            "title": "Chapter 5",
+            "level": 2,
+            "page": 325
+        },
+        {
+            "title": "Exercise 5.1",
+            "level": 4,
+            "page": 325
+        },
+        {
+            "title": "Exercise 5.2",
+            "level": 4,
+            "page": 325
+        },
+        {
+            "title": "Exercise 5.3",
+            "level": 4,
+            "page": 326
+        },
+        {
+            "title": "Exercise 5.4",
+            "level": 4,
+            "page": 326
+        },
+        {
+            "title": "Exercise 5.5",
+            "level": 4,
+            "page": 326
+        },
+        {
+            "title": "Exercise 5.6",
+            "level": 4,
+            "page": 327
+        },
+        {
+            "title": "Chapter 6",
+            "level": 3,
+            "page": 327
+        },
+        {
+            "title": "Exercise 6.1",
+            "level": 4,
+            "page": 327
+        },
+        {
+            "title": "Exercise 6.2",
+            "level": 4,
+            "page": 327
+        },
+        {
+            "title": "Exercise 6.3",
+            "level": 4,
+            "page": 327
+        },
+        {
+            "title": "Chapter 7",
+            "level": 2,
+            "page": 328
+        },
+        {
+            "title": "Exercise 7.2",
+            "level": 4,
+            "page": 328
+        },
+        {
+            "title": "Exercise 7.3",
+            "level": 4,
+            "page": 330
+        },
+        {
+            "title": "Exercise 7.4",
+            "level": 4,
+            "page": 330
+        },
+        {
+            "title": "Appendix A",
+            "level": 2,
+            "page": 331
+        },
+        {
+            "title": "Exercise A.1",
+            "level": 4,
+            "page": 331
+        },
+        {
+            "title": "Exercise A.2",
+            "level": 4,
+            "page": 332
+        },
+        {
+            "title": "Exercise A.3",
+            "level": 4,
+            "page": 332
+        },
+        {
+            "title": "Exercise A.4",
+            "level": 4,
+            "page": 333
+        },
+        {
+            "title": "appendix D\nAdding bells and whistles\nto the training loop",
+            "level": 2,
+            "page": 334
+        },
+        {
+            "title": "313",
+            "level": 4,
+            "page": 334
+        },
+        {
+            "title": "D.1 Learning rate warmup",
+            "level": 2,
+            "page": 335
+        },
+        {
+            "title": "D.2 Cosine decay",
+            "level": 3,
+            "page": 337
+        },
+        {
+            "title": "D.3 Gradient clipping",
+            "level": 2,
+            "page": 338
+        },
+        {
+            "title": "D.4 The modified training function",
+            "level": 2,
+            "page": 340
+        },
+        {
+            "title": "appendix E\nParameter-efficient\nfine-tuning with LoRA",
+            "level": 2,
+            "page": 343
+        },
+        {
+            "title": "E.1 Introduction to LoRA",
+            "level": 2,
+            "page": 343
+        },
+        {
+            "title": "322",
+            "level": 4,
+            "page": 343
+        },
+        {
+            "title": "E.2 Preparing the dataset",
+            "level": 3,
+            "page": 345
+        },
+        {
+            "title": "Listing E.2 Instantiating PyTorch datasets",
+            "level": 4,
+            "page": 346
+        },
+        {
+            "title": "Listing E.3 Creating PyTorch data loaders",
+            "level": 4,
+            "page": 346
+        },
+        {
+            "title": "E.3 Initializing the model",
+            "level": 2,
+            "page": 347
+        },
+        {
+            "title": "Listing E.4 Loading a pretrained GPT model",
+            "level": 4,
+            "page": 347
+        },
+        {
+            "title": "E.4 Parameter-efficient fine-tuning with LoRA",
+            "level": 2,
+            "page": 349
+        },
+        {
+            "title": "Listing E.6 Replacing a LinearWithLora layer with Linear layers",
+            "level": 4,
+            "page": 351
+        },
+        {
+            "title": "The output is",
+            "level": 4,
+            "page": 353
+        },
+        {
+            "title": "Listing E.7 Fine-tuning a model with LoRA layers",
+            "level": 4,
+            "page": 355
+        },
+        {
+            "title": "index",
+            "level": 2,
+            "page": 358
+        },
+        {
+            "title": "Symbols",
+            "level": 4,
+            "page": 358
+        },
+        {
+            "title": "Numerics",
+            "level": 4,
+            "page": 358
+        },
+        {
+            "title": "337",
+            "level": 4,
+            "page": 358
+        },
+        {
+            "title": "M",
+            "level": 4,
+            "page": 361
+        },
+        {
+            "title": "RELATED MANNING TITLES\n\n![366_image_0.png](366_image_0.png)\n\n",
+            "level": 3,
+            "page": 366
+        },
+        {
+            "title": "Hands-on projects for learning your way\n\n![367_image_0.png](367_image_0.png)\n\n",
+            "level": 2,
+            "page": 367
+        },
+        {
+            "title": "BUILD ALarge Language Model (FROM SCRATCH)",
+            "level": 2,
+            "page": 369
+        },
+        {
+            "title": "Sebastian Raschka",
+            "level": 2,
+            "page": 369
+        },
+        {
+            "title": "What's Inside",
+            "level": 2,
+            "page": 369
+        }
+    ]
+}
