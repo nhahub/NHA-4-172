@@ -1,0 +1,362 @@
+id,title,type,file_path
+1409.3215,Sequence to Sequence Learning with Neural Networks,paper,Data/cleaned/papers/1409.3215.md
+1505.00468,VQA: Visual Question Answering,paper,Data/cleaned/papers/1505.00468.md
+1506.06724,Aligning Books and Movies: Towards Story-like Visual Explanations by Watching Movies and Reading Books,paper,Data/cleaned/papers/1506.06724.md
+1512.01274,MXNet: A Flexible and Efficient Machine Learning Library for Heterogeneous Distributed Systems,paper,Data/cleaned/papers/1512.01274.md
+1605.08695,TensorFlow: A system for large-scale machine learning,paper,Data/cleaned/papers/1605.08695.md
+1701.06538,OUTRAGEOUSLY LARGE NEURAL NETWORKS: THE SPARSELY-GATED MIXTURE-OF-EXPERTS LAYER,paper,Data/cleaned/papers/1701.06538.md
+1705.07565,Learning to Prune Deep Neural Networks via Layer-wise Optimal Brain Surgeon,paper,Data/cleaned/papers/1705.07565.md
+1706.03762,Attention Is All You Need,paper,Data/cleaned/papers/1706.03762.md
+1710.05941,SEARCHING FOR ACTIVATION FUNCTIONS,paper,Data/cleaned/papers/1710.05941.md
+1711.02015,T-REx: A Large Scale Alignment of Natural Language with Knowledge Base Triples,paper,Data/cleaned/papers/1711.02015.md
+1803.02155,Self-Attention with Relative Position Representations,paper,Data/cleaned/papers/1803.02155.md
+1806.02847,A Simple Method for Commonsense Reasoning,paper,Data/cleaned/papers/1806.02847.md
+1810.04805,BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding,paper,Data/cleaned/papers/1810.04805.md
+1901.02860,Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context,paper,Data/cleaned/papers/1901.02860.md
+1905.00075,ON THE USE OF ARXIV AS ADATASET,paper,Data/cleaned/papers/1905.00075.md
+1905.12616,Defending Against Neural Fake News,paper,Data/cleaned/papers/1905.12616.md
+1906.01227,Sentiment Classification using Document Embeddings trained with Cosine Similarity,paper,Data/cleaned/papers/1906.01227.md
+1907.01470,Augmenting Self-attention with Persistent Memory,paper,Data/cleaned/papers/1907.01470.md
+1908.10084,Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks,paper,Data/cleaned/papers/1908.10084.md
+1909.08053,Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism,paper,Data/cleaned/papers/1909.08053.md
+1910.01108,"DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",paper,Data/cleaned/papers/1910.01108.md
+1910.03771,Transformers: State-of-the-Art Natural Language Processing,paper,Data/cleaned/papers/1910.03771.md
+1910.07467,Root Mean Square Layer Normalization,paper,Data/cleaned/papers/1910.07467.md
+1910.10683,Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer,paper,Data/cleaned/papers/1910.10683.md
+1910.13461,"BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",paper,Data/cleaned/papers/1910.13461.md
+1911.02150,Fast Transformer Decoding: One Write-Head is All You Need,paper,Data/cleaned/papers/1911.02150.md
+1912.01703,"PyTorch: An Imperative Style, High-Performance Deep Learning Library",paper,Data/cleaned/papers/1912.01703.md
+2001.08361,Scaling Laws for Neural Language Models,paper,Data/cleaned/papers/2001.08361.md
+2001.08435,The Pushshift Reddit Dataset,paper,Data/cleaned/papers/2001.08435.md
+2002.05202,GLU Variants Improve Transformer,paper,Data/cleaned/papers/2002.05202.md
+2004.03354,Inexpensive Domain Adaptation of Pretrained Language Models: Case Studies on Biomedical NER and Covid-19 QA,paper,Data/cleaned/papers/2004.03354.md
+2004.04124,LadaBERT: Lightweight Adaptation of BERT through Hybrid Model Compression,paper,Data/cleaned/papers/2004.04124.md
+2004.10568,Up or Down? Adaptive Rounding for Post-Training Quantization,paper,Data/cleaned/papers/2004.10568.md
+2004.14566,TRP: Trained Rank Pruning for Efficient Deep Neural Networks,paper,Data/cleaned/papers/2004.14566.md
+2005.14165,Language Models are Few-Shot Learners,paper,Data/cleaned/papers/2005.14165.md
+2006.16668,GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding,paper,Data/cleaned/papers/2006.16668.md
+2007.01852,Language-agnostic BERT Sentence Embedding,paper,Data/cleaned/papers/2007.01852.md
+2007.14966,MIROSTAT: A NEURAL TEXT DECODING ALGORITHM THAT DIRECTLY CONTROLS PERPLEXITY,paper,Data/cleaned/papers/2007.14966.md
+2009.06489,The Hardware Lottery,paper,Data/cleaned/papers/2009.06489.md
+2011.08115,Learning from Task Descriptions,paper,Data/cleaned/papers/2011.08115.md
+2011.09260,Article A Privacy-Preserving Healthcare Framework Using Hyperledger Fabric,paper,Data/cleaned/papers/2011.09260.md
+2012.04930,Paraphrasing with Large Language Models,paper,Data/cleaned/papers/2012.04930.md
+2101.00027,The Pile: An 800GB Dataset of Diverse Text for Language Modeling,paper,Data/cleaned/papers/2101.00027.md
+2101.03961,Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity,paper,Data/cleaned/papers/2101.03961.md
+2103.05327,BERTese: Learning to Speak to BERT,paper,Data/cleaned/papers/2103.05327.md
+2103.10385,"GPTUnderstands, Too",paper,Data/cleaned/papers/2103.10385.md
+2103.13262,FASTMOE: A FAST MIXTURE-OF-EXPERT TRAINING SYSTEM,paper,Data/cleaned/papers/2103.13262.md
+2103.13630,A Survey of Quantization Methods for Efficient Neural Network Inference,paper,Data/cleaned/papers/2103.13630.md
+2104.09864,ROFORMER: ENHANCED TRANSFORMER WITH ROTARY POSITION EMBEDDING,paper,Data/cleaned/papers/2104.09864.md
+2104.12369,PANGU-Î±: LARGE-SCALE AUTOREGRESSIVE PRETRAINED CHINESE LANGUAGE MODELS WITH AUTO-PARALLEL COMPUTATION,paper,Data/cleaned/papers/2104.12369.md
+2106.09685,LORA: LOW-RANK ADAPTATION OF LARGE LAN- GUAGE MODELS,paper,Data/cleaned/papers/2106.09685.md
+2106.10715,CPM-2: Large-scale Cost-effective Pre-trained Language Models,paper,Data/cleaned/papers/2106.10715.md
+2106.13353,Cutting Down on Prompts and Parameters: Simple Few-Shot Learning with Language Models,paper,Data/cleaned/papers/2106.13353.md
+2107.02137,ERNIE 3.0: LARGE-SCALE KNOWLEDGE ENHANCED PRE-TRAINING FOR LANGUAGE UNDERSTANDING AND GENERATION,paper,Data/cleaned/papers/2107.02137.md
+2107.06499,Deduplicating Training Data Makes Language Models Better,paper,Data/cleaned/papers/2107.06499.md
+2107.11817,Go Wider Instead of Deeper,paper,Data/cleaned/papers/2107.11817.md
+2108.08877,Sentence-T5: Scalable Sentence Encoders from Pre-trained Text-to-Text Models,paper,Data/cleaned/papers/2108.08877.md
+2109.01134,Learning to Prompt for Vision-Language Models,paper,Data/cleaned/papers/2109.01134.md
+2109.01652,FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS,paper,Data/cleaned/papers/2109.01652.md
+2109.03910,A Recipe For Arbitrary Text Style Transfer with Large Language Models,paper,Data/cleaned/papers/2109.03910.md
+2109.04332,PPT: Pre-trained Prompt Tuning for Few-shot Learning,paper,Data/cleaned/papers/2109.04332.md
+2109.06243,KroneckerBERT: Learning Kronecker Decomposition for Pre-trained Language Models via Knowledge Distillation,paper,Data/cleaned/papers/2109.06243.md
+2109.08472,ActionCLIP: A New Paradigm for Video Action Recognition,paper,Data/cleaned/papers/2109.08472.md
+2109.12948,Understanding and Overcoming the Challenges of Efficient Transformer Quantization,paper,Data/cleaned/papers/2109.12948.md
+2110.01691,AI Chains: Transparent and Controllable Human-AI Interaction by Chaining Large Language Model Prompts,paper,Data/cleaned/papers/2110.01691.md
+2110.04725,YUAN 1.0: LARGE-SCALE PRE-TRAINED LANGUAGE MODEL IN ZERO-SHOT AND FEW-SHOT LEARNING,paper,Data/cleaned/papers/2110.04725.md
+2110.08207,MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION,paper,Data/cleaned/papers/2110.08207.md
+2110.14883,Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training,paper,Data/cleaned/papers/2110.14883.md
+2110.15032,OneFlow: Redesign the Distributed Deep Learning Framework from Scratch,paper,Data/cleaned/papers/2110.15032.md
+2110.15343,Scatterbrain: Unifying Sparse and Low-rank Attention Approximation,paper,Data/cleaned/papers/2110.15343.md
+2112.00029,Pixelated Butterfly: Simple and Efficient Sparse Training for Neural Network Models,paper,Data/cleaned/papers/2112.00029.md
+2112.00114,SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDI- ATE COMPUTATION WITH LANGUAGE MODELS,paper,Data/cleaned/papers/2112.00114.md
+2112.00861,A General Language Assistant as a Laboratory for Alignment,paper,Data/cleaned/papers/2112.00861.md
+2112.06905,GLaM:Efficient Scaling of Language Models with Mixture-of-Experts,paper,Data/cleaned/papers/2112.06905.md
+2112.09332,WebGPT: Browser-assisted question-answering with human feedback,paper,Data/cleaned/papers/2112.09332.md
+2112.10752,High-Resolution Image Synthesis with Latent Diffusion Models,paper,Data/cleaned/papers/2112.10752.md
+2112.12731,ERNIE 3.0 TITAN: EXPLORING LARGER-SCALE KNOWLEDGE ENHANCED PRE-TRAINING FOR LANGUAGE UNDERSTANDING AND GENERATION,paper,Data/cleaned/papers/2112.12731.md
+2201.07311,Datasheet for the Pile,paper,Data/cleaned/papers/2201.07311.md
+2201.08239,LaMDA: Language Models for Dialog Applications,paper,Data/cleaned/papers/2201.08239.md
+2201.11990,"Using DeepSpeed and Megatron to Train Megatron-Turing NLG 530B, A Large-Scale Generative Language Model",paper,Data/cleaned/papers/2201.11990.md
+2202.01169,UNIFIED SCALING LAWS FOR ROUTED LANGUAGE MODELS,paper,Data/cleaned/papers/2202.01169.md
+2202.01279,PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts,paper,Data/cleaned/papers/2202.01279.md
+2202.06539,Deduplicating Training Data Mitigates Privacy Risks in Language Models,paper,Data/cleaned/papers/2202.06539.md
+2203.02155,Training language models to follow instructions with human feedback,paper,Data/cleaned/papers/2203.02155.md
+2203.05557,Conditional Prompt Learning for Vision-Language Models,paper,Data/cleaned/papers/2203.05557.md
+2203.07814,Competition-Level Code Generation with AlphaCode,paper,Data/cleaned/papers/2203.07814.md
+2203.13474,CODEGEN: AN OPEN LARGE LANGUAGE MODEL FOR CODE WITH MULTI-TURN PROGRAM SYNTHESIS,paper,Data/cleaned/papers/2203.13474.md
+2203.15556,Training Compute-Optimal Large Language Models,paper,Data/cleaned/papers/2203.15556.md
+2203.16634,Transformer Language Models without Positional Encodings Still Learn Positional Information,paper,Data/cleaned/papers/2203.16634.md
+2204.02311,PaLM: Scaling Language Modeling with Pathways,paper,Data/cleaned/papers/2204.02311.md
+2204.06745,GPT-NeoX-20B: An Open-Source Autoregressive Language Model,paper,Data/cleaned/papers/2204.06745.md
+2204.07705,SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks,paper,Data/cleaned/papers/2204.07705.md
+2204.14198,Flamingo: a Visual Language Model for Few-Shot Learning,paper,Data/cleaned/papers/2204.14198.md
+2205.01068,OPT: Open Pre-trained Transformer Language Models,paper,Data/cleaned/papers/2205.01068.md
+2205.05131,UL2: Unifying Language Learning Paradigms,paper,Data/cleaned/papers/2205.05131.md
+2205.07147,Plot Writing From Scratch Pre-Trained Language Models,paper,Data/cleaned/papers/2205.07147.md
+2205.10487,Scaling Laws and Interpretability of Learning from Repeated Data,paper,Data/cleaned/papers/2205.10487.md
+2205.12390,Toxicity Detection with Generative Prompt-based Inference,paper,Data/cleaned/papers/2205.12390.md
+2205.12689,Large Language Models are Few-Shot Clinical Information Extractors,paper,Data/cleaned/papers/2205.12689.md
+2205.14135,FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness,paper,Data/cleaned/papers/2205.14135.md
+2206.02014,Actuarial Applications of Natural  Language Processing Using Transformers Case Studies for Using Text Features in an  Actuarial Context,paper,Data/cleaned/papers/2206.02014.md
+2206.02336,Making Large Language Models Better Reasoners with Step-Aware Verifier,paper,Data/cleaned/papers/2206.02336.md
+2206.08309,Pythae: Unifying Generative Autoencoders in Python A Benchmarking Use Case,paper,Data/cleaned/papers/2206.08309.md
+2207.00112,LANGUAGE MODEL COMPRESSION WITH WEIGHTED LOW-RANK FACTORIZATION,paper,Data/cleaned/papers/2207.00112.md
+2208.01448,AlexaTM 20B: Few-Shot Learning Using a Large-Scale Multilingual Seq2seq Model,paper,Data/cleaned/papers/2208.01448.md
+2208.07339,LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale,paper,Data/cleaned/papers/2208.07339.md
+2208.11580,Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning,paper,Data/cleaned/papers/2208.11580.md
+2209.01732,Exploring the Effectiveness of Prompt Engineering for Legal Reasoning Tasks,paper,Data/cleaned/papers/2209.01732.md
+2209.10372,WeLM: A Well-Read Pre-trained Language Model for Chinese,paper,Data/cleaned/papers/2209.10372.md
+2209.14375,Improving alignment of dialogue agents via targeted human judgements,paper,Data/cleaned/papers/2209.14375.md
+2210.02414,GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL,paper,Data/cleaned/papers/2210.02414.md
+2210.02441,ASK ME ANYTHING: A SIMPLE STRATEGY FOR PROMPTING LANGUAGE MODELS,paper,Data/cleaned/papers/2210.02441.md
+2210.04015,T5QL: Taming language models for SQL generation,paper,Data/cleaned/papers/2210.04015.md
+2210.07558,DyLoRA: Parameter-Efficient Tuning of Pretrained Models using Dynamic Search-Free Low Rank Adaptation,paper,Data/cleaned/papers/2210.07558.md
+2210.08402,LAION-5B: An open large-scale dataset for training next generation image-text models,paper,Data/cleaned/papers/2210.08402.md
+2210.09150,PROMPTING GPT-3 TO BE RELIABLE,paper,Data/cleaned/papers/2210.09150.md
+2210.11399,Transcending Scaling Laws with 0.1% Extra Compute,paper,Data/cleaned/papers/2210.11399.md
+2211.01786,Crosslingual Generalization through Multitask Finetuning,paper,Data/cleaned/papers/2211.01786.md
+2211.05100,BLOOM: A 176B-Parameter Open-Access Multilingual Language Model,paper,Data/cleaned/papers/2211.05100.md
+2211.05102,EFFICIENTLY SCALING TRANSFORMER INFERENCE,paper,Data/cleaned/papers/2211.05102.md
+2211.09085,Galactica: A Large Language Model for Science,paper,Data/cleaned/papers/2211.09085.md
+2211.09110,Holistic Evaluation of Language Models,paper,Data/cleaned/papers/2211.09110.md
+2211.09718,Numerical Optimizations for Weighted Low-rank Estimation on Language Model,paper,Data/cleaned/papers/2211.09718.md
+2211.10435,PAL: Program-aided Language Models,paper,Data/cleaned/papers/2211.10435.md
+2211.10438,SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models,paper,Data/cleaned/papers/2211.10438.md
+2212.01681,Language Models as Agent Models,paper,Data/cleaned/papers/2212.01681.md
+2212.02199,Legal Prompt Engineering for Multilingual Legal Judgement Prediction,paper,Data/cleaned/papers/2212.02199.md
+2212.03551,Talking About Large Language Models,paper,Data/cleaned/papers/2212.03551.md
+2212.09741,"One Embedder, Any Task: Instruction-Finetuned Text Embeddings",paper,Data/cleaned/papers/2212.09741.md
+2212.10001,Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters,paper,Data/cleaned/papers/2212.10001.md
+2212.10505,DEPLOT: One-shot visual language reasoning by plot-to-table translation,paper,Data/cleaned/papers/2212.10505.md
+2212.10544,Pretraining Without Attention,paper,Data/cleaned/papers/2212.10544.md
+2212.12017,OPT-IML : Scaling Language Model Instruction Meta Learning through the Lens of Generalization,paper,Data/cleaned/papers/2212.12017.md
+2212.14882,ChatGPT Makes Medicine Easy to Swallow: An Exploratory Case Study on Simplified Radiology Reports,paper,Data/cleaned/papers/2212.14882.md
+2301.00774,SparseGPT: Massive Language Models Can be Accurately Pruned in One-Shot,paper,Data/cleaned/papers/2301.00774.md
+2301.02311,HierVL: Learning Hierarchical Video-Language Embeddings,paper,Data/cleaned/papers/2301.02311.md
+2301.07573,Synthcity: facilitating innovative use cases of synthetic data in different data modalities,paper,Data/cleaned/papers/2301.07573.md
+2301.10226,A Watermark for Large Language Models,paper,Data/cleaned/papers/2301.10226.md
+2301.12597,BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models,paper,Data/cleaned/papers/2301.12597.md
+2301.12810,Crawling The Internal Knowledge-Base of Language Models,paper,Data/cleaned/papers/2301.12810.md
+2301.13688,The Flan Collection: Designing Data and Methods for Effective Instruction Tuning,paper,Data/cleaned/papers/2301.13688.md
+2302.04761,Toolformer: Language Models Can Teach Themselves to Use Tools,paper,Data/cleaned/papers/2302.04761.md
+2302.05619,Evaluating the Robustness of Discrete Prompts,paper,Data/cleaned/papers/2302.05619.md
+2302.06868,SwitchPrompt: Learning Domain-Specific Gated Soft Prompts for Classification in Low-Resource Domains,paper,Data/cleaned/papers/2302.06868.md
+2302.10724,"ChatGPT: Jack of all trades, master of none",paper,Data/cleaned/papers/2302.10724.md
+2302.10866,Hyena Hierarchy: Towards Larger Convolutional Language Models,paper,Data/cleaned/papers/2302.10866.md
+2302.11520,Guiding Large Language Models via Directional Stimulus Prompting,paper,Data/cleaned/papers/2302.11520.md
+2302.12468,Few-Shot Table-to-Text Generation with Prompt-based Adapter,paper,Data/cleaned/papers/2302.12468.md
+2302.12822,Automatic Prompt Augmentation and Selection with Chain-of-Thought from Labeled Data,paper,Data/cleaned/papers/2302.12822.md
+2302.13971,LLaMA: Open and Efficient Foundation Language Models,paper,Data/cleaned/papers/2302.13971.md
+2302.14045,Language Is Not All You Need: Aligning Perception with Language Models,paper,Data/cleaned/papers/2302.14045.md
+2302.14691,In-Context Instruction Learning,paper,Data/cleaned/papers/2302.14691.md
+2302.14838,EvoPrompting: Language Models for Code-Level Neural Architecture Search,paper,Data/cleaned/papers/2302.14838.md
+2303.03378,PaLM-E:AnEmbodiedMultimodalLanguageModel,paper,Data/cleaned/papers/2303.03378.md
+2303.03915,The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset,paper,Data/cleaned/papers/2303.03915.md
+2303.04361,ChatGPT and a New Academic Reality: AI-Written Research Papers and the Ethics of the Large Language Models in Scholarly Publishing,paper,Data/cleaned/papers/2303.04361.md
+2303.08518,UPRISE: Universal Prompt Retrieval for Improving Zero-Shot Evaluation,paper,Data/cleaned/papers/2303.08518.md
+2303.08774,GPT-4 Technical Report,paper,Data/cleaned/papers/2303.08774.md
+2303.09014,ART: Automatic multi-step reasoning and tool-use for large language models,paper,Data/cleaned/papers/2303.09014.md
+2303.10845,PANGU-£: TOWARDS TRILLION PARAMETER LANGUAGE MODEL WITH SPARSE HETEROGENEOUS COMPUTING,paper,Data/cleaned/papers/2303.10845.md
+2303.12712,Sparks of Artificial General Intelligence: Early experiments with GPT-4,paper,Data/cleaned/papers/2303.12712.md
+2303.13375,Capabilities of GPT-4 on Medical Challenge Problems,paper,Data/cleaned/papers/2303.13375.md
+2303.14070,ChatDoctor: A Medical Chat Model Fine-Tuned on a Large Language Model Meta-AI (LLaMA) Using Medical Domain Knowledge,paper,Data/cleaned/papers/2303.14070.md
+2303.14742,Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases,paper,Data/cleaned/papers/2303.14742.md
+2303.15056,ChatGPT Outperforms Crowd-Workers for Text-Annotation Tasks,paper,Data/cleaned/papers/2303.15056.md
+2303.15727,Evaluation of ChatGPT for NLP-based Mental Health Applications,paper,Data/cleaned/papers/2303.15727.md
+2303.16199,LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention,paper,Data/cleaned/papers/2303.16199.md
+2303.16200,Natural Selection Favors AIs over Humans,paper,Data/cleaned/papers/2303.16200.md
+2303.16434,TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs,paper,Data/cleaned/papers/2303.16434.md
+2303.17183,The Nordic Pile: A 1.2TB Nordic Dataset for Language Modeling,paper,Data/cleaned/papers/2303.17183.md
+2303.17491,Language Models can Solve Computer Tasks,paper,Data/cleaned/papers/2303.17491.md
+2303.17564,BloombergGPT: A Large Language Model for Finance,paper,Data/cleaned/papers/2303.17564.md
+2303.17568,CodeGeeX: A Pre-Trained Model for Code Generation with Multilingual Evaluations on HumanEval-X,paper,Data/cleaned/papers/2303.17568.md
+2303.17580,HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face,paper,Data/cleaned/papers/2303.17580.md
+2303.18223,A Survey of Large Language Models,paper,Data/cleaned/papers/2303.18223.md
+2304.00612,Eight Things to Know about Large Language Models,paper,Data/cleaned/papers/2304.00612.md
+2304.01238,Spam-T5: Benchmarking Large Language Models for Few-Shot Email Spam Detection,paper,Data/cleaned/papers/2304.01238.md
+2304.01373,Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling,paper,Data/cleaned/papers/2304.01373.md
+2304.01933,LLM-Adapters: An Adapter Family for Parameter-Efficient Fine-Tuning of Large Language Models,paper,Data/cleaned/papers/2304.01933.md
+2304.02017,"UNLOCKING THE POTENTIAL OF CHATGPT: A COMPREHENSIVE EXPLORATION OF ITS APPLICATIONS, ADVANTAGES, LIMITATIONS, AND FUTURE DIRECTIONS IN NATURAL LANGUAGE PROCESSING",paper,Data/cleaned/papers/2304.02017.md
+2304.02819,GPT detectors are biased against non-native English writers,paper,Data/cleaned/papers/2304.02819.md
+2304.03153,Zero-Shot Next-Item Recommendation using Large Pretrained Language Models,paper,Data/cleaned/papers/2304.03153.md
+2304.03277,INSTRUCTION TUNING WITH GPT-4,paper,Data/cleaned/papers/2304.03277.md
+2304.03442,Generative Agents: Interactive Simulacra of Human Behavior,paper,Data/cleaned/papers/2304.03442.md
+2304.04370,OpenAGI: When LLM Meets Domain Experts,paper,Data/cleaned/papers/2304.04370.md
+2304.05128,Teaching Large Language Models to Self-Debug,paper,Data/cleaned/papers/2304.05128.md
+2304.05332,Emergent autonomous scientific research capabilities of large language models,paper,Data/cleaned/papers/2304.05332.md
+2304.05376,Augmenting large language models with chemistry tools,paper,Data/cleaned/papers/2304.05376.md
+2304.05970,Boosted Prompt Ensembles for Large Language Models,paper,Data/cleaned/papers/2304.05970.md
+2304.06364,AGIEval: A Human-Centric Benchmark for Evaluating Foundation Models,paper,Data/cleaned/papers/2304.06364.md
+2304.06488,"One Small Step for Generative AI, One Giant Leap for AGI: A Complete Survey",paper,Data/cleaned/papers/2304.06488.md
+2304.06718,Segment Everything Everywhere All at Once,paper,Data/cleaned/papers/2304.06718.md
+2304.07193,DINOv2: Learning Robust Visual Features without Supervision,paper,Data/cleaned/papers/2304.07193.md
+2304.08467,Learning to Compress Prompts with Gist Tokens,paper,Data/cleaned/papers/2304.08467.md
+2304.08485,Visual Instruction Tuning,paper,Data/cleaned/papers/2304.08485.md
+2304.08551,Generative Disco: Text-to-Video Generation for Music Visualization,paper,Data/cleaned/papers/2304.08551.md
+2304.08818,Align your Latents: High-Resolution Video Synthesis with Latent Diffusion Models,paper,Data/cleaned/papers/2304.08818.md
+2304.09103,"ChatGPT: Applications, Opportunities, and Threats",paper,Data/cleaned/papers/2304.09103.md
+2304.09842,Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models,paper,Data/cleaned/papers/2304.09842.md
+2304.09848,Evaluating Verifiability in Generative Search Engines,paper,Data/cleaned/papers/2304.09848.md
+2304.11633,"Evaluating ChatGPT's Information Extraction Capabilities: An Assessment of Performance, Explainability, Calibration, and Faithfulness",paper,Data/cleaned/papers/2304.11633.md
+2304.11968,Track Anything: Segment Anything Meets Videos,paper,Data/cleaned/papers/2304.11968.md
+2304.12210,A Cookbook of Self-Supervised Learning,paper,Data/cleaned/papers/2304.12210.md
+2304.12244,WizardLM: Empowering Large Language Models to Follow Complex Instructions,paper,Data/cleaned/papers/2304.12244.md
+2304.12995,"AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head",paper,Data/cleaned/papers/2304.12995.md
+2304.13187,AI-ASSISTED CODING: EXPERIMENTS WITH GPT-4,paper,Data/cleaned/papers/2304.13187.md
+2304.13705,Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware,paper,Data/cleaned/papers/2304.13705.md
+2304.13712,Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond,paper,Data/cleaned/papers/2304.13712.md
+2304.14108,DataComp: In search of the next generation of multimodal datasets,paper,Data/cleaned/papers/2304.14108.md
+2304.14454,PMC-LLaMA: Further Finetuning LLaMA on Medical Papers,paper,Data/cleaned/papers/2304.14454.md
+2305.00833,Learning to Reason and Memorize with Self-Notes,paper,Data/cleaned/papers/2305.00833.md
+2305.00844,Automated Paper Screening for Clinical Reviews Using Large Language Models,paper,Data/cleaned/papers/2305.00844.md
+2305.00944,Poisoning Language Models During Instruction Tuning,paper,Data/cleaned/papers/2305.00944.md
+2305.01582,Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl,paper,Data/cleaned/papers/2305.01582.md
+2305.01863,GPTutor: a ChatGPT-powered programming tool for code explanation,paper,Data/cleaned/papers/2305.01863.md
+2305.02182,Uncovering ChatGPT's Capabilities in Recommender Systems,paper,Data/cleaned/papers/2305.02182.md
+2305.02301,Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes,paper,Data/cleaned/papers/2305.02301.md
+2305.02309,CODEGEN2: LESSONS FOR TRAINING LLMS ON PRO- GRAMMING AND NATURAL LANGUAGES,paper,Data/cleaned/papers/2305.02309.md
+2305.02463,ShapÂ·E: Generating Conditional 3D Implicit Functions,paper,Data/cleaned/papers/2305.02463.md
+2305.02499,AutoML-GPT: Automatic Machine Learning with GPT,paper,Data/cleaned/papers/2305.02499.md
+2305.03025,Panda LLM: Training Data and Evaluation for Open-Sourced Chinese Instruction-Following Large Language Models,paper,Data/cleaned/papers/2305.03025.md
+2305.03047,Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision,paper,Data/cleaned/papers/2305.03047.md
+2305.04388,Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting,paper,Data/cleaned/papers/2305.04388.md
+2305.04790,MultiModal-GPT: A Vision and Language Model for Dialogue with Humans,paper,Data/cleaned/papers/2305.04790.md
+2305.05176,FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance,paper,Data/cleaned/papers/2305.05176.md
+2305.05658,TidyBot: Personalized Robot Assistance with Large Language Models,paper,Data/cleaned/papers/2305.05658.md
+2305.05665,IMAGEBIND: One Embedding Space To Bind Them All,paper,Data/cleaned/papers/2305.05665.md
+2305.06161,STARCODER: MAY THE SOURCE BE WITH YOU!,paper,Data/cleaned/papers/2305.06161.md
+2305.06500,InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning,paper,Data/cleaned/papers/2305.06500.md
+2305.06983,Active Retrieval Augmented Generation,paper,Data/cleaned/papers/2305.06983.md
+2305.07185,MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers,paper,Data/cleaned/papers/2305.07185.md
+2305.07922,CodeT5+: Open Code Large Language Models for Code Understanding and Generation,paper,Data/cleaned/papers/2305.07922.md
+2305.09617,Towards Expert-Level Medical Question Answering with Large Language Models,paper,Data/cleaned/papers/2305.09617.md
+2305.09645,StructGPT: A General Framework for Large Language Model to Reason over Structured Data,paper,Data/cleaned/papers/2305.09645.md
+2305.10266,Searching for Needles in a Haystack: On the Role of Incidental Bilingualism in PaLM's Translation Capability,paper,Data/cleaned/papers/2305.10266.md
+2305.10403,PaLM 2 Technical Report,paper,Data/cleaned/papers/2305.10403.md
+2305.10429,DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining,paper,Data/cleaned/papers/2305.10429.md
+2305.10601,Tree of Thoughts: Deliberate Problem Solving with Large Language Models,paper,Data/cleaned/papers/2305.10601.md
+2305.11169,Evidence of Meaning in Language Models Trained on Programs,paper,Data/cleaned/papers/2305.11169.md
+2305.11206,LIMA: Less Is More for Alignment,paper,Data/cleaned/papers/2305.11206.md
+2305.11497,TreePrompt: Learning to Compose Tree Prompts for Explainable Visual Grounding,paper,Data/cleaned/papers/2305.11497.md
+2305.11627,LLM-Pruner: On the Structural Pruning of Large Language Models,paper,Data/cleaned/papers/2305.11627.md
+2305.12544,A PhD Student's Perspective on Research in NLP in the Era of Very Large Language Models,paper,Data/cleaned/papers/2305.12544.md
+2305.13048,RWKV: Reinventing RNNs for the Transformer Era,paper,Data/cleaned/papers/2305.13048.md
+2305.13073,Text-to-SQL Error Correction with Language Models of Code,paper,Data/cleaned/papers/2305.13073.md
+2305.13246,Interactive Natural Language Processing,paper,Data/cleaned/papers/2305.13246.md
+2305.13903,Let's Think Frame by Frame: Evaluating Video Chain of Thought with Video Infilling and Prediction,paper,Data/cleaned/papers/2305.13903.md
+2305.14292,WikiChat: A Few-Shot LLM-Based Chatbot Grounded with Wikipedia,paper,Data/cleaned/papers/2305.14292.md
+2305.14314,QLORA: Efficient Finetuning of Quantized LLMs,paper,Data/cleaned/papers/2305.14314.md
+2305.15334,Gorilla: Large Language Model Connected with Massive APIs,paper,Data/cleaned/papers/2305.15334.md
+2305.15486,SPRING: GPT-4 Out-performs RL Algorithms by Studying Papers and Reasoning,paper,Data/cleaned/papers/2305.15486.md
+2305.15717,The False Promise of Imitating Proprietary LLMs,paper,Data/cleaned/papers/2305.15717.md
+2305.16291,VOYAGER: An Open-Ended Embodied Agent with Large Language Models,paper,Data/cleaned/papers/2305.16291.md
+2305.16837,ChatGPT: A Study on its Utility for Ubiquitous Software Engineering Tasks,paper,Data/cleaned/papers/2305.16837.md
+2305.17100,"BiomedGPT: A Unified and Generalist Biomedical Genera- tive Pre-trained Transformer for Vision, Language, and Mul- timodal Tasks",paper,Data/cleaned/papers/2305.17100.md
+2305.17256,Large Language Models Can be Lazy Learners: Analyze Shortcuts in In-Context Learning,paper,Data/cleaned/papers/2305.17256.md
+2305.17333,Fine-Tuning Language Models with Just Forward Passes,paper,Data/cleaned/papers/2305.17333.md
+2305.17390,SWIFTSAGE: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks,paper,Data/cleaned/papers/2305.17390.md
+2305.18081,GAME OF TONES: FACULTY DETECTION OF  GPT-4 GENERATED CONTENT IN UNIVERSITY  ASSESSMENTS,paper,Data/cleaned/papers/2305.18081.md
+2305.18189,Marked Personas: Using Natural Language Prompts to Measure Stereotypes in Language Models,paper,Data/cleaned/papers/2305.18189.md
+2305.18290,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,paper,Data/cleaned/papers/2305.18290.md
+2305.18638,Short Answer Grading Using One-shot Prompting and Text Similarity Scoring Model,paper,Data/cleaned/papers/2305.18638.md
+2305.19268,Intriguing Properties of Quantization at Scale,paper,Data/cleaned/papers/2305.19268.md
+2305.19308,SheetCopilot: Bringing Software Productivity to the Next Level through Large Language Models,paper,Data/cleaned/papers/2305.19308.md
+2305.19713,Red Teaming Language Model Detectors with Language Models,paper,Data/cleaned/papers/2305.19713.md
+2305.20050,Let's Verify Step by Step,paper,Data/cleaned/papers/2305.20050.md
+2306.00020,GPT4GEO: How a Language Model Sees the World's Geography,paper,Data/cleaned/papers/2306.00020.md
+2306.00029,CODETF: ONE-STOP TRANSFORMER LIBRARY FOR STATE-OF-THE-ART CODE LLM,paper,Data/cleaned/papers/2306.00029.md
+2306.00107,MERT: Acoustic Music Understanding Model with Large-Scale Self-supervised Training,paper,Data/cleaned/papers/2306.00107.md
+2306.00238,Bytes Are All You Need: Transformers Operating Directly On File Bytes,paper,Data/cleaned/papers/2306.00238.md
+2306.00323,Thought Cloning: Learning to Think while Acting by Imitating Human Thinking,paper,Data/cleaned/papers/2306.00323.md
+2306.00526,Layout and Task Aware Instruction Prompt for Zero-shot Document Image Question Answering,paper,Data/cleaned/papers/2306.00526.md
+2306.00550,CHAIN OF THOUGHT PROMPTING UNDER STREAMING BATCH: A CASE STUDY,paper,Data/cleaned/papers/2306.00550.md
+2306.00739,SQL-PALM: IMPROVED LARGE LANGUAGE MODEL ADAPTATION FOR TEXT-TO-SQL,paper,Data/cleaned/papers/2306.00739.md
+2306.00784,Interpretable Math Word Problem Solution Generation Via Step-by-step Planning,paper,Data/cleaned/papers/2306.00784.md
+2306.01116,"The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Data, and Web Data Only",paper,Data/cleaned/papers/2306.01116.md
+2306.01693,Fine-Grained Human Feedback Gives Better Rewards for Language Model Training,paper,Data/cleaned/papers/2306.01693.md
+2306.02561,LLM-BLENDER: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion,paper,Data/cleaned/papers/2306.02561.md
+2306.02707,Orca: Progressive Learning from Complex Explanation Traces of GPT-4,paper,Data/cleaned/papers/2306.02707.md
+2306.03819,LEACE: Perfect linear concept erasure in closed form,paper,Data/cleaned/papers/2306.03819.md
+2306.03901,CHATDB: AUGMENTING LLMS WITH DATABASES AS THEIR SYMBOLIC MEMORY,paper,Data/cleaned/papers/2306.03901.md
+2306.04563,"ChatGPT is fun, but it is not funny! Humor is still challenging Large Language Models",paper,Data/cleaned/papers/2306.04563.md
+2306.04634,On the Reliability of Watermarks for Large Language Models,paper,Data/cleaned/papers/2306.04634.md
+2306.05284,Simple and Controllable Music Generation,paper,Data/cleaned/papers/2306.05284.md
+2306.06031,FinGPT: Open-Source Financial Large Language Models,paper,Data/cleaned/papers/2306.06031.md
+2306.06070,MIND2WEB: Towards a Generalist Agent for the Web,paper,Data/cleaned/papers/2306.06070.md
+2306.07042,Transformers learn through gradual rank increase,paper,Data/cleaned/papers/2306.07042.md
+2306.07303,A COMPREHENSIVE SURVEY ON APPLICATIONS OF TRANSFORMERS FOR DEEP LEARNING TASKS,paper,Data/cleaned/papers/2306.07303.md
+2306.07629,SQUEEZELLM: DENSE-AND-SPARSE QUANTIZATION,paper,Data/cleaned/papers/2306.07629.md
+2306.07899,Artificial Artificial Artificial Intelligence: Crowd Workers Widely Use Large Language Models for Text Production Tasks,paper,Data/cleaned/papers/2306.07899.md
+2306.08666,Radiology-GPT: A Large Language Model for Radiology,paper,Data/cleaned/papers/2306.08666.md
+2306.09310,Infinite Photorealistic Worlds using Procedural Generation,paper,Data/cleaned/papers/2306.09310.md
+2306.09782,FULL PARAMETER FINE-TUNING FOR LARGE LANGUAGE MODELS WITH LIMITED RESOURCES,paper,Data/cleaned/papers/2306.09782.md
+2306.09968,CLINICALGPT: LARGE LANGUAGE MODELS FINETUNED WITH DIVERSE MEDICAL DATA AND COMPREHENSIVE EVALUATION,paper,Data/cleaned/papers/2306.09968.md
+2306.10900,MotionGPT: Finetuned LLMs are General-Purpose Motion Generators,paper,Data/cleaned/papers/2306.10900.md
+2306.11222,LoSparse: Structured Compression of Large Language Models based on Low-Rank and Sparse Approximation,paper,Data/cleaned/papers/2306.11222.md
+2306.11644,Textbooks Are All You Need,paper,Data/cleaned/papers/2306.11644.md
+2306.11695,A SIMPLE AND EFFECTIVE PRUNING APPROACH FOR LARGE LANGUAGE MODELS,paper,Data/cleaned/papers/2306.11695.md
+2306.11706,RoboCat: A Self-Improving Foundation Agent for Robotic Manipulation,paper,Data/cleaned/papers/2306.11706.md
+2306.12001,An Overview of Catastrophic AI Risks,paper,Data/cleaned/papers/2306.12001.md
+2306.12420,LMFlow: An Extensible Toolkit for Finetuning and Inference of Large Foundation Models,paper,Data/cleaned/papers/2306.12420.md
+2306.12925,AudioPaLM: A Large Language Model That Can Speak and Listen,paper,Data/cleaned/papers/2306.12925.md
+2306.12929,Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing,paper,Data/cleaned/papers/2306.12929.md
+2306.14048,H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models,paper,Data/cleaned/papers/2306.14048.md
+2306.15448,Understanding Social Reasoning in Language Models with Language Models,paper,Data/cleaned/papers/2306.15448.md
+2306.15687,Voicebox: Text-Guided Multilingual Universal Speech Generation at Scale,paper,Data/cleaned/papers/2306.15687.md
+2306.17156,"Generative AI for Programming Education: Benchmarking ChatGPT, GPT-4, and Human Tutors",paper,Data/cleaned/papers/2306.17156.md
+2306.17563,LARGELANGUAGEMODELS AREEFFECTIVETEXT RANKERS WITHPAIRWISERANKINGPROMPTING,paper,Data/cleaned/papers/2306.17563.md
+2306.17582,ChatGPT for Robotics: Design Principles and Model Abilities,paper,Data/cleaned/papers/2306.17582.md
+2306.17806,Stay on topic with Classifier-Free Guidance,paper,Data/cleaned/papers/2306.17806.md
+2307.01952,SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis,paper,Data/cleaned/papers/2307.01952.md
+2307.02053,FLACUNA: Unleashing the Problem Solving Power of VICUNA using FLAN Fine-Tuning,paper,Data/cleaned/papers/2307.02053.md
+2307.02486,"LONGNET: Scaling Transformers to 1,000,000,000 Tokens",paper,Data/cleaned/papers/2307.02486.md
+2310.20707,WHAT'S IN MY BIG DATA?,paper,Data/cleaned/papers/2310.20707.md
+2307.02973,Pruning vs Quantization: Which is Better?,paper,Data/cleaned/papers/2307.02973.md
+2307.03172,Lost in the Middle: How Language Models Use Long Contexts,paper,Data/cleaned/papers/2307.03172.md
+2307.04721,Large Language Models as General Pattern Machines,paper,Data/cleaned/papers/2307.04721.md
+2307.04725,AnimateDiff: Animate Your Personalized Text-to-Image Diffusion Models without Specific Tuning,paper,Data/cleaned/papers/2307.04725.md
+2307.04964,Secrets of RLHF in Large Language Models Part I: PPO,paper,Data/cleaned/papers/2307.04964.md
+2307.05102,Evaluating Reading Comprehension Exercises Generated by LLMs: AShowcase of ChatGPT in Education Applications,paper,Data/cleaned/papers/2307.05102.md
+2307.05222,Generative Pretraining in Multimodality,paper,Data/cleaned/papers/2307.05222.md
+2307.06949,HyperDreamBooth: HyperNetworks for Fast Personalization of Text-to-Image Models,paper,Data/cleaned/papers/2307.06949.md
+2307.09288,Llama 2: Open Foundation and Fine-Tuned Chat Models,paper,Data/cleaned/papers/2307.09288.md
+2307.10169,ChallengesandApplicationsofLargeLanguageModels,paper,Data/cleaned/papers/2307.10169.md
+2307.11088,L-EVAL: INSTITUTINGSTANDARDIZEDEVALUATION FORLONGCONTEXTLANGUAGEMODELS,paper,Data/cleaned/papers/2307.11088.md
+2307.12966,Aligning Large Language Models with Human: A Survey,paper,Data/cleaned/papers/2307.12966.md
+2307.13269,LORAHUB: EFFICIENT CROSS-TASK GENERALIZA- TION VIA DYNAMIC LORA COMPOSITION,paper,Data/cleaned/papers/2307.13269.md
+2307.13304,QuIP: 2-Bit Quantization of Large Language Models With Guarantees,paper,Data/cleaned/papers/2307.13304.md
+2307.13528,FACTOOL: Factuality Detection in Generative AI A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios,paper,Data/cleaned/papers/2307.13528.md
+2307.13702,Measuring Faithfulness in Chain-of-Thought Reasoning,paper,Data/cleaned/papers/2307.13702.md
+2307.13721,Foundational Models Defining a New Era in Vision: A Survey and Outlook,paper,Data/cleaned/papers/2307.13721.md
+2307.13974,Tracking Anything in High Quality,paper,Data/cleaned/papers/2307.13974.md
+2307.14335,WAVJOURNEY: COMPOSITIONAL AUDIO CREATION WITH LARGE LANGUAGE MODELS,paper,Data/cleaned/papers/2307.14335.md
+2307.14740,NEW INTERACTION PARADIGM FOR COMPLEX EDA SOFTWARE LEVERAGING GPT,paper,Data/cleaned/papers/2307.14740.md
+2307.15051,Matching Patients to Clinical Trials with Large Language Models,paper,Data/cleaned/papers/2307.15051.md
+2308.10792,Instruction Tuning for Large Language Models: A Survey,paper,Data/cleaned/papers/2308.10792.md
+2308.16898,Transformers as Support Vector Machines,paper,Data/cleaned/papers/2308.16898.md
+2309.06180,Efficient Memory Management for Large Language Model Serving with PagedAttention,paper,Data/cleaned/papers/2309.06180.md
+2309.07085,Large Language Models respond to Influence like Humans,paper,Data/cleaned/papers/2309.07085.md
+2309.10668,Language Modeling Is Compression,paper,Data/cleaned/papers/2309.10668.md
+2310.05492,How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition,paper,Data/cleaned/papers/2310.05492.md
+2310.06825,Mistral 7B,paper,Data/cleaned/papers/2310.06825.md
+2311.00502,Efficient LLM Inference on CPUs,paper,Data/cleaned/papers/2311.00502.md
+2312.00752,Mamba: Linear-Time Sequence Modeling with Selective State Spaces,paper,Data/cleaned/papers/2312.00752.md
+2312.09993,LLaMAntino: LLaMA 2 Models for Effective Text Generation in Italian Language,paper,Data/cleaned/papers/2312.09993.md
+2312.12456,PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU,paper,Data/cleaned/papers/2312.12456.md
+2401.04088,Mixtral of Experts,paper,Data/cleaned/papers/2401.04088.md
+2401.15347,A Comprehensive Survey of Compression Algorithms for Language Models,paper,Data/cleaned/papers/2401.15347.md
+2406.02035,Large Language Models as Tax Attorneys:  A Case Study in Legal Capabilities Emergence,paper,Data/cleaned/papers/2406.02035.md
+AI21-2021-Lieber,JURASSIC-1: TECHNICAL DETAILS AND EVALUATION,paper,Data/cleaned/papers/AI21-2021-Lieber.md
+Anthropic-2023-Claude,Model Card and Evaluations for Claude Models,paper,Data/cleaned/papers/Anthropic-2023-Claude.md
+Fable-2023-Maas,To Infinity and Beyond: SHOW-1 and Showrunner Agents in Multi-Agent Simulations,paper,Data/cleaned/papers/Fable-2023-Maas.md
+ICML-2003-Srebro,Weighted Low-Rank Approximations,paper,Data/cleaned/papers/ICML-2003-Srebro.md
+NECO-1991-Jacobs,Adaptive Mixtures of Local Experts,paper,Data/cleaned/papers/NECO-1991-Jacobs.md
+NIPS-1989-LeCun,Optimal Brain Damage,paper,Data/cleaned/papers/NIPS-1989-LeCun.md
+NIPS-1992-Hassibi,Second order derivatives for network  pruning: Optimal Brain Surgeon,paper,Data/cleaned/papers/NIPS-1992-Hassibi.md
+OpenAI-2018-Radford,Improving Language Understanding by Generative Pre-Training,paper,Data/cleaned/papers/OpenAI-2018-Radford.md
+2307.14334,Towards Generalist Biomedical AI,paper,Data/cleaned/papers/2307.14334.md
+OpenAI-2019-Radford,Language Models are Unsupervised Multitask Learners,paper,Data/cleaned/papers/OpenAI-2019-Radford.md
+2207.04672,No Language Left Behind: Scaling Human-Centered Machine Translation,paper,Data/cleaned/papers/2207.04672.md
+B1,Build a Large Language Model (From Scratch),book,Data/cleaned/books/B1.md
