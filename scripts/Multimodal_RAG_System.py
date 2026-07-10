@@ -1,7 +1,8 @@
 # ============================================================
 # Phase 4: Vision LLM Integration — RAG Query Answering
 # Retrieval (ColQwen2.5, per-query swap) + Generation (Qwen2.5-VL-7B, resident)
-# Strict grounding prompt + citation check + neighbor-window context expansion.
+# Strict grounding prompt + citation check + neighbor-window context expansion
+# + cooperative cancellation (stop mid-retrieval or mid-generation).
 # ============================================================
 
 import os
@@ -9,8 +10,9 @@ import gc
 import re
 import warnings
 import logging
+import threading
 from dataclasses import dataclass, field
-import time
+from pathlib import Path
 
 # Production Paths, Offline Safeguards, & Output Quiet Flags
 os.environ["HF_HOME"] = "D:/hf_cache"
@@ -21,25 +23,22 @@ os.environ["TRANSFORMERS_OFFLINE"] = "1"
 
 os.environ["BITSANDBYTES_NOWELCOME"] = "1"
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
-# STOP FRAGMENTATION:
 os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 
-# Mute warnings and suppress background verbose layout tables
-warnings.filterwarnings("ignore")
-logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
+warnings.filterwarnings("ignore", category=UserWarning)
 
-# Explicit library silencing (Kills FastPlaid lines and LoRA missing/unexpected key alerts)
-logging.getLogger().setLevel(logging.ERROR) 
-logging.getLogger("transformers").setLevel(logging.ERROR)
-logging.getLogger("peft").setLevel(logging.ERROR)
-logging.getLogger("colpali_engine").setLevel(logging.ERROR)
-logging.getLogger("vidore_benchmark").setLevel(logging.ERROR)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
+for _noisy_logger in ["transformers", "peft", "colpali_engine", "vidore_benchmark"]:
+    logging.getLogger(_noisy_logger).setLevel(logging.ERROR)
 
 logger = logging.getLogger("phase4_generation")
 
 import torch
 from PIL import Image
-from transformers import Qwen2_5_VLForConditionalGeneration, AutoProcessor, BitsAndBytesConfig
+from transformers import (
+    Qwen2_5_VLForConditionalGeneration, AutoProcessor, BitsAndBytesConfig,
+    StoppingCriteria, StoppingCriteriaList, TextIteratorStreamer
+)
 from qwen_vl_utils import process_vision_info
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as qmodels
@@ -50,37 +49,32 @@ from colqwen_loader import load_colqwen25, MODEL_NAME as COLQWEN_MODEL_NAME
 # ------------------------------------------------------------
 # Prompts
 # ------------------------------------------------------------
-STRICT_GROUNDING_SYSTEM_PROMPT = """You are an elite, document-grounded research intelligence. You are analyzing raw visual page images from a document collection. Every image is tagged at its boundary with its metadata (e.g., "Primary source: book B9, page 450").
+STRICT_GROUNDING_SYSTEM_PROMPT = """You are a strict document-grounded assistant. You will be shown several page images from a private document collection, followed by a user question.
 
-STRICT OPERATIONAL DIRECTIVES:
+STEP 1 — RELEVANCE CHECK (perform silently before writing anything):
+For each page image shown, judge whether it contains content that explains, defines, or provides data relevant to the concepts in the user's question. A page that only contains a related keyword, a passing mention, or a table-of-contents entry listing a topic does NOT count as directly relevant — only pages with actual explanatory content count.
+Do not require the question's exact wording to match the page's wording — judge based on meaning, not literal text matching (e.g. a hyphenated vs. unhyphenated term is the same concept). A question asking you to compare, contrast, or explain how something works can be answered by combining relevant explanatory content found separately across multiple pages — you do not need a single page that explicitly frames the answer as a comparison or full mechanism explanation.
 
-1. KNOWLEDGE GROUNDING:
-   - Provide a comprehensive, accurate answer using ONLY factual details clearly visible inside the provided page images.
-   - Do NOT use or extrapolate from background historical knowledge if the details are missing from the pages.
+STEP 2 — ANSWER OR REFUSE:
+- If at least one page contains real explanatory content addressing the question's concepts — even partially, even if you must combine content from more than one page — write your answer using ONLY the facts, definitions, figures, and data visible on those specific pages.
+- Refuse ONLY if the shown pages contain no substantive content related to the question's concepts at all. Do not refuse merely because answering requires synthesizing, comparing, or connecting information that appears in separate places across the pages — that is expected and required of you, not a reason to refuse.
+- If you refuse, output exactly this sentence and nothing else:
+"I am sorry, but the provided pages do not contain enough information to answer this question."
+- Never use your own background/pretrained knowledge to fill a gap the pages don't cover.
 
-2. DYNAMIC CITATION GENERATION:
-   - At the absolute end of every successful answer, you must provide a clean inventory of every document page that actively contributed factual information to your text.
-   - EXCLUSION FILTER: Do NOT cite index pages, cover sheets, or Tables of Contents that merely list chapter headings. Only cite pages containing substantive content that directly shaped your answer.
-   - List every contributing page clearly, one per line. Use this exact syntax structure:
-   
-   📄 Reference:
-        [Doc Type] [Doc ID] page [Page Number]
+STEP 3 — CITATIONS (mandatory whenever you answer; skip entirely only if you refused):
+Any time you provide a substantive answer, you MUST end your response with a Reference section — never omit this. List ONLY the pages whose specific content you genuinely used to construct your answer: a fact, definition, number, or explanation drawn from that exact page — expressed in your own words — must actually appear in your answer. Do NOT cite a page just because it was shown to you, or because it contains a related keyword or a table-of-contents mention.
 
-   (Example with 1 page 'if there was only one page contributed in answer':
-   📄 Reference:
-        book B9 page 450)
-        
-   (Example with multiple distinct pages 'if there were more pages contributed in answer':
-   📄 Reference:
-        book B9 page 450
-        paper 2212.03551 page 2
-        book B10 page 229)
+Use this exact format:
 
-3. IRRELEVANT / OUT-OF-DOMAIN PROTOCOL:
-   - If the images do not contain any information relevant to the question, or if you cannot visually locate the facts required to build an answer, you must decline to answer.
-   - In this scenario, output this exact phrase and absolutely nothing else:
-     "The provided pages do not contain enough information to answer this question."
-   - CRITICAL: If you output the refusal phrase above, do NOT print the string "Reference:" or list any citations whatsoever."""
+📄 Reference:
+[Doc Type] [Doc ID] page [Page Number]
+
+(Example:
+📄 Reference:
+book B1 page 12)
+
+CRITICAL: If you output the refusal sentence from Step 2, do not print "Reference:" or any citation line at all."""
 
 
 # ------------------------------------------------------------
@@ -90,23 +84,55 @@ STRICT OPERATIONAL DIRECTIVES:
 class RetrievalConfig:
     model_name: str = COLQWEN_MODEL_NAME
     collection_name: str = "depi_page_images"
-    default_top_k: int = 3          # number of retrieved images
+    default_top_k: int = 5          # number of retrieved images
     neighbor_window: int = 1        # how many pages before/after to fetch as context
-    max_total_images: int = 9       # hard cap on images sent to the vision LLM
+    max_total_images: int = 11       # hard cap on images sent to the vision LLM
 
 
 @dataclass(frozen=True)
 class GenerationConfig:
     model_name: str = "Qwen/Qwen2.5-VL-7B-Instruct"
     max_new_tokens: int = 512
-    max_pixels_per_image: int = 28 * 28 * 128  # resoultion of image 'increased -> VRAM usgae increased'
-    vram_ceiling_gb: float = 6.0
+    max_pixels_per_image: int = 28 * 28 * 128
     system_prompt: str = STRICT_GROUNDING_SYSTEM_PROMPT
 
 
 RETRIEVAL_CFG = RetrievalConfig()
 GENERATION_CFG = GenerationConfig()
 BYTES_PER_GB = 1024 ** 3
+
+DATA_ROOT = Path("D:/Self Learning/DEPI/R4/DEPI Project/Data")
+
+
+def resolve_image_path(image_path: str) -> Path:
+    """Resolves a (possibly relative) stored image path against DATA_ROOT,
+    regardless of process working directory, and refuses to resolve outside it."""
+    path = Path(image_path)
+    resolved = (path if path.is_absolute() else DATA_ROOT / path).resolve()
+    root_resolved = DATA_ROOT.resolve()
+    if not resolved.is_relative_to(root_resolved):
+        raise ValueError(f"Resolved image path escapes DATA_ROOT: {resolved}")
+    return resolved
+
+
+# ------------------------------------------------------------
+# Cancellation
+# ------------------------------------------------------------
+class GenerationCancelled(Exception):
+    """Raised when a cancel_event is set at any checkpoint in the pipeline —
+    caught by the API layer and turned into a clean 'cancelled' response."""
+
+
+class CancelStoppingCriteria(StoppingCriteria):
+    """Checked by transformers between every generated token. Returning True
+    stops generation early — this is what makes mid-generation cancellation
+    actually work, not just cancellation between pipeline steps."""
+
+    def __init__(self, cancel_event: threading.Event):
+        self.cancel_event = cancel_event
+
+    def __call__(self, input_ids, scores, **kwargs) -> bool:
+        return self.cancel_event.is_set()
 
 
 # ------------------------------------------------------------
@@ -121,7 +147,6 @@ def get_vram_usage_gb() -> float:
 
 
 def purge_memory() -> None:
-    """Aggressively purges transient allocations from standard memory and hardware runtime caches."""
     gc.collect()
     if torch.cuda.is_available():
         torch.cuda.empty_cache()
@@ -141,6 +166,17 @@ def get_qdrant_client() -> QdrantClient:
     return QdrantClient(url="http://localhost:6334", prefer_grpc=True, timeout=90, check_compatibility=False)
 
 
+def normalize_query_for_embedding(query: str) -> str:
+    """Reduces ColQwen2.5's sensitivity to superficial hyphenation differences
+    — confirmed via logs: 'Multi-modal RAG' vs 'Multimodal RAG' scored 14.23
+    vs 15.79 on the identical top page, purely from hyphen tokenization.
+    Only strips hyphens between letters. Known limitation: this also merges
+    unrelated compound terms (e.g. "state-of-the-art" -> "stateoftheart") —
+    an acceptable tradeoff for this corpus, worth revisiting if it causes
+    new problems."""
+    return re.sub(r'(?<=[A-Za-z])-(?=[A-Za-z])', '', query)
+
+
 def encode_query(model, processor, query: str) -> list[list[float]]:
     batch = processor.process_queries([query]).to(model.device)
     with torch.no_grad():
@@ -153,7 +189,7 @@ def search_pages(client: QdrantClient, cfg: RetrievalConfig, query_vector: list[
         collection_name=cfg.collection_name,
         query=query_vector,
         limit=top_k,
-        score_threshold=13.0,
+        # score_threshold=10.0,
         with_payload=True,
         search_params=qmodels.SearchParams(quantization=qmodels.QuantizationSearchParams(rescore=True)),
     )
@@ -169,12 +205,17 @@ def format_results(points) -> list[dict]:
 
 
 def retrieve(query: str, top_k: int, cfg: RetrievalConfig = RETRIEVAL_CFG) -> list[dict]:
-    """Self-contained entrypoint: manages ColQwen2.5 memory lifespans explicitly per-call."""
     model, processor = load_colqwen25(cfg.model_name, logger=logger)
     client = get_qdrant_client()
     try:
-        query_vector = encode_query(model, processor, query)
+        query_vector = encode_query(model, processor, normalize_query_for_embedding(query))
         points = search_pages(client, cfg, query_vector, top_k)
+        results = format_results(points)
+        
+        logger.info("Retrieved: " + ", ".join(
+            f"{r['doc_type']} {r['doc_id']} p{r['page_number']} ({r['score']:.2f})" for r in results
+        ))
+        
         return format_results(points)
     finally:
         client.close()
@@ -209,7 +250,6 @@ def fetch_neighbor_pages(client: QdrantClient, collection_name: str,
 
 def expand_with_neighbor_context(sources: list[dict], client: QdrantClient,
                                   collection_name: str, window: int, max_total_images: int) -> list[dict]:
-    """Enriches primary source vectors with consecutive adjacent target pages."""
     combined: dict[tuple, dict] = {}
 
     for source in sources:
@@ -247,36 +287,36 @@ def load_vision_llm(cfg: GenerationConfig):
     logger.info(f"Vision LLM loaded. VRAM: {get_vram_usage_gb():.2f} GB")
     return model, processor
 
-    
+
 def build_messages(query: str, expanded_sources: list[dict], cfg: GenerationConfig) -> list[dict]:
     content = []
-    
     for s in expanded_sources:
-        # Build an explicit tag that the model can copy directly for its references
         kind = "Primary source" if not s["is_context"] else "Surrounding context"
         source_tag = f"{kind}: {s['doc_type']} {s['doc_id']}, page {s['page_number']}"
-        
         content.append({"type": "text", "text": source_tag})
         content.append({
-            "type": "image", 
-            "image": Image.open(s["image_path"]).convert("RGB"),
-            "max_pixels": cfg.max_pixels_per_image # Ensure this uses the lower VRAM budget
+            "type": "image",
+            "image": Image.open(resolve_image_path(s["image_path"])).convert("RGB"),
+            "max_pixels": cfg.max_pixels_per_image,
         })
-        
     content.append({"type": "text", "text": f"User Question: {query}"})
-    
     return [
         {"role": "system", "content": [{"type": "text", "text": cfg.system_prompt}]},
         {"role": "user", "content": content},
     ]
-    
+
 
 def generate_with_oom_fallback(model, processor, query: str, expanded_sources: list[dict],
-                                cfg: GenerationConfig) -> str:
-    """Safely constructs tokens over inputs. Automatically drops low-priority adjacent contexts on OOM."""
-    candidates = sorted(expanded_sources, key=lambda s: s["is_context"])  # primaries first, drop from the end
+                                cfg: GenerationConfig, cancel_event: threading.Event | None = None) -> str:
+    """On OOM, drops the lowest-priority image and retries. On cancellation
+    (checked before each attempt, and mid-generation via StoppingCriteria),
+    raises GenerationCancelled instead of returning a partial/garbage answer."""
+    candidates = sorted(expanded_sources, key=lambda s: s["is_context"])
 
     while True:
+        if cancel_event is not None and cancel_event.is_set():
+            raise GenerationCancelled()
+
         inputs = generated_ids = trimmed = None
         try:
             messages = build_messages(query, candidates, cfg)
@@ -288,14 +328,22 @@ def generate_with_oom_fallback(model, processor, query: str, expanded_sources: l
                 padding=True, return_tensors="pt",
             ).to(model.device)
 
+            stopping_criteria = None
+            if cancel_event is not None:
+                stopping_criteria = StoppingCriteriaList([CancelStoppingCriteria(cancel_event)])
+
             with torch.no_grad():
-                # generated_ids = model.generate(**inputs, max_new_tokens=cfg.max_new_tokens)
                 generated_ids = model.generate(
                     **inputs,
                     max_new_tokens=cfg.max_new_tokens,
                     do_sample=False,
-                    temperature=0.0
+                    stopping_criteria=stopping_criteria,
                 )
+
+            if cancel_event is not None and cancel_event.is_set():
+                # generate() stopped early due to the cancel signal — the
+                # partial output is not a real answer, don't decode/return it.
+                raise GenerationCancelled()
 
             trimmed = [out[len(inp):] for inp, out in zip(inputs.input_ids, generated_ids)]
             return processor.batch_decode(trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
@@ -312,18 +360,77 @@ def generate_with_oom_fallback(model, processor, query: str, expanded_sources: l
             purge_memory()
 
 
+def generate_streaming(model, processor, query: str, expanded_sources: list[dict],
+                        cfg: GenerationConfig, cancel_event: threading.Event):
+    """
+    Returns (token_generator, result). Iterate token_generator fully to drive
+    real generation; result is populated as a side effect once exhausted —
+    check result["error"] / result["cancelled"], use result["full_text"] for
+    citation parsing. Runs model.generate() on a background thread (required
+    by TextIteratorStreamer) so the caller can consume tokens as produced.
+    CancelStoppingCriteria is checked between every token — this is what
+    makes Stop interrupt REAL compute mid-generation, not just an animation.
+
+    Tradeoff vs. generate_with_oom_fallback: once tokens are already
+    streaming to the user, "drop an image and retry" isn't coherent anymore.
+    On OOM here, result["error"] is set and the caller reports a clean error.
+    """
+    result = {"full_text": "", "error": None, "cancelled": False}
+
+    if cancel_event.is_set():
+        result["cancelled"] = True
+        def _empty_gen():
+            return
+            yield  # pragma: no cover
+        return _empty_gen(), result
+
+    ordered_sources = sorted(expanded_sources, key=lambda s: s["is_context"])
+    messages = build_messages(query, ordered_sources, cfg)
+    text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    image_inputs, video_inputs = process_vision_info(messages)
+    inputs = processor(
+        text=[text], images=image_inputs, videos=video_inputs,
+        padding=True, return_tensors="pt",
+    ).to(model.device)
+
+    streamer = TextIteratorStreamer(processor.tokenizer, skip_prompt=True, skip_special_tokens=True)
+    stopping_criteria = StoppingCriteriaList([CancelStoppingCriteria(cancel_event)])
+
+    generation_kwargs = dict(
+        **inputs, streamer=streamer, max_new_tokens=cfg.max_new_tokens,
+        do_sample=False, stopping_criteria=stopping_criteria,
+    )
+
+    def _run_generate():
+        try:
+            with torch.no_grad():
+                model.generate(**generation_kwargs)
+        except Exception as e:
+            result["error"] = str(e)
+
+    gen_thread = threading.Thread(target=_run_generate, daemon=True)
+    gen_thread.start()
+
+    def _consume():
+        try:
+            for chunk in streamer:
+                result["full_text"] += chunk
+                yield chunk
+                if cancel_event.is_set():
+                    break
+        finally:
+            gen_thread.join(timeout=30)
+            purge_memory()
+            if cancel_event.is_set():
+                result["cancelled"] = True
+
+    return _consume(), result
+
+
 # ------------------------------------------------------------
-# Complete Double-Check Citation Pipeline
+# Citation Verification
 # ------------------------------------------------------------
 def check_citation_presence(answer: str, expanded_sources: list[dict]) -> dict:
-    """
-    Parses the model's stated (doc_id, page) references and confirms each one
-    actually corresponds to a page genuinely shown to it. The prior version
-    only checked "does 'reference:' appear alongside any digit anywhere" —
-    that passes for almost any answer mentioning a year, formula, or page
-    number, so it could never meaningfully fail. This version can actually
-    catch a fabricated or misattributed citation.
-    """
     valid_keys = {(s["doc_id"], s["page_number"]) for s in expanded_sources}
     cited_raw = re.findall(r"([\w\.]+)\s+page\s+(\d+)", answer, re.IGNORECASE)
     cited = {(doc_id, int(page)) for doc_id, page in cited_raw}
@@ -351,18 +458,23 @@ def check_citation_presence(answer: str, expanded_sources: list[dict]) -> dict:
 @dataclass
 class RAGAnswer:
     answer: str
-    sources: list[dict] = field(default_factory=list)       # ORIGINAL retrieval ranking — for eval/citation purity
-    expanded_sources: list[dict] = field(default_factory=list)  # what was actually shown to the model
+    sources: list[dict] = field(default_factory=list)
+    expanded_sources: list[dict] = field(default_factory=list)
     citation_check: dict = field(default_factory=dict)
 
 
 def answer_question(query: str, vision_model, vision_processor,
                      retrieval_cfg: RetrievalConfig = RETRIEVAL_CFG,
-                     generation_cfg: GenerationConfig = GENERATION_CFG) -> RAGAnswer:
-    """Main query handler. Uses text-only isolation boundaries between processing tasks."""
-    print("\n[System] Processing retrieval model & fetching context...")
-    
+                     generation_cfg: GenerationConfig = GENERATION_CFG,
+                     cancel_event: threading.Event | None = None) -> RAGAnswer:
+    if cancel_event is not None and cancel_event.is_set():
+        raise GenerationCancelled()
+
+    logger.info(f"Retrieving top-{retrieval_cfg.default_top_k} pages for: {query}")
     sources = retrieve(query, retrieval_cfg.default_top_k, retrieval_cfg)
+
+    if cancel_event is not None and cancel_event.is_set():
+        raise GenerationCancelled()
 
     if not sources:
         return RAGAnswer(answer="No relevant pages found in the corpus for this question.", sources=[])
@@ -375,14 +487,16 @@ def answer_question(query: str, vision_model, vision_processor,
         )
     finally:
         client.close()
-        
-    # MID-STEP VRAM PURGE: Clean up retriever memory before LLM starts
-    gc.collect()
-    if torch.cuda.is_available():
-        torch.cuda.empty_cache()
 
-    answer_text = generate_with_oom_fallback(vision_model, vision_processor, query, expanded, generation_cfg)
-    
+    if cancel_event is not None and cancel_event.is_set():
+        raise GenerationCancelled()
+
+    purge_memory()
+
+    answer_text = generate_with_oom_fallback(
+        vision_model, vision_processor, query, expanded, generation_cfg, cancel_event=cancel_event
+    )
+
     citation_check = check_citation_presence(answer_text, expanded)
     if citation_check["issues"]:
         logger.warning(f"Grounding check flagged this answer: {citation_check['issues']}")
@@ -391,17 +505,19 @@ def answer_question(query: str, vision_model, vision_processor,
 
 
 # ------------------------------------------------------------
-# Interactive session
+# Interactive session (CLI) — no cancellation plumbing needed here;
+# Ctrl+C already interrupts a CLI session naturally.
 # ------------------------------------------------------------
 def run_interactive_session():
+    import time
+
     print("\n[System] Loading vision LLM (stays resident for this session)...")
     vision_model, vision_processor = load_vision_llm(GENERATION_CFG)
 
     print("\n" + "=" * 65)
     print("🤖 MULTIMODAL RAG — ASK QUESTIONS ABOUT YOUR DOCUMENT CORPUS")
     print(f"• Retrieval:  ColQwen2.5, top-{RETRIEVAL_CFG.default_top_k} + neighbor window ±{RETRIEVAL_CFG.neighbor_window}")
-    print(f"• Generation: Qwen2.5-VL-7B (resident, VRAM ceiling {GENERATION_CFG.vram_ceiling_gb}GB)")
-    print(f"• Grounding:  Strict Validation Engine Integrated")
+    print(f"• Generation: Qwen2.5-VL-7B (resident)")
     print("• Type 'exit' or 'quit' to end the session.")
     print("=" * 65 + "\n")
 
@@ -418,44 +534,23 @@ def run_interactive_session():
             break
 
         start_time = time.perf_counter()
-        
         try:
             result = answer_question(query, vision_model, vision_processor)
         except Exception as e:
             print(f"\n❌ Error answering question: {e}\n")
             continue
+        elapsed_seconds = time.perf_counter() - start_time
 
-        end_time = time.perf_counter()
-        elapsed_seconds = end_time - start_time
-        
         print(f"\n🤖 Answer: {result.answer}")
-        
         print(f"\n⏱️  Latency: {elapsed_seconds:.2f}s")
-        
-        # [Commented Out Block - Removed from active console logs]
-        # if result.expanded_sources:
-        #     print("📄 Shown to model:")
-        #     for s in result.expanded_sources:
-        #         tag = "primary" if not s["is_context"] else "context"
-        #         score_str = f"score={s['score']:.3f}" if s["score"] is not None else "score=n/a (neighbor)"
-        #         print(f"   [{tag}] {s['doc_type']} | {s['doc_id']} | page {s['page_number']} | {score_str}")
-                
         if result.citation_check.get("issues"):
             print("⚠️  Grounding check:")
             for issue in result.citation_check["issues"]:
                 print(f"   - {issue}")
-        
         print()
 
-        # ==========================================================
-        # ⚡ HARD VRAM FLUSH & MEMORY PURGE ZONE
-        # ==========================================================
-        del result  # Deletes tensor reference and structural string data pointers
-        gc.collect()
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
-            torch.cuda.ipc_collect()
-        # ==========================================================
+        del result
+        purge_memory()
 
     unload_model(vision_model)
 
